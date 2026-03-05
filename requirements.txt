@@ -1,0 +1,2 @@
+# 请使用 scripts/setup_env.sh 安装（self-contained beta-vla 依赖）
+-e .

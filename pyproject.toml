@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "beta-vla"
+version = "0.1.0"
+description = "Beta VLA stack: OpenVLA-style vision tower + Qwen encoder + VGGT backbone + flow-matching action head."
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "torch==2.7.1",
+  "transformers==4.53.2",
+  "vggt @ git+https://github.com/facebookresearch/vggt.git",
+  "datasets>=2.19.0",
+  "safetensors",
+  "PyYAML",
+  "wandb",
+  "numpy<2.0.0",
+  "pillow",
+  "timm>=1.0.0",
+  "peft>=0.11.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["betavla*"]
+
+[project.scripts]
+betavla-train = "betavla.training.train_beta_vla:main"
