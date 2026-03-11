@@ -1,17 +1,16 @@
 #!/usr/bin/env bash
 # ./scripts/train_beta_vla.sh
-# export WANDB_CONFIG_DIR=/workspace/tingting/.wandb
-
-# export WANDB_API_KEY="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"
 # Run from beta-vla dir: conda activate beta && GPU_IDS="0,1" bash scripts/train_beta_vla.sh
 set -euo pipefail
 
 cd "$(dirname "$0")/.."
 # 统一 HF/wandb 路径到 umd-datapool（避免 /root/.cache 爆满）
 source "$(dirname "$0")/env_umd_datapool.sh"
-CONFIG_PATH="configs/train_beta_vla_libero.yaml"
+# 若存在则加载 wandb 配置（WANDB_API_KEY 等，配置一次即可，见 env_wandb.local.sh.example）
+[[ -f "$(dirname "$0")/env_wandb.local.sh" ]] && source "$(dirname "$0")/env_wandb.local.sh"
+CONFIG_PATH="configs/train_beta_vla_libero_paligemma.yaml"
 # Respect GPU_IDS from env (e.g. GPU_IDS="0" for single GPU)
-GPU_IDS="${GPU_IDS:-0,1,2,3,4,5,6,7}"
+GPU_IDS="${GPU_IDS:-1,2}"
 RUN_DDP=1
 CONDA_ENV_NAME="${CONDA_ENV_NAME:-beta}"
 # 路径由 env_umd_datapool.sh 统一设置；此处仅作兜底

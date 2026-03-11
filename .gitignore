@@ -59,3 +59,4 @@ Thumbs.db
 *.log
 .env
 .env.local
+scripts/env_wandb.local.sh

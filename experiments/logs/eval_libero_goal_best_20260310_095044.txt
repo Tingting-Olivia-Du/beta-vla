@@ -1,0 +1,56 @@
+Eval started at 20260310_095044
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=open_the_middle_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=put_the_bowl_on_the_stove.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=put_the_wine_bottle_on_top_of_the_cabinet.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=open_the_top_drawer_and_put_the_bowl_inside.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=put_the_bowl_on_top_of_the_cabinet.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=push_the_plate_to_the_front_of_the_stove.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=put_the_cream_cheese_in_the_bowl.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=turn_on_the_stove.mp4
+44
+2026-03-11 05:46:40,983 [INFO] step 210 action norm=0.9965 max_abs=0.9432
+2026-03-11 05:57:19,489 [INFO] step 260 action norm=1.1235 max_abs=0.9146
+2026-03-11 06:06:54,870 [INFO] Task 1 (put the bowl on the stove...): 0/1
+2026-03-11 06:08:02,890 [INFO] step 10 action norm=1.1460 max_abs=1.0196
+2026-03-11 06:18:40,999 [INFO] step 60 action norm=1.5525 max_abs=1.1095
+2026-03-11 06:29:19,418 [INFO] step 110 action norm=1.4193 max_abs=0.9771
+2026-03-11 06:39:57,799 [INFO] step 160 action norm=1.2245 max_abs=0.8821
+2026-03-11 06:50:36,419 [INFO] step 210 action norm=1.1997 max_abs=0.9232
+2026-03-11 07:01:14,903 [INFO] step 260 action norm=1.1724 max_abs=0.9005
+2026-03-11 07:10:50,718 [INFO] Task 2 (put the wine bottle on top of the cabine...): 0/1
+2026-03-11 07:11:58,727 [INFO] step 10 action norm=1.0125 max_abs=0.9962
+2026-03-11 07:22:37,037 [INFO] step 60 action norm=1.4015 max_abs=0.9678
+2026-03-11 07:33:15,770 [INFO] step 110 action norm=1.2727 max_abs=0.9360
+2026-03-11 07:43:55,665 [INFO] step 160 action norm=1.2387 max_abs=0.9194
+2026-03-11 07:54:35,643 [INFO] step 210 action norm=1.0695 max_abs=0.9674
+2026-03-11 08:05:15,258 [INFO] step 260 action norm=1.1700 max_abs=0.8842
+2026-03-11 08:14:52,162 [INFO] Task 3 (open the top drawer and put the bowl ins...): 0/1
+2026-03-11 08:16:00,262 [INFO] step 10 action norm=1.0298 max_abs=1.0075
+2026-03-11 08:26:40,238 [INFO] step 60 action norm=1.5047 max_abs=1.0071
+2026-03-11 08:37:20,059 [INFO] step 110 action norm=1.3946 max_abs=0.9566
+2026-03-11 08:47:59,891 [INFO] step 160 action norm=1.2619 max_abs=1.0140
+2026-03-11 08:58:40,005 [INFO] step 210 action norm=1.2475 max_abs=1.0005
+2026-03-11 09:09:19,717 [INFO] step 260 action norm=1.1201 max_abs=0.9514
+2026-03-11 09:18:56,473 [INFO] Task 4 (put the bowl on top of the cabinet...): 0/1
+2026-03-11 09:20:04,477 [INFO] step 10 action norm=0.9888 max_abs=0.9883
+2026-03-11 09:30:43,258 [INFO] step 60 action norm=1.0930 max_abs=0.7990
+2026-03-11 09:41:23,193 [INFO] step 110 action norm=1.0935 max_abs=0.9674
+2026-03-11 09:52:02,533 [INFO] step 160 action norm=1.1016 max_abs=0.9528
+2026-03-11 10:02:40,604 [INFO] step 210 action norm=0.9708 max_abs=0.8509
+2026-03-11 10:13:19,238 [INFO] step 260 action norm=1.1501 max_abs=1.0308
+2026-03-11 10:22:54,864 [INFO] Task 5 (push the plate to the front of the stove...): 0/1
+2026-03-11 10:24:03,104 [INFO] step 10 action norm=1.0891 max_abs=0.9863
+2026-03-11 10:34:43,502 [INFO] step 60 action norm=1.3365 max_abs=0.9631
+2026-03-11 10:45:23,803 [INFO] step 110 action norm=1.3855 max_abs=1.0061
+2026-03-11 10:56:03,564 [INFO] step 160 action norm=1.2922 max_abs=0.9843
+2026-03-11 11:06:42,497 [INFO] step 210 action norm=1.1684 max_abs=0.9783
+2026-03-11 11:17:22,593 [INFO] step 260 action norm=1.0950 max_abs=0.9737
+2026-03-11 11:26:59,385 [INFO] Task 6 (put the cream cheese in the bowl...): 0/1
+2026-03-11 11:28:07,521 [INFO] step 10 action norm=1.0333 max_abs=1.0223
+2026-03-11 11:38:47,702 [INFO] step 60 action norm=1.2892 max_abs=0.9362
+2026-03-11 11:49:28,262 [INFO] step 110 action norm=1.0554 max_abs=0.9548
+2026-03-11 12:00:09,067 [INFO] step 160 action norm=0.8474 max_abs=0.7320
+2026-03-11 12:10:48,652 [INFO] step 210 action norm=1.1688 max_abs=0.9830
+2026-03-11 12:21:28,033 [INFO] step 260 action norm=1.0376 max_abs=0.9279
+2026-03-11 12:31:04,172 [INFO] Task 7 (turn on the stove...): 0/1
+2026-03-11 12:32:11,801 [INFO] step 10 action norm=1.0395 max_abs=0.9936

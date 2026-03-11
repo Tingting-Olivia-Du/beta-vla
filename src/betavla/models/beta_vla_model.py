@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from dataclasses import field
+from typing import Union
 
 import torch
 from torch import nn
@@ -9,13 +10,19 @@ from torch import nn
 from betavla.models.action_head import FlowMatchingActionHeadConfig, OpenPIFlowMatchingActionHead
 from betavla.models.language_encoder import LanguageEncoderConfig, QwenLanguageEncoder
 from betavla.models.vggt_backbone import VGGTBackbone, VGGTBackboneConfig
-from betavla.models.vision_tower import OpenVLAVisionTower, VisionTowerConfig
+from betavla.models.vision_tower import (
+    OpenVLAVisionTower,
+    PaliGemmaVisionTower,
+    PaliGemmaVisionTowerConfig,
+    VisionTowerConfig,
+)
 
 
 @dataclass(frozen=True)
 class BetaVLAConfig:
-    action_dim: int = 7 #libero, openpi use 32 but output 7
+    action_dim: int = 7  # libero, openpi use 32 but output 7
     action_horizon: int = 10
+    state_dim: int = 8  # for action head state_proj
     freeze_vision: bool = False
     freeze_language: bool = False
     freeze_vggt: bool = False
@@ -31,13 +38,16 @@ class BetaVLAConfig:
     )
     lora_on_language: bool = True
     lora_on_vggt: bool = True
-    vision: VisionTowerConfig = VisionTowerConfig()
+    vision_tower_type: str = "openvla"  # "openvla" | "paligemma"
+    vision: Union[VisionTowerConfig, PaliGemmaVisionTowerConfig] = field(default_factory=VisionTowerConfig)
     language: LanguageEncoderConfig = LanguageEncoderConfig()
     vggt: VGGTBackboneConfig = VGGTBackboneConfig()
 
 
 def _fused_mlp_projector(vision_dim: int, target_dim: int) -> nn.Module:
     """OpenVLA-style fused projector: Linear -> GELU -> Linear -> GELU -> Linear (4x expansion)."""
+    if vision_dim == target_dim:
+        return nn.Identity()
     mid_dim = vision_dim * 4
     return nn.Sequential(
         nn.Linear(vision_dim, mid_dim, bias=True),
@@ -90,20 +100,37 @@ def _inject_lora(
     return get_peft_model(module, peft_cfg)
 
 
+def _create_vision_tower(cfg: BetaVLAConfig) -> nn.Module:
+    """Create vision tower based on vision_tower_type."""
+    if cfg.vision_tower_type == "paligemma":
+        if not isinstance(cfg.vision, PaliGemmaVisionTowerConfig):
+            raise TypeError("vision must be PaliGemmaVisionTowerConfig when vision_tower_type='paligemma'")
+        return PaliGemmaVisionTower(cfg.vision)
+    if cfg.vision_tower_type == "openvla":
+        if not isinstance(cfg.vision, VisionTowerConfig):
+            raise TypeError("vision must be VisionTowerConfig when vision_tower_type='openvla'")
+        return OpenVLAVisionTower(cfg.vision)
+    raise ValueError(f"Unknown vision_tower_type: {cfg.vision_tower_type}")
+
+
 class BetaVLAModel(nn.Module):
     """image->vision tower, language->encoder, fuse->VGGT, then flow-matching action head."""
 
     def __init__(self, cfg: BetaVLAConfig):
         super().__init__()
         self.cfg = cfg
-        self.vision_tower = OpenVLAVisionTower(cfg.vision)
+        self.vision_tower = _create_vision_tower(cfg)
         self.language_encoder = QwenLanguageEncoder(cfg.language)
         self.vggt_backbone = VGGTBackbone(cfg.vggt)
         # Gradient checkpointing to reduce activation memory (~50% savings)
-        if hasattr(self.vision_tower.dino, "set_grad_checkpointing"):
-            self.vision_tower.dino.set_grad_checkpointing(True)
-        if hasattr(self.vision_tower.siglip, "set_grad_checkpointing"):
-            self.vision_tower.siglip.set_grad_checkpointing(True)
+        if cfg.vision_tower_type == "openvla":
+            if hasattr(self.vision_tower.dino, "set_grad_checkpointing"):
+                self.vision_tower.dino.set_grad_checkpointing(True)
+            if hasattr(self.vision_tower.siglip, "set_grad_checkpointing"):
+                self.vision_tower.siglip.set_grad_checkpointing(True)
+        elif cfg.vision_tower_type == "paligemma":
+            if hasattr(self.vision_tower.vision_tower, "gradient_checkpointing_enable"):
+                self.vision_tower.vision_tower.gradient_checkpointing_enable()
         # Disable language grad checkpoint: DDP+LoRA+checkpointing causes "unused params" or "marked ready twice"
         # if hasattr(self.language_encoder.model, "gradient_checkpointing_enable"):
         #     self.language_encoder.model.gradient_checkpointing_enable()
@@ -141,6 +168,7 @@ class BetaVLAModel(nn.Module):
                 action_dim=cfg.action_dim,
                 action_horizon=cfg.action_horizon,
                 hidden_size=self.vggt_backbone.hidden_size,
+                state_dim=cfg.state_dim,
             )
         )
 
@@ -165,8 +193,9 @@ class BetaVLAModel(nn.Module):
         attn_mask = self._build_attention_mask(vision_tokens, observation.tokenized_prompt_mask)
         return self.vggt_backbone(fused, attn_mask)
 
-    def forward(self, observation, actions: torch.Tensor | None = None):
-        features = self.encode(observation)
+    def forward(self, observation, actions: torch.Tensor | None = None, num_ode_steps: int = 10):
+        prefix_tokens = self.encode(observation)
+        state = observation.state
         if actions is None:
-            return {"actions": self.action_head.sample(features)}
-        return {"loss": self.action_head.compute_loss(features, actions)}
+            return {"actions": self.action_head.sample(prefix_tokens, state, num_steps=num_ode_steps)}
+        return {"loss": self.action_head.compute_loss(prefix_tokens, state, actions)}

@@ -20,6 +20,8 @@ dependencies = [
   "pillow",
   "timm>=1.0.0",
   "peft>=0.11.0",
+  "imageio>=2.0.0",
+  "libero",
 ]
 
 [tool.setuptools]
@@ -31,3 +33,6 @@ include = ["betavla*"]
 
 [project.scripts]
 betavla-train = "betavla.training.train_beta_vla:main"
+
+[tool.uv.sources]
+libero = { path = "../LIBERO", editable = true }

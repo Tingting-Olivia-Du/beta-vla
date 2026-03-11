@@ -1,0 +1,56 @@
+Eval started at 20260310_095044
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+ action norm=1.0402 max_abs=0.9675
+2026-03-10 12:14:39,967 [INFO] Task 2 (pick up the black bowl from table center...): 0/1
+2026-03-10 12:15:49,616 [INFO] step 10 action norm=1.2351 max_abs=1.0434
+2026-03-10 12:26:42,516 [INFO] step 60 action norm=1.4760 max_abs=0.9846
+2026-03-10 12:37:35,152 [INFO] step 110 action norm=1.2734 max_abs=0.9102
+2026-03-10 12:48:27,549 [INFO] step 160 action norm=1.3470 max_abs=1.0308
+2026-03-10 12:59:21,836 [INFO] step 210 action norm=1.1912 max_abs=1.0138
+2026-03-10 13:02:39,025 [INFO] Task 3 (pick up the black bowl on the cookie box...): 0/1
+2026-03-10 13:03:48,802 [INFO] step 10 action norm=1.1892 max_abs=1.0008
+2026-03-10 13:14:42,873 [INFO] step 60 action norm=1.4468 max_abs=0.9259
+2026-03-10 13:25:37,170 [INFO] step 110 action norm=1.1767 max_abs=0.8598
+2026-03-10 13:36:30,794 [INFO] step 160 action norm=1.1062 max_abs=0.9609
+2026-03-10 13:47:25,002 [INFO] step 210 action norm=1.1494 max_abs=0.8976
+2026-03-10 13:50:42,291 [INFO] Task 4 (pick up the black bowl in the top drawer...): 0/1
+2026-03-10 13:51:52,128 [INFO] step 10 action norm=1.0421 max_abs=1.0171
+2026-03-10 14:02:43,608 [INFO] step 60 action norm=1.2325 max_abs=0.9356
+2026-03-10 14:13:36,041 [INFO] step 110 action norm=1.3182 max_abs=0.9730
+2026-03-10 14:24:29,494 [INFO] step 160 action norm=1.2150 max_abs=0.9523
+2026-03-10 14:35:23,456 [INFO] step 210 action norm=1.2749 max_abs=1.0503
+2026-03-10 14:38:40,341 [INFO] Task 5 (pick up the black bowl on the ramekin an...): 0/1
+2026-03-10 14:39:49,903 [INFO] step 10 action norm=1.0027 max_abs=0.9768
+2026-03-10 14:50:41,924 [INFO] step 60 action norm=1.4274 max_abs=0.9853
+2026-03-10 15:01:36,380 [INFO] step 110 action norm=1.2372 max_abs=0.9563
+2026-03-10 15:12:27,768 [INFO] step 160 action norm=1.3805 max_abs=1.0109
+2026-03-10 15:23:18,535 [INFO] step 210 action norm=1.2588 max_abs=0.9257
+2026-03-10 15:26:35,041 [INFO] Task 6 (pick up the black bowl next to the cooki...): 0/1
+2026-03-10 15:27:44,997 [INFO] step 10 action norm=1.0163 max_abs=0.9870
+2026-03-10 15:38:41,685 [INFO] step 60 action norm=1.3411 max_abs=0.9371
+2026-03-10 15:49:38,532 [INFO] step 110 action norm=1.3041 max_abs=0.8623
+2026-03-10 16:00:34,650 [INFO] step 160 action norm=1.2607 max_abs=0.9379
+2026-03-10 16:11:28,367 [INFO] step 210 action norm=1.3503 max_abs=1.0088
+2026-03-10 16:14:44,706 [INFO] Task 7 (pick up the black bowl on the stove and ...): 0/1
+2026-03-10 16:15:54,244 [INFO] step 10 action norm=1.0592 max_abs=0.9593
+2026-03-10 16:26:44,730 [INFO] step 60 action norm=1.3368 max_abs=0.9092
+2026-03-10 16:37:41,602 [INFO] step 110 action norm=1.2358 max_abs=0.9631
+2026-03-10 16:48:35,816 [INFO] step 160 action norm=1.2197 max_abs=0.9705
+2026-03-10 16:59:30,572 [INFO] step 210 action norm=1.1947 max_abs=0.8402
+2026-03-10 17:02:48,013 [INFO] Task 8 (pick up the black bowl next to the plate...): 0/1
+2026-03-10 17:03:57,893 [INFO] step 10 action norm=1.1103 max_abs=1.0019
+2026-03-10 17:14:51,005 [INFO] step 60 action norm=1.4662 max_abs=0.9418
+2026-03-10 17:25:46,967 [INFO] step 110 action norm=1.1375 max_abs=0.9431
+2026-03-10 17:36:42,867 [INFO] step 160 action norm=1.1691 max_abs=0.9495
+2026-03-10 17:47:38,589 [INFO] step 210 action norm=1.2307 max_abs=0.9655
+2026-03-10 17:50:55,193 [INFO] Task 9 (pick up the black bowl on the wooden cab...): 0/1
+2026-03-10 17:50:55,490 [INFO] Overall success rate: 0/10 = 0.00%

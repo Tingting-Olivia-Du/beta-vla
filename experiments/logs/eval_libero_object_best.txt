@@ -1,0 +1,21 @@
+Saved rollout: data/libero/videos/2026_03_07-12_01_27--ep0--success=False--task=pick_up_the_alphabet_soup_and_place_it_in_the_bask.mp4
+Task 0 (pick up the alphabet soup and place it i...): 0/1
+Saved rollout: data/libero/videos/2026_03_07-12_01_27--ep0--success=False--task=pick_up_the_cream_cheese_and_place_it_in_the_baske.mp4
+Task 1 (pick up the cream cheese and place it in...): 0/1
+Saved rollout: data/libero/videos/2026_03_07-12_01_27--ep0--success=False--task=pick_up_the_salad_dressing_and_place_it_in_the_bas.mp4
+Task 2 (pick up the salad dressing and place it ...): 0/1
+Saved rollout: data/libero/videos/2026_03_07-12_01_27--ep0--success=False--task=pick_up_the_bbq_sauce_and_place_it_in_the_basket.mp4
+Task 3 (pick up the bbq sauce and place it in th...): 0/1
+Saved rollout: data/libero/videos/2026_03_07-12_01_27--ep0--success=False--task=pick_up_the_ketchup_and_place_it_in_the_basket.mp4
+Task 4 (pick up the ketchup and place it in the ...): 0/1
+Saved rollout: data/libero/videos/2026_03_07-12_01_27--ep0--success=False--task=pick_up_the_tomato_sauce_and_place_it_in_the_baske.mp4
+Task 5 (pick up the tomato sauce and place it in...): 0/1
+Saved rollout: data/libero/videos/2026_03_07-12_01_27--ep0--success=False--task=pick_up_the_butter_and_place_it_in_the_basket.mp4
+Task 6 (pick up the butter and place it in the b...): 0/1
+Saved rollout: data/libero/videos/2026_03_07-12_01_27--ep0--success=False--task=pick_up_the_milk_and_place_it_in_the_basket.mp4
+Task 7 (pick up the milk and place it in the bas...): 0/1
+Saved rollout: data/libero/videos/2026_03_07-12_01_27--ep0--success=False--task=pick_up_the_chocolate_pudding_and_place_it_in_the_.mp4
+Task 8 (pick up the chocolate pudding and place ...): 0/1
+Saved rollout: data/libero/videos/2026_03_07-12_01_27--ep0--success=False--task=pick_up_the_orange_juice_and_place_it_in_the_baske.mp4
+Task 9 (pick up the orange juice and place it in...): 0/1
+Overall success rate: 0/10 = 0.00%

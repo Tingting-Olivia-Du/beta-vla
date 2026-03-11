@@ -15,10 +15,13 @@ import random
 import shutil
 import time
 
+import math
+
 import numpy as np
 import safetensors.torch
 import torch
 import torch.distributed as dist
+from torch.distributed.elastic.multiprocessing.errors import record
 from torch.nn.parallel import DistributedDataParallel as DDP
 from torch.utils.data import DistributedSampler
 import wandb
@@ -77,6 +80,14 @@ def _checkpoint_dir(cfg: BetaVLATrainConfig) -> Path:
     return cfg.checkpoint_dir
 
 
+def _copy_norm_stats_if_needed(cfg: BetaVLATrainConfig, dest_dir: Path) -> None:
+    if cfg.data.norm_stats_path is None:
+        return
+    src = Path(cfg.data.norm_stats_path)
+    if src.exists():
+        shutil.copy2(src, dest_dir / "norm_stats.json")
+
+
 def save_checkpoint(model: torch.nn.Module, optim: torch.optim.Optimizer, step: int, cfg: BetaVLATrainConfig) -> None:
     ckpt_dir = _checkpoint_dir(cfg)
     ckpt_dir.mkdir(parents=True, exist_ok=True)
@@ -89,6 +100,7 @@ def save_checkpoint(model: torch.nn.Module, optim: torch.optim.Optimizer, step: 
     safetensors.torch.save_model(model_to_save, tmp / "model.safetensors")
     torch.save(optim.state_dict(), tmp / "optimizer.pt")
     torch.save({"step": step, "timestamp": time.time()}, tmp / "metadata.pt")
+    _copy_norm_stats_if_needed(cfg, tmp)
     if step_dir.exists():
         shutil.rmtree(step_dir)
     tmp.rename(step_dir)
@@ -123,6 +135,7 @@ def save_best_checkpoint(
     safetensors.torch.save_model(model_to_save, tmp_best_dir / "model.safetensors")
     torch.save(optim.state_dict(), tmp_best_dir / "optimizer.pt")
     torch.save({"step": step, "best_loss": best_loss, "timestamp": time.time()}, tmp_best_dir / "metadata.pt")
+    _copy_norm_stats_if_needed(cfg, tmp_best_dir)
 
     if best_dir.exists():
         shutil.rmtree(best_dir)
@@ -132,6 +145,22 @@ def save_best_checkpoint(
         json.dumps({"best_step": step, "best_loss": best_loss, "updated_at": time.time()}, indent=2),
         encoding="utf-8",
     )
+
+
+def _get_lr(step: int, cfg: BetaVLATrainConfig) -> float:
+    """Warmup + cosine decay (OpenPI-style) or constant LR."""
+    peak_lr = cfg.runtime.learning_rate
+    if cfg.runtime.lr_schedule != "cosine_warmup":
+        return peak_lr
+    warmup = cfg.runtime.warmup_steps
+    total = cfg.runtime.num_train_steps
+    end_lr = cfg.runtime.end_lr if cfg.runtime.end_lr is not None else peak_lr / 10.0
+
+    if step < warmup:
+        return peak_lr * (step + 1) / (warmup + 1)
+    progress = min(1.0, (step - warmup) / max(1, total - warmup))
+    cos = 0.5 * (1 + math.cos(math.pi * progress))
+    return end_lr + (peak_lr - end_lr) * cos
 
 
 def _latest_checkpoint_step(ckpt_dir: Path) -> int | None:
@@ -149,6 +178,18 @@ def load_checkpoint_if_needed(
         shutil.rmtree(ckpt_dir)
     if not cfg.runtime.resume:
         return 0
+    if cfg.runtime.resume_from_best:
+        best_dir = ckpt_dir / "best"
+        if not best_dir.exists():
+            raise FileNotFoundError(f"best checkpoint not found at {best_dir} (resume_from_best=True)")
+        best_loss, best_step = _load_best_loss(cfg)
+        if best_step < 0:
+            raise FileNotFoundError(f"best.json invalid or missing best_step in {ckpt_dir}")
+        model_to_load = model.module if isinstance(model, DDP) else model
+        safetensors.torch.load_model(model_to_load, best_dir / "model.safetensors", device=str(device))
+        optim.load_state_dict(torch.load(best_dir / "optimizer.pt", map_location=device, weights_only=False))
+        logging.info("[beta-vla] resumed from best checkpoint: step=%s loss=%.6f", best_step, best_loss)
+        return best_step
     last_step = _latest_checkpoint_step(ckpt_dir)
     if last_step is None:
         raise FileNotFoundError(f"No checkpoints found under {ckpt_dir} for resume")
@@ -165,6 +206,7 @@ def build_loader(cfg: BetaVLATrainConfig, use_ddp: bool = False):
         cfg.data,
         action_horizon=cfg.model.action_horizon,
         action_dim=cfg.model.action_dim,
+        state_dim=cfg.data.state_dim,
         tokenizer_name=cfg.model.language.model_name,
     )
     sampler = None
@@ -175,6 +217,7 @@ def build_loader(cfg: BetaVLATrainConfig, use_ddp: bool = False):
         batch_size=cfg.runtime.batch_size,
         action_horizon=cfg.model.action_horizon,
         action_dim=cfg.model.action_dim,
+        state_dim=cfg.data.state_dim,
         tokenizer_name=cfg.model.language.model_name,
         dataset=dataset,
         sampler=sampler,
@@ -210,8 +253,12 @@ def train(cfg: BetaVLATrainConfig) -> None:
     if use_ddp:
         if is_main:
             logging.info("[beta-vla] wrapping model with DDP (may take 1-2 min for 2B params)...")
-        # find_unused_parameters=False avoids "marked as ready twice" with PEFT/LoRA
-        model = DDP(model, device_ids=[device.index] if device.type == "cuda" else None, find_unused_parameters=False)
+        # find_unused_parameters: True if vision trainable (penultimate layer skips last blocks)
+        model = DDP(
+            model,
+            device_ids=[device.index] if device.type == "cuda" else None,
+            find_unused_parameters=not cfg.model.freeze_vision,
+        )
         if is_main:
             logging.info("[beta-vla] DDP done")
 
@@ -235,7 +282,10 @@ def train(cfg: BetaVLATrainConfig) -> None:
     use_amp = cfg.runtime.use_amp and device.type == "cuda"
     grad_accum = cfg.runtime.grad_accumulation_steps
     if is_main:
-        logging.info("[beta-vla] use_amp=%s grad_accumulation_steps=%s", use_amp, grad_accum)
+        logging.info(
+            "[beta-vla] use_amp=%s grad_accumulation_steps=%s lr_schedule=%s warmup=%s",
+            use_amp, grad_accum, cfg.runtime.lr_schedule, cfg.runtime.warmup_steps,
+        )
 
     loader_iter = iter(loader)
     accum_count = 0
@@ -260,6 +310,9 @@ def train(cfg: BetaVLATrainConfig) -> None:
         if accum_count < grad_accum:
             continue
 
+        lr = _get_lr(step, cfg)
+        for pg in optim.param_groups:
+            pg["lr"] = lr
         torch.nn.utils.clip_grad_norm_(model.parameters(), cfg.runtime.grad_clip_norm)
         optim.step()
         optim.zero_grad(set_to_none=True)
@@ -276,8 +329,8 @@ def train(cfg: BetaVLATrainConfig) -> None:
 
         if is_main and step % cfg.runtime.log_interval == 0 and log_cache:
             avg_loss = sum(log_cache) / len(log_cache)
-            logging.info("step=%s loss=%.6f", step, avg_loss)
-            wandb.log({"loss": avg_loss, "step": step}, step=step)
+            logging.info("step=%s loss=%.6f lr=%.2e", step, avg_loss, lr)
+            wandb.log({"loss": avg_loss, "learning_rate": lr, "step": step}, step=step)
             log_cache = []
 
         step += 1
@@ -297,6 +350,7 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+@record
 def main() -> None:
     init_logging()
     args = parse_args()

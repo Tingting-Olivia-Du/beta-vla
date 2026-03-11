@@ -1,0 +1,21 @@
+Saved rollout: data/libero/videos/2026_03_07-12_01_27--ep0--success=False--task=open_the_middle_drawer_of_the_cabinet.mp4
+Task 0 (open the middle drawer of the cabinet...): 0/1
+Saved rollout: data/libero/videos/2026_03_07-12_01_27--ep0--success=False--task=put_the_bowl_on_the_stove.mp4
+Task 1 (put the bowl on the stove...): 0/1
+Saved rollout: data/libero/videos/2026_03_07-12_01_27--ep0--success=False--task=put_the_wine_bottle_on_top_of_the_cabinet.mp4
+Task 2 (put the wine bottle on top of the cabine...): 0/1
+Saved rollout: data/libero/videos/2026_03_07-12_01_27--ep0--success=False--task=open_the_top_drawer_and_put_the_bowl_inside.mp4
+Task 3 (open the top drawer and put the bowl ins...): 0/1
+Saved rollout: data/libero/videos/2026_03_07-12_01_27--ep0--success=False--task=put_the_bowl_on_top_of_the_cabinet.mp4
+Task 4 (put the bowl on top of the cabinet...): 0/1
+Saved rollout: data/libero/videos/2026_03_07-12_01_27--ep0--success=False--task=push_the_plate_to_the_front_of_the_stove.mp4
+Task 5 (push the plate to the front of the stove...): 0/1
+Saved rollout: data/libero/videos/2026_03_07-12_01_27--ep0--success=False--task=put_the_cream_cheese_in_the_bowl.mp4
+Task 6 (put the cream cheese in the bowl...): 0/1
+Saved rollout: data/libero/videos/2026_03_07-12_01_27--ep0--success=False--task=turn_on_the_stove.mp4
+Task 7 (turn on the stove...): 0/1
+Saved rollout: data/libero/videos/2026_03_07-12_01_27--ep0--success=False--task=put_the_bowl_on_the_plate.mp4
+Task 8 (put the bowl on the plate...): 0/1
+Saved rollout: data/libero/videos/2026_03_07-12_01_27--ep0--success=False--task=put_the_wine_bottle_on_the_rack.mp4
+Task 9 (put the wine bottle on the rack...): 0/1
+Overall success rate: 0/10 = 0.00%

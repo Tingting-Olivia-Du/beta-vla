@@ -1,6 +1,8 @@
 from __future__ import annotations
 
+import json
 from dataclasses import dataclass
+from pathlib import Path
 from typing import Any
 
 from datasets import Dataset as HFDataset, load_dataset
@@ -20,14 +22,24 @@ def _pick_first(sample: dict[str, Any], keys: list[str]) -> Any | None:
 
 
 def _to_tensor_image(x: Any) -> torch.Tensor:
-    arr = np.asarray(x, dtype=np.float32)
+    """Convert image to [0,1] float tensor. Handles HF datasets: uint8 [0,255] or float [0,1]."""
+    arr = np.asarray(x)
     if arr.ndim == 2:
         arr = np.stack([arr, arr, arr], axis=-1)
     if arr.ndim != 3:
         raise ValueError(f"Expected image with 3 dims, got shape={arr.shape}")
-    if not arr.flags.writeable:
-        arr = arr.copy()
-    return torch.from_numpy(arr).to(torch.float32)
+    if np.issubdtype(arr.dtype, np.floating):
+        if arr.max() > 1.0:
+            arr = arr.astype(np.float32) / 255.0
+    else:
+        arr = arr.astype(np.float32) / 255.0
+    return torch.from_numpy(arr)
+
+
+def _quantile_normalize(x: np.ndarray, q01: np.ndarray, q99: np.ndarray) -> np.ndarray:
+    """(x - q01) / (q99 - q01 + eps) * 2 - 1 -> [-1, 1]"""
+    span = np.asarray(q99, dtype=np.float32) - np.asarray(q01, dtype=np.float32) + 1e-6
+    return (np.asarray(x, dtype=np.float32) - np.asarray(q01, dtype=np.float32)) / span * 2.0 - 1.0
 
 
 def _ensure_2d_actions(actions: np.ndarray, action_horizon: int, action_dim: int) -> np.ndarray:
@@ -50,13 +62,24 @@ class LiberoLoaderConfig:
     num_workers: int = 2
     max_token_len: int = 128
     max_samples: int | None = None
+    state_dim: int = 8  # eef_pos 3 + quat2axisangle 3 + gripper 2
+    norm_stats_path: str | Path | None = None  # path to norm_stats.json for quantile norm
 
 
 class LiberoTorchDataset(Dataset):
-    def __init__(self, cfg: LiberoLoaderConfig, *, action_horizon: int, action_dim: int, tokenizer_name: str):
+    def __init__(
+        self,
+        cfg: LiberoLoaderConfig,
+        *,
+        action_horizon: int,
+        action_dim: int,
+        state_dim: int,
+        tokenizer_name: str,
+    ):
         self.cfg = cfg
         self.action_horizon = action_horizon
         self.action_dim = action_dim
+        self.state_dim = state_dim
         if cfg.max_samples is not None:
             # Use streaming + take to avoid downloading full dataset
             ds_stream = load_dataset(cfg.repo_id, split=cfg.split, streaming=True)
@@ -67,6 +90,12 @@ class LiberoTorchDataset(Dataset):
         self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_name, trust_remote_code=True)
         if self.tokenizer.pad_token is None:
             self.tokenizer.pad_token = self.tokenizer.eos_token
+        self._norm_stats: dict[str, dict[str, list[float]]] | None = None
+        if cfg.norm_stats_path is not None:
+            path = Path(cfg.norm_stats_path)
+            if path.exists():
+                with path.open() as f:
+                    self._norm_stats = json.load(f)
 
     def __len__(self) -> int:
         return len(self.ds)
@@ -83,16 +112,22 @@ class LiberoTorchDataset(Dataset):
 
         state = _pick_first(sample, ["observation/state", "state", "observation.state"])
         if state is None:
-            state = np.zeros((self.action_dim,), dtype=np.float32)
+            state = np.zeros((self.state_dim,), dtype=np.float32)
         state = np.asarray(state, dtype=np.float32).reshape(-1)
-        if state.shape[0] < self.action_dim:
-            state = np.pad(state, (0, self.action_dim - state.shape[0]))
-        state = state[: self.action_dim]
+        if state.shape[0] < self.state_dim:
+            state = np.pad(state, (0, self.state_dim - state.shape[0]))
+        state = state[: self.state_dim]
+        if self._norm_stats is not None and "state" in self._norm_stats:
+            ns = self._norm_stats["state"]
+            state = _quantile_normalize(state, ns["q01"], ns["q99"])
 
         actions = _pick_first(sample, ["actions", "action"])
         if actions is None:
             raise KeyError("Could not find actions key in LIBERO sample.")
         actions = _ensure_2d_actions(np.asarray(actions, dtype=np.float32), self.action_horizon, self.action_dim)
+        if self._norm_stats is not None and "action" in self._norm_stats: #normalize action
+            ns = self._norm_stats["action"]
+            actions = _quantile_normalize(actions, ns["q01"], ns["q99"])
 
         prompt = _pick_first(sample, ["prompt", "task", "instruction"])
         prompt = str(prompt) if prompt is not None else ""
@@ -139,6 +174,7 @@ def create_libero_dataloader(
     batch_size: int,
     action_horizon: int,
     action_dim: int,
+    state_dim: int,
     tokenizer_name: str,
     dataset: LiberoTorchDataset | None = None,
     sampler: DistributedSampler | None = None,
@@ -148,6 +184,7 @@ def create_libero_dataloader(
             cfg,
             action_horizon=action_horizon,
             action_dim=action_dim,
+            state_dim=state_dim,
             tokenizer_name=tokenizer_name,
         )
     return DataLoader(

@@ -1,0 +1,66 @@
+Eval started at 20260310_095044
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=pick_up_the_alphabet_soup_and_place_it_in_the_bask.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=pick_up_the_cream_cheese_and_place_it_in_the_baske.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=pick_up_the_salad_dressing_and_place_it_in_the_bas.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=pick_up_the_bbq_sauce_and_place_it_in_the_basket.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=pick_up_the_ketchup_and_place_it_in_the_basket.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=pick_up_the_tomato_sauce_and_place_it_in_the_baske.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=pick_up_the_butter_and_place_it_in_the_basket.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=pick_up_the_milk_and_place_it_in_the_basket.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=pick_up_the_chocolate_pudding_and_place_it_in_the_.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=pick_up_the_orange_juice_and_place_it_in_the_baske.mp4
+9 [INFO] step 110 action norm=1.3144 max_abs=1.0338
+2026-03-10 20:25:58,614 [INFO] step 160 action norm=1.1331 max_abs=0.9773
+2026-03-10 20:36:47,722 [INFO] step 210 action norm=1.1108 max_abs=0.9562
+2026-03-10 20:47:35,080 [INFO] step 260 action norm=1.0673 max_abs=0.8709
+2026-03-10 20:53:00,137 [INFO] Task 2 (pick up the salad dressing and place it ...): 0/1
+2026-03-10 20:54:09,128 [INFO] step 10 action norm=1.0240 max_abs=0.9917
+2026-03-10 21:04:58,493 [INFO] step 60 action norm=1.2748 max_abs=0.9576
+2026-03-10 21:15:45,505 [INFO] step 110 action norm=1.2675 max_abs=0.9527
+2026-03-10 21:26:34,542 [INFO] step 160 action norm=1.0888 max_abs=0.9913
+2026-03-10 21:37:23,806 [INFO] step 210 action norm=1.1031 max_abs=0.9771
+2026-03-10 21:48:12,287 [INFO] step 260 action norm=0.9731 max_abs=0.9463
+2026-03-10 21:53:37,405 [INFO] Task 3 (pick up the bbq sauce and place it in th...): 0/1
+2026-03-10 21:54:46,641 [INFO] step 10 action norm=1.0193 max_abs=1.0126
+2026-03-10 22:05:35,671 [INFO] step 60 action norm=1.1544 max_abs=0.9586
+2026-03-10 22:16:24,512 [INFO] step 110 action norm=1.2882 max_abs=1.0001
+2026-03-10 22:27:13,880 [INFO] step 160 action norm=1.1793 max_abs=0.9799
+2026-03-10 22:38:02,891 [INFO] step 210 action norm=0.9760 max_abs=0.9424
+2026-03-10 22:48:51,345 [INFO] step 260 action norm=1.1120 max_abs=0.9808
+2026-03-10 22:54:16,767 [INFO] Task 4 (pick up the ketchup and place it in the ...): 0/1
+2026-03-10 22:55:25,598 [INFO] step 10 action norm=1.0130 max_abs=1.0122
+2026-03-10 23:06:16,214 [INFO] step 60 action norm=1.1558 max_abs=0.9588
+2026-03-10 23:17:05,578 [INFO] step 110 action norm=1.3291 max_abs=0.9715
+2026-03-10 23:27:54,865 [INFO] step 160 action norm=1.1912 max_abs=0.9756
+2026-03-10 23:38:44,156 [INFO] step 210 action norm=1.0393 max_abs=0.9607
+2026-03-10 23:49:33,609 [INFO] step 260 action norm=1.0110 max_abs=0.9988
+2026-03-10 23:54:59,166 [INFO] Task 5 (pick up the tomato sauce and place it in...): 0/1
+2026-03-10 23:56:08,171 [INFO] step 10 action norm=1.0389 max_abs=1.0226
+2026-03-11 00:06:57,656 [INFO] step 60 action norm=1.2749 max_abs=0.9641
+2026-03-11 00:17:46,490 [INFO] step 110 action norm=1.2089 max_abs=0.9262
+2026-03-11 00:28:35,199 [INFO] step 160 action norm=1.1220 max_abs=0.9769
+2026-03-11 00:39:24,202 [INFO] step 210 action norm=1.1728 max_abs=0.9777
+2026-03-11 00:50:13,266 [INFO] step 260 action norm=1.0364 max_abs=1.0241
+2026-03-11 00:55:38,773 [INFO] Task 6 (pick up the butter and place it in the b...): 0/1
+2026-03-11 00:56:47,658 [INFO] step 10 action norm=1.0382 max_abs=1.0080
+2026-03-11 01:07:37,061 [INFO] step 60 action norm=1.1562 max_abs=0.9834
+2026-03-11 01:18:26,226 [INFO] step 110 action norm=1.1772 max_abs=0.9560
+2026-03-11 01:29:15,322 [INFO] step 160 action norm=1.1538 max_abs=0.9474
+2026-03-11 01:40:04,346 [INFO] step 210 action norm=1.1746 max_abs=0.9518
+2026-03-11 01:50:53,296 [INFO] step 260 action norm=1.1587 max_abs=0.9807
+2026-03-11 01:56:18,739 [INFO] Task 7 (pick up the milk and place it in the bas...): 0/1
+2026-03-11 01:57:27,687 [INFO] step 10 action norm=1.0232 max_abs=1.0189
+2026-03-11 02:08:16,577 [INFO] step 60 action norm=1.1995 max_abs=0.9756
+2026-03-11 02:19:04,960 [INFO] step 110 action norm=1.3084 max_abs=0.9901
+2026-03-11 02:29:53,275 [INFO] step 160 action norm=1.2416 max_abs=0.9558
+2026-03-11 02:40:41,938 [INFO] step 210 action norm=1.1362 max_abs=0.9644
+2026-03-11 02:51:30,817 [INFO] step 260 action norm=0.9894 max_abs=0.9849
+2026-03-11 02:56:56,094 [INFO] Task 8 (pick up the chocolate pudding and place ...): 0/1
+2026-03-11 02:58:05,034 [INFO] step 10 action norm=1.0320 max_abs=1.0275
+2026-03-11 03:08:53,868 [INFO] step 60 action norm=1.1574 max_abs=0.9764
+2026-03-11 03:19:42,581 [INFO] step 110 action norm=1.1671 max_abs=0.9660
+2026-03-11 03:30:31,326 [INFO] step 160 action norm=1.0881 max_abs=0.9559
+2026-03-11 03:41:21,364 [INFO] step 210 action norm=1.1375 max_abs=1.0112
+2026-03-11 03:52:08,704 [INFO] step 260 action norm=1.1397 max_abs=0.9558
+2026-03-11 03:57:33,474 [INFO] Task 9 (pick up the orange juice and place it in...): 0/1
+2026-03-11 03:57:33,768 [INFO] Overall success rate: 0/10 = 0.00%

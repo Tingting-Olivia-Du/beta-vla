@@ -1,33 +1,41 @@
 runtime:
   exp_name: beta_vla_libero
   checkpoint_base_dir: ./checkpoints
-  wandb_project: beta-vla
+  wandb_project: beta-vla-0307
   wandb_enabled: true
   seed: 42
-  batch_size: 2
-  grad_accumulation_steps: 2
+  batch_size: 4
+  grad_accumulation_steps: 4
   use_amp: true
-  num_train_steps: 10000
+  num_train_steps: 50000
   log_interval: 10
-  save_interval: 3000
-  learning_rate: 5e-5
-  weight_decay: 0.0
+  save_interval: 5000
+  learning_rate: 5e-6  # OpenPI/OpenVLA use 5e-5~5e-4; try 1e-4 for faster convergence
+  weight_decay: 0
   num_workers: 8
-  resume: false
+  resume: true
+  resume_from_best: true  # load best/ (step 7256) instead of latest step dir
   overwrite: false
   grad_clip_norm: 1.0
+  # LR schedule (OpenPI-style): warmup + cosine decay
+  warmup_steps: 1000
+  lr_schedule: cosine_warmup
+  end_lr: 1e-5
 
 data:
   repo_id: physical-intelligence/libero
   split: train
   num_workers: 8
   max_token_len: 128
-  max_samples: 2
+  max_samples: null
+  state_dim: 8
+  norm_stats_path: assets/physical-intelligence/libero/norm_stats.json  # run compute_norm_stats.py first
 
 model:
   action_dim: 7
   action_horizon: 10
-  freeze_vision: false
+  state_dim: 8  # for OpenPI-style action head state_proj
+  freeze_vision: true  # saves ~3GB (no opt state); vision uses penultimate layer, last blocks unused
   freeze_language: false
   freeze_vggt: false
   use_lora: true

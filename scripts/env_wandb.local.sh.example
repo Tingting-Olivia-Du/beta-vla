@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# 复制为 env_wandb.local.sh 并填入你的 WANDB_API_KEY（该文件已 gitignore，不会提交）
+# cp scripts/env_wandb.local.sh.example scripts/env_wandb.local.sh
+# 然后编辑 env_wandb.local.sh 取消注释并填入 key
+
+# export WANDB_API_KEY="wandb_v1_xxxx"  # 从 https://wandb.ai/authorize 获取

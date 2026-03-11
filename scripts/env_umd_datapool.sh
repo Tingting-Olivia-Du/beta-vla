@@ -8,6 +8,7 @@ export HF_HUB_CACHE="${HF_HUB_CACHE:-/umd-datapool/tingting/hf-home/hub}"
 export TRANSFORMERS_CACHE="${TRANSFORMERS_CACHE:-/umd-datapool/tingting/hf-home/transformers}"
 export HF_DATASETS_CACHE="${HF_DATASETS_CACHE:-/umd-datapool/tingting/hf-home/datasets}"
 export WANDB_DIR="${WANDB_DIR:-/umd-datapool/tingting/wandb}"
+export WANDB_CONFIG_DIR="${WANDB_CONFIG_DIR:-/umd-datapool/tingting/.wandb-config}"
 
 # uv/pip 的 temp 和 cache 必须用本地磁盘：NFS 上会 Remote I/O error (121)
 # 强制覆盖已有值，优先 /data，其次 /tmp，最后 /dev/shm
@@ -22,7 +23,7 @@ else
   export UV_CACHE_DIR="/dev/shm/tingting-uv-cache"
 fi
 
-mkdir -p "${UV_CACHE_DIR}" "${TMPDIR}" "${HF_HOME}" "${HF_HUB_CACHE}" "${TRANSFORMERS_CACHE}" "${HF_DATASETS_CACHE}" "${WANDB_DIR}"
+mkdir -p "${UV_CACHE_DIR}" "${TMPDIR}" "${HF_HOME}" "${HF_HUB_CACHE}" "${TRANSFORMERS_CACHE}" "${HF_DATASETS_CACHE}" "${WANDB_DIR}" "${WANDB_CONFIG_DIR}"
 echo "[env] TMPDIR=$TMPDIR (local, for uv/pip)"
 echo "[env] UV_CACHE_DIR=$UV_CACHE_DIR"
 echo "[env] HF_HOME=$HF_HOME HF_HUB_CACHE=$HF_HUB_CACHE"

@@ -1,0 +1,14 @@
+Saved rollout: data/libero/videos/7kchkptbest/2026_03_10-04_35_08--ep0--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Task 0 (pick up the black bowl between the plate...): 0/1
+Saved rollout: data/libero/videos/7kchkptbest/2026_03_10-04_35_08--ep0--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Task 1 (pick up the black bowl next to the ramek...): 0/1
+Saved rollout: data/libero/videos/7kchkptbest/2026_03_10-04_35_08--ep0--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Task 2 (pick up the black bowl from table center...): 0/1
+Saved rollout: data/libero/videos/7kchkptbest/2026_03_10-04_35_08--ep0--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Task 3 (pick up the black bowl on the cookie box...): 0/1
+Saved rollout: data/libero/videos/7kchkptbest/2026_03_10-04_35_08--ep0--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Task 4 (pick up the black bowl in the top drawer...): 0/1
+Saved rollout: data/libero/videos/7kchkptbest/2026_03_10-04_35_08--ep0--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Task 5 (pick up the black bowl on the ramekin an...): 0/1
+Saved rollout: data/libero/videos/7kchkptbest/2026_03_10-04_35_08--ep0--success=False--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Task 6 (pick up the black bowl next to the cooki...): 0/1
