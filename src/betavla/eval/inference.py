@@ -1,144 +1,202 @@
-"""Inference utilities for Beta-VLA."""
+"""Inference utilities for Beta-VLA.
 
+Key optimizations:
+  - Tokenization cached per prompt string (CPU)
+  - Language encoding cached per (prompt, device) (GPU)
+  - Vision + VGGT prefix computed once per replan (images change each step)
+  - action_head.sample() reuses prefix_tokens across all ODE denoising steps
+"""
 from __future__ import annotations
 
-import json
 from pathlib import Path
 
 import numpy as np
 import torch
 from transformers import AutoTokenizer
 
-from betavla.data.types import ObservationBatch
-from betavla.models.beta_vla_model import BetaVLAModel, BetaVLAConfig
+from betavla.data.normalize import NormStats, load_norm_stats, normalize_quantile, unnormalize_quantile
+from betavla.models.model import BetaVLAConfig, BetaVLAModel
 
 
-def _img_to_tensor(img: np.ndarray) -> torch.Tensor:
-    """uint8 [0,255] or float [0,1] -> [0,1] float tensor (1,H,W,C)."""
-    arr = np.asarray(img)
-    if arr.ndim == 2:
-        arr = np.stack([arr, arr, arr], axis=-1)
-    if np.issubdtype(arr.dtype, np.floating) and arr.max() > 1.0:
-        arr = arr.astype(np.float32) / 255.0
-    elif not np.issubdtype(arr.dtype, np.floating):
-        arr = arr.astype(np.float32) / 255.0
-    return torch.from_numpy(arr.astype(np.float32)).unsqueeze(0)
+# ---------------------------------------------------------------------------
+# Module-level caches (one per process, cleared on restart)
+# ---------------------------------------------------------------------------
+
+_token_cache: dict[str, tuple[torch.Tensor, torch.Tensor]] = {}
+_lang_cache: dict[tuple[str, str], tuple[torch.Tensor, torch.Tensor]] = {}
 
 
-def _quantile_normalize(x: np.ndarray, q01: np.ndarray, q99: np.ndarray) -> np.ndarray:
-    """(x - q01) / (q99 - q01 + eps) * 2 - 1 -> [-1, 1]"""
-    span = np.asarray(q99, dtype=np.float32) - np.asarray(q01, dtype=np.float32) + 1e-6
-    return (np.asarray(x, dtype=np.float32) - np.asarray(q01, dtype=np.float32)) / span * 2.0 - 1.0
+def clear_caches() -> None:
+    _token_cache.clear()
+    _lang_cache.clear()
 
 
-def _quantile_unnormalize(x: np.ndarray, q01: np.ndarray, q99: np.ndarray) -> np.ndarray:
-    """[-1,1] -> original scale: (x + 1) / 2 * (q99 - q01) + q01"""
-    q01 = np.asarray(q01, dtype=np.float32)
-    q99 = np.asarray(q99, dtype=np.float32)
-    return (np.asarray(x, dtype=np.float32) + 1.0) / 2.0 * (q99 - q01 + 1e-6) + q01
-
+# ---------------------------------------------------------------------------
+# Model loading
+# ---------------------------------------------------------------------------
 
 def load_model(
-    checkpoint_dir: Path, device: torch.device, model_config: BetaVLAConfig | None = None
+    checkpoint: Path | str,
+    device: torch.device,
+    model_config: BetaVLAConfig | None = None,
 ) -> tuple[BetaVLAModel, BetaVLAConfig]:
-    """Load model from checkpoint."""
+    """Load model weights from a checkpoint directory."""
     import safetensors.torch
 
-    ckpt_dir = Path(checkpoint_dir)
-    if (ckpt_dir / "best").exists():
-        ckpt_dir = ckpt_dir / "best"
-    elif (ckpt_dir / "6000").exists():
-        ckpt_dir = ckpt_dir / "6000"
+    ckpt = Path(checkpoint)
+    # Accept either a step directory or a parent directory (auto-resolve best/latest)
+    model_file = ckpt / "model.safetensors"
+    if not model_file.exists():
+        raise FileNotFoundError(f"No model.safetensors found at {ckpt}")
 
-    cfg = model_config or BetaVLAConfig(action_dim=7, action_horizon=10, state_dim=8)
+    cfg = model_config or BetaVLAConfig()
     model = BetaVLAModel(cfg)
-    safetensors.torch.load_model(model, ckpt_dir / "model.safetensors", device=str(device))
-    model = model.to(device)  # 确保所有参数/buffer 在 device 上（load_state_dict 后部分可能仍在 CPU）
+    safetensors.torch.load_model(model, model_file, device=str(device))
+    model.to(device)
     model.eval()
     return model, cfg
 
 
-def get_tokenizer(tokenizer_name: str):
-    """Load tokenizer once (cached per process). Avoid loading on every predict()."""
-    return AutoTokenizer.from_pretrained(tokenizer_name, trust_remote_code=True)
+def get_tokenizer(model_name: str) -> AutoTokenizer:
+    tok = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+    if tok.pad_token is None:
+        tok.pad_token = tok.eos_token
+    return tok
 
 
+# ---------------------------------------------------------------------------
+# Image preprocessing
+# ---------------------------------------------------------------------------
+
+def _img_to_tensor(img: np.ndarray) -> torch.Tensor:
+    """HWC uint8/float → float32 HWC [0, 1], batched as (1, H, W, C)."""
+    arr = np.asarray(img)
+    if arr.ndim == 2:
+        arr = np.stack([arr, arr, arr], axis=-1)
+    if not np.issubdtype(arr.dtype, np.floating):
+        arr = arr.astype(np.float32) / 255.0
+    elif arr.max() > 1.0:
+        arr = arr.astype(np.float32) / 255.0
+    return torch.from_numpy(arr.astype(np.float32)).unsqueeze(0)
+
+
+# ---------------------------------------------------------------------------
+# Main prediction function
+# ---------------------------------------------------------------------------
+
+@torch.no_grad()
 def predict(
     model: BetaVLAModel,
     base_img: np.ndarray,
     wrist_img: np.ndarray,
     prompt: str,
-    tokenizer_name: str,
+    unused_compat: str,         # legacy positional arg (tokenizer_name), kept for API compat
     state: np.ndarray,
     device: torch.device,
-    norm_stats: dict | None = None,
+    norm_stats: dict[str, NormStats] | None = None,
     replan_steps: int = 5,
-    tokenizer=None,
-    num_ode_steps: int = 10,
+    tokenizer: AutoTokenizer | None = None,
+    num_ode_steps: int = 5,
+    max_token_len: int = 128,
+    log_chunk: bool = False,
 ) -> np.ndarray:
-    """Predict action chunk. Returns (replan_steps, 7) array.
-    Pass tokenizer to avoid loading on every call (major speedup)."""
+    """Predict action chunk. Returns (replan_steps, action_dim) array in robot space."""
     if tokenizer is None:
-        tokenizer = AutoTokenizer.from_pretrained(tokenizer_name, trust_remote_code=True)
-    if tokenizer.pad_token is None:
-        tokenizer.pad_token = tokenizer.eos_token
+        raise ValueError("tokenizer must be provided to predict()")
 
-    base_t = _img_to_tensor(base_img)
-    wrist_t = _img_to_tensor(wrist_img)
-    state_arr = np.asarray(state, dtype=np.float32).reshape(-1)
+    # --- State normalisation ---
+    state_np = np.asarray(state, dtype=np.float32).reshape(-1)
     if norm_stats is not None and "state" in norm_stats:
-        ns = norm_stats["state"]
-        state_arr = _quantile_normalize(state_arr, ns["q01"], ns["q99"])
-    state_t = torch.from_numpy(state_arr.reshape(1, -1))
-    tokenized = tokenizer(
-        [prompt],
-        truncation=True,
-        padding="max_length",
-        max_length=128,
-        return_tensors="pt",
-    )
+        state_np = normalize_quantile(state_np, norm_stats["state"])
 
-    obs = ObservationBatch(
-        images={"base_0_rgb": base_t, "left_wrist_0_rgb": wrist_t},
-        image_masks={
-            "base_0_rgb": torch.ones(1, dtype=torch.bool),
-            "left_wrist_0_rgb": torch.ones(1, dtype=torch.bool),
-        },
-        state=state_t,
-        tokenized_prompt=tokenized["input_ids"],
-        tokenized_prompt_mask=tokenized["attention_mask"].to(torch.bool),
-    )
-    obs = obs.to(device)
+    # --- Tokenise prompt (cached per prompt string) ---
+    if prompt not in _token_cache:
+        enc = tokenizer(
+            [prompt],
+            truncation=True,
+            padding="max_length",
+            max_length=max_token_len,
+            return_tensors="pt",
+        )
+        _token_cache[prompt] = (enc["input_ids"], enc["attention_mask"].bool())
+    token_ids, token_mask = _token_cache[prompt]
 
-    with torch.no_grad():
-        out = model(obs, actions=None, num_ode_steps=num_ode_steps)
-    actions = out["actions"][0].cpu().numpy()
+    # --- Language encoding (cached per prompt × device) ---
+    lang_key = (prompt, str(device))
+    if lang_key not in _lang_cache:
+        ids = token_ids.to(device)
+        mask = token_mask.to(device)
+        raw_lang = model.language_encoder(ids, mask)         # (1, L, Dq)
+        proj_lang = model.language_projector(raw_lang)       # (1, L, H)
+        _lang_cache[lang_key] = (proj_lang, mask)            # keep on GPU
+    proj_lang, lang_mask_gpu = _lang_cache[lang_key]
 
+    # --- Vision (per step: images change) ---
+    use_amp = device.type == "cuda"
+    base_t = _img_to_tensor(base_img).to(device)
+    wrist_t = _img_to_tensor(wrist_img).to(device)
+    images = {"base_0_rgb": base_t, "left_wrist_0_rgb": wrist_t}
+    image_masks = {
+        "base_0_rgb": torch.ones(1, device=device, dtype=torch.bool),
+        "left_wrist_0_rgb": torch.ones(1, device=device, dtype=torch.bool),
+    }
+
+    with torch.autocast(device_type="cuda", dtype=torch.bfloat16, enabled=use_amp):
+        vision_tokens = model.vision_tower(images, image_masks)   # (1, N_vis, Dv)
+        vision_tokens = model.vision_projector(vision_tokens)     # (1, N_vis, H)
+
+        fused = torch.cat([vision_tokens, proj_lang], dim=1)      # (1, N_vis+L, H)
+
+        # VGGT attention mask (all-ones vision + text padding mask)
+        B, V, _ = vision_tokens.shape
+        vmask_long = torch.ones(B, V, device=device, dtype=torch.long)
+        attn_mask = torch.cat([vmask_long, lang_mask_gpu.long()], dim=1)
+
+        prefix_tokens = model.vggt_backbone(fused, attn_mask)     # (1, N_vis+L, H)
+
+        # Prefix pad mask for action head (True = real token)
+        vmask_bool = vmask_long.bool()
+        prefix_pad_mask = torch.cat([vmask_bool, lang_mask_gpu], dim=1)
+
+        # State
+        state_t = torch.from_numpy(state_np).unsqueeze(0).to(device=device, dtype=torch.float32)
+
+        # ODE solve: prefix_tokens reused across all denoising steps
+        actions = model.action_head.sample(
+            prefix_tokens, state_t,
+            num_steps=num_ode_steps,
+            prefix_pad_mask=prefix_pad_mask,
+        )  # (1, action_horizon, action_dim)
+
+    actions_np = actions[0].float().cpu().numpy()  # (action_horizon, action_dim)
+
+    if log_chunk:
+        import logging
+        log = logging.getLogger("betavla.inference")
+        log.info("[chunk_debug] raw normalized output:\n%s",
+                 np.array2string(actions_np, precision=4, suppress_small=True))
+
+    # --- Un-normalise actions ---
     if norm_stats is not None and "action" in norm_stats:
-        ns = norm_stats["action"]
-        actions = _quantile_unnormalize(actions, ns["q01"], ns["q99"])
+        actions_np = unnormalize_quantile(actions_np, norm_stats["action"])
 
-    return actions[:replan_steps]
+    if log_chunk:
+        import logging
+        log = logging.getLogger("betavla.inference")
+        norms = np.linalg.norm(actions_np, axis=-1)
+        log.info("[chunk_debug] after unnorm per-step L2: %s",
+                 np.array2string(norms, precision=4))
+
+    return actions_np[:replan_steps]
 
 
 def process_action_for_env(action: np.ndarray, invert_gripper: bool = True) -> np.ndarray:
-    """Prepare action for env.step: gripper [0,1] -> [-1,+1], optional invert."""
+    """Convert model action to LIBERO env action.
+
+    Model gripper output in [-1, 1]; LIBERO expects {-1, +1}.
+    """
     a = action.copy()
-    a[-1] = 2.0 * a[-1] - 1.0
-    if a[-1] >= 0:
-        a[-1] = 1.0
-    else:
-        a[-1] = -1.0
+    a[-1] = 1.0 if a[-1] >= 0.0 else -1.0
     if invert_gripper:
         a[-1] = -a[-1]
     return a
-
-
-def load_norm_stats(path: Path | str | None) -> dict | None:
-    if path is None:
-        return None
-    p = Path(path)
-    if not p.exists():
-        return None
-    with p.open() as f:
-        return json.load(f)

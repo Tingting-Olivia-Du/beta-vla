@@ -1,0 +1,26 @@
+Eval started at 20260313_055608
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_13-05_55_49--ep0--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_13-05_55_49--ep0--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_13-05_55_49--ep0--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_13-05_55_49--ep0--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+.0684 max_abs=0.9036
+2026-03-13 06:42:58,002 [INFO] Task 0 (pick up the black bowl between the plate...): 0/1
+2026-03-13 06:44:05,587 [INFO] step 10 action norm=1.3205 max_abs=1.1014
+2026-03-13 06:54:43,455 [INFO] step 60 action norm=1.1059 max_abs=0.9653
+2026-03-13 07:05:20,905 [INFO] step 110 action norm=1.1834 max_abs=0.8956
+2026-03-13 07:15:58,512 [INFO] step 160 action norm=1.2668 max_abs=0.8768
+2026-03-13 07:26:36,462 [INFO] step 210 action norm=1.3314 max_abs=1.0270
+2026-03-13 07:29:48,893 [INFO] Task 1 (pick up the black bowl next to the ramek...): 0/1
+2026-03-13 07:30:56,687 [INFO] step 10 action norm=1.1996 max_abs=0.8343
+2026-03-13 07:41:34,835 [INFO] step 60 action norm=1.2199 max_abs=0.9329
+2026-03-13 07:52:12,574 [INFO] step 110 action norm=1.1537 max_abs=0.9849
+2026-03-13 08:02:50,235 [INFO] step 160 action norm=1.0744 max_abs=1.0065
+2026-03-13 08:13:28,191 [INFO] step 210 action norm=1.2523 max_abs=0.8815
+2026-03-13 08:16:40,522 [INFO] Task 2 (pick up the black bowl from table center...): 0/1
+2026-03-13 08:17:48,171 [INFO] step 10 action norm=1.1195 max_abs=0.9642
+2026-03-13 08:28:26,294 [INFO] step 60 action norm=1.2662 max_abs=0.8348
+2026-03-13 08:39:04,166 [INFO] step 110 action norm=1.0681 max_abs=0.9683
+2026-03-13 08:49:41,941 [INFO] step 160 action norm=1.1283 max_abs=0.9086
+2026-03-13 09:00:20,412 [INFO] step 210 action norm=0.9907 max_abs=0.9525
+2026-03-13 09:03:33,061 [INFO] Task 3 (pick up the black bowl on the cookie box...): 0/1
+2026-03-13 09:04:40,902 [INFO] step 10 action norm=1.0707 max_abs=0.9490

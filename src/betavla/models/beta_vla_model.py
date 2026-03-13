@@ -23,6 +23,7 @@ class BetaVLAConfig:
     action_dim: int = 7  # libero, openpi use 32 but output 7
     action_horizon: int = 10
     state_dim: int = 8  # for action head state_proj
+    gripper_loss_weight: float = 5.0  # Weight for gripper dim in flow-matching loss (1.0 = no weighting)
     freeze_vision: bool = False
     freeze_language: bool = False
     freeze_vggt: bool = False
@@ -169,6 +170,7 @@ class BetaVLAModel(nn.Module):
                 action_horizon=cfg.action_horizon,
                 hidden_size=self.vggt_backbone.hidden_size,
                 state_dim=cfg.state_dim,
+                gripper_loss_weight=cfg.gripper_loss_weight,
             )
         )
 
@@ -193,9 +195,18 @@ class BetaVLAModel(nn.Module):
         attn_mask = self._build_attention_mask(vision_tokens, observation.tokenized_prompt_mask)
         return self.vggt_backbone(fused, attn_mask)
 
-    def forward(self, observation, actions: torch.Tensor | None = None, num_ode_steps: int = 10):
+    def forward(
+        self,
+        observation,
+        actions: torch.Tensor | None = None,
+        num_ode_steps: int = 10,
+        return_loss_details: bool = False,
+    ):
         prefix_tokens = self.encode(observation)
         state = observation.state
         if actions is None:
             return {"actions": self.action_head.sample(prefix_tokens, state, num_steps=num_ode_steps)}
-        return {"loss": self.action_head.compute_loss(prefix_tokens, state, actions)}
+        loss_out = self.action_head.compute_loss(prefix_tokens, state, actions, return_details=return_loss_details)
+        if return_loss_details:
+            return loss_out
+        return {"loss": loss_out}

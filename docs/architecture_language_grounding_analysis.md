@@ -5,7 +5,7 @@
 ```
 Observation (images + instruction + state)
     │
-    ├─► Vision Tower (DINO + SigLIP, frozen)
+    ├─► Vision Tower (same as openpi)
     │       └─► vision_tokens [B, N_vision, D]
     │
     ├─► Language Encoder (Qwen, LoRA)

@@ -1,0 +1,116 @@
+Eval started at 20260310_095044
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=close_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=close_the_top_drawer_of_the_cabinet_and_put_the_bl.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=put_the_black_bowl_in_the_top_drawer_of_the_cabine.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=put_the_butter_at_the_back_in_the_top_drawer_of_th.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=put_the_butter_at_the_front_in_the_top_drawer_of_t.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=put_the_chocolate_pudding_in_the_top_drawer_of_the.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=open_the_bottom_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=open_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=open_the_top_drawer_of_the_cabinet_and_put_the_bow.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=put_the_black_bowl_on_the_plate.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=put_the_black_bowl_on_top_of_the_cabinet.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=open_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=put_the_black_bowl_at_the_back_on_the_plate.mp4
+ep 160 action norm=1.2660 max_abs=0.9810
+2026-03-12 12:40:13,271 [INFO] step 210 action norm=1.0071 max_abs=0.9860
+2026-03-12 12:50:50,166 [INFO] step 260 action norm=1.1751 max_abs=1.0136
+2026-03-12 13:01:26,830 [INFO] step 310 action norm=1.0110 max_abs=0.9242
+2026-03-12 13:12:03,583 [INFO] step 360 action norm=1.0791 max_abs=0.9927
+2026-03-12 13:21:37,773 [INFO] Task 2 (put the black bowl in the top drawer of ...): 0/1
+2026-03-12 13:22:45,737 [INFO] step 10 action norm=1.0697 max_abs=0.9989
+2026-03-12 13:33:22,562 [INFO] step 60 action norm=1.2193 max_abs=0.9798
+2026-03-12 13:44:01,151 [INFO] step 110 action norm=1.3186 max_abs=0.9624
+2026-03-12 13:54:38,042 [INFO] step 160 action norm=1.1450 max_abs=0.9379
+2026-03-12 14:05:14,743 [INFO] step 210 action norm=1.1926 max_abs=0.9655
+2026-03-12 14:15:51,571 [INFO] step 260 action norm=1.0450 max_abs=0.9373
+2026-03-12 14:26:28,597 [INFO] step 310 action norm=1.2062 max_abs=1.0145
+2026-03-12 14:37:05,890 [INFO] step 360 action norm=1.0825 max_abs=0.9972
+2026-03-12 14:46:43,174 [INFO] Task 3 (put the butter at the back in the top dr...): 0/1
+2026-03-12 14:47:51,644 [INFO] step 10 action norm=1.1274 max_abs=0.9897
+2026-03-12 14:58:31,394 [INFO] step 60 action norm=1.3407 max_abs=0.9812
+2026-03-12 15:09:11,764 [INFO] step 110 action norm=1.3207 max_abs=1.0032
+2026-03-12 15:19:51,582 [INFO] step 160 action norm=1.1824 max_abs=1.0064
+2026-03-12 15:30:31,478 [INFO] step 210 action norm=1.2152 max_abs=0.9578
+2026-03-12 15:41:11,409 [INFO] step 260 action norm=1.0998 max_abs=0.9656
+2026-03-12 15:51:50,468 [INFO] step 310 action norm=1.1122 max_abs=0.9062
+2026-03-12 16:02:28,550 [INFO] step 360 action norm=1.0452 max_abs=0.9585
+2026-03-12 16:12:04,007 [INFO] Task 4 (put the butter at the front in the top d...): 0/1
+2026-03-12 16:13:12,055 [INFO] step 10 action norm=1.0897 max_abs=1.0112
+2026-03-12 16:23:47,374 [INFO] step 60 action norm=1.1135 max_abs=0.9682
+2026-03-12 16:34:23,591 [INFO] step 110 action norm=1.2227 max_abs=1.0320
+2026-03-12 16:44:59,883 [INFO] step 160 action norm=1.0843 max_abs=0.8437
+2026-03-12 16:55:36,429 [INFO] step 210 action norm=1.1128 max_abs=0.9601
+2026-03-12 17:06:13,440 [INFO] step 260 action norm=1.1310 max_abs=0.9719
+2026-03-12 17:16:50,847 [INFO] step 310 action norm=1.1906 max_abs=0.9608
+2026-03-12 17:27:28,162 [INFO] step 360 action norm=1.0137 max_abs=0.9554
+2026-03-12 17:37:02,693 [INFO] Task 5 (put the chocolate pudding in the top dra...): 0/1
+2026-03-12 17:38:10,699 [INFO] step 10 action norm=1.0568 max_abs=1.0118
+2026-03-12 17:48:45,697 [INFO] step 60 action norm=1.2513 max_abs=0.9826
+2026-03-12 17:59:21,164 [INFO] step 110 action norm=1.2538 max_abs=0.9533
+2026-03-12 18:09:56,871 [INFO] step 160 action norm=1.1704 max_abs=0.9497
+2026-03-12 18:20:32,660 [INFO] step 210 action norm=1.1215 max_abs=0.8652
+2026-03-12 18:31:08,702 [INFO] step 260 action norm=1.2055 max_abs=0.9652
+2026-03-12 18:41:44,966 [INFO] step 310 action norm=1.0579 max_abs=0.8618
+2026-03-12 18:52:20,937 [INFO] step 360 action norm=1.1421 max_abs=1.0049
+2026-03-12 19:01:54,459 [INFO] Task 6 (open the bottom drawer of the cabinet...): 0/1
+2026-03-12 19:03:02,161 [INFO] step 10 action norm=1.1337 max_abs=0.9926
+2026-03-12 19:13:36,922 [INFO] step 60 action norm=1.2757 max_abs=0.9826
+2026-03-12 19:24:12,110 [INFO] step 110 action norm=1.1843 max_abs=0.9712
+2026-03-12 19:34:47,316 [INFO] step 160 action norm=1.1071 max_abs=0.9341
+2026-03-12 19:45:22,482 [INFO] step 210 action norm=1.0831 max_abs=0.9271
+2026-03-12 19:55:58,058 [INFO] step 260 action norm=1.1530 max_abs=0.8941
+2026-03-12 20:06:33,451 [INFO] step 310 action norm=1.0671 max_abs=0.9481
+2026-03-12 20:17:08,631 [INFO] step 360 action norm=1.0889 max_abs=0.9893
+2026-03-12 20:26:41,552 [INFO] Task 7 (open the top drawer of the cabinet...): 0/1
+2026-03-12 20:27:49,651 [INFO] step 10 action norm=1.0293 max_abs=0.9815
+2026-03-12 20:38:27,285 [INFO] step 60 action norm=1.2723 max_abs=0.9698
+2026-03-12 20:49:05,946 [INFO] step 110 action norm=1.3989 max_abs=1.0161
+2026-03-12 20:59:44,798 [INFO] step 160 action norm=1.2077 max_abs=0.9848
+2026-03-12 21:10:23,856 [INFO] step 210 action norm=1.0729 max_abs=0.9530
+2026-03-12 21:21:02,362 [INFO] step 260 action norm=1.2002 max_abs=0.9377
+2026-03-12 21:31:39,937 [INFO] step 310 action norm=1.2234 max_abs=0.9639
+2026-03-12 21:42:17,644 [INFO] step 360 action norm=1.3548 max_abs=0.9501
+2026-03-12 21:51:51,524 [INFO] Task 8 (open the top drawer of the cabinet and p...): 0/1
+2026-03-12 21:52:59,592 [INFO] step 10 action norm=1.1214 max_abs=1.0321
+2026-03-12 22:03:37,776 [INFO] step 60 action norm=1.2374 max_abs=0.9830
+2026-03-12 22:14:15,990 [INFO] step 110 action norm=1.2395 max_abs=0.9786
+2026-03-12 22:24:53,799 [INFO] step 160 action norm=1.0957 max_abs=0.9546
+2026-03-12 22:35:31,218 [INFO] step 210 action norm=1.1233 max_abs=0.9726
+2026-03-12 22:46:08,419 [INFO] step 260 action norm=1.3875 max_abs=0.9811
+2026-03-12 22:56:46,194 [INFO] step 310 action norm=1.1487 max_abs=0.9460
+2026-03-12 23:07:24,132 [INFO] step 360 action norm=1.1939 max_abs=0.9866
+2026-03-12 23:16:59,200 [INFO] Task 9 (put the black bowl on the plate...): 0/1
+2026-03-12 23:18:07,219 [INFO] step 10 action norm=1.0358 max_abs=0.9770
+2026-03-12 23:28:43,900 [INFO] step 60 action norm=1.2598 max_abs=0.9678
+2026-03-12 23:39:20,526 [INFO] step 110 action norm=1.2645 max_abs=0.9396
+2026-03-12 23:49:57,046 [INFO] step 160 action norm=1.2189 max_abs=0.9678
+2026-03-13 00:00:33,768 [INFO] step 210 action norm=1.2175 max_abs=0.9797
+2026-03-13 00:11:10,429 [INFO] step 260 action norm=1.1323 max_abs=0.9617
+2026-03-13 00:21:47,388 [INFO] step 310 action norm=1.1547 max_abs=0.9676
+2026-03-13 00:32:23,862 [INFO] step 360 action norm=1.0620 max_abs=0.9156
+2026-03-13 00:41:56,062 [INFO] Task 10 (put the black bowl on top of the cabinet...): 0/1
+2026-03-13 00:43:05,037 [INFO] step 10 action norm=1.1124 max_abs=1.0125
+2026-03-13 00:53:46,297 [INFO] step 60 action norm=1.1780 max_abs=0.9868
+2026-03-13 01:04:27,663 [INFO] step 110 action norm=1.1531 max_abs=0.9631
+2026-03-13 01:15:09,068 [INFO] step 160 action norm=1.2067 max_abs=0.9907
+2026-03-13 01:25:50,681 [INFO] step 210 action norm=1.0219 max_abs=0.9513
+2026-03-13 01:36:32,463 [INFO] step 260 action norm=1.1427 max_abs=0.9401
+2026-03-13 01:47:12,340 [INFO] step 310 action norm=1.3947 max_abs=1.0499
+2026-03-13 01:57:52,314 [INFO] step 360 action norm=1.2752 max_abs=0.9092
+2026-03-13 02:07:29,597 [INFO] Task 11 (open the top drawer of the cabinet...): 0/1
+2026-03-13 02:08:38,283 [INFO] step 10 action norm=1.0777 max_abs=0.9916
+2026-03-13 02:19:16,074 [INFO] step 60 action norm=1.1393 max_abs=0.9177
+2026-03-13 02:29:54,028 [INFO] step 110 action norm=1.2494 max_abs=0.9896
+2026-03-13 02:40:32,221 [INFO] step 160 action norm=1.0641 max_abs=0.9446
+2026-03-13 02:51:10,741 [INFO] step 210 action norm=1.1636 max_abs=0.9066
+2026-03-13 03:01:48,884 [INFO] step 260 action norm=1.3227 max_abs=0.9463
+2026-03-13 03:12:27,132 [INFO] step 310 action norm=1.2415 max_abs=0.9330
+2026-03-13 03:23:05,196 [INFO] step 360 action norm=0.9716 max_abs=0.9250
+2026-03-13 03:32:40,759 [INFO] Task 12 (put the black bowl at the back on the pl...): 0/1
+2026-03-13 03:33:49,688 [INFO] step 10 action norm=1.1224 max_abs=1.0021
+2026-03-13 03:44:28,878 [INFO] step 60 action norm=1.1610 max_abs=0.9484
+2026-03-13 03:55:08,306 [INFO] step 110 action norm=1.3356 max_abs=0.9692
+2026-03-13 04:05:47,655 [INFO] step 160 action norm=1.1658 max_abs=0.9809
+2026-03-13 04:16:27,303 [INFO] step 210 action norm=1.1979 max_abs=0.9830
+2026-03-13 04:27:06,950 [INFO] step 260 action norm=1.2052 max_abs=0.9706

@@ -35,6 +35,7 @@ model:
   action_dim: 7
   action_horizon: 10
   state_dim: 8  # for OpenPI-style action head state_proj
+  gripper_loss_weight: 5.0  # Weight for gripper dim (1.0=no weighting; 3-5 helps binary gripper)
   freeze_vision: true  # saves ~3GB (no opt state); vision uses penultimate layer, last blocks unused
   freeze_language: false
   freeze_vggt: false

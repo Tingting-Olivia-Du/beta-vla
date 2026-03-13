@@ -8,9 +8,9 @@ cd "$(dirname "$0")/.."
 source "$(dirname "$0")/env_umd_datapool.sh"
 # 若存在则加载 wandb 配置（WANDB_API_KEY 等，配置一次即可，见 env_wandb.local.sh.example）
 [[ -f "$(dirname "$0")/env_wandb.local.sh" ]] && source "$(dirname "$0")/env_wandb.local.sh"
-CONFIG_PATH="configs/train_beta_vla_libero_paligemma.yaml"
+CONFIG_PATH="configs/beta_gripper.yaml"
 # Respect GPU_IDS from env (e.g. GPU_IDS="0" for single GPU)
-GPU_IDS="${GPU_IDS:-1,2}"
+GPU_IDS="${GPU_IDS:-3,4}"
 RUN_DDP=1
 CONDA_ENV_NAME="${CONDA_ENV_NAME:-beta}"
 # 路径由 env_umd_datapool.sh 统一设置；此处仅作兜底

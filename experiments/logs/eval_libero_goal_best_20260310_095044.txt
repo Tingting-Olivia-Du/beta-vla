@@ -7,11 +7,9 @@ Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--succe
 Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=push_the_plate_to_the_front_of_the_stove.mp4
 Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=put_the_cream_cheese_in_the_bowl.mp4
 Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=turn_on_the_stove.mp4
-44
-2026-03-11 05:46:40,983 [INFO] step 210 action norm=0.9965 max_abs=0.9432
-2026-03-11 05:57:19,489 [INFO] step 260 action norm=1.1235 max_abs=0.9146
-2026-03-11 06:06:54,870 [INFO] Task 1 (put the bowl on the stove...): 0/1
-2026-03-11 06:08:02,890 [INFO] step 10 action norm=1.1460 max_abs=1.0196
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=put_the_bowl_on_the_plate.mp4
+Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--success=False--task=put_the_wine_bottle_on_the_rack.mp4
+step 10 action norm=1.1460 max_abs=1.0196
 2026-03-11 06:18:40,999 [INFO] step 60 action norm=1.5525 max_abs=1.1095
 2026-03-11 06:29:19,418 [INFO] step 110 action norm=1.4193 max_abs=0.9771
 2026-03-11 06:39:57,799 [INFO] step 160 action norm=1.2245 max_abs=0.8821
@@ -54,3 +52,17 @@ Saved rollout: data/libero/videos/7kchkptbest_v2/2026_03_10-09_50_20--ep0--succe
 2026-03-11 12:21:28,033 [INFO] step 260 action norm=1.0376 max_abs=0.9279
 2026-03-11 12:31:04,172 [INFO] Task 7 (turn on the stove...): 0/1
 2026-03-11 12:32:11,801 [INFO] step 10 action norm=1.0395 max_abs=0.9936
+2026-03-11 12:42:52,506 [INFO] step 60 action norm=1.3924 max_abs=0.9493
+2026-03-11 12:53:33,568 [INFO] step 110 action norm=1.2501 max_abs=0.9349
+2026-03-11 13:04:13,070 [INFO] step 160 action norm=1.0667 max_abs=0.9933
+2026-03-11 13:14:52,643 [INFO] step 210 action norm=1.1128 max_abs=0.9997
+2026-03-11 13:25:33,470 [INFO] step 260 action norm=1.1190 max_abs=0.9049
+2026-03-11 13:35:10,860 [INFO] Task 8 (put the bowl on the plate...): 0/1
+2026-03-11 13:36:18,773 [INFO] step 10 action norm=1.0937 max_abs=1.0117
+2026-03-11 13:46:56,962 [INFO] step 60 action norm=1.2433 max_abs=0.9597
+2026-03-11 13:57:35,540 [INFO] step 110 action norm=1.0436 max_abs=0.9522
+2026-03-11 14:08:14,533 [INFO] step 160 action norm=1.0118 max_abs=0.9530
+2026-03-11 14:18:59,167 [INFO] step 210 action norm=1.1054 max_abs=1.0161
+2026-03-11 14:29:38,919 [INFO] step 260 action norm=1.2381 max_abs=1.0133
+2026-03-11 14:39:22,478 [INFO] Task 9 (put the wine bottle on the rack...): 0/1
+2026-03-11 14:39:22,845 [INFO] Overall success rate: 0/10 = 0.00%

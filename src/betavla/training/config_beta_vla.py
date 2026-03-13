@@ -104,6 +104,7 @@ def load_beta_vla_config(path: str | Path) -> BetaVLATrainConfig:
         action_dim=model_cfg.get("action_dim", 32),
         action_horizon=model_cfg.get("action_horizon", 10),
         state_dim=model_cfg.get("state_dim") or data_cfg.get("state_dim", 8),
+        gripper_loss_weight=model_cfg.get("gripper_loss_weight", 5.0),
         freeze_vision=model_cfg.get("freeze_vision", False),
         freeze_language=model_cfg.get("freeze_language", False),
         freeze_vggt=model_cfg.get("freeze_vggt", False),

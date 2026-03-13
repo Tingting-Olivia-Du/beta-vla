@@ -16,9 +16,9 @@ from pathlib import Path
 
 from tqdm import tqdm
 
-from betavla.data.libero_loader import LiberoLoaderConfig, LiberoTorchDataset, create_libero_dataloader
+from betavla.data.libero_dataset import LiberoDatasetConfig, LiberoDataset, create_dataloader
 from betavla.data.running_stats import RunningStats
-from betavla.training.config_beta_vla import load_beta_vla_config
+from betavla.training.config import load_config
 
 
 def main() -> None:
@@ -57,10 +57,10 @@ def main() -> None:
     )
     args = p.parse_args()
 
-    cfg = load_beta_vla_config(args.config)
+    cfg = load_config(args.config)
 
     # Use same data config as training, but WITHOUT norm_stats (raw data for stats)
-    loader_cfg = LiberoLoaderConfig(
+    loader_cfg = LiberoDatasetConfig(
         repo_id=cfg.data.repo_id,
         split=cfg.data.split,
         num_workers=args.num_workers,
@@ -70,20 +70,18 @@ def main() -> None:
         norm_stats_path=None,  # critical: no normalization when computing stats
     )
 
-    dataset = LiberoTorchDataset(
+    dataset = LiberoDataset(
         loader_cfg,
         action_horizon=cfg.model.action_horizon,
         action_dim=cfg.model.action_dim,
-        state_dim=cfg.data.state_dim,
         tokenizer_name=cfg.model.language.model_name,
     )
 
-    loader = create_libero_dataloader(
+    loader = create_dataloader(
         loader_cfg,
         batch_size=args.batch_size,
         action_horizon=cfg.model.action_horizon,
         action_dim=cfg.model.action_dim,
-        state_dim=cfg.data.state_dim,
         tokenizer_name=cfg.model.language.model_name,
         dataset=dataset,
     )
@@ -106,7 +104,7 @@ def main() -> None:
         # actions: (B, action_horizon, action_dim) -> reshape to (B*T, action_dim)
         stats["action"].update(actions_np)
 
-        if args.max_samples is not None and stats["state"].count >= args.max_samples:
+        if args.max_samples is not None and stats["state"]._count >= args.max_samples:
             break
 
     norm_stats = {
@@ -117,12 +115,26 @@ def main() -> None:
     out_dir = args.out_dir or Path("assets/physical-intelligence/libero")
     out_path = out_dir / "norm_stats.json"
     out_path.parent.mkdir(parents=True, exist_ok=True)
+
+    def _to_list(arr):
+        import numpy as np
+        return np.asarray(arr).tolist() if arr is not None else None
+
+    serializable = {
+        key: {
+            "mean": _to_list(ns.mean),
+            "std": _to_list(ns.std),
+            "q01": _to_list(ns.q01),
+            "q99": _to_list(ns.q99),
+        }
+        for key, ns in norm_stats.items()
+    }
     with open(out_path, "w") as f:
-        json.dump(norm_stats, f, indent=2)
+        json.dump(serializable, f, indent=2)
 
     print(f"Saved norm_stats to {out_path}")
-    print(f"  state: mean len={len(norm_stats['state']['mean'])}, q01 len={len(norm_stats['state']['q01'])}")
-    print(f"  action: mean len={len(norm_stats['action']['mean'])}, q01 len={len(norm_stats['action']['q01'])}")
+    print(f"  state: dim={len(norm_stats['state'].mean)}")
+    print(f"  action: dim={len(norm_stats['action'].mean)}")
 
 
 if __name__ == "__main__":

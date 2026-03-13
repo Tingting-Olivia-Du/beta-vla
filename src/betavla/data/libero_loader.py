@@ -97,11 +97,31 @@ class LiberoTorchDataset(Dataset):
                 with path.open() as f:
                     self._norm_stats = json.load(f)
 
+        # Build episode_index -> sorted list of row indices.
+        # The dataset is stored frame-by-frame; we need consecutive rows to
+        # construct a real action chunk (current frame + next horizon-1 frames).
+        self._ep_rows: dict[int, list[int]] = {}
+        for i in range(len(self.ds)):
+            row = self.ds[i]
+            ep = int(np.asarray(row.get("episode_index", i)).flat[0])
+            self._ep_rows.setdefault(ep, []).append(i)
+        # Sort each episode's rows by frame_index to ensure correct order
+        for ep in self._ep_rows:
+            self._ep_rows[ep].sort(
+                key=lambda i: int(np.asarray(self.ds[i].get("frame_index", i)).flat[0])
+            )
+        # Build a flat list of valid (row_idx, position_in_episode) pairs
+        self._index: list[tuple[int, int]] = []
+        for ep, rows in self._ep_rows.items():
+            for pos, row_idx in enumerate(rows):
+                self._index.append((row_idx, pos, ep))
+
     def __len__(self) -> int:
-        return len(self.ds)
+        return len(self._index)
 
     def __getitem__(self, idx: int) -> tuple[dict[str, Any], np.ndarray]:
-        sample = self.ds[idx]
+        row_idx, pos, ep = self._index[idx]
+        sample = self.ds[row_idx]
 
         base_img = _pick_first(sample, ["observation/image", "image", "observation.image"])
         wrist_img = _pick_first(sample, ["observation/wrist_image", "wrist_image", "observation.wrist_image"])
@@ -121,11 +141,26 @@ class LiberoTorchDataset(Dataset):
             ns = self._norm_stats["state"]
             state = _quantile_normalize(state, ns["q01"], ns["q99"])
 
-        actions = _pick_first(sample, ["actions", "action"])
-        if actions is None:
-            raise KeyError("Could not find actions key in LIBERO sample.")
-        actions = _ensure_2d_actions(np.asarray(actions, dtype=np.float32), self.action_horizon, self.action_dim)
-        if self._norm_stats is not None and "action" in self._norm_stats: #normalize action
+        # Build a real action chunk by reading consecutive frames in the episode.
+        # This replaces the previous zero-padding which caused step 1+ to collapse.
+        ep_rows = self._ep_rows[ep]
+        chunk_actions = []
+        for k in range(self.action_horizon):
+            frame_pos = pos + k
+            if frame_pos < len(ep_rows):
+                frame_sample = self.ds[ep_rows[frame_pos]]
+            else:
+                frame_sample = self.ds[ep_rows[-1]]  # repeat last frame at episode end
+            a = _pick_first(frame_sample, ["actions", "action"])
+            if a is None:
+                raise KeyError("Could not find actions key in LIBERO sample.")
+            a = np.asarray(a, dtype=np.float32).reshape(-1)[: self.action_dim]
+            if a.shape[0] < self.action_dim:
+                a = np.pad(a, (0, self.action_dim - a.shape[0]))
+            chunk_actions.append(a)
+        actions = np.stack(chunk_actions, axis=0)  # (action_horizon, action_dim)
+
+        if self._norm_stats is not None and "action" in self._norm_stats:
             ns = self._norm_stats["action"]
             actions = _quantile_normalize(actions, ns["q01"], ns["q99"])
 
