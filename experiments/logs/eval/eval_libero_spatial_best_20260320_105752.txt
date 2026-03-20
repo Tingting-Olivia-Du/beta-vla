@@ -1,0 +1,798 @@
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep0--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep1--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep2--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep3--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep4--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep5--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep6--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep7--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep8--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep9--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep10--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep11--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep12--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep13--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep14--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep15--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep16--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep17--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep18--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep19--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep0--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep1--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep2--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep3--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep4--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep5--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep6--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep7--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep8--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep9--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep10--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep11--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep12--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep13--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep14--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep15--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep16--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep17--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep18--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep19--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep0--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep1--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep2--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep3--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep4--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep5--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep6--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep7--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep8--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep9--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep10--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep11--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep12--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep13--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep14--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep15--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep16--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep17--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep18--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep19--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep0--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep1--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep2--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep3--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep4--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep5--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep6--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep7--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep8--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep9--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep10--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep11--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep12--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep13--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep14--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep15--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep16--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep17--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep18--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep19--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep0--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep1--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep2--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep3--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep4--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep5--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep6--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep7--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep8--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep9--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep10--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep11--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep12--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep13--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep14--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep15--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep16--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep17--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep18--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep19--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep0--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep1--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep2--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep3--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep4--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep5--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep6--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep7--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep8--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep9--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep10--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep11--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep12--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep13--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep14--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep15--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep16--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep17--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep18--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep19--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep0--success=False--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep1--success=False--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep2--success=False--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep3--success=False--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep4--success=False--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep5--success=False--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep6--success=False--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep7--success=False--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep8--success=False--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep9--success=False--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep10--success=False--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep11--success=False--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep12--success=False--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep13--success=False--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep14--success=False--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep15--success=False--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep16--success=False--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep17--success=False--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep18--success=False--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep19--success=False--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep0--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep1--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep2--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep3--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep4--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep5--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep6--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep7--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep8--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep9--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep10--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep11--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep12--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep13--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep14--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep15--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep16--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep17--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep18--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep19--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep0--success=False--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep1--success=False--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep2--success=False--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep3--success=False--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep4--success=False--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep5--success=False--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep6--success=False--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep7--success=False--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep8--success=False--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep9--success=False--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep10--success=False--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep11--success=False--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep12--success=False--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep13--success=False--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep14--success=False--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep15--success=False--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep16--success=False--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep17--success=False--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep18--success=False--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep19--success=False--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep0--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep1--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep2--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep3--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep4--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep5--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep6--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep7--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep8--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep9--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep10--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep11--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep12--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep13--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep14--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep15--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep16--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep17--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep18--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/action-chunk-0316-20/2026_03_20-10_57_31--ep19--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+20 11:12:26,819 [INFO] step=60 action_norm=2.5489 max_abs=1.0068
+2026-03-20 11:12:29,005 [INFO] step=110 action_norm=2.6427 max_abs=0.9719
+2026-03-20 11:12:31,215 [INFO] step=160 action_norm=2.2540 max_abs=0.9568
+2026-03-20 11:12:33,477 [INFO] step=210 action_norm=2.2297 max_abs=0.9740
+2026-03-20 11:12:35,964 [INFO] step=10 action_norm=2.3834 max_abs=1.0280
+2026-03-20 11:12:38,126 [INFO] step=60 action_norm=2.6435 max_abs=1.0130
+2026-03-20 11:12:40,305 [INFO] step=110 action_norm=2.3997 max_abs=0.9735
+2026-03-20 11:12:42,554 [INFO] step=160 action_norm=2.3643 max_abs=0.9846
+2026-03-20 11:12:44,830 [INFO] step=210 action_norm=2.2236 max_abs=1.0064
+2026-03-20 11:12:47,332 [INFO] step=10 action_norm=2.3924 max_abs=1.0325
+2026-03-20 11:12:49,518 [INFO] step=60 action_norm=2.4543 max_abs=1.0067
+2026-03-20 11:12:51,759 [INFO] step=110 action_norm=2.9455 max_abs=0.9809
+2026-03-20 11:12:53,995 [INFO] step=160 action_norm=2.3787 max_abs=1.0330
+2026-03-20 11:12:56,240 [INFO] step=210 action_norm=2.3301 max_abs=1.0096
+2026-03-20 11:12:58,714 [INFO] step=10 action_norm=2.3629 max_abs=1.0319
+2026-03-20 11:13:00,880 [INFO] step=60 action_norm=2.3109 max_abs=0.9932
+2026-03-20 11:13:03,039 [INFO] step=110 action_norm=2.1837 max_abs=0.9648
+2026-03-20 11:13:05,222 [INFO] step=160 action_norm=2.2158 max_abs=0.9908
+2026-03-20 11:13:07,463 [INFO] step=210 action_norm=2.2225 max_abs=0.9858
+2026-03-20 11:13:09,981 [INFO] step=10 action_norm=2.3279 max_abs=1.0252
+2026-03-20 11:13:12,186 [INFO] step=60 action_norm=2.4020 max_abs=1.0062
+2026-03-20 11:13:14,413 [INFO] step=110 action_norm=2.5811 max_abs=0.9663
+2026-03-20 11:13:16,637 [INFO] step=160 action_norm=2.1788 max_abs=0.9699
+2026-03-20 11:13:18,922 [INFO] step=210 action_norm=2.2311 max_abs=0.9718
+2026-03-20 11:13:21,449 [INFO] step=10 action_norm=2.4776 max_abs=1.0311
+2026-03-20 11:13:23,635 [INFO] step=60 action_norm=2.4927 max_abs=1.0286
+2026-03-20 11:13:25,911 [INFO] step=110 action_norm=2.2945 max_abs=1.0249
+2026-03-20 11:13:28,110 [INFO] step=160 action_norm=2.0709 max_abs=0.9844
+2026-03-20 11:13:30,335 [INFO] step=210 action_norm=2.2294 max_abs=0.9905
+2026-03-20 11:13:32,815 [INFO] step=10 action_norm=2.3145 max_abs=1.0305
+2026-03-20 11:13:35,009 [INFO] step=60 action_norm=2.5545 max_abs=1.0208
+2026-03-20 11:13:37,231 [INFO] step=110 action_norm=2.2708 max_abs=0.9669
+2026-03-20 11:13:39,475 [INFO] step=160 action_norm=2.2851 max_abs=0.9955
+2026-03-20 11:13:41,733 [INFO] step=210 action_norm=2.3646 max_abs=0.9923
+2026-03-20 11:13:44,235 [INFO] step=10 action_norm=2.4097 max_abs=1.0249
+2026-03-20 11:13:46,414 [INFO] step=60 action_norm=2.3552 max_abs=1.0141
+2026-03-20 11:13:48,622 [INFO] step=110 action_norm=2.4092 max_abs=1.0205
+2026-03-20 11:13:50,844 [INFO] step=160 action_norm=2.1983 max_abs=0.9840
+2026-03-20 11:13:53,068 [INFO] step=210 action_norm=2.3988 max_abs=1.0212
+2026-03-20 11:13:55,580 [INFO] step=10 action_norm=2.4753 max_abs=1.0347
+2026-03-20 11:13:57,786 [INFO] step=60 action_norm=2.6351 max_abs=1.0210
+2026-03-20 11:14:00,026 [INFO] step=110 action_norm=2.2360 max_abs=0.9900
+2026-03-20 11:14:02,236 [INFO] step=160 action_norm=2.2240 max_abs=0.9788
+2026-03-20 11:14:04,494 [INFO] step=210 action_norm=2.4103 max_abs=0.9895
+2026-03-20 11:14:06,990 [INFO] step=10 action_norm=2.3025 max_abs=1.0351
+2026-03-20 11:14:09,193 [INFO] step=60 action_norm=2.2856 max_abs=1.0100
+2026-03-20 11:14:11,440 [INFO] step=110 action_norm=2.2748 max_abs=1.0012
+2026-03-20 11:14:13,693 [INFO] step=160 action_norm=2.2822 max_abs=1.0020
+2026-03-20 11:14:15,957 [INFO] step=210 action_norm=2.3137 max_abs=1.0033
+2026-03-20 11:14:18,516 [INFO] step=10 action_norm=2.4022 max_abs=1.0216
+2026-03-20 11:14:20,691 [INFO] step=60 action_norm=2.5956 max_abs=1.0024
+2026-03-20 11:14:22,868 [INFO] step=110 action_norm=2.3215 max_abs=0.9727
+2026-03-20 11:14:25,063 [INFO] step=160 action_norm=2.1950 max_abs=0.9868
+2026-03-20 11:14:27,264 [INFO] step=210 action_norm=2.2582 max_abs=0.9919
+2026-03-20 11:14:29,706 [INFO] step=10 action_norm=2.3590 max_abs=1.0248
+2026-03-20 11:14:31,880 [INFO] step=60 action_norm=2.4476 max_abs=1.0299
+2026-03-20 11:14:34,070 [INFO] step=110 action_norm=3.0870 max_abs=0.9726
+2026-03-20 11:14:36,332 [INFO] step=160 action_norm=2.2372 max_abs=0.9719
+2026-03-20 11:14:38,620 [INFO] step=210 action_norm=2.2305 max_abs=0.9709
+2026-03-20 11:14:41,088 [INFO] step=10 action_norm=2.2869 max_abs=1.0330
+2026-03-20 11:14:43,286 [INFO] step=60 action_norm=2.5252 max_abs=1.0019
+2026-03-20 11:14:45,569 [INFO] step=110 action_norm=2.3950 max_abs=1.0068
+2026-03-20 11:14:47,768 [INFO] step=160 action_norm=2.2539 max_abs=1.0057
+2026-03-20 11:14:50,028 [INFO] step=210 action_norm=2.2829 max_abs=1.0099
+2026-03-20 11:14:52,523 [INFO] step=10 action_norm=2.4058 max_abs=1.0270
+2026-03-20 11:14:54,726 [INFO] step=60 action_norm=2.4022 max_abs=0.9997
+2026-03-20 11:14:57,029 [INFO] step=110 action_norm=2.3935 max_abs=1.0105
+2026-03-20 11:14:59,223 [INFO] step=160 action_norm=2.2081 max_abs=1.0012
+2026-03-20 11:15:01,468 [INFO] step=210 action_norm=2.2566 max_abs=1.0053
+2026-03-20 11:15:04,503 [INFO] step=10 action_norm=2.3844 max_abs=1.0213
+2026-03-20 11:15:06,667 [INFO] step=60 action_norm=2.3343 max_abs=1.0040
+2026-03-20 11:15:08,874 [INFO] step=110 action_norm=2.4910 max_abs=1.0090
+2026-03-20 11:15:11,071 [INFO] step=160 action_norm=2.3142 max_abs=0.9689
+2026-03-20 11:15:13,300 [INFO] step=210 action_norm=2.3827 max_abs=1.0151
+2026-03-20 11:15:15,819 [INFO] step=10 action_norm=2.3402 max_abs=1.0416
+2026-03-20 11:15:18,008 [INFO] step=60 action_norm=2.2803 max_abs=1.0015
+2026-03-20 11:15:20,210 [INFO] step=110 action_norm=2.3587 max_abs=1.0205
+2026-03-20 11:15:22,427 [INFO] step=160 action_norm=2.2665 max_abs=0.9630
+2026-03-20 11:15:24,691 [INFO] step=210 action_norm=2.2092 max_abs=0.9917
+2026-03-20 11:15:27,173 [INFO] step=10 action_norm=2.2996 max_abs=1.0227
+2026-03-20 11:15:29,362 [INFO] step=60 action_norm=2.6328 max_abs=1.0052
+2026-03-20 11:15:31,565 [INFO] step=110 action_norm=2.2705 max_abs=0.9734
+2026-03-20 11:15:33,779 [INFO] step=160 action_norm=2.3170 max_abs=0.9686
+2026-03-20 11:15:35,985 [INFO] step=210 action_norm=2.2471 max_abs=0.9777
+2026-03-20 11:15:38,449 [INFO] step=10 action_norm=2.3258 max_abs=1.0254
+2026-03-20 11:15:40,641 [INFO] step=60 action_norm=2.4191 max_abs=1.0076
+2026-03-20 11:15:42,931 [INFO] step=110 action_norm=2.5188 max_abs=0.9936
+2026-03-20 11:15:45,137 [INFO] step=160 action_norm=2.2759 max_abs=0.9836
+2026-03-20 11:15:47,359 [INFO] step=210 action_norm=2.2884 max_abs=0.9997
+2026-03-20 11:15:49,817 [INFO] step=10 action_norm=2.3507 max_abs=1.0216
+2026-03-20 11:15:52,013 [INFO] step=60 action_norm=2.5444 max_abs=1.0272
+2026-03-20 11:15:54,247 [INFO] step=110 action_norm=2.3792 max_abs=0.9882
+2026-03-20 11:15:56,479 [INFO] step=160 action_norm=2.7149 max_abs=0.9819
+2026-03-20 11:15:58,792 [INFO] step=210 action_norm=2.2389 max_abs=0.9703
+2026-03-20 11:16:01,352 [INFO] step=10 action_norm=2.3807 max_abs=1.0209
+2026-03-20 11:16:03,527 [INFO] step=60 action_norm=2.4221 max_abs=1.0132
+2026-03-20 11:16:05,735 [INFO] step=110 action_norm=2.2022 max_abs=0.9922
+2026-03-20 11:16:07,940 [INFO] step=160 action_norm=2.2529 max_abs=0.9678
+2026-03-20 11:16:10,148 [INFO] step=210 action_norm=2.3778 max_abs=1.0166
+2026-03-20 11:16:11,360 [INFO] Task 4 (pick up the black bowl in the top drawer): 0/20
+2026-03-20 11:16:13,459 [INFO] step=10 action_norm=2.5335 max_abs=1.0140
+2026-03-20 11:16:15,616 [INFO] step=60 action_norm=2.6282 max_abs=0.9797
+2026-03-20 11:16:17,740 [INFO] step=110 action_norm=2.7726 max_abs=0.9847
+2026-03-20 11:16:19,913 [INFO] step=160 action_norm=2.2784 max_abs=1.0070
+2026-03-20 11:16:22,013 [INFO] step=210 action_norm=2.2479 max_abs=0.9954
+2026-03-20 11:16:24,455 [INFO] step=10 action_norm=2.4386 max_abs=1.0111
+2026-03-20 11:16:26,579 [INFO] step=60 action_norm=2.5689 max_abs=0.9838
+2026-03-20 11:16:28,609 [INFO] step=110 action_norm=2.1225 max_abs=0.9802
+2026-03-20 11:16:30,900 [INFO] step=160 action_norm=2.2894 max_abs=0.9979
+2026-03-20 11:16:33,184 [INFO] step=210 action_norm=2.2551 max_abs=1.0004
+2026-03-20 11:16:35,659 [INFO] step=10 action_norm=2.4001 max_abs=1.0178
+2026-03-20 11:16:37,832 [INFO] step=60 action_norm=3.1660 max_abs=0.9933
+2026-03-20 11:16:40,017 [INFO] step=110 action_norm=2.2606 max_abs=1.0025
+2026-03-20 11:16:42,170 [INFO] step=160 action_norm=2.2674 max_abs=1.0243
+2026-03-20 11:16:44,324 [INFO] step=210 action_norm=2.2355 max_abs=0.9883
+2026-03-20 11:16:46,498 [INFO] step=10 action_norm=2.5197 max_abs=1.0074
+2026-03-20 11:16:48,677 [INFO] step=60 action_norm=2.5123 max_abs=0.9771
+2026-03-20 11:16:50,869 [INFO] step=110 action_norm=2.4348 max_abs=0.9963
+2026-03-20 11:16:53,033 [INFO] step=160 action_norm=2.3334 max_abs=1.0071
+2026-03-20 11:16:55,338 [INFO] step=210 action_norm=2.2439 max_abs=1.0089
+2026-03-20 11:16:57,737 [INFO] step=10 action_norm=2.5144 max_abs=1.0135
+2026-03-20 11:16:59,908 [INFO] step=60 action_norm=2.3372 max_abs=1.0098
+2026-03-20 11:17:02,298 [INFO] step=110 action_norm=2.0155 max_abs=0.9897
+2026-03-20 11:17:04,416 [INFO] step=160 action_norm=2.3555 max_abs=1.0283
+2026-03-20 11:17:06,650 [INFO] step=210 action_norm=2.3667 max_abs=0.9981
+2026-03-20 11:17:09,180 [INFO] step=10 action_norm=2.5239 max_abs=1.0140
+2026-03-20 11:17:11,323 [INFO] step=60 action_norm=2.6092 max_abs=1.0015
+2026-03-20 11:17:13,467 [INFO] step=110 action_norm=2.8302 max_abs=1.0188
+2026-03-20 11:17:15,685 [INFO] step=160 action_norm=2.4469 max_abs=1.0379
+2026-03-20 11:17:17,770 [INFO] step=210 action_norm=2.2805 max_abs=1.0066
+2026-03-20 11:17:20,196 [INFO] step=10 action_norm=2.4251 max_abs=1.0069
+2026-03-20 11:17:22,354 [INFO] step=60 action_norm=2.2584 max_abs=1.0061
+2026-03-20 11:17:24,558 [INFO] step=110 action_norm=2.4607 max_abs=1.0193
+2026-03-20 11:17:26,710 [INFO] step=160 action_norm=2.2756 max_abs=0.9928
+2026-03-20 11:17:29,207 [INFO] step=210 action_norm=2.3822 max_abs=0.9880
+2026-03-20 11:17:31,848 [INFO] step=10 action_norm=2.3350 max_abs=1.0111
+2026-03-20 11:17:34,005 [INFO] step=60 action_norm=2.9967 max_abs=0.9931
+2026-03-20 11:17:37,404 [INFO] step=10 action_norm=2.4529 max_abs=1.0067
+2026-03-20 11:17:39,608 [INFO] step=60 action_norm=2.5471 max_abs=1.0182
+2026-03-20 11:17:41,880 [INFO] step=110 action_norm=2.2936 max_abs=1.0022
+2026-03-20 11:17:44,137 [INFO] step=160 action_norm=2.2465 max_abs=0.9905
+2026-03-20 11:17:46,564 [INFO] step=210 action_norm=2.4201 max_abs=0.9800
+2026-03-20 11:17:49,123 [INFO] step=10 action_norm=2.5221 max_abs=1.0121
+2026-03-20 11:17:51,297 [INFO] step=60 action_norm=2.2608 max_abs=1.0024
+2026-03-20 11:17:53,471 [INFO] step=110 action_norm=2.3381 max_abs=0.9954
+2026-03-20 11:17:55,627 [INFO] step=160 action_norm=2.3864 max_abs=1.0070
+2026-03-20 11:17:57,788 [INFO] step=210 action_norm=2.4280 max_abs=1.0073
+2026-03-20 11:18:00,201 [INFO] step=10 action_norm=2.2876 max_abs=1.0152
+2026-03-20 11:18:02,341 [INFO] step=60 action_norm=2.5457 max_abs=1.0147
+2026-03-20 11:18:04,512 [INFO] step=110 action_norm=2.4805 max_abs=0.9985
+2026-03-20 11:18:06,886 [INFO] step=160 action_norm=2.5215 max_abs=0.9943
+2026-03-20 11:18:09,142 [INFO] step=210 action_norm=2.2680 max_abs=1.0107
+2026-03-20 11:18:11,655 [INFO] step=10 action_norm=2.4681 max_abs=1.0035
+2026-03-20 11:18:13,907 [INFO] step=60 action_norm=3.0036 max_abs=0.9891
+2026-03-20 11:18:17,353 [INFO] step=10 action_norm=2.4797 max_abs=1.0159
+2026-03-20 11:18:19,587 [INFO] step=60 action_norm=2.8139 max_abs=0.9827
+2026-03-20 11:18:21,732 [INFO] step=110 action_norm=2.4182 max_abs=0.9811
+2026-03-20 11:18:23,916 [INFO] step=160 action_norm=2.3089 max_abs=1.0123
+2026-03-20 11:18:26,088 [INFO] step=210 action_norm=2.2554 max_abs=0.9995
+2026-03-20 11:18:28,524 [INFO] step=10 action_norm=2.3521 max_abs=1.0166
+2026-03-20 11:18:30,668 [INFO] step=60 action_norm=2.2303 max_abs=1.0037
+2026-03-20 11:18:32,831 [INFO] step=110 action_norm=2.3028 max_abs=1.0015
+2026-03-20 11:18:35,079 [INFO] step=160 action_norm=2.3313 max_abs=0.9772
+2026-03-20 11:18:37,422 [INFO] step=210 action_norm=2.3768 max_abs=0.9937
+2026-03-20 11:18:39,980 [INFO] step=10 action_norm=2.5441 max_abs=1.0088
+2026-03-20 11:18:42,106 [INFO] step=60 action_norm=2.5527 max_abs=1.0148
+2026-03-20 11:18:44,264 [INFO] step=110 action_norm=2.3091 max_abs=0.9849
+2026-03-20 11:18:46,484 [INFO] step=160 action_norm=2.0308 max_abs=0.9859
+2026-03-20 11:18:48,685 [INFO] step=210 action_norm=2.3362 max_abs=1.0092
+2026-03-20 11:18:51,143 [INFO] step=10 action_norm=2.3332 max_abs=1.0170
+2026-03-20 11:18:53,319 [INFO] step=60 action_norm=2.2560 max_abs=1.0002
+2026-03-20 11:18:55,441 [INFO] step=110 action_norm=2.5097 max_abs=1.0048
+2026-03-20 11:18:57,584 [INFO] step=160 action_norm=2.3573 max_abs=0.9852
+2026-03-20 11:18:59,717 [INFO] step=210 action_norm=2.2230 max_abs=1.0105
+2026-03-20 11:19:02,103 [INFO] step=10 action_norm=2.3877 max_abs=1.0066
+2026-03-20 11:19:04,257 [INFO] step=60 action_norm=2.3927 max_abs=1.0080
+2026-03-20 11:19:06,403 [INFO] step=110 action_norm=2.2546 max_abs=0.9934
+2026-03-20 11:19:08,606 [INFO] step=160 action_norm=2.2241 max_abs=0.9772
+2026-03-20 11:19:10,875 [INFO] step=210 action_norm=2.2541 max_abs=0.9739
+2026-03-20 11:19:13,363 [INFO] step=10 action_norm=2.4301 max_abs=1.0182
+2026-03-20 11:19:15,489 [INFO] step=60 action_norm=2.3659 max_abs=1.0225
+2026-03-20 11:19:17,699 [INFO] step=110 action_norm=2.2399 max_abs=0.9877
+2026-03-20 11:19:20,131 [INFO] step=160 action_norm=2.4422 max_abs=0.9970
+2026-03-20 11:19:22,428 [INFO] step=210 action_norm=2.3358 max_abs=1.0166
+2026-03-20 11:19:24,958 [INFO] step=10 action_norm=2.3665 max_abs=1.0053
+2026-03-20 11:19:27,165 [INFO] step=60 action_norm=2.2860 max_abs=1.0053
+2026-03-20 11:19:29,338 [INFO] step=110 action_norm=2.2847 max_abs=1.0017
+2026-03-20 11:19:31,485 [INFO] step=160 action_norm=2.4146 max_abs=1.0130
+2026-03-20 11:19:33,547 [INFO] step=210 action_norm=2.5011 max_abs=0.9852
+2026-03-20 11:19:35,954 [INFO] step=10 action_norm=2.4120 max_abs=1.0092
+2026-03-20 11:19:38,164 [INFO] step=60 action_norm=2.6595 max_abs=0.9894
+2026-03-20 11:19:40,365 [INFO] step=110 action_norm=2.8484 max_abs=1.0158
+2026-03-20 11:19:41,224 [INFO] Task 5 (pick up the black bowl on the ramekin an): 4/20
+2026-03-20 11:19:43,333 [INFO] step=10 action_norm=2.4100 max_abs=1.0103
+2026-03-20 11:19:45,415 [INFO] step=60 action_norm=2.2368 max_abs=1.0056
+2026-03-20 11:19:47,704 [INFO] step=110 action_norm=2.3376 max_abs=1.0201
+2026-03-20 11:19:49,811 [INFO] step=160 action_norm=2.1492 max_abs=0.9957
+2026-03-20 11:19:51,926 [INFO] step=210 action_norm=2.4492 max_abs=1.0159
+2026-03-20 11:19:54,376 [INFO] step=10 action_norm=2.4807 max_abs=1.0036
+2026-03-20 11:19:56,441 [INFO] step=60 action_norm=2.2796 max_abs=1.0034
+2026-03-20 11:19:58,512 [INFO] step=110 action_norm=2.3371 max_abs=0.9911
+2026-03-20 11:20:00,622 [INFO] step=160 action_norm=1.9827 max_abs=0.9686
+2026-03-20 11:20:02,744 [INFO] step=210 action_norm=2.2921 max_abs=0.9840
+2026-03-20 11:20:05,439 [INFO] step=10 action_norm=2.3897 max_abs=0.9997
+2026-03-20 11:20:07,557 [INFO] step=60 action_norm=2.4409 max_abs=1.0141
+2026-03-20 11:20:09,732 [INFO] step=110 action_norm=2.6046 max_abs=1.0174
+2026-03-20 11:20:11,809 [INFO] step=160 action_norm=2.3783 max_abs=1.0014
+2026-03-20 11:20:13,939 [INFO] step=210 action_norm=2.3446 max_abs=0.9949
+2026-03-20 11:20:16,346 [INFO] step=10 action_norm=2.2886 max_abs=1.0194
+2026-03-20 11:20:18,440 [INFO] step=60 action_norm=2.5673 max_abs=1.0197
+2026-03-20 11:20:20,561 [INFO] step=110 action_norm=2.8666 max_abs=0.9981
+2026-03-20 11:20:22,689 [INFO] step=160 action_norm=2.6065 max_abs=1.0103
+2026-03-20 11:20:24,814 [INFO] step=210 action_norm=2.8118 max_abs=1.0016
+2026-03-20 11:20:27,283 [INFO] step=10 action_norm=2.3568 max_abs=1.0129
+2026-03-20 11:20:29,376 [INFO] step=60 action_norm=2.4206 max_abs=1.0090
+2026-03-20 11:20:31,487 [INFO] step=110 action_norm=2.3324 max_abs=0.9893
+2026-03-20 11:20:33,610 [INFO] step=160 action_norm=2.2775 max_abs=0.9799
+2026-03-20 11:20:35,752 [INFO] step=210 action_norm=2.3228 max_abs=1.0103
+2026-03-20 11:20:38,199 [INFO] step=10 action_norm=2.3378 max_abs=1.0148
+2026-03-20 11:20:40,279 [INFO] step=60 action_norm=2.3580 max_abs=0.9999
+2026-03-20 11:20:42,376 [INFO] step=110 action_norm=2.3991 max_abs=1.0121
+2026-03-20 11:20:44,490 [INFO] step=160 action_norm=2.5609 max_abs=1.0144
+2026-03-20 11:20:46,611 [INFO] step=210 action_norm=2.3215 max_abs=1.0276
+2026-03-20 11:20:49,102 [INFO] step=10 action_norm=2.6152 max_abs=1.0063
+2026-03-20 11:20:51,189 [INFO] step=60 action_norm=2.2029 max_abs=0.9965
+2026-03-20 11:20:53,276 [INFO] step=110 action_norm=2.3043 max_abs=1.0048
+2026-03-20 11:20:55,372 [INFO] step=160 action_norm=2.2523 max_abs=0.9933
+2026-03-20 11:20:57,459 [INFO] step=210 action_norm=2.4882 max_abs=1.0040
+2026-03-20 11:20:59,872 [INFO] step=10 action_norm=2.5777 max_abs=1.0125
+2026-03-20 11:21:01,934 [INFO] step=60 action_norm=2.6794 max_abs=1.0332
+2026-03-20 11:21:04,020 [INFO] step=110 action_norm=2.2985 max_abs=1.0195
+2026-03-20 11:21:06,096 [INFO] step=160 action_norm=2.2925 max_abs=1.0213
+2026-03-20 11:21:08,169 [INFO] step=210 action_norm=2.0997 max_abs=0.9738
+2026-03-20 11:21:10,560 [INFO] step=10 action_norm=2.3772 max_abs=1.0125
+2026-03-20 11:21:12,617 [INFO] step=60 action_norm=2.4891 max_abs=1.0186
+2026-03-20 11:21:14,696 [INFO] step=110 action_norm=2.5022 max_abs=1.0271
+2026-03-20 11:21:16,763 [INFO] step=160 action_norm=2.8189 max_abs=0.9996
+2026-03-20 11:21:18,843 [INFO] step=210 action_norm=2.8146 max_abs=1.0120
+2026-03-20 11:21:21,228 [INFO] step=10 action_norm=2.3130 max_abs=1.0021
+2026-03-20 11:21:23,295 [INFO] step=60 action_norm=2.4385 max_abs=1.0067
+2026-03-20 11:21:25,359 [INFO] step=110 action_norm=2.2440 max_abs=0.9959
+2026-03-20 11:21:27,431 [INFO] step=160 action_norm=2.2398 max_abs=0.9967
+2026-03-20 11:21:29,500 [INFO] step=210 action_norm=2.3315 max_abs=0.9861
+2026-03-20 11:21:31,931 [INFO] step=10 action_norm=2.3462 max_abs=1.0115
+2026-03-20 11:21:34,019 [INFO] step=60 action_norm=2.2561 max_abs=1.0121
+2026-03-20 11:21:36,114 [INFO] step=110 action_norm=2.2649 max_abs=1.0043
+2026-03-20 11:21:38,198 [INFO] step=160 action_norm=2.3226 max_abs=0.9976
+2026-03-20 11:21:40,284 [INFO] step=210 action_norm=2.3504 max_abs=1.0278
+2026-03-20 11:21:42,727 [INFO] step=10 action_norm=2.3335 max_abs=1.0079
+2026-03-20 11:21:44,794 [INFO] step=60 action_norm=2.5555 max_abs=1.0229
+2026-03-20 11:21:46,883 [INFO] step=110 action_norm=2.3380 max_abs=1.0073
+2026-03-20 11:21:48,969 [INFO] step=160 action_norm=2.4565 max_abs=1.0153
+2026-03-20 11:21:51,089 [INFO] step=210 action_norm=2.3445 max_abs=1.0084
+2026-03-20 11:21:53,540 [INFO] step=10 action_norm=2.4417 max_abs=1.0189
+2026-03-20 11:21:55,624 [INFO] step=60 action_norm=2.2545 max_abs=1.0114
+2026-03-20 11:21:57,793 [INFO] step=110 action_norm=2.4656 max_abs=1.0303
+2026-03-20 11:21:59,868 [INFO] step=160 action_norm=2.3497 max_abs=1.0051
+2026-03-20 11:22:01,952 [INFO] step=210 action_norm=2.3802 max_abs=1.0150
+2026-03-20 11:22:04,376 [INFO] step=10 action_norm=2.4863 max_abs=0.9973
+2026-03-20 11:22:06,469 [INFO] step=60 action_norm=2.2001 max_abs=1.0099
+2026-03-20 11:22:08,551 [INFO] step=110 action_norm=2.1856 max_abs=0.9694
+2026-03-20 11:22:10,619 [INFO] step=160 action_norm=2.2229 max_abs=0.9910
+2026-03-20 11:22:12,705 [INFO] step=210 action_norm=2.1515 max_abs=0.9798
+2026-03-20 11:22:15,087 [INFO] step=10 action_norm=2.4033 max_abs=1.0096
+2026-03-20 11:22:17,157 [INFO] step=60 action_norm=2.5549 max_abs=1.0035
+2026-03-20 11:22:19,304 [INFO] step=110 action_norm=2.8315 max_abs=0.9950
+2026-03-20 11:22:21,441 [INFO] step=160 action_norm=2.3652 max_abs=1.0285
+2026-03-20 11:22:23,507 [INFO] step=210 action_norm=2.6817 max_abs=1.0269
+2026-03-20 11:22:25,919 [INFO] step=10 action_norm=2.3207 max_abs=1.0169
+2026-03-20 11:22:27,976 [INFO] step=60 action_norm=2.6848 max_abs=1.0037
+2026-03-20 11:22:30,065 [INFO] step=110 action_norm=2.4119 max_abs=0.9928
+2026-03-20 11:22:32,180 [INFO] step=160 action_norm=2.4490 max_abs=0.9933
+2026-03-20 11:22:34,283 [INFO] step=210 action_norm=2.3367 max_abs=1.0175
+2026-03-20 11:22:36,685 [INFO] step=10 action_norm=2.4884 max_abs=1.0093
+2026-03-20 11:22:38,769 [INFO] step=60 action_norm=2.2977 max_abs=0.9944
+2026-03-20 11:22:40,880 [INFO] step=110 action_norm=2.2537 max_abs=0.9899
+2026-03-20 11:22:42,998 [INFO] step=160 action_norm=2.1906 max_abs=0.9919
+2026-03-20 11:22:45,129 [INFO] step=210 action_norm=2.3790 max_abs=0.9845
+2026-03-20 11:22:47,574 [INFO] step=10 action_norm=2.3644 max_abs=1.0040
+2026-03-20 11:22:49,640 [INFO] step=60 action_norm=2.5454 max_abs=1.0001
+2026-03-20 11:22:51,731 [INFO] step=110 action_norm=2.2356 max_abs=1.0009
+2026-03-20 11:22:53,838 [INFO] step=160 action_norm=2.2893 max_abs=0.9771
+2026-03-20 11:22:55,957 [INFO] step=210 action_norm=2.1624 max_abs=0.9851
+2026-03-20 11:22:58,385 [INFO] step=10 action_norm=2.4541 max_abs=1.0113
+2026-03-20 11:23:00,456 [INFO] step=60 action_norm=2.3541 max_abs=0.9907
+2026-03-20 11:23:02,557 [INFO] step=110 action_norm=2.3477 max_abs=0.9906
+2026-03-20 11:23:04,639 [INFO] step=160 action_norm=2.7241 max_abs=1.0119
+2026-03-20 11:23:06,727 [INFO] step=210 action_norm=2.3912 max_abs=1.0052
+2026-03-20 11:23:09,182 [INFO] step=10 action_norm=2.3019 max_abs=1.0042
+2026-03-20 11:23:11,273 [INFO] step=60 action_norm=2.2403 max_abs=1.0048
+2026-03-20 11:23:13,378 [INFO] step=110 action_norm=2.0801 max_abs=0.9879
+2026-03-20 11:23:15,548 [INFO] step=160 action_norm=2.3018 max_abs=1.0206
+2026-03-20 11:23:17,729 [INFO] step=210 action_norm=2.3750 max_abs=1.0158
+2026-03-20 11:23:18,959 [INFO] Task 6 (pick up the black bowl next to the cooki): 0/20
+2026-03-20 11:23:21,046 [INFO] step=10 action_norm=2.4640 max_abs=1.0219
+2026-03-20 11:23:23,139 [INFO] step=60 action_norm=2.8682 max_abs=1.0145
+2026-03-20 11:23:25,261 [INFO] step=110 action_norm=2.4858 max_abs=0.9951
+2026-03-20 11:23:27,401 [INFO] step=160 action_norm=2.3697 max_abs=0.9896
+2026-03-20 11:23:29,604 [INFO] step=210 action_norm=2.1752 max_abs=0.9959
+2026-03-20 11:23:32,048 [INFO] step=10 action_norm=2.4260 max_abs=1.0216
+2026-03-20 11:23:34,144 [INFO] step=60 action_norm=2.3527 max_abs=1.0238
+2026-03-20 11:23:36,260 [INFO] step=110 action_norm=2.3262 max_abs=1.0226
+2026-03-20 11:23:38,359 [INFO] step=160 action_norm=2.4953 max_abs=1.0075
+2026-03-20 11:23:40,458 [INFO] step=210 action_norm=2.2134 max_abs=0.9911
+2026-03-20 11:23:42,855 [INFO] step=10 action_norm=2.4183 max_abs=1.0032
+2026-03-20 11:23:44,951 [INFO] step=60 action_norm=2.4978 max_abs=1.0056
+2026-03-20 11:23:47,083 [INFO] step=110 action_norm=2.7039 max_abs=1.0116
+2026-03-20 11:23:49,213 [INFO] step=160 action_norm=2.6954 max_abs=0.9988
+2026-03-20 11:23:51,346 [INFO] step=210 action_norm=2.1788 max_abs=1.0006
+2026-03-20 11:23:53,805 [INFO] step=10 action_norm=2.3752 max_abs=1.0104
+2026-03-20 11:23:55,889 [INFO] step=60 action_norm=2.4327 max_abs=1.0014
+2026-03-20 11:23:57,982 [INFO] step=110 action_norm=2.2023 max_abs=0.9950
+2026-03-20 11:24:00,094 [INFO] step=160 action_norm=2.3007 max_abs=0.9776
+2026-03-20 11:24:02,234 [INFO] step=210 action_norm=2.3391 max_abs=0.9959
+2026-03-20 11:24:04,723 [INFO] step=10 action_norm=2.3736 max_abs=1.0377
+2026-03-20 11:24:06,830 [INFO] step=60 action_norm=2.4745 max_abs=1.0010
+2026-03-20 11:24:08,990 [INFO] step=110 action_norm=2.5152 max_abs=0.9841
+2026-03-20 11:24:11,114 [INFO] step=160 action_norm=2.2390 max_abs=0.9924
+2026-03-20 11:24:13,233 [INFO] step=210 action_norm=2.2842 max_abs=1.0031
+2026-03-20 11:24:15,660 [INFO] step=10 action_norm=2.2858 max_abs=1.0116
+2026-03-20 11:24:17,750 [INFO] step=60 action_norm=2.2772 max_abs=1.0172
+2026-03-20 11:24:19,830 [INFO] step=110 action_norm=2.2927 max_abs=1.0204
+2026-03-20 11:24:21,909 [INFO] step=160 action_norm=2.3110 max_abs=1.0203
+2026-03-20 11:24:24,017 [INFO] step=210 action_norm=2.4141 max_abs=0.9735
+2026-03-20 11:24:26,476 [INFO] step=10 action_norm=2.5221 max_abs=1.0431
+2026-03-20 11:24:28,567 [INFO] step=60 action_norm=2.3910 max_abs=1.0301
+2026-03-20 11:24:30,671 [INFO] step=110 action_norm=2.3189 max_abs=0.9949
+2026-03-20 11:24:32,797 [INFO] step=160 action_norm=2.4158 max_abs=1.0172
+2026-03-20 11:24:34,921 [INFO] step=210 action_norm=2.3589 max_abs=0.9740
+2026-03-20 11:24:37,339 [INFO] step=10 action_norm=2.4481 max_abs=1.0097
+2026-03-20 11:24:39,446 [INFO] step=60 action_norm=2.3394 max_abs=1.0191
+2026-03-20 11:24:41,582 [INFO] step=110 action_norm=2.2283 max_abs=0.9942
+2026-03-20 11:24:43,765 [INFO] step=160 action_norm=2.2637 max_abs=1.0173
+2026-03-20 11:24:45,964 [INFO] step=210 action_norm=2.2064 max_abs=0.9902
+2026-03-20 11:24:48,462 [INFO] step=10 action_norm=2.3622 max_abs=1.0227
+2026-03-20 11:24:50,566 [INFO] step=60 action_norm=2.4273 max_abs=1.0155
+2026-03-20 11:24:52,696 [INFO] step=110 action_norm=2.4151 max_abs=1.0033
+2026-03-20 11:24:54,859 [INFO] step=160 action_norm=2.4383 max_abs=0.9994
+2026-03-20 11:24:57,056 [INFO] step=210 action_norm=2.0096 max_abs=0.9842
+2026-03-20 11:24:59,620 [INFO] step=10 action_norm=2.6031 max_abs=1.0079
+2026-03-20 11:25:01,741 [INFO] step=60 action_norm=2.3279 max_abs=0.9816
+2026-03-20 11:25:03,883 [INFO] step=110 action_norm=2.3256 max_abs=1.0028
+2026-03-20 11:25:06,041 [INFO] step=160 action_norm=2.4270 max_abs=0.9853
+2026-03-20 11:25:08,210 [INFO] step=210 action_norm=2.3783 max_abs=0.9893
+2026-03-20 11:25:10,683 [INFO] step=10 action_norm=2.4772 max_abs=1.0132
+2026-03-20 11:25:12,782 [INFO] step=60 action_norm=2.4151 max_abs=0.9976
+2026-03-20 11:25:14,903 [INFO] step=110 action_norm=2.4383 max_abs=1.0012
+2026-03-20 11:25:17,032 [INFO] step=160 action_norm=2.4343 max_abs=0.9863
+2026-03-20 11:25:19,157 [INFO] step=210 action_norm=2.4692 max_abs=0.9847
+2026-03-20 11:25:21,621 [INFO] step=10 action_norm=2.4153 max_abs=1.0227
+2026-03-20 11:25:23,741 [INFO] step=60 action_norm=2.3483 max_abs=1.0195
+2026-03-20 11:25:25,859 [INFO] step=110 action_norm=2.2199 max_abs=1.0084
+2026-03-20 11:25:28,015 [INFO] step=160 action_norm=2.3277 max_abs=1.0012
+2026-03-20 11:25:30,197 [INFO] step=210 action_norm=2.2635 max_abs=1.0107
+2026-03-20 11:25:32,770 [INFO] step=10 action_norm=2.3816 max_abs=1.0242
+2026-03-20 11:25:34,899 [INFO] step=60 action_norm=2.5368 max_abs=1.0190
+2026-03-20 11:25:37,021 [INFO] step=110 action_norm=2.3081 max_abs=0.9850
+2026-03-20 11:25:39,167 [INFO] step=160 action_norm=2.3074 max_abs=0.9704
+2026-03-20 11:25:41,386 [INFO] step=210 action_norm=2.5030 max_abs=1.0003
+2026-03-20 11:25:43,924 [INFO] step=10 action_norm=2.3715 max_abs=1.0110
+2026-03-20 11:25:46,029 [INFO] step=60 action_norm=2.3616 max_abs=1.0122
+2026-03-20 11:25:48,163 [INFO] step=110 action_norm=2.0422 max_abs=1.0391
+2026-03-20 11:25:50,301 [INFO] step=160 action_norm=2.2675 max_abs=0.9940
+2026-03-20 11:25:52,442 [INFO] step=210 action_norm=2.3410 max_abs=0.9949
+2026-03-20 11:25:54,882 [INFO] step=10 action_norm=2.3000 max_abs=1.0182
+2026-03-20 11:25:56,978 [INFO] step=60 action_norm=2.5470 max_abs=1.0079
+2026-03-20 11:25:59,112 [INFO] step=110 action_norm=2.4199 max_abs=1.0139
+2026-03-20 11:26:01,235 [INFO] step=160 action_norm=2.3910 max_abs=0.9995
+2026-03-20 11:26:03,362 [INFO] step=210 action_norm=2.6641 max_abs=1.0110
+2026-03-20 11:26:05,781 [INFO] step=10 action_norm=2.2696 max_abs=1.0137
+2026-03-20 11:26:07,895 [INFO] step=60 action_norm=2.2623 max_abs=1.0060
+2026-03-20 11:26:10,071 [INFO] step=110 action_norm=2.3260 max_abs=0.9962
+2026-03-20 11:26:12,259 [INFO] step=160 action_norm=2.2551 max_abs=1.0022
+2026-03-20 11:26:14,424 [INFO] step=210 action_norm=2.2471 max_abs=1.0061
+2026-03-20 11:26:16,880 [INFO] step=10 action_norm=2.2994 max_abs=1.0286
+2026-03-20 11:26:19,022 [INFO] step=60 action_norm=2.2469 max_abs=0.9831
+2026-03-20 11:26:21,190 [INFO] step=110 action_norm=1.8902 max_abs=0.9913
+2026-03-20 11:26:23,359 [INFO] step=160 action_norm=2.2570 max_abs=0.9763
+2026-03-20 11:26:25,583 [INFO] step=210 action_norm=2.3625 max_abs=0.9805
+2026-03-20 11:26:28,076 [INFO] step=10 action_norm=2.3653 max_abs=1.0222
+2026-03-20 11:26:30,172 [INFO] step=60 action_norm=2.8077 max_abs=0.9961
+2026-03-20 11:26:32,301 [INFO] step=110 action_norm=2.2748 max_abs=1.0041
+2026-03-20 11:26:34,419 [INFO] step=160 action_norm=2.2732 max_abs=0.9809
+2026-03-20 11:26:36,577 [INFO] step=210 action_norm=2.4401 max_abs=0.9856
+2026-03-20 11:26:39,026 [INFO] step=10 action_norm=2.3714 max_abs=1.0268
+2026-03-20 11:26:41,126 [INFO] step=60 action_norm=2.2612 max_abs=1.0007
+2026-03-20 11:26:43,225 [INFO] step=110 action_norm=2.3070 max_abs=1.0186
+2026-03-20 11:26:45,314 [INFO] step=160 action_norm=2.3251 max_abs=1.0254
+2026-03-20 11:26:47,404 [INFO] step=210 action_norm=2.3093 max_abs=1.0278
+2026-03-20 11:26:50,091 [INFO] step=10 action_norm=2.3949 max_abs=1.0233
+2026-03-20 11:26:52,196 [INFO] step=60 action_norm=2.4729 max_abs=0.9838
+2026-03-20 11:26:54,332 [INFO] step=110 action_norm=2.5493 max_abs=1.0014
+2026-03-20 11:26:56,471 [INFO] step=160 action_norm=2.5171 max_abs=1.0050
+2026-03-20 11:26:58,612 [INFO] step=210 action_norm=2.7474 max_abs=1.0107
+2026-03-20 11:26:59,781 [INFO] Task 7 (pick up the black bowl on the stove and ): 0/20
+2026-03-20 11:27:01,854 [INFO] step=10 action_norm=2.4739 max_abs=1.0184
+2026-03-20 11:27:03,926 [INFO] step=60 action_norm=2.4523 max_abs=0.9993
+2026-03-20 11:27:06,227 [INFO] step=110 action_norm=2.3203 max_abs=1.0094
+2026-03-20 11:27:08,321 [INFO] step=160 action_norm=2.3656 max_abs=1.0089
+2026-03-20 11:27:10,684 [INFO] step=210 action_norm=2.2735 max_abs=0.9970
+2026-03-20 11:27:13,156 [INFO] step=10 action_norm=2.3732 max_abs=1.0339
+2026-03-20 11:27:15,265 [INFO] step=60 action_norm=2.2929 max_abs=1.0091
+2026-03-20 11:27:17,443 [INFO] step=110 action_norm=2.4283 max_abs=0.9471
+2026-03-20 11:27:19,642 [INFO] step=160 action_norm=2.2414 max_abs=0.9825
+2026-03-20 11:27:21,849 [INFO] step=210 action_norm=2.2109 max_abs=0.9772
+2026-03-20 11:27:24,340 [INFO] step=10 action_norm=2.6058 max_abs=1.0141
+2026-03-20 11:27:26,411 [INFO] step=60 action_norm=2.3327 max_abs=1.0132
+2026-03-20 11:27:28,513 [INFO] step=110 action_norm=2.2514 max_abs=0.9975
+2026-03-20 11:27:30,793 [INFO] step=160 action_norm=2.2743 max_abs=0.9946
+2026-03-20 11:27:33,178 [INFO] step=210 action_norm=2.2517 max_abs=1.0029
+2026-03-20 11:27:35,723 [INFO] step=10 action_norm=2.4019 max_abs=1.0254
+2026-03-20 11:27:37,831 [INFO] step=60 action_norm=2.2644 max_abs=1.0086
+2026-03-20 11:27:40,055 [INFO] step=110 action_norm=2.3234 max_abs=0.9776
+2026-03-20 11:27:42,280 [INFO] step=160 action_norm=2.2297 max_abs=0.9875
+2026-03-20 11:27:44,454 [INFO] step=210 action_norm=2.3971 max_abs=0.9794
+2026-03-20 11:27:46,921 [INFO] step=10 action_norm=2.3926 max_abs=1.0269
+2026-03-20 11:27:48,970 [INFO] step=60 action_norm=2.4410 max_abs=0.9945
+2026-03-20 11:27:51,075 [INFO] step=110 action_norm=2.4503 max_abs=0.9767
+2026-03-20 11:27:53,163 [INFO] step=160 action_norm=2.3829 max_abs=0.9999
+2026-03-20 11:27:55,222 [INFO] step=210 action_norm=2.4394 max_abs=1.0126
+2026-03-20 11:27:57,603 [INFO] step=10 action_norm=2.5397 max_abs=1.0182
+2026-03-20 11:27:59,663 [INFO] step=60 action_norm=2.3669 max_abs=1.0118
+2026-03-20 11:28:01,772 [INFO] step=110 action_norm=2.3310 max_abs=0.9830
+2026-03-20 11:28:03,953 [INFO] step=160 action_norm=2.3792 max_abs=0.9705
+2026-03-20 11:28:06,109 [INFO] step=210 action_norm=2.2497 max_abs=0.9724
+2026-03-20 11:28:08,757 [INFO] step=10 action_norm=2.6222 max_abs=1.0207
+2026-03-20 11:28:10,867 [INFO] step=60 action_norm=2.2783 max_abs=1.0165
+2026-03-20 11:28:13,095 [INFO] step=110 action_norm=2.5694 max_abs=0.9864
+2026-03-20 11:28:15,277 [INFO] step=160 action_norm=2.4225 max_abs=1.0045
+2026-03-20 11:28:17,446 [INFO] step=210 action_norm=2.2624 max_abs=0.9951
+2026-03-20 11:28:19,855 [INFO] step=10 action_norm=2.4891 max_abs=1.0185
+2026-03-20 11:28:21,984 [INFO] step=60 action_norm=2.4939 max_abs=0.9893
+2026-03-20 11:28:24,101 [INFO] step=110 action_norm=2.3234 max_abs=0.9877
+2026-03-20 11:28:26,230 [INFO] step=160 action_norm=2.3254 max_abs=0.9816
+2026-03-20 11:28:28,449 [INFO] step=210 action_norm=2.0661 max_abs=0.9966
+2026-03-20 11:28:30,934 [INFO] step=10 action_norm=2.3455 max_abs=1.0119
+2026-03-20 11:28:33,051 [INFO] step=60 action_norm=2.5480 max_abs=1.0034
+2026-03-20 11:28:35,311 [INFO] step=110 action_norm=2.2785 max_abs=0.9915
+2026-03-20 11:28:37,599 [INFO] step=160 action_norm=2.2657 max_abs=0.9904
+2026-03-20 11:28:39,923 [INFO] step=210 action_norm=2.3519 max_abs=0.9780
+2026-03-20 11:28:42,449 [INFO] step=10 action_norm=2.4515 max_abs=1.0207
+2026-03-20 11:28:44,512 [INFO] step=60 action_norm=2.4530 max_abs=1.0173
+2026-03-20 11:28:46,593 [INFO] step=110 action_norm=2.2417 max_abs=1.0013
+2026-03-20 11:28:48,689 [INFO] step=160 action_norm=2.1634 max_abs=0.9972
+2026-03-20 11:28:50,825 [INFO] step=210 action_norm=2.3472 max_abs=0.9837
+2026-03-20 11:28:53,275 [INFO] step=10 action_norm=2.3571 max_abs=1.0213
+2026-03-20 11:28:55,354 [INFO] step=60 action_norm=2.1786 max_abs=0.9886
+2026-03-20 11:28:57,499 [INFO] step=110 action_norm=2.3428 max_abs=1.0061
+2026-03-20 11:29:00,114 [INFO] step=160 action_norm=2.3224 max_abs=1.0082
+2026-03-20 11:29:02,338 [INFO] step=210 action_norm=2.6593 max_abs=0.9939
+2026-03-20 11:29:04,792 [INFO] step=10 action_norm=2.3766 max_abs=1.0239
+2026-03-20 11:29:06,884 [INFO] step=60 action_norm=2.3064 max_abs=1.0171
+2026-03-20 11:29:09,008 [INFO] step=110 action_norm=2.2778 max_abs=0.9966
+2026-03-20 11:29:11,181 [INFO] step=160 action_norm=2.2365 max_abs=0.9918
+2026-03-20 11:29:13,330 [INFO] step=210 action_norm=2.3000 max_abs=0.9929
+2026-03-20 11:29:15,782 [INFO] step=10 action_norm=2.2944 max_abs=1.0253
+2026-03-20 11:29:17,857 [INFO] step=60 action_norm=2.3635 max_abs=1.0005
+2026-03-20 11:29:19,994 [INFO] step=110 action_norm=2.2597 max_abs=0.9769
+2026-03-20 11:29:22,128 [INFO] step=160 action_norm=2.2371 max_abs=0.9920
+2026-03-20 11:29:24,306 [INFO] step=210 action_norm=2.1514 max_abs=1.0027
+2026-03-20 11:29:26,726 [INFO] step=10 action_norm=2.3640 max_abs=1.0139
+2026-03-20 11:29:28,855 [INFO] step=60 action_norm=2.5136 max_abs=0.9965
+2026-03-20 11:29:30,993 [INFO] step=110 action_norm=2.2577 max_abs=0.9581
+2026-03-20 11:29:33,146 [INFO] step=160 action_norm=2.2904 max_abs=1.0067
+2026-03-20 11:29:35,356 [INFO] step=210 action_norm=2.2738 max_abs=1.0073
+2026-03-20 11:29:37,777 [INFO] step=10 action_norm=2.5263 max_abs=1.0141
+2026-03-20 11:29:39,856 [INFO] step=60 action_norm=2.2846 max_abs=0.9983
+2026-03-20 11:29:41,971 [INFO] step=110 action_norm=2.1708 max_abs=0.9841
+2026-03-20 11:29:44,154 [INFO] step=160 action_norm=2.1173 max_abs=0.9742
+2026-03-20 11:29:46,337 [INFO] step=210 action_norm=2.2917 max_abs=0.9757
+2026-03-20 11:29:48,839 [INFO] step=10 action_norm=2.5368 max_abs=0.9965
+2026-03-20 11:29:50,920 [INFO] step=60 action_norm=2.2969 max_abs=1.0007
+2026-03-20 11:29:53,119 [INFO] step=110 action_norm=2.2728 max_abs=0.9964
+2026-03-20 11:29:55,386 [INFO] step=160 action_norm=2.3533 max_abs=0.9888
+2026-03-20 11:29:57,862 [INFO] step=210 action_norm=1.9925 max_abs=0.9893
+2026-03-20 11:30:00,378 [INFO] step=10 action_norm=2.3615 max_abs=1.0196
+2026-03-20 11:30:02,459 [INFO] step=60 action_norm=2.4715 max_abs=1.0064
+2026-03-20 11:30:04,588 [INFO] step=110 action_norm=2.1856 max_abs=1.0000
+2026-03-20 11:30:06,790 [INFO] step=160 action_norm=2.4540 max_abs=1.0005
+2026-03-20 11:30:08,980 [INFO] step=210 action_norm=2.3835 max_abs=1.0104
+2026-03-20 11:30:11,457 [INFO] step=10 action_norm=2.4262 max_abs=1.0149
+2026-03-20 11:30:13,586 [INFO] step=60 action_norm=2.4399 max_abs=1.0199
+2026-03-20 11:30:15,945 [INFO] step=110 action_norm=2.2662 max_abs=0.9900
+2026-03-20 11:30:18,253 [INFO] step=160 action_norm=2.3637 max_abs=0.9951
+2026-03-20 11:30:20,661 [INFO] step=210 action_norm=2.3676 max_abs=1.0085
+2026-03-20 11:30:23,137 [INFO] step=10 action_norm=2.5103 max_abs=1.0064
+2026-03-20 11:30:25,215 [INFO] step=60 action_norm=2.5927 max_abs=1.0194
+2026-03-20 11:30:27,354 [INFO] step=110 action_norm=2.2615 max_abs=0.9921
+2026-03-20 11:30:29,506 [INFO] step=160 action_norm=2.2641 max_abs=0.9707
+2026-03-20 11:30:31,726 [INFO] step=210 action_norm=2.2591 max_abs=0.9697
+2026-03-20 11:30:34,194 [INFO] step=10 action_norm=2.5597 max_abs=1.0169
+2026-03-20 11:30:36,261 [INFO] step=60 action_norm=2.0614 max_abs=1.0030
+2026-03-20 11:30:38,546 [INFO] step=110 action_norm=2.3103 max_abs=1.0010
+2026-03-20 11:30:40,716 [INFO] step=160 action_norm=2.4528 max_abs=1.0125
+2026-03-20 11:30:42,929 [INFO] step=210 action_norm=2.3700 max_abs=1.0111
+2026-03-20 11:30:44,092 [INFO] Task 8 (pick up the black bowl next to the plate): 0/20
+2026-03-20 11:30:46,269 [INFO] step=10 action_norm=2.3947 max_abs=1.0251
+2026-03-20 11:30:48,367 [INFO] step=60 action_norm=2.4888 max_abs=1.0055
+2026-03-20 11:30:50,487 [INFO] step=110 action_norm=2.3647 max_abs=0.9936
+2026-03-20 11:30:52,701 [INFO] step=160 action_norm=2.3167 max_abs=0.9891
+2026-03-20 11:30:54,843 [INFO] step=210 action_norm=2.2308 max_abs=0.9989
+2026-03-20 11:30:57,280 [INFO] step=10 action_norm=2.5868 max_abs=1.0132
+2026-03-20 11:30:59,384 [INFO] step=60 action_norm=2.4019 max_abs=0.9916
+2026-03-20 11:31:01,562 [INFO] step=110 action_norm=2.0259 max_abs=0.9639
+2026-03-20 11:31:03,705 [INFO] step=160 action_norm=2.2731 max_abs=1.0008
+2026-03-20 11:31:05,868 [INFO] step=210 action_norm=2.3202 max_abs=0.9988
+2026-03-20 11:31:08,313 [INFO] step=10 action_norm=2.2766 max_abs=1.0185
+2026-03-20 11:31:10,428 [INFO] step=60 action_norm=2.3440 max_abs=1.0091
+2026-03-20 11:31:12,570 [INFO] step=110 action_norm=2.9306 max_abs=0.9825
+2026-03-20 11:31:14,668 [INFO] step=160 action_norm=2.5016 max_abs=1.0010
+2026-03-20 11:31:16,870 [INFO] step=210 action_norm=2.2876 max_abs=1.0040
+2026-03-20 11:31:19,306 [INFO] step=10 action_norm=2.3652 max_abs=1.0217
+2026-03-20 11:31:21,397 [INFO] step=60 action_norm=2.3376 max_abs=0.9826
+2026-03-20 11:31:23,531 [INFO] step=110 action_norm=2.2677 max_abs=0.9996
+2026-03-20 11:31:25,702 [INFO] step=160 action_norm=2.1700 max_abs=0.9691
+2026-03-20 11:31:27,885 [INFO] step=210 action_norm=2.2318 max_abs=0.9962
+2026-03-20 11:31:30,318 [INFO] step=10 action_norm=2.2805 max_abs=1.0208
+2026-03-20 11:31:32,423 [INFO] step=60 action_norm=2.4941 max_abs=1.0052
+2026-03-20 11:31:34,555 [INFO] step=110 action_norm=2.6135 max_abs=0.9916
+2026-03-20 11:31:36,662 [INFO] step=160 action_norm=2.2959 max_abs=0.9947
+2026-03-20 11:31:38,814 [INFO] step=210 action_norm=2.3776 max_abs=0.9830
+2026-03-20 11:31:41,251 [INFO] step=10 action_norm=2.2995 max_abs=1.0251
+2026-03-20 11:31:43,441 [INFO] step=60 action_norm=2.2623 max_abs=1.0031
+2026-03-20 11:31:45,717 [INFO] step=110 action_norm=2.6416 max_abs=0.9735
+2026-03-20 11:31:48,069 [INFO] step=160 action_norm=2.3000 max_abs=0.9876
+2026-03-20 11:31:50,687 [INFO] step=210 action_norm=2.2949 max_abs=1.0211
+2026-03-20 11:31:53,174 [INFO] step=10 action_norm=2.5773 max_abs=1.0002
+2026-03-20 11:31:55,294 [INFO] step=60 action_norm=2.6460 max_abs=0.9895
+2026-03-20 11:31:57,489 [INFO] step=110 action_norm=2.2481 max_abs=0.9958
+2026-03-20 11:31:59,720 [INFO] step=160 action_norm=2.2338 max_abs=0.9786
+2026-03-20 11:32:01,927 [INFO] step=210 action_norm=2.3531 max_abs=0.9885
+2026-03-20 11:32:04,421 [INFO] step=10 action_norm=2.5023 max_abs=1.0253
+2026-03-20 11:32:06,521 [INFO] step=60 action_norm=2.6119 max_abs=0.9917
+2026-03-20 11:32:08,646 [INFO] step=110 action_norm=2.3562 max_abs=0.9998
+2026-03-20 11:32:10,782 [INFO] step=160 action_norm=2.4415 max_abs=0.9919
+2026-03-20 11:32:12,927 [INFO] step=210 action_norm=2.5367 max_abs=1.0103
+2026-03-20 11:32:15,370 [INFO] step=10 action_norm=2.5058 max_abs=1.0209
+2026-03-20 11:32:17,472 [INFO] step=60 action_norm=2.1319 max_abs=1.0003
+2026-03-20 11:32:19,597 [INFO] step=110 action_norm=2.7230 max_abs=0.9912
+2026-03-20 11:32:21,735 [INFO] step=160 action_norm=2.1802 max_abs=1.0083
+2026-03-20 11:32:23,842 [INFO] step=210 action_norm=2.3367 max_abs=1.0148
+2026-03-20 11:32:26,313 [INFO] step=10 action_norm=2.3210 max_abs=1.0250
+2026-03-20 11:32:28,411 [INFO] step=60 action_norm=2.3673 max_abs=0.9899
+2026-03-20 11:32:30,631 [INFO] step=110 action_norm=2.7377 max_abs=0.9805
+2026-03-20 11:32:32,827 [INFO] step=160 action_norm=2.2999 max_abs=1.0220
+2026-03-20 11:32:34,900 [INFO] step=210 action_norm=2.2809 max_abs=1.0064
+2026-03-20 11:32:37,305 [INFO] step=10 action_norm=2.3367 max_abs=1.0104
+2026-03-20 11:32:39,418 [INFO] step=60 action_norm=2.5994 max_abs=1.0057
+2026-03-20 11:32:41,620 [INFO] step=110 action_norm=2.2716 max_abs=0.9858
+2026-03-20 11:32:43,785 [INFO] step=160 action_norm=2.4228 max_abs=1.0152
+2026-03-20 11:32:45,929 [INFO] step=210 action_norm=2.4244 max_abs=1.0021
+2026-03-20 11:32:48,372 [INFO] step=10 action_norm=2.3094 max_abs=1.0338
+2026-03-20 11:32:50,472 [INFO] step=60 action_norm=3.0224 max_abs=1.0146
+2026-03-20 11:32:52,596 [INFO] step=110 action_norm=2.6363 max_abs=1.0121
+2026-03-20 11:32:54,821 [INFO] step=160 action_norm=2.2822 max_abs=1.0002
+2026-03-20 11:32:56,983 [INFO] step=210 action_norm=2.2752 max_abs=0.9943
+2026-03-20 11:32:59,383 [INFO] step=10 action_norm=2.4000 max_abs=1.0169
+2026-03-20 11:33:01,499 [INFO] step=60 action_norm=2.4894 max_abs=1.0005
+2026-03-20 11:33:03,624 [INFO] step=110 action_norm=2.6616 max_abs=0.9684
+2026-03-20 11:33:05,756 [INFO] step=160 action_norm=2.2755 max_abs=1.0013
+2026-03-20 11:33:07,922 [INFO] step=210 action_norm=2.2427 max_abs=0.9927
+2026-03-20 11:33:10,378 [INFO] step=10 action_norm=2.3559 max_abs=1.0177
+2026-03-20 11:33:12,480 [INFO] step=60 action_norm=2.6715 max_abs=0.9899
+2026-03-20 11:33:14,594 [INFO] step=110 action_norm=2.5222 max_abs=0.9832
+2026-03-20 11:33:16,797 [INFO] step=160 action_norm=2.1212 max_abs=0.9950
+2026-03-20 11:33:18,997 [INFO] step=210 action_norm=2.3877 max_abs=1.0178
+2026-03-20 11:33:21,451 [INFO] step=10 action_norm=2.4306 max_abs=1.0238
+2026-03-20 11:33:23,560 [INFO] step=60 action_norm=2.3218 max_abs=0.9987
+2026-03-20 11:33:25,739 [INFO] step=110 action_norm=2.2870 max_abs=0.9909
+2026-03-20 11:33:28,067 [INFO] step=160 action_norm=2.3170 max_abs=0.9917
+2026-03-20 11:33:30,275 [INFO] step=210 action_norm=2.2348 max_abs=1.0051
+2026-03-20 11:33:32,799 [INFO] step=10 action_norm=2.4266 max_abs=1.0205
+2026-03-20 11:33:34,909 [INFO] step=60 action_norm=2.2975 max_abs=1.0092
+2026-03-20 11:33:37,035 [INFO] step=110 action_norm=2.4053 max_abs=1.0074
+2026-03-20 11:33:39,197 [INFO] step=160 action_norm=2.1618 max_abs=0.9937
+2026-03-20 11:33:41,388 [INFO] step=210 action_norm=2.2063 max_abs=0.9721
+2026-03-20 11:33:43,850 [INFO] step=10 action_norm=2.2954 max_abs=1.0258
+2026-03-20 11:33:45,958 [INFO] step=60 action_norm=2.3991 max_abs=1.0157
+2026-03-20 11:33:48,075 [INFO] step=110 action_norm=2.5086 max_abs=1.0103
+2026-03-20 11:33:50,218 [INFO] step=160 action_norm=2.2674 max_abs=0.9778
+2026-03-20 11:33:52,423 [INFO] step=210 action_norm=2.4568 max_abs=1.0028
+2026-03-20 11:33:55,012 [INFO] step=10 action_norm=2.3337 max_abs=1.0099
+2026-03-20 11:33:57,113 [INFO] step=60 action_norm=2.4313 max_abs=0.9920
+2026-03-20 11:33:59,235 [INFO] step=110 action_norm=2.5721 max_abs=0.9755
+2026-03-20 11:34:01,362 [INFO] step=160 action_norm=2.4997 max_abs=1.0054
+2026-03-20 11:34:03,508 [INFO] step=210 action_norm=2.3313 max_abs=1.0211
+2026-03-20 11:34:05,929 [INFO] step=10 action_norm=2.4228 max_abs=1.0183
+2026-03-20 11:34:08,069 [INFO] step=60 action_norm=2.5681 max_abs=1.0103
+2026-03-20 11:34:10,229 [INFO] step=110 action_norm=2.2635 max_abs=0.9641
+2026-03-20 11:34:12,372 [INFO] step=160 action_norm=2.2780 max_abs=0.9839
+2026-03-20 11:34:14,541 [INFO] step=210 action_norm=2.2524 max_abs=0.9829
+2026-03-20 11:34:17,044 [INFO] step=10 action_norm=2.3596 max_abs=1.0192
+2026-03-20 11:34:19,147 [INFO] step=60 action_norm=2.2192 max_abs=1.0189
+2026-03-20 11:34:21,251 [INFO] step=110 action_norm=2.6698 max_abs=1.0132
+2026-03-20 11:34:23,405 [INFO] step=160 action_norm=2.3452 max_abs=1.0008
+2026-03-20 11:34:25,437 [INFO] step=210 action_norm=2.3562 max_abs=1.0059
+2026-03-20 11:34:26,690 [INFO] Task 9 (pick up the black bowl on the wooden cab): 0/20
+2026-03-20 11:34:26,923 [INFO] Overall: 5/200 = 2.50%

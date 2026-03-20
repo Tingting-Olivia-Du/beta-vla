@@ -51,45 +51,26 @@ def _posemb_sincos(
     return torch.cat([torch.sin(phase), torch.cos(phase)], dim=-1)
 
 
-def _make_prefix_lm_mask(
-    prefix_len: int,
-    suffix_len: int,
-    device: torch.device,
-    dtype: torch.dtype,
-    prefix_pad_mask: torch.Tensor | None = None,
+def _make_att_2d_masks(
+    pad_masks: torch.Tensor,
+    att_masks: torch.Tensor,
 ) -> torch.Tensor:
-    """Prefix-LM attention bias (additive, 0 = attend, -inf = block).
+    """Build boolean 2D attention mask from pad_masks and att_masks.
 
-    prefix_pad_mask: bool tensor (B, prefix_len), True = real token.
-    Padding positions in the prefix cannot attend to or be attended by anything.
+    Copied from OpenPI pi0_pytorch.py (big_vision convention).
+
+    att_masks: int (B, N), 0 = bidirectional block, 1 = causal block boundary.
+      prefix tokens: 0  → all prefix tokens share same cumsum → bidirectional
+      suffix tokens: 1  → cumsum increases → causal
+    pad_masks: bool (B, N), True = real token (not padding).
+
+    Returns bool (B, N, N): True = token i can attend to token j.
+    Padding tokens are blocked from attending and being attended to.
     """
-    total = prefix_len + suffix_len
-    # Start with standard prefix-LM structure: prefix bidi, suffix causal
-    mask = torch.zeros(total, total, device=device, dtype=dtype)
-    # suffix tokens cannot attend to later suffix tokens
-    for i in range(prefix_len, total):
-        for j in range(i + 1, total):
-            mask[i, j] = float("-inf")
-    # prefix tokens cannot attend to suffix tokens
-    mask[:prefix_len, prefix_len:] = float("-inf")
-
-    # Apply padding mask: padded prefix positions are fully masked out
-    if prefix_pad_mask is not None:
-        # prefix_pad_mask: (B, prefix_len), True = real
-        # Build per-batch mask; caller will add batch dim if needed
-        # Here we return a shared mask suitable for non-padded case;
-        # callers that have padding should call with prefix_pad_mask
-        # Shape: (B, 1, total, total) — batched
-        B = prefix_pad_mask.shape[0]
-        batched = mask.unsqueeze(0).unsqueeze(0).expand(B, 1, total, total).clone()
-        pad_col = ~prefix_pad_mask  # (B, prefix_len) — True = pad
-        # Rows corresponding to padded prefix positions → block everything
-        batched[:, 0, :prefix_len, :][pad_col.unsqueeze(-1).expand(B, prefix_len, total)] = float("-inf")
-        # Columns corresponding to padded prefix positions → block from suffix
-        pad_col_suffix = pad_col.unsqueeze(1).unsqueeze(2).expand(B, 1, suffix_len, prefix_len)
-        batched[:, 0, prefix_len:, :prefix_len][pad_col_suffix.view(B, suffix_len, prefix_len)] = float("-inf")
-        return batched
-    return mask.unsqueeze(0).unsqueeze(0)  # (1, 1, total, total)
+    cumsum = torch.cumsum(att_masks, dim=1)
+    att_2d = cumsum[:, None, :] <= cumsum[:, :, None]          # (B, N, N)
+    pad_2d = pad_masks[:, None, :] & pad_masks[:, :, None]     # (B, N, N)
+    return att_2d & pad_2d                                      # (B, N, N) bool
 
 
 def _position_ids_from_mask(mask: torch.Tensor) -> torch.Tensor:
@@ -153,26 +134,35 @@ class OpenPIFlowMatchingActionHead(nn.Module):
         """Predict flow-matching velocity u_t given prefix, state, x_t, t."""
         suffix = self._embed_suffix(state, noisy_actions, timestep)
         prefix_proj = self.prefix_proj(prefix_tokens)
-        prefix_len = prefix_proj.shape[1]
+        B, prefix_len, _ = prefix_proj.shape
         suffix_len = suffix.shape[1]
+        total = prefix_len + suffix_len
 
         combined = torch.cat([prefix_proj, suffix], dim=1)   # (B, P+S, W)
-        B, total, _ = combined.shape
+        device = combined.device
 
-        # Attention mask: prefix-LM style with padding awareness
-        attn_mask = _make_prefix_lm_mask(
-            prefix_len, suffix_len,
-            combined.device, combined.dtype,
-            prefix_pad_mask=prefix_pad_mask,
-        )
-
-        # Position ids: skip padding slots
+        # Build pad_masks and att_masks (OpenPI big_vision convention)
         if prefix_pad_mask is not None:
-            suffix_mask = torch.ones(B, suffix_len, device=combined.device, dtype=torch.bool)
-            full_mask = torch.cat([prefix_pad_mask, suffix_mask], dim=1)
+            prefix_pad = prefix_pad_mask  # (B, prefix_len) bool
         else:
-            full_mask = torch.ones(B, total, device=combined.device, dtype=torch.bool)
-        position_ids = _position_ids_from_mask(full_mask)
+            prefix_pad = torch.ones(B, prefix_len, device=device, dtype=torch.bool)
+        suffix_pad = torch.ones(B, suffix_len, device=device, dtype=torch.bool)
+        pad_masks = torch.cat([prefix_pad, suffix_pad], dim=1)  # (B, total) bool
+
+        # att_masks: 0 = bidirectional (prefix), 1 = causal boundary (suffix)
+        prefix_att = torch.zeros(B, prefix_len, device=device, dtype=torch.long)
+        suffix_att = torch.ones(B, suffix_len, device=device, dtype=torch.long)
+        att_masks = torch.cat([prefix_att, suffix_att], dim=1)  # (B, total) int
+
+        # 2D bool mask: (B, total, total), True = can attend
+        att_2d = _make_att_2d_masks(pad_masks, att_masks)
+
+        # Convert to additive mask expected by HuggingFace GemmaModel:
+        # (B, 1, total, total), 0.0 = attend, large negative = block
+        attn_mask = torch.where(att_2d, 0.0, -2.3819763e38).unsqueeze(1).to(combined.dtype)
+
+        # Position ids: skip padding slots (cumsum of real tokens, 0-indexed)
+        position_ids = _position_ids_from_mask(pad_masks)
 
         out = self.gemma_expert(
             inputs_embeds=combined,

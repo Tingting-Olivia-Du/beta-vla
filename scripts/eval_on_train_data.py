@@ -156,7 +156,6 @@ def run_episode(
     replan_steps: int,
     num_steps_wait: int,
     max_steps: int,
-    invert_gripper: bool,
     device: torch.device,
     save_video: bool = True,
     num_ode_steps: int = 5,
@@ -206,7 +205,7 @@ def run_episode(
             predict_calls += 1
             action_queue.extend(actions)
         action = action_queue.popleft()
-        action_for_env = process_action_for_env(action, invert_gripper=invert_gripper)
+        action_for_env = process_action_for_env(action)
         env_t0 = time.time()
         obs, reward, done, info = env.step(action_for_env.tolist())
         env_step_time += time.time() - env_t0
@@ -421,8 +420,6 @@ def main():
         action="store_true",
         help="Fast sanity-check preset: disable video, lower steps/ODE, lower resolution",
     )
-    p.add_argument("--invert_gripper", action="store_true", default=True)
-    p.add_argument("--no_invert_gripper", action="store_false", dest="invert_gripper")
     p.add_argument("--norm_stats", type=Path, default=None)
     p.add_argument("--no_norm_stats", action="store_true")
     p.add_argument("--video_out_path", type=Path, default=Path("data/libero/videos/eval_on_train"))
@@ -556,7 +553,6 @@ def main():
             args.replan_steps,
             args.num_steps_wait,
             args.max_steps,
-            args.invert_gripper,
             device,
             save_video=save_video,
             num_ode_steps=args.num_ode_steps,

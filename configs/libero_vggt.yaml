@@ -1,15 +1,15 @@
 runtime:
-  exp_name: libero_vggt
+  exp_name: beta-action-chunk-0316
   checkpoint_base_dir: ./checkpoints
-  wandb_project: beta-vla-libero
+  wandb_project: beta-action-chunk-0316
   wandb_enabled: true
   seed: 42
-  batch_size: 16           # per GPU (16 * 4 GPUs = 64 effective)
-  grad_accumulation_steps: 1
+  batch_size: 4           # per GPU (16 * 2 GPUs = 32 effective)
+  grad_accumulation_steps: 2
   use_amp: true
-  num_train_steps: 30000
+  num_train_steps: 100000
   log_interval: 20
-  save_interval: 1000
+  save_interval: 5000
   learning_rate: 2.5e-5
   weight_decay: 0.0
   num_workers: 4
@@ -34,7 +34,7 @@ model:
   action_dim: 7
   action_horizon: 10
   state_dim: 8
-  gripper_loss_weight: 5.0
+  gripper_loss_weight: 1.0  # OpenPI default (no gripper upweighting); set >1 if gripper timing fails
   freeze_vision: true          # PaliGemma SigLIP: frozen (pretrained, image-text aligned)
   freeze_language: false       # Qwen: LoRA fine-tune
   freeze_vggt: false           # VGGT: LoRA fine-tune

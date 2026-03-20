@@ -2,10 +2,10 @@
 """Evaluate Beta-VLA on LIBERO benchmark.
 
 Single GPU:
-    python scripts/eval_libero.py --checkpoint checkpoints/libero_vggt/best
+    python scripts/eval_libero.py --checkpoint checkpoints/beta-action-chunk-0316/best --gpus 0 --video_out_path data/libero/action-chunk-0316
 
 Multi-GPU (parallel workers):
-    python scripts/eval_libero.py --checkpoint checkpoints/libero_vggt/best --gpus 0,1,2,3
+    python scripts/eval_libero.py --checkpoint checkpoints/beta-action-chunk-0316/best --gpus 0 --video_out_path data/libero/action-chunk-0316
 
 Or use the shell wrapper:
     bash scripts/eval_libero.sh 0,1,2,3 checkpoints/libero_vggt/best libero_10
@@ -80,9 +80,8 @@ TASK_MAX_STEPS = {
     "libero_goal": 300,
     "libero_10": 520,
     "libero_90": 400,
-    "libero_100": 300,
 }
-ALL_SUITES = ["libero_spatial", "libero_object", "libero_goal", "libero_10", "libero_90", "libero_100"]
+ALL_SUITES = ["libero_spatial", "libero_object", "libero_goal", "libero_10", "libero_90"]
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
@@ -98,9 +97,8 @@ def run_episode(
     replan_steps: int,
     num_steps_wait: int,
     max_steps: int,
-    invert_gripper: bool,
     device: torch.device,
-    save_video: bool = False,
+    save_video: bool = True,
     num_ode_steps: int = 5,
     debug_log_path: Path | None = None,
 ) -> tuple[bool, list]:
@@ -155,7 +153,7 @@ def run_episode(
             action_queue.extend(actions)
 
         action = action_queue.popleft()
-        action_env = process_action_for_env(action, invert_gripper=invert_gripper)
+        action_env = process_action_for_env(action)
         obs, reward, done, _ = env.step(action_env.tolist())
 
         if debug_file is not None:
@@ -193,7 +191,7 @@ def _run_worker(args, task_suite, num_tasks: int, max_steps: int, save_video: bo
                 env, initial_states[trial_id], task_description,
                 model, tokenizer, norm_stats,
                 args.replan_steps, args.num_steps_wait, max_steps,
-                args.invert_gripper, device,
+                device,
                 save_video=save_video,
                 num_ode_steps=args.num_ode_steps,
             )
@@ -238,10 +236,6 @@ def _run_multi_gpu_launcher(gpu_list: list[int], args) -> None:
                 cmd.append("--no_norm_stats")
             if args.max_tasks is not None:
                 cmd += ["--max_tasks", str(args.max_tasks)]
-            if args.invert_gripper:
-                cmd.append("--invert_gripper")
-            else:
-                cmd.append("--no_invert_gripper")
             if args.no_video:
                 cmd.append("--no_video")
             else:
@@ -290,13 +284,11 @@ def main():
     p = argparse.ArgumentParser(description="Evaluate Beta-VLA on LIBERO")
     p.add_argument("--checkpoint", type=Path, required=True)
     p.add_argument("--config", type=Path, default=Path("configs/libero_vggt.yaml"))
-    p.add_argument("--task_suite", default="libero_spatial", help="Suite name or 'all'")
+    p.add_argument("--task_suite", default="all", help="Suite name or 'all'")
     p.add_argument("--num_trials_per_task", type=int, default=20)
     p.add_argument("--replan_steps", type=int, default=5)
     p.add_argument("--num_steps_wait", type=int, default=10)
     p.add_argument("--num_ode_steps", type=int, default=5)
-    p.add_argument("--invert_gripper", action="store_true", default=True)
-    p.add_argument("--no_invert_gripper", action="store_false", dest="invert_gripper")
     p.add_argument("--norm_stats", type=Path, default=None)
     p.add_argument("--no_norm_stats", action="store_true")
     p.add_argument("--seed", type=int, default=7)
@@ -398,7 +390,7 @@ def main():
                     env, initial_states[ep], task_description,
                     model, tokenizer, norm_stats,
                     args.replan_steps, args.num_steps_wait, max_steps,
-                    args.invert_gripper, device,
+                    device,
                     save_video=save_video,
                     num_ode_steps=args.num_ode_steps,
                 )

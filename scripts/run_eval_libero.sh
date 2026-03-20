@@ -10,7 +10,7 @@
 #   bash scripts/run_eval_libero.sh --checkpoint checkpoints/beta_vla_libero/best --max_tasks 1 --num_trials_per_task 10 --no_norm_stats --gpus 7
 #   bash scripts/run_eval_libero.sh --checkpoint checkpoints/beta_vla_libero/5000 --num_trials_per_task 1  --task_suite all --gpus 7
 
-# bash scripts/run_eval_libero.sh --checkpoint checkpoints/beta_vla_libero_openpi/best --verbose  --num_trials_per_task 3 --task_suite all --gpus 7 --video_out_path data/libero/videos/beta-openpi
+# bash scripts/run_eval_libero.sh --checkpoint checkpoints/beta-action-chunk-0316/best --verbose  --num_trials_per_task 10 --task_suite all --gpus 0 --video_out_path data/libero/action-chunk-0316
 
 #   bash scripts/run_eval_libero.sh --checkpoint ... --gpus 4,5,6,7 --max_tasks 2
 #   全部 6 个 suite: --task_suite all

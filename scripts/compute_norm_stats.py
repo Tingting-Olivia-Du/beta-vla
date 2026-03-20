@@ -4,8 +4,8 @@ Uses full training pipeline + RunningStats (OpenPI-style) so stats match trainin
 Saves norm_stats.json for action/state quantile normalization.
 
 Usage:
-  uv run python scripts/compute_norm_stats.py --config configs/train_beta_vla_libero.yaml
-  uv run python scripts/compute_norm_stats.py --config configs/train_beta_vla_libero.yaml --max_samples 5000 --out_dir assets/physical-intelligence/libero
+  python scripts/compute_norm_stats.py --config configs/libero_vggt.yaml
+  python scripts/compute_norm_stats.py --config configs/libero_vggt.yaml --max_samples 5000 --out_dir assets/physical-intelligence/libero
 """
 
 from __future__ import annotations
@@ -28,7 +28,7 @@ def main() -> None:
     p.add_argument(
         "--config",
         type=Path,
-        default=Path("configs/train_beta_vla_libero.yaml"),
+        default=Path("configs/libero_vggt.yaml"),
         help="Path to train config (provides data/model params)",
     )
     p.add_argument(
@@ -86,10 +86,8 @@ def main() -> None:
         dataset=dataset,
     )
 
-    stats = {
-        "state": RunningStats(),
-        "action": RunningStats(),
-    }
+    state_stats = RunningStats()
+    action_stats = RunningStats()
 
     num_batches = len(loader)
     if args.max_samples is not None:
@@ -97,44 +95,40 @@ def main() -> None:
 
     for batch in tqdm(loader, total=num_batches, desc="Computing norm stats"):
         obs, actions = batch
-        state = obs.state.numpy()
-        actions_np = actions.numpy()
+        state = obs.state.numpy()           # (B, state_dim)
+        actions_np = actions.numpy()        # (B, action_horizon, action_dim)
 
-        stats["state"].update(state)
-        # actions: (B, action_horizon, action_dim) -> reshape to (B*T, action_dim)
-        stats["action"].update(actions_np)
+        state_stats.update(state)
+        # flatten action horizon: (B, T, D) -> (B*T, D)
+        actions_flat = actions_np.reshape(-1, actions_np.shape[-1])
+        action_stats.update(actions_flat)
 
-        if args.max_samples is not None and stats["state"]._count >= args.max_samples:
+        if args.max_samples is not None and state_stats.count >= args.max_samples:
             break
 
+    # get_statistics() returns dict with keys: mean, std, q01, q99 (each a list of floats)
+    state_dict = state_stats.get_statistics()
+    action_dict = action_stats.get_statistics()
+
     norm_stats = {
-        "state": stats["state"].get_statistics(),
-        "action": stats["action"].get_statistics(),
+        "state": state_dict,
+        "action": action_dict,
     }
 
     out_dir = args.out_dir or Path("assets/physical-intelligence/libero")
     out_path = out_dir / "norm_stats.json"
     out_path.parent.mkdir(parents=True, exist_ok=True)
 
-    def _to_list(arr):
-        import numpy as np
-        return np.asarray(arr).tolist() if arr is not None else None
-
-    serializable = {
-        key: {
-            "mean": _to_list(ns.mean),
-            "std": _to_list(ns.std),
-            "q01": _to_list(ns.q01),
-            "q99": _to_list(ns.q99),
-        }
-        for key, ns in norm_stats.items()
-    }
     with open(out_path, "w") as f:
-        json.dump(serializable, f, indent=2)
+        json.dump(norm_stats, f, indent=2)
 
-    print(f"Saved norm_stats to {out_path}")
-    print(f"  state: dim={len(norm_stats['state'].mean)}")
-    print(f"  action: dim={len(norm_stats['action'].mean)}")
+    print(f"\nSaved norm_stats to {out_path}")
+    print(f"  state:  dim={len(state_dict['mean'])}, samples={state_stats.count}")
+    print(f"  action: dim={len(action_dict['mean'])}, samples={action_stats.count}")
+    print(f"\nState  q01: {[round(x, 4) for x in state_dict['q01']]}")
+    print(f"State  q99: {[round(x, 4) for x in state_dict['q99']]}")
+    print(f"Action q01: {[round(x, 4) for x in action_dict['q01']]}")
+    print(f"Action q99: {[round(x, 4) for x in action_dict['q99']]}")
 
 
 if __name__ == "__main__":

@@ -190,13 +190,16 @@ def predict(
     return actions_np[:replan_steps]
 
 
-def process_action_for_env(action: np.ndarray, invert_gripper: bool = True) -> np.ndarray:
-    """Convert model action to LIBERO env action.
+def process_action_for_env(action: np.ndarray) -> np.ndarray:
+    """Convert unnormalized model action to LIBERO env action.
 
-    Model gripper output in [-1, 1]; LIBERO expects {-1, +1}.
+    HuggingFace LIBERO data gripper: {-1.0=open, +1.0=close}
+    After quantile unnorm, gripper is still in {-1, +1} (near-identity transform).
+    LIBERO env expects: -1.0=open, +1.0=close  -- same convention.
+
+    Binarize at 0.0 threshold (model output is continuous, snap to nearest integer).
+    No inversion needed.
     """
     a = action.copy()
-    a[-1] = 1.0 if a[-1] >= 0.0 else -1.0
-    if invert_gripper:
-        a[-1] = -a[-1]
+    a[-1] = -1.0 if a[-1] < 0.0 else 1.0
     return a

@@ -13,6 +13,7 @@ from datasets import load_dataset
 import numpy as np
 import torch
 from torch.utils.data import DataLoader, Dataset
+from tqdm import tqdm
 from transformers import AutoTokenizer
 
 from betavla.data.normalize import NormStats, load_norm_stats, normalize_quantile
@@ -98,7 +99,7 @@ class LiberoDataset(Dataset):
         # Build episode index in a single linear scan.
         # We store (episode_index, frame_index) per row to sort without re-reading.
         ep_frame: list[tuple[int, int, int]] = []  # (ep_idx, frame_idx, row_idx)
-        for i in range(self._len):
+        for i in tqdm(range(self._len), desc="Building episode index", unit="frames"):
             row = self._get(i)
             ep = int(np.asarray(row.get("episode_index", i)).flat[0])
             fi = int(np.asarray(row.get("frame_index", i)).flat[0])
