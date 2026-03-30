@@ -1,10 +1,10 @@
 #!/bin/bash
 # Train Beta-VLA with torchrun (single or multi-GPU).
-#
+# set up huggingface first! gated repo! 
 # Usage:
 #   bash scripts/train.sh                              # GPU 0, default config
 #   bash scripts/train.sh 0,1,2,3                      # GPUs 0-3, default config
-#   bash scripts/train.sh 0,1 configs/libero_vggt.yaml
+#   bash scripts/train.sh 4,5 configs/libero_vggt.yaml
 #   bash scripts/train.sh 4,5,6,7 configs/libero_vggt.yaml
 #
 # To use a single GPU:

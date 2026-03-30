@@ -1,25 +1,25 @@
 runtime:
-  exp_name: beta-action-chunk-0316
+  exp_name: beta-0329
   checkpoint_base_dir: ./checkpoints
-  wandb_project: beta-action-chunk-0316
+  wandb_project: beta-0329
   wandb_enabled: true
   seed: 42
-  batch_size: 4           # per GPU (16 * 2 GPUs = 32 effective)
-  grad_accumulation_steps: 2
+  batch_size: 32            # per GPU, 2 GPUs = effective 64
+  grad_accumulation_steps: 1
   use_amp: true
   num_train_steps: 100000
   log_interval: 20
-  save_interval: 5000
-  learning_rate: 2.5e-5
-  weight_decay: 0.0
+  save_interval: 10000
+  learning_rate: 2e-4       
+  weight_decay: 1e-4        # very light regularization
   num_workers: 4
   resume: false
   resume_from_best: false
   overwrite: true
   grad_clip_norm: 1.0
-  warmup_steps: 1000
+  warmup_steps: 500         # shorter warmup, faster ramp-up
   lr_schedule: cosine_warmup
-  end_lr: 2.5e-6
+  end_lr: 1e-6              # 100x decay ratio
 
 data:
   repo_id: physical-intelligence/libero
@@ -35,7 +35,7 @@ model:
   action_horizon: 10
   state_dim: 8
   gripper_loss_weight: 1.0  # OpenPI default (no gripper upweighting); set >1 if gripper timing fails
-  freeze_vision: true          # PaliGemma SigLIP: frozen (pretrained, image-text aligned)
+  freeze_vision: false          # PaliGemma SigLIP: frozen (pretrained, image-text aligned)
   freeze_language: false       # Qwen: LoRA fine-tune
   freeze_vggt: false           # VGGT: LoRA fine-tune
   use_lora: true
@@ -46,6 +46,8 @@ model:
   lora_target_modules_vggt: ["qkv", "proj", "fc1", "fc2"]
   lora_on_language: true
   lora_on_vggt: true
+  lora_on_vision: true
+  lora_target_modules_vision: ["q_proj", "k_proj", "v_proj", "out_proj", "fc1", "fc2"]
   vision:
     model_name: google/paligemma2-3b-pt-224
     image_size: 224

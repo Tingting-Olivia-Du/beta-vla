@@ -141,6 +141,8 @@ def load_config(path: str | Path) -> BetaVLATrainConfig:
         lora_target_modules_vggt=list(m.get("lora_target_modules_vggt", ["qkv", "proj", "fc1", "fc2"])),
         lora_on_language=bool(m.get("lora_on_language", True)),
         lora_on_vggt=bool(m.get("lora_on_vggt", True)),
+        lora_on_vision=bool(m.get("lora_on_vision", False)),
+        lora_target_modules_vision=list(m.get("lora_target_modules_vision", ["q_proj", "k_proj", "v_proj", "out_proj", "fc1", "fc2"])),
         vision=vision_cfg,
         language=lang_cfg,
         vggt=vggt_cfg,

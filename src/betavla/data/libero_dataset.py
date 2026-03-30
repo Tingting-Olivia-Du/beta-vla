@@ -148,7 +148,7 @@ class LiberoDataset(Dataset):
         if self._norm is not None and "state" in self._norm:
             state = normalize_quantile(state, self._norm["state"])
 
-        # Action chunk: read consecutive frames (no zero-padding)
+        # Action chunk: read consecutive frames (fixed)
         ep_row_list = self._ep_rows[ep]
         ep_len = len(ep_row_list)
         chunk: list[np.ndarray] = []

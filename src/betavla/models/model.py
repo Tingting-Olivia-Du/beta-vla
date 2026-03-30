@@ -43,6 +43,10 @@ class BetaVLAConfig:
     )
     lora_on_language: bool = True
     lora_on_vggt: bool = True
+    lora_on_vision: bool = False
+    lora_target_modules_vision: list[str] = field(
+        default_factory=lambda: ["q_proj", "k_proj", "v_proj", "out_proj", "fc1", "fc2"]
+    )
     vision: PaliGemmaVisionTowerConfig = field(default_factory=PaliGemmaVisionTowerConfig)
     language: LanguageEncoderConfig = field(default_factory=LanguageEncoderConfig)
     vggt: VGGTBackboneConfig = field(default_factory=VGGTBackboneConfig)
@@ -69,6 +73,7 @@ def _inject_lora(
     alpha: int,
     dropout: float,
     target_modules: list[str],
+    task_type: str | None = "FEATURE_EXTRACTION",
 ) -> nn.Module:
     try:
         from peft import LoraConfig, TaskType, get_peft_model
@@ -76,8 +81,9 @@ def _inject_lora(
         raise ImportError(
             "LoRA requires `peft`. Install it: pip install peft"
         ) from e
+    tt = getattr(TaskType, task_type) if task_type else None
     cfg = LoraConfig(
-        task_type=TaskType.FEATURE_EXTRACTION,
+        task_type=tt,
         r=r,
         lora_alpha=alpha,
         lora_dropout=dropout,
@@ -143,6 +149,15 @@ class BetaVLAModel(nn.Module):
                 alpha=cfg.lora_alpha,
                 dropout=cfg.lora_dropout,
                 target_modules=cfg.lora_target_modules_vggt,
+            )
+        if cfg.use_lora and cfg.lora_on_vision and not cfg.freeze_vision:
+            self.vision_tower.vision_tower = _inject_lora(
+                self.vision_tower.vision_tower,
+                r=cfg.lora_r,
+                alpha=cfg.lora_alpha,
+                dropout=cfg.lora_dropout,
+                target_modules=cfg.lora_target_modules_vision,
+                task_type=None,
             )
 
     # ------------------------------------------------------------------

@@ -3,12 +3,12 @@
 # Usage: source scripts/env_umd_datapool.sh
 
 # HF 缓存放 umd-datapool（模型大，本地可能满）
-export HF_HOME="${HF_HOME:-/umd-datapool/tingting/hf-home}"
-export HF_HUB_CACHE="${HF_HUB_CACHE:-/umd-datapool/tingting/hf-home/hub}"
-export TRANSFORMERS_CACHE="${TRANSFORMERS_CACHE:-/umd-datapool/tingting/hf-home/transformers}"
-export HF_DATASETS_CACHE="${HF_DATASETS_CACHE:-/umd-datapool/tingting/hf-home/datasets}"
-export WANDB_DIR="${WANDB_DIR:-/umd-datapool/tingting/wandb}"
-export WANDB_CONFIG_DIR="${WANDB_CONFIG_DIR:-/umd-datapool/tingting/.wandb-config}"
+export HF_HOME="${HF_HOME:-/workspace/tingting/hf-home}"
+export HF_HUB_CACHE="${HF_HUB_CACHE:-/workspace/tingting/hf-home/hub}"
+export TRANSFORMERS_CACHE="${TRANSFORMERS_CACHE:-/workspace/tingting/hf-home/transformers}"
+export HF_DATASETS_CACHE="${HF_DATASETS_CACHE:-/workspace/tingting/hf-home/datasets}"
+export WANDB_DIR="${WANDB_DIR:-/workspace/tingting/wandb}"
+export WANDB_CONFIG_DIR="${WANDB_CONFIG_DIR:-/workspace/tingting/.wandb-config}"
 
 # uv/pip 的 temp 和 cache 必须用本地磁盘：NFS 上会 Remote I/O error (121)
 # 强制覆盖已有值，优先 /data，其次 /tmp，最后 /dev/shm

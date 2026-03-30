@@ -7,10 +7,10 @@ PYTHON_VERSION="${PYTHON_VERSION:-3.11}"
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 BETAVLA_DIR="${ROOT_DIR}/beta-vla"
 # 全部放到 umd-datapool，避免 root / 和 /data 满
-UV_CACHE_DIR_DEFAULT="${UV_CACHE_DIR_DEFAULT:-/umd-datapool/tingting/uv-cache}"
-TMPDIR_DEFAULT="${TMPDIR_DEFAULT:-/umd-datapool/tingting/.tmp}"
+UV_CACHE_DIR_DEFAULT="${UV_CACHE_DIR_DEFAULT:-/workspace/tingting/uv-cache}"
+TMPDIR_DEFAULT="${TMPDIR_DEFAULT:-/workspace/tingting/.tmp}"
 # HF cache: use umd-datapool to avoid filling root / or /data
-HF_HOME_DEFAULT="${HF_HOME_DEFAULT:-/umd-datapool/tingting/hf-home}"
+HF_HOME_DEFAULT="${HF_HOME_DEFAULT:-/workspace/tingting/hf-home}"
 
 if ! command -v conda >/dev/null 2>&1; then
   echo "[setup] conda not found. Please install conda first."
@@ -44,7 +44,8 @@ echo "[setup] TMPDIR=${TMPDIR}"
 echo "[setup] HF_HOME=${HF_HOME}"
 
 echo "[setup] Installing beta-vla and all dependencies ..."
-conda run -n "${ENV_NAME}" bash -lc "cd \"${BETAVLA_DIR}\" && uv pip install -e . --system"
+conda run -n "${ENV_NAME}" --cwd "${BETAVLA_DIR}" \
+  uv pip install -e . --system
 
 echo "[setup] Done. Activate: conda activate ${ENV_NAME}"
 echo "[setup] Verify: bash scripts/smoke_test_forward.sh"

@@ -1,0 +1,501 @@
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep0--success=False--task=open_the_middle_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep1--success=False--task=open_the_middle_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep2--success=False--task=open_the_middle_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep3--success=False--task=open_the_middle_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep4--success=False--task=open_the_middle_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep5--success=False--task=open_the_middle_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep6--success=True--task=open_the_middle_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep7--success=False--task=open_the_middle_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep8--success=False--task=open_the_middle_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep9--success=False--task=open_the_middle_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep0--success=True--task=put_the_bowl_on_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep1--success=False--task=put_the_bowl_on_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep2--success=False--task=put_the_bowl_on_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep3--success=True--task=put_the_bowl_on_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep4--success=False--task=put_the_bowl_on_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep5--success=False--task=put_the_bowl_on_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep6--success=True--task=put_the_bowl_on_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep7--success=False--task=put_the_bowl_on_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep8--success=False--task=put_the_bowl_on_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep9--success=False--task=put_the_bowl_on_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep0--success=True--task=put_the_wine_bottle_on_top_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep1--success=False--task=put_the_wine_bottle_on_top_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep2--success=False--task=put_the_wine_bottle_on_top_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep3--success=False--task=put_the_wine_bottle_on_top_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep4--success=False--task=put_the_wine_bottle_on_top_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep5--success=False--task=put_the_wine_bottle_on_top_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep6--success=False--task=put_the_wine_bottle_on_top_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep7--success=False--task=put_the_wine_bottle_on_top_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep8--success=False--task=put_the_wine_bottle_on_top_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep9--success=False--task=put_the_wine_bottle_on_top_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep0--success=False--task=open_the_top_drawer_and_put_the_bowl_inside.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep1--success=False--task=open_the_top_drawer_and_put_the_bowl_inside.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep2--success=False--task=open_the_top_drawer_and_put_the_bowl_inside.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep3--success=False--task=open_the_top_drawer_and_put_the_bowl_inside.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep4--success=False--task=open_the_top_drawer_and_put_the_bowl_inside.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep5--success=False--task=open_the_top_drawer_and_put_the_bowl_inside.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep6--success=False--task=open_the_top_drawer_and_put_the_bowl_inside.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep7--success=False--task=open_the_top_drawer_and_put_the_bowl_inside.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep8--success=False--task=open_the_top_drawer_and_put_the_bowl_inside.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep9--success=False--task=open_the_top_drawer_and_put_the_bowl_inside.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep0--success=False--task=put_the_bowl_on_top_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep1--success=False--task=put_the_bowl_on_top_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep2--success=False--task=put_the_bowl_on_top_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep3--success=False--task=put_the_bowl_on_top_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep4--success=False--task=put_the_bowl_on_top_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep5--success=False--task=put_the_bowl_on_top_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep6--success=False--task=put_the_bowl_on_top_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep7--success=False--task=put_the_bowl_on_top_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep8--success=False--task=put_the_bowl_on_top_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep9--success=False--task=put_the_bowl_on_top_of_the_cabinet.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep0--success=False--task=push_the_plate_to_the_front_of_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep1--success=False--task=push_the_plate_to_the_front_of_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep2--success=False--task=push_the_plate_to_the_front_of_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep3--success=False--task=push_the_plate_to_the_front_of_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep4--success=False--task=push_the_plate_to_the_front_of_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep5--success=False--task=push_the_plate_to_the_front_of_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep6--success=False--task=push_the_plate_to_the_front_of_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep7--success=False--task=push_the_plate_to_the_front_of_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep8--success=False--task=push_the_plate_to_the_front_of_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep9--success=False--task=push_the_plate_to_the_front_of_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep0--success=False--task=put_the_cream_cheese_in_the_bowl.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep1--success=False--task=put_the_cream_cheese_in_the_bowl.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep2--success=False--task=put_the_cream_cheese_in_the_bowl.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep3--success=True--task=put_the_cream_cheese_in_the_bowl.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep4--success=False--task=put_the_cream_cheese_in_the_bowl.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep5--success=False--task=put_the_cream_cheese_in_the_bowl.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep6--success=False--task=put_the_cream_cheese_in_the_bowl.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep7--success=False--task=put_the_cream_cheese_in_the_bowl.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep8--success=False--task=put_the_cream_cheese_in_the_bowl.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep9--success=False--task=put_the_cream_cheese_in_the_bowl.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep0--success=True--task=turn_on_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep1--success=True--task=turn_on_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep2--success=False--task=turn_on_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep3--success=True--task=turn_on_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep4--success=False--task=turn_on_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep5--success=False--task=turn_on_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep6--success=False--task=turn_on_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep7--success=False--task=turn_on_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep8--success=False--task=turn_on_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep9--success=False--task=turn_on_the_stove.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep0--success=False--task=put_the_bowl_on_the_plate.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep1--success=False--task=put_the_bowl_on_the_plate.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep2--success=False--task=put_the_bowl_on_the_plate.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep3--success=False--task=put_the_bowl_on_the_plate.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep4--success=True--task=put_the_bowl_on_the_plate.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep5--success=False--task=put_the_bowl_on_the_plate.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep6--success=False--task=put_the_bowl_on_the_plate.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep7--success=True--task=put_the_bowl_on_the_plate.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep8--success=False--task=put_the_bowl_on_the_plate.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep9--success=True--task=put_the_bowl_on_the_plate.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep0--success=False--task=put_the_wine_bottle_on_the_rack.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep1--success=False--task=put_the_wine_bottle_on_the_rack.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep2--success=False--task=put_the_wine_bottle_on_the_rack.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep3--success=False--task=put_the_wine_bottle_on_the_rack.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep4--success=False--task=put_the_wine_bottle_on_the_rack.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep5--success=False--task=put_the_wine_bottle_on_the_rack.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep6--success=False--task=put_the_wine_bottle_on_the_rack.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep7--success=False--task=put_the_wine_bottle_on_the_rack.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep8--success=False--task=put_the_wine_bottle_on_the_rack.mp4
+Saved rollout: data/libero/full-tune-0327/2026_03_28-09_53_05--ep9--success=False--task=put_the_wine_bottle_on_the_rack.mp4
+rm=2.6924 max_abs=0.9976
+2026-03-28 13:24:34,082 [INFO] step=60 action_norm=2.5741 max_abs=0.9943
+2026-03-28 13:24:47,900 [INFO] step=110 action_norm=2.4422 max_abs=0.9853
+2026-03-28 13:25:02,011 [INFO] step=160 action_norm=2.2080 max_abs=0.9722
+2026-03-28 13:25:15,527 [INFO] step=210 action_norm=2.3096 max_abs=0.9977
+2026-03-28 13:25:28,091 [INFO] step=260 action_norm=2.2799 max_abs=0.9836
+2026-03-28 13:25:45,327 [INFO] step=10 action_norm=2.9057 max_abs=1.0021
+2026-03-28 13:25:59,336 [INFO] step=60 action_norm=2.9993 max_abs=1.0154
+2026-03-28 13:26:14,233 [INFO] step=110 action_norm=2.2942 max_abs=0.9812
+2026-03-28 13:26:29,172 [INFO] step=160 action_norm=2.2667 max_abs=0.9893
+2026-03-28 13:26:42,880 [INFO] step=210 action_norm=2.5446 max_abs=1.0009
+2026-03-28 13:26:56,837 [INFO] step=260 action_norm=2.3923 max_abs=0.9967
+2026-03-28 13:27:16,801 [INFO] step=10 action_norm=2.7469 max_abs=1.0226
+2026-03-28 13:27:31,797 [INFO] step=60 action_norm=2.5277 max_abs=0.9744
+2026-03-28 13:27:45,620 [INFO] step=110 action_norm=2.4319 max_abs=0.9851
+2026-03-28 13:28:00,110 [INFO] step=160 action_norm=2.4065 max_abs=0.9933
+2026-03-28 13:28:13,651 [INFO] step=210 action_norm=2.3109 max_abs=0.9853
+2026-03-28 13:28:27,562 [INFO] step=260 action_norm=2.7997 max_abs=1.0232
+2026-03-28 13:28:47,556 [INFO] step=10 action_norm=2.7013 max_abs=1.0074
+2026-03-28 13:29:02,892 [INFO] step=60 action_norm=3.2312 max_abs=1.0436
+2026-03-28 13:29:17,881 [INFO] step=110 action_norm=2.7320 max_abs=0.9822
+2026-03-28 13:29:32,985 [INFO] step=160 action_norm=2.1084 max_abs=0.9914
+2026-03-28 13:29:47,979 [INFO] step=210 action_norm=2.3210 max_abs=0.9907
+2026-03-28 13:30:01,964 [INFO] step=260 action_norm=2.2654 max_abs=0.9973
+2026-03-28 13:30:23,341 [INFO] step=10 action_norm=2.5859 max_abs=1.0129
+2026-03-28 13:30:36,717 [INFO] step=60 action_norm=2.5335 max_abs=1.0086
+2026-03-28 13:30:51,040 [INFO] step=110 action_norm=2.3707 max_abs=1.0167
+2026-03-28 13:31:05,066 [INFO] step=160 action_norm=2.2367 max_abs=0.9919
+2026-03-28 13:31:18,392 [INFO] step=210 action_norm=2.2688 max_abs=1.0003
+2026-03-28 13:31:32,075 [INFO] step=260 action_norm=2.2102 max_abs=0.9861
+2026-03-28 13:31:50,738 [INFO] step=10 action_norm=2.6439 max_abs=1.0271
+2026-03-28 13:32:04,924 [INFO] step=60 action_norm=2.0643 max_abs=0.9785
+2026-03-28 13:32:19,208 [INFO] step=110 action_norm=2.3766 max_abs=0.9603
+2026-03-28 13:32:32,753 [INFO] step=160 action_norm=2.3941 max_abs=0.9757
+2026-03-28 13:32:45,756 [INFO] step=210 action_norm=2.3830 max_abs=0.9811
+2026-03-28 13:32:59,145 [INFO] step=260 action_norm=2.3959 max_abs=0.9938
+2026-03-28 13:33:19,055 [INFO] step=10 action_norm=2.4210 max_abs=1.0251
+2026-03-28 13:33:34,039 [INFO] step=60 action_norm=2.2533 max_abs=0.9981
+2026-03-28 13:33:48,661 [INFO] step=110 action_norm=2.4445 max_abs=1.0209
+2026-03-28 13:34:02,021 [INFO] step=160 action_norm=2.3041 max_abs=1.0007
+2026-03-28 13:34:17,318 [INFO] step=210 action_norm=2.3726 max_abs=0.9976
+2026-03-28 13:34:30,775 [INFO] step=260 action_norm=2.2768 max_abs=1.0226
+2026-03-28 13:34:50,788 [INFO] step=10 action_norm=2.7895 max_abs=1.0333
+2026-03-28 13:35:05,317 [INFO] step=60 action_norm=3.1219 max_abs=1.0156
+2026-03-28 13:35:20,591 [INFO] step=110 action_norm=2.2292 max_abs=1.0031
+2026-03-28 13:35:35,878 [INFO] step=160 action_norm=2.3034 max_abs=0.9812
+2026-03-28 13:35:50,579 [INFO] step=210 action_norm=2.2092 max_abs=0.9783
+2026-03-28 13:36:05,498 [INFO] step=260 action_norm=2.2367 max_abs=0.9916
+2026-03-28 13:36:25,968 [INFO] step=10 action_norm=2.5463 max_abs=1.0037
+2026-03-28 13:36:40,140 [INFO] step=60 action_norm=2.7607 max_abs=1.0011
+2026-03-28 13:36:55,806 [INFO] step=110 action_norm=2.3245 max_abs=0.9964
+2026-03-28 13:37:10,525 [INFO] step=160 action_norm=2.2768 max_abs=0.9914
+2026-03-28 13:37:25,111 [INFO] step=210 action_norm=2.2674 max_abs=1.0071
+2026-03-28 13:37:39,591 [INFO] step=260 action_norm=2.2816 max_abs=1.0013
+2026-03-28 13:37:58,674 [INFO] step=10 action_norm=2.6350 max_abs=1.0104
+2026-03-28 13:38:12,512 [INFO] step=60 action_norm=3.1739 max_abs=1.0294
+2026-03-28 13:38:25,898 [INFO] step=110 action_norm=2.3756 max_abs=0.9925
+2026-03-28 13:38:39,613 [INFO] step=160 action_norm=2.3988 max_abs=0.9871
+2026-03-28 13:38:53,095 [INFO] step=210 action_norm=2.6607 max_abs=1.0137
+2026-03-28 13:39:06,719 [INFO] step=260 action_norm=2.5727 max_abs=1.0480
+2026-03-28 13:39:19,748 [INFO] Task 3 (open the top drawer and put the bowl ins): 0/10
+2026-03-28 13:39:26,880 [INFO] step=10 action_norm=2.5957 max_abs=1.0134
+2026-03-28 13:39:41,496 [INFO] step=60 action_norm=2.7916 max_abs=1.0058
+2026-03-28 13:39:55,277 [INFO] step=110 action_norm=2.2127 max_abs=1.0414
+2026-03-28 13:40:09,274 [INFO] step=160 action_norm=2.2444 max_abs=0.9867
+2026-03-28 13:40:22,523 [INFO] step=210 action_norm=2.3078 max_abs=1.0140
+2026-03-28 13:40:35,390 [INFO] step=260 action_norm=2.6669 max_abs=0.9995
+2026-03-28 13:40:54,295 [INFO] step=10 action_norm=2.7705 max_abs=1.0142
+2026-03-28 13:41:09,428 [INFO] step=60 action_norm=2.4649 max_abs=1.0112
+2026-03-28 13:41:23,152 [INFO] step=110 action_norm=2.3636 max_abs=0.9953
+2026-03-28 13:41:37,430 [INFO] step=160 action_norm=2.3477 max_abs=1.0031
+2026-03-28 13:41:51,065 [INFO] step=210 action_norm=2.2856 max_abs=1.0100
+2026-03-28 13:42:04,686 [INFO] step=260 action_norm=2.2515 max_abs=0.9990
+2026-03-28 13:42:22,876 [INFO] step=10 action_norm=2.4458 max_abs=1.0258
+2026-03-28 13:42:36,295 [INFO] step=60 action_norm=2.5323 max_abs=0.9929
+2026-03-28 13:42:49,353 [INFO] step=110 action_norm=2.5169 max_abs=1.0335
+2026-03-28 13:43:03,248 [INFO] step=160 action_norm=2.3306 max_abs=1.0132
+2026-03-28 13:43:17,113 [INFO] step=210 action_norm=2.1797 max_abs=0.9773
+2026-03-28 13:43:30,244 [INFO] step=260 action_norm=2.2670 max_abs=0.9906
+2026-03-28 13:43:49,248 [INFO] step=10 action_norm=2.4017 max_abs=1.0081
+2026-03-28 13:44:04,462 [INFO] step=60 action_norm=2.9190 max_abs=1.0068
+2026-03-28 13:44:20,021 [INFO] step=110 action_norm=2.2182 max_abs=0.9717
+2026-03-28 13:44:35,714 [INFO] step=160 action_norm=2.3069 max_abs=0.9839
+2026-03-28 13:44:51,155 [INFO] step=210 action_norm=2.2745 max_abs=0.9707
+2026-03-28 13:45:06,473 [INFO] step=260 action_norm=2.2719 max_abs=0.9799
+2026-03-28 13:45:27,491 [INFO] step=10 action_norm=2.5272 max_abs=1.0259
+2026-03-28 13:45:41,504 [INFO] step=60 action_norm=2.9012 max_abs=1.0172
+2026-03-28 13:45:56,159 [INFO] step=110 action_norm=2.2876 max_abs=1.0163
+2026-03-28 13:46:10,271 [INFO] step=160 action_norm=2.2410 max_abs=0.9788
+2026-03-28 13:46:23,761 [INFO] step=210 action_norm=2.1548 max_abs=0.9782
+2026-03-28 13:46:37,463 [INFO] step=260 action_norm=2.2935 max_abs=0.9718
+2026-03-28 13:46:54,082 [INFO] step=10 action_norm=2.4702 max_abs=1.0007
+2026-03-28 13:47:08,448 [INFO] step=60 action_norm=2.3652 max_abs=0.9802
+2026-03-28 13:47:22,387 [INFO] step=110 action_norm=2.6360 max_abs=1.0089
+2026-03-28 13:47:36,342 [INFO] step=160 action_norm=2.5183 max_abs=0.9854
+2026-03-28 13:47:50,975 [INFO] step=210 action_norm=2.3969 max_abs=1.0350
+2026-03-28 13:48:04,043 [INFO] step=260 action_norm=2.5515 max_abs=0.9932
+2026-03-28 13:48:23,771 [INFO] step=10 action_norm=2.6433 max_abs=1.0276
+2026-03-28 13:48:37,840 [INFO] step=60 action_norm=3.1636 max_abs=1.0208
+2026-03-28 13:48:52,983 [INFO] step=110 action_norm=2.2789 max_abs=0.9995
+2026-03-28 13:49:08,841 [INFO] step=160 action_norm=2.3464 max_abs=1.0226
+2026-03-28 13:49:24,017 [INFO] step=210 action_norm=2.4863 max_abs=1.0195
+2026-03-28 13:49:38,864 [INFO] step=260 action_norm=2.5958 max_abs=1.0262
+2026-03-28 13:49:59,268 [INFO] step=10 action_norm=2.5779 max_abs=1.0043
+2026-03-28 13:50:13,441 [INFO] step=60 action_norm=3.0763 max_abs=1.0015
+2026-03-28 13:50:28,300 [INFO] step=110 action_norm=2.4794 max_abs=1.0155
+2026-03-28 13:50:42,713 [INFO] step=160 action_norm=2.3667 max_abs=1.0302
+2026-03-28 13:50:57,353 [INFO] step=210 action_norm=2.2324 max_abs=0.9687
+2026-03-28 13:51:12,060 [INFO] step=260 action_norm=2.2221 max_abs=0.9812
+2026-03-28 13:51:32,496 [INFO] step=10 action_norm=2.6825 max_abs=1.0099
+2026-03-28 13:51:46,961 [INFO] step=60 action_norm=2.6769 max_abs=1.0018
+2026-03-28 13:52:01,786 [INFO] step=110 action_norm=2.2231 max_abs=1.0135
+2026-03-28 13:52:16,421 [INFO] step=160 action_norm=2.2397 max_abs=0.9968
+2026-03-28 13:52:30,022 [INFO] step=210 action_norm=2.2007 max_abs=0.9936
+2026-03-28 13:52:43,238 [INFO] step=260 action_norm=2.2329 max_abs=0.9896
+2026-03-28 13:53:01,553 [INFO] step=10 action_norm=2.5254 max_abs=1.0051
+2026-03-28 13:53:16,225 [INFO] step=60 action_norm=2.6544 max_abs=0.9999
+2026-03-28 13:53:31,208 [INFO] step=110 action_norm=2.2211 max_abs=0.9890
+2026-03-28 13:53:45,397 [INFO] step=160 action_norm=2.3051 max_abs=0.9818
+2026-03-28 13:54:00,613 [INFO] step=210 action_norm=2.4340 max_abs=1.0180
+2026-03-28 13:54:14,681 [INFO] step=260 action_norm=2.3176 max_abs=0.9766
+2026-03-28 13:54:29,783 [INFO] Task 4 (put the bowl on top of the cabinet): 0/10
+2026-03-28 13:54:37,279 [INFO] step=10 action_norm=2.5773 max_abs=1.0174
+2026-03-28 13:54:52,111 [INFO] step=60 action_norm=2.2743 max_abs=1.0060
+2026-03-28 13:55:06,480 [INFO] step=110 action_norm=2.5773 max_abs=1.0095
+2026-03-28 13:55:20,792 [INFO] step=160 action_norm=2.5808 max_abs=1.0252
+2026-03-28 13:55:35,225 [INFO] step=210 action_norm=2.5076 max_abs=1.0210
+2026-03-28 13:55:49,707 [INFO] step=260 action_norm=2.5458 max_abs=1.0269
+2026-03-28 13:56:09,231 [INFO] step=10 action_norm=2.4952 max_abs=1.0062
+2026-03-28 13:56:22,695 [INFO] step=60 action_norm=3.0200 max_abs=1.0149
+2026-03-28 13:56:37,516 [INFO] step=110 action_norm=2.2593 max_abs=1.0089
+2026-03-28 13:56:52,292 [INFO] step=160 action_norm=2.2796 max_abs=1.0074
+2026-03-28 13:57:06,127 [INFO] step=210 action_norm=2.2177 max_abs=0.9997
+2026-03-28 13:57:20,590 [INFO] step=260 action_norm=2.6680 max_abs=1.0018
+2026-03-28 13:57:39,927 [INFO] step=10 action_norm=2.9349 max_abs=0.9995
+2026-03-28 13:57:53,570 [INFO] step=60 action_norm=2.6683 max_abs=0.9804
+2026-03-28 13:58:07,098 [INFO] step=110 action_norm=2.5653 max_abs=1.0077
+2026-03-28 13:58:20,746 [INFO] step=160 action_norm=2.2235 max_abs=0.9858
+2026-03-28 13:58:34,239 [INFO] step=210 action_norm=2.1360 max_abs=1.0082
+2026-03-28 13:58:47,705 [INFO] step=260 action_norm=2.3690 max_abs=1.0056
+2026-03-28 13:59:06,615 [INFO] step=10 action_norm=2.4477 max_abs=1.0390
+2026-03-28 13:59:20,750 [INFO] step=60 action_norm=2.3105 max_abs=1.0087
+2026-03-28 13:59:35,461 [INFO] step=110 action_norm=2.5239 max_abs=0.9949
+2026-03-28 13:59:49,236 [INFO] step=160 action_norm=2.3157 max_abs=1.0205
+2026-03-28 14:00:02,504 [INFO] step=210 action_norm=2.2898 max_abs=0.9967
+2026-03-28 14:00:16,496 [INFO] step=260 action_norm=2.5629 max_abs=1.0162
+2026-03-28 14:00:34,919 [INFO] step=10 action_norm=2.4038 max_abs=1.0111
+2026-03-28 14:00:49,350 [INFO] step=60 action_norm=3.2645 max_abs=1.0442
+2026-03-28 14:01:04,077 [INFO] step=110 action_norm=2.4479 max_abs=1.0141
+2026-03-28 14:01:18,173 [INFO] step=160 action_norm=2.1903 max_abs=0.9883
+2026-03-28 14:01:33,602 [INFO] step=210 action_norm=2.3511 max_abs=0.9945
+2026-03-28 14:01:49,018 [INFO] step=260 action_norm=2.3054 max_abs=0.9833
+2026-03-28 14:02:08,429 [INFO] step=10 action_norm=2.7707 max_abs=1.0043
+2026-03-28 14:02:22,930 [INFO] step=60 action_norm=2.5144 max_abs=1.0031
+2026-03-28 14:02:37,483 [INFO] step=110 action_norm=2.2461 max_abs=0.9884
+2026-03-28 14:02:51,775 [INFO] step=160 action_norm=2.3185 max_abs=1.0121
+2026-03-28 14:03:05,618 [INFO] step=210 action_norm=2.3022 max_abs=0.9930
+2026-03-28 14:03:19,178 [INFO] step=260 action_norm=2.4374 max_abs=0.9948
+2026-03-28 14:03:38,861 [INFO] step=10 action_norm=2.4175 max_abs=1.0275
+2026-03-28 14:03:52,626 [INFO] step=60 action_norm=3.2840 max_abs=1.0628
+2026-03-28 14:04:07,315 [INFO] step=110 action_norm=2.1922 max_abs=0.9792
+2026-03-28 14:04:21,749 [INFO] step=160 action_norm=2.3575 max_abs=0.9803
+2026-03-28 14:04:37,893 [INFO] step=210 action_norm=2.2055 max_abs=0.9860
+2026-03-28 14:04:52,321 [INFO] step=260 action_norm=2.2028 max_abs=0.9770
+2026-03-28 14:05:11,914 [INFO] step=10 action_norm=2.3487 max_abs=1.0122
+2026-03-28 14:05:26,886 [INFO] step=60 action_norm=2.6092 max_abs=1.0094
+2026-03-28 14:05:41,137 [INFO] step=110 action_norm=2.3861 max_abs=0.9972
+2026-03-28 14:05:55,609 [INFO] step=160 action_norm=2.2309 max_abs=0.9860
+2026-03-28 14:06:09,796 [INFO] step=210 action_norm=2.5809 max_abs=0.9946
+2026-03-28 14:06:23,823 [INFO] step=260 action_norm=2.3626 max_abs=0.9524
+2026-03-28 14:06:42,528 [INFO] step=10 action_norm=2.9355 max_abs=1.0246
+2026-03-28 14:06:56,993 [INFO] step=60 action_norm=2.3898 max_abs=1.0132
+2026-03-28 14:07:11,209 [INFO] step=110 action_norm=2.2809 max_abs=1.0111
+2026-03-28 14:07:24,826 [INFO] step=160 action_norm=2.7835 max_abs=1.0149
+2026-03-28 14:07:38,348 [INFO] step=210 action_norm=2.1433 max_abs=1.0212
+2026-03-28 14:07:52,489 [INFO] step=260 action_norm=2.3307 max_abs=1.0216
+2026-03-28 14:08:10,989 [INFO] step=10 action_norm=2.3879 max_abs=1.0186
+2026-03-28 14:08:25,423 [INFO] step=60 action_norm=2.8827 max_abs=1.0278
+2026-03-28 14:08:40,470 [INFO] step=110 action_norm=2.2618 max_abs=0.9973
+2026-03-28 14:08:54,360 [INFO] step=160 action_norm=2.3678 max_abs=1.0000
+2026-03-28 14:09:07,334 [INFO] step=210 action_norm=2.5090 max_abs=1.0239
+2026-03-28 14:09:21,101 [INFO] step=260 action_norm=2.4053 max_abs=1.0109
+2026-03-28 14:09:33,498 [INFO] Task 5 (push the plate to the front of the stove): 0/10
+2026-03-28 14:09:40,019 [INFO] step=10 action_norm=2.6647 max_abs=1.0092
+2026-03-28 14:09:54,920 [INFO] step=60 action_norm=2.6914 max_abs=1.0317
+2026-03-28 14:10:10,022 [INFO] step=110 action_norm=2.2435 max_abs=0.9998
+2026-03-28 14:10:24,349 [INFO] step=160 action_norm=2.2726 max_abs=0.9763
+2026-03-28 14:10:38,175 [INFO] step=210 action_norm=2.2657 max_abs=0.9824
+2026-03-28 14:10:51,362 [INFO] step=260 action_norm=2.2915 max_abs=1.0022
+2026-03-28 14:11:10,503 [INFO] step=10 action_norm=2.6614 max_abs=1.0020
+2026-03-28 14:11:25,561 [INFO] step=60 action_norm=2.8013 max_abs=1.0041
+2026-03-28 14:11:40,776 [INFO] step=110 action_norm=2.5149 max_abs=1.0138
+2026-03-28 14:11:55,660 [INFO] step=160 action_norm=2.4836 max_abs=1.0157
+2026-03-28 14:12:10,065 [INFO] step=210 action_norm=2.6887 max_abs=1.0186
+2026-03-28 14:12:24,212 [INFO] step=260 action_norm=2.3505 max_abs=1.0238
+2026-03-28 14:12:44,062 [INFO] step=10 action_norm=2.6429 max_abs=1.0237
+2026-03-28 14:12:58,871 [INFO] step=60 action_norm=2.3050 max_abs=0.9997
+2026-03-28 14:13:12,214 [INFO] step=110 action_norm=2.5384 max_abs=1.0405
+2026-03-28 14:13:26,498 [INFO] step=160 action_norm=2.5692 max_abs=1.0106
+2026-03-28 14:13:40,231 [INFO] step=210 action_norm=2.7770 max_abs=1.0150
+2026-03-28 14:13:53,725 [INFO] step=260 action_norm=2.4652 max_abs=1.0343
+2026-03-28 14:14:12,462 [INFO] step=10 action_norm=2.7255 max_abs=1.0113
+2026-03-28 14:14:27,275 [INFO] step=60 action_norm=3.0967 max_abs=1.0176
+2026-03-28 14:14:40,489 [INFO] step=10 action_norm=2.9196 max_abs=1.0331
+2026-03-28 14:14:54,653 [INFO] step=60 action_norm=2.8082 max_abs=0.9867
+2026-03-28 14:15:08,513 [INFO] step=110 action_norm=2.3034 max_abs=0.9878
+2026-03-28 14:15:22,143 [INFO] step=160 action_norm=2.5588 max_abs=0.9942
+2026-03-28 14:15:35,545 [INFO] step=210 action_norm=2.3892 max_abs=0.9744
+2026-03-28 14:15:49,722 [INFO] step=260 action_norm=2.8181 max_abs=0.9996
+2026-03-28 14:16:07,354 [INFO] step=10 action_norm=2.6586 max_abs=1.0116
+2026-03-28 14:16:21,740 [INFO] step=60 action_norm=2.6236 max_abs=1.0365
+2026-03-28 14:16:34,332 [INFO] step=110 action_norm=2.5346 max_abs=0.9894
+2026-03-28 14:16:48,321 [INFO] step=160 action_norm=2.3381 max_abs=0.9893
+2026-03-28 14:17:02,643 [INFO] step=210 action_norm=2.3685 max_abs=1.0188
+2026-03-28 14:17:15,267 [INFO] step=260 action_norm=2.3483 max_abs=0.9986
+2026-03-28 14:17:34,172 [INFO] step=10 action_norm=2.4878 max_abs=0.9989
+2026-03-28 14:17:49,673 [INFO] step=60 action_norm=3.2042 max_abs=1.0197
+2026-03-28 14:18:05,156 [INFO] step=110 action_norm=2.3175 max_abs=1.0085
+2026-03-28 14:18:21,506 [INFO] step=160 action_norm=2.2543 max_abs=0.9912
+2026-03-28 14:18:35,189 [INFO] step=210 action_norm=2.1637 max_abs=0.9932
+2026-03-28 14:18:49,177 [INFO] step=260 action_norm=2.4232 max_abs=1.0163
+2026-03-28 14:19:08,939 [INFO] step=10 action_norm=2.4742 max_abs=1.0082
+2026-03-28 14:19:22,474 [INFO] step=60 action_norm=2.5954 max_abs=0.9853
+2026-03-28 14:19:37,074 [INFO] step=110 action_norm=2.2641 max_abs=1.0026
+2026-03-28 14:19:51,008 [INFO] step=160 action_norm=2.4626 max_abs=1.0138
+2026-03-28 14:20:04,235 [INFO] step=210 action_norm=2.4839 max_abs=1.0081
+2026-03-28 14:20:17,641 [INFO] step=260 action_norm=2.4845 max_abs=1.0271
+2026-03-28 14:20:37,216 [INFO] step=10 action_norm=2.6748 max_abs=1.0167
+2026-03-28 14:20:51,457 [INFO] step=60 action_norm=2.2759 max_abs=1.0018
+2026-03-28 14:21:04,997 [INFO] step=110 action_norm=2.3500 max_abs=0.9943
+2026-03-28 14:21:19,465 [INFO] step=160 action_norm=2.4726 max_abs=0.9756
+2026-03-28 14:21:33,319 [INFO] step=210 action_norm=2.3797 max_abs=0.9948
+2026-03-28 14:21:46,241 [INFO] step=260 action_norm=2.4675 max_abs=1.0050
+2026-03-28 14:22:03,800 [INFO] step=10 action_norm=2.3670 max_abs=1.0129
+2026-03-28 14:22:17,536 [INFO] step=60 action_norm=3.1046 max_abs=1.0041
+2026-03-28 14:22:32,032 [INFO] step=110 action_norm=2.2452 max_abs=0.9807
+2026-03-28 14:22:46,823 [INFO] step=160 action_norm=2.2321 max_abs=1.0031
+2026-03-28 14:23:01,207 [INFO] step=210 action_norm=2.2280 max_abs=0.9727
+2026-03-28 14:23:16,230 [INFO] step=260 action_norm=2.2388 max_abs=0.9756
+2026-03-28 14:23:31,050 [INFO] Task 6 (put the cream cheese in the bowl): 1/10
+2026-03-28 14:23:37,612 [INFO] step=10 action_norm=2.4466 max_abs=1.0073
+2026-03-28 14:23:52,562 [INFO] step=60 action_norm=2.4153 max_abs=1.0281
+2026-03-28 14:24:07,311 [INFO] step=110 action_norm=2.7225 max_abs=1.0269
+2026-03-28 14:24:16,977 [INFO] step=10 action_norm=2.5094 max_abs=1.0101
+2026-03-28 14:24:31,280 [INFO] step=60 action_norm=2.3802 max_abs=1.0195
+2026-03-28 14:24:42,995 [INFO] step=10 action_norm=2.9087 max_abs=1.0070
+2026-03-28 14:24:57,113 [INFO] step=60 action_norm=2.8745 max_abs=0.9906
+2026-03-28 14:25:10,708 [INFO] step=110 action_norm=2.2315 max_abs=1.0032
+2026-03-28 14:25:24,716 [INFO] step=160 action_norm=2.3677 max_abs=1.0010
+2026-03-28 14:25:38,230 [INFO] step=210 action_norm=2.2753 max_abs=1.0053
+2026-03-28 14:25:51,960 [INFO] step=260 action_norm=2.3673 max_abs=1.0050
+2026-03-28 14:26:10,418 [INFO] step=10 action_norm=2.4856 max_abs=1.0479
+2026-03-28 14:26:25,451 [INFO] step=60 action_norm=2.2954 max_abs=0.9976
+2026-03-28 14:26:35,424 [INFO] step=10 action_norm=2.5409 max_abs=1.0135
+2026-03-28 14:26:49,975 [INFO] step=60 action_norm=2.6601 max_abs=1.0386
+2026-03-28 14:27:03,736 [INFO] step=110 action_norm=2.3016 max_abs=0.9984
+2026-03-28 14:27:17,174 [INFO] step=160 action_norm=2.7457 max_abs=1.0301
+2026-03-28 14:27:31,112 [INFO] step=210 action_norm=2.3268 max_abs=1.0020
+2026-03-28 14:27:44,653 [INFO] step=260 action_norm=2.0884 max_abs=1.0019
+2026-03-28 14:28:03,450 [INFO] step=10 action_norm=2.6477 max_abs=1.0195
+2026-03-28 14:28:18,311 [INFO] step=60 action_norm=2.4887 max_abs=1.0021
+2026-03-28 14:28:33,681 [INFO] step=110 action_norm=2.1006 max_abs=1.0049
+2026-03-28 14:28:47,549 [INFO] step=160 action_norm=2.2997 max_abs=1.0084
+2026-03-28 14:29:01,867 [INFO] step=210 action_norm=2.2558 max_abs=1.0110
+2026-03-28 14:29:16,006 [INFO] step=260 action_norm=2.3112 max_abs=1.0128
+2026-03-28 14:29:36,156 [INFO] step=10 action_norm=3.1036 max_abs=1.0183
+2026-03-28 14:29:50,145 [INFO] step=60 action_norm=3.0825 max_abs=0.9941
+2026-03-28 14:30:05,104 [INFO] step=110 action_norm=2.4542 max_abs=1.0057
+2026-03-28 14:30:20,293 [INFO] step=160 action_norm=2.3479 max_abs=1.0255
+2026-03-28 14:30:35,340 [INFO] step=210 action_norm=2.2561 max_abs=1.0119
+2026-03-28 14:30:49,719 [INFO] step=260 action_norm=2.2553 max_abs=1.0035
+2026-03-28 14:31:09,799 [INFO] step=10 action_norm=2.4459 max_abs=1.0018
+2026-03-28 14:31:24,402 [INFO] step=60 action_norm=2.3617 max_abs=1.0400
+2026-03-28 14:31:39,584 [INFO] step=110 action_norm=2.2893 max_abs=0.9959
+2026-03-28 14:31:55,053 [INFO] step=160 action_norm=2.3562 max_abs=0.9862
+2026-03-28 14:32:10,107 [INFO] step=210 action_norm=1.9198 max_abs=0.9592
+2026-03-28 14:32:25,212 [INFO] step=260 action_norm=2.3189 max_abs=1.0034
+2026-03-28 14:32:44,017 [INFO] step=10 action_norm=2.6958 max_abs=1.0228
+2026-03-28 14:32:58,467 [INFO] step=60 action_norm=2.3764 max_abs=1.0208
+2026-03-28 14:33:12,196 [INFO] step=110 action_norm=2.8769 max_abs=1.0042
+2026-03-28 14:33:26,319 [INFO] step=160 action_norm=2.2444 max_abs=0.9951
+2026-03-28 14:33:39,756 [INFO] step=210 action_norm=2.3208 max_abs=0.9950
+2026-03-28 14:33:52,240 [INFO] step=260 action_norm=2.3532 max_abs=0.9765
+2026-03-28 14:34:12,754 [INFO] step=10 action_norm=2.5797 max_abs=1.0092
+2026-03-28 14:34:26,902 [INFO] step=60 action_norm=2.5646 max_abs=0.9897
+2026-03-28 14:34:40,714 [INFO] step=110 action_norm=2.2808 max_abs=1.0124
+2026-03-28 14:34:54,331 [INFO] step=160 action_norm=2.2306 max_abs=0.9967
+2026-03-28 14:35:07,586 [INFO] step=210 action_norm=2.2260 max_abs=0.9886
+2026-03-28 14:35:21,011 [INFO] step=260 action_norm=2.3189 max_abs=1.0113
+2026-03-28 14:35:34,313 [INFO] Task 7 (turn on the stove): 3/10
+2026-03-28 14:35:42,056 [INFO] step=10 action_norm=2.7945 max_abs=0.9997
+2026-03-28 14:35:56,644 [INFO] step=60 action_norm=3.1241 max_abs=1.0015
+2026-03-28 14:36:11,110 [INFO] step=110 action_norm=2.2827 max_abs=0.9999
+2026-03-28 14:36:26,258 [INFO] step=160 action_norm=2.2386 max_abs=0.9779
+2026-03-28 14:36:40,747 [INFO] step=210 action_norm=2.4228 max_abs=0.9520
+2026-03-28 14:36:55,792 [INFO] step=260 action_norm=2.2862 max_abs=1.0012
+2026-03-28 14:37:16,096 [INFO] step=10 action_norm=2.9066 max_abs=1.0152
+2026-03-28 14:37:31,207 [INFO] step=60 action_norm=2.9084 max_abs=0.9903
+2026-03-28 14:37:45,886 [INFO] step=110 action_norm=2.4473 max_abs=1.0109
+2026-03-28 14:38:00,844 [INFO] step=160 action_norm=2.2822 max_abs=1.0237
+2026-03-28 14:38:15,232 [INFO] step=210 action_norm=2.3083 max_abs=1.0421
+2026-03-28 14:38:29,181 [INFO] step=260 action_norm=2.0057 max_abs=1.0262
+2026-03-28 14:38:48,774 [INFO] step=10 action_norm=2.8013 max_abs=1.0356
+2026-03-28 14:39:03,559 [INFO] step=60 action_norm=2.9128 max_abs=1.0115
+2026-03-28 14:39:19,095 [INFO] step=110 action_norm=2.2142 max_abs=0.9973
+2026-03-28 14:39:34,112 [INFO] step=160 action_norm=2.2932 max_abs=1.0035
+2026-03-28 14:39:49,455 [INFO] step=210 action_norm=2.5391 max_abs=0.9906
+2026-03-28 14:40:04,719 [INFO] step=260 action_norm=2.3823 max_abs=0.9927
+2026-03-28 14:40:25,062 [INFO] step=10 action_norm=2.4677 max_abs=1.0066
+2026-03-28 14:40:40,080 [INFO] step=60 action_norm=3.0557 max_abs=1.0011
+2026-03-28 14:40:55,094 [INFO] step=110 action_norm=2.2607 max_abs=1.0010
+2026-03-28 14:41:08,867 [INFO] step=160 action_norm=2.2106 max_abs=1.0027
+2026-03-28 14:41:22,957 [INFO] step=210 action_norm=2.2625 max_abs=1.0106
+2026-03-28 14:41:37,640 [INFO] step=260 action_norm=2.3857 max_abs=1.0207
+2026-03-28 14:41:56,094 [INFO] step=10 action_norm=2.8706 max_abs=1.0133
+2026-03-28 14:42:11,111 [INFO] step=60 action_norm=3.0091 max_abs=0.9938
+2026-03-28 14:42:23,385 [INFO] step=10 action_norm=2.5100 max_abs=1.0447
+2026-03-28 14:42:38,997 [INFO] step=60 action_norm=2.3298 max_abs=1.0151
+2026-03-28 14:42:54,161 [INFO] step=110 action_norm=2.5392 max_abs=0.9916
+2026-03-28 14:43:08,776 [INFO] step=160 action_norm=2.2364 max_abs=0.9898
+2026-03-28 14:43:24,327 [INFO] step=210 action_norm=2.2685 max_abs=1.0178
+2026-03-28 14:43:38,639 [INFO] step=260 action_norm=2.3009 max_abs=0.9892
+2026-03-28 14:43:58,664 [INFO] step=10 action_norm=2.4272 max_abs=1.0261
+2026-03-28 14:44:12,526 [INFO] step=60 action_norm=2.4692 max_abs=1.0137
+2026-03-28 14:44:27,387 [INFO] step=110 action_norm=2.2529 max_abs=1.0094
+2026-03-28 14:44:42,800 [INFO] step=160 action_norm=2.4521 max_abs=0.9990
+2026-03-28 14:44:57,438 [INFO] step=210 action_norm=2.3297 max_abs=1.0220
+2026-03-28 14:45:12,047 [INFO] step=260 action_norm=2.3534 max_abs=0.9908
+2026-03-28 14:45:32,563 [INFO] step=10 action_norm=2.6462 max_abs=1.0093
+2026-03-28 14:45:47,124 [INFO] step=60 action_norm=2.6181 max_abs=1.0070
+2026-03-28 14:46:00,740 [INFO] step=10 action_norm=2.6246 max_abs=1.0367
+2026-03-28 14:46:14,832 [INFO] step=60 action_norm=2.9721 max_abs=1.0267
+2026-03-28 14:46:29,959 [INFO] step=110 action_norm=2.3201 max_abs=1.0059
+2026-03-28 14:46:44,814 [INFO] step=160 action_norm=2.3539 max_abs=1.0116
+2026-03-28 14:46:58,778 [INFO] step=210 action_norm=2.2982 max_abs=1.0155
+2026-03-28 14:47:12,751 [INFO] step=260 action_norm=2.3314 max_abs=1.0053
+2026-03-28 14:47:32,097 [INFO] step=10 action_norm=2.4748 max_abs=0.9938
+2026-03-28 14:47:47,532 [INFO] step=60 action_norm=3.0609 max_abs=0.9888
+2026-03-28 14:47:58,712 [INFO] Task 8 (put the bowl on the plate): 3/10
+2026-03-28 14:48:06,264 [INFO] step=10 action_norm=2.4680 max_abs=1.0149
+2026-03-28 14:48:20,126 [INFO] step=60 action_norm=3.0895 max_abs=1.0112
+2026-03-28 14:48:34,454 [INFO] step=110 action_norm=2.4852 max_abs=1.0115
+2026-03-28 14:48:49,018 [INFO] step=160 action_norm=2.4130 max_abs=0.9747
+2026-03-28 14:49:03,170 [INFO] step=210 action_norm=2.4184 max_abs=1.0069
+2026-03-28 14:49:17,633 [INFO] step=260 action_norm=2.3322 max_abs=0.9958
+2026-03-28 14:49:37,975 [INFO] step=10 action_norm=2.7381 max_abs=1.0247
+2026-03-28 14:49:52,637 [INFO] step=60 action_norm=2.2792 max_abs=0.9975
+2026-03-28 14:50:07,048 [INFO] step=110 action_norm=2.3091 max_abs=0.9795
+2026-03-28 14:50:20,364 [INFO] step=160 action_norm=2.4774 max_abs=1.0052
+2026-03-28 14:50:34,165 [INFO] step=210 action_norm=2.3659 max_abs=0.9937
+2026-03-28 14:50:47,087 [INFO] step=260 action_norm=2.3606 max_abs=1.0028
+2026-03-28 14:51:05,740 [INFO] step=10 action_norm=2.6104 max_abs=1.0169
+2026-03-28 14:51:19,791 [INFO] step=60 action_norm=2.7907 max_abs=1.0239
+2026-03-28 14:51:34,188 [INFO] step=110 action_norm=2.2778 max_abs=1.0026
+2026-03-28 14:51:49,226 [INFO] step=160 action_norm=2.6791 max_abs=1.0185
+2026-03-28 14:52:04,745 [INFO] step=210 action_norm=2.3605 max_abs=1.0190
+2026-03-28 14:52:20,185 [INFO] step=260 action_norm=2.2013 max_abs=0.9746
+2026-03-28 14:52:40,486 [INFO] step=10 action_norm=2.5581 max_abs=1.0190
+2026-03-28 14:52:54,530 [INFO] step=60 action_norm=2.5710 max_abs=0.9819
+2026-03-28 14:53:08,205 [INFO] step=110 action_norm=2.4927 max_abs=1.0191
+2026-03-28 14:53:23,220 [INFO] step=160 action_norm=2.2821 max_abs=0.9841
+2026-03-28 14:53:37,497 [INFO] step=210 action_norm=2.2429 max_abs=0.9878
+2026-03-28 14:53:51,935 [INFO] step=260 action_norm=2.2222 max_abs=0.9893
+2026-03-28 14:54:10,000 [INFO] step=10 action_norm=2.6520 max_abs=1.0157
+2026-03-28 14:54:24,228 [INFO] step=60 action_norm=2.9784 max_abs=1.0011
+2026-03-28 14:54:39,106 [INFO] step=110 action_norm=2.3534 max_abs=1.0048
+2026-03-28 14:54:53,407 [INFO] step=160 action_norm=2.3845 max_abs=1.0401
+2026-03-28 14:55:08,259 [INFO] step=210 action_norm=2.0430 max_abs=1.0270
+2026-03-28 14:55:23,678 [INFO] step=260 action_norm=2.3076 max_abs=0.9785
+2026-03-28 14:55:44,747 [INFO] step=10 action_norm=2.4676 max_abs=1.0360
+2026-03-28 14:56:00,649 [INFO] step=60 action_norm=2.4125 max_abs=1.0130
+2026-03-28 14:56:15,555 [INFO] step=110 action_norm=2.3355 max_abs=1.0040
+2026-03-28 14:56:30,787 [INFO] step=160 action_norm=2.3326 max_abs=0.9985
+2026-03-28 14:56:45,678 [INFO] step=210 action_norm=2.2993 max_abs=0.9873
+2026-03-28 14:57:01,324 [INFO] step=260 action_norm=2.3174 max_abs=1.0404
+2026-03-28 14:57:22,009 [INFO] step=10 action_norm=2.7918 max_abs=1.0050
+2026-03-28 14:57:36,435 [INFO] step=60 action_norm=2.6937 max_abs=0.9984
+2026-03-28 14:57:51,991 [INFO] step=110 action_norm=2.2275 max_abs=0.9781
+2026-03-28 14:58:07,408 [INFO] step=160 action_norm=2.0997 max_abs=0.9792
+2026-03-28 14:58:23,122 [INFO] step=210 action_norm=2.4150 max_abs=1.0212
+2026-03-28 14:58:39,492 [INFO] step=260 action_norm=2.3116 max_abs=1.0394
+2026-03-28 14:59:00,896 [INFO] step=10 action_norm=2.7402 max_abs=0.9982
+2026-03-28 14:59:15,414 [INFO] step=60 action_norm=3.0761 max_abs=1.0180
+2026-03-28 14:59:30,107 [INFO] step=110 action_norm=2.2211 max_abs=0.9946
+2026-03-28 14:59:45,103 [INFO] step=160 action_norm=2.2922 max_abs=0.9750
+2026-03-28 15:00:00,002 [INFO] step=210 action_norm=2.2338 max_abs=0.9871
+2026-03-28 15:00:15,676 [INFO] step=260 action_norm=2.2614 max_abs=0.9701
+2026-03-28 15:00:34,865 [INFO] step=10 action_norm=2.8946 max_abs=0.9961
+2026-03-28 15:00:48,701 [INFO] step=60 action_norm=2.5888 max_abs=0.9957
+2026-03-28 15:01:02,828 [INFO] step=110 action_norm=2.4920 max_abs=1.0190
+2026-03-28 15:01:16,664 [INFO] step=160 action_norm=2.2969 max_abs=1.0047
+2026-03-28 15:01:31,248 [INFO] step=210 action_norm=2.2915 max_abs=1.0246
+2026-03-28 15:01:44,832 [INFO] step=260 action_norm=2.3198 max_abs=1.0115
+2026-03-28 15:02:04,138 [INFO] step=10 action_norm=2.7508 max_abs=1.0047
+2026-03-28 15:02:18,997 [INFO] step=60 action_norm=2.5061 max_abs=0.9945
+2026-03-28 15:02:32,086 [INFO] step=110 action_norm=2.3528 max_abs=1.0210
+2026-03-28 15:02:45,410 [INFO] step=160 action_norm=2.6437 max_abs=1.0250
+2026-03-28 15:03:00,409 [INFO] step=210 action_norm=2.4657 max_abs=0.9996
+2026-03-28 15:03:14,145 [INFO] step=260 action_norm=2.4191 max_abs=1.0145
+2026-03-28 15:03:27,036 [INFO] Task 9 (put the wine bottle on the rack): 0/10
+2026-03-28 15:03:27,486 [INFO] Overall: 12/100 = 12.00%

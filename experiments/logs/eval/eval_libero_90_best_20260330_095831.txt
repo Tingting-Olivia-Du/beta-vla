@@ -1,0 +1,1079 @@
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep0--success=False--task=close_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep1--success=False--task=close_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep2--success=False--task=close_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep3--success=False--task=close_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep4--success=False--task=close_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep5--success=False--task=close_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep6--success=False--task=close_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep7--success=False--task=close_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep8--success=False--task=close_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep9--success=False--task=close_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep10--success=False--task=close_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep11--success=False--task=close_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep12--success=False--task=close_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep13--success=False--task=close_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep14--success=False--task=close_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep15--success=False--task=close_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep16--success=False--task=close_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep17--success=True--task=close_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep18--success=True--task=close_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep19--success=False--task=close_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep0--success=False--task=close_the_top_drawer_of_the_cabinet_and_put_the_bl.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep1--success=False--task=close_the_top_drawer_of_the_cabinet_and_put_the_bl.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep2--success=False--task=close_the_top_drawer_of_the_cabinet_and_put_the_bl.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep3--success=False--task=close_the_top_drawer_of_the_cabinet_and_put_the_bl.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep4--success=False--task=close_the_top_drawer_of_the_cabinet_and_put_the_bl.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep5--success=False--task=close_the_top_drawer_of_the_cabinet_and_put_the_bl.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep6--success=False--task=close_the_top_drawer_of_the_cabinet_and_put_the_bl.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep7--success=False--task=close_the_top_drawer_of_the_cabinet_and_put_the_bl.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep8--success=False--task=close_the_top_drawer_of_the_cabinet_and_put_the_bl.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep9--success=False--task=close_the_top_drawer_of_the_cabinet_and_put_the_bl.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep10--success=False--task=close_the_top_drawer_of_the_cabinet_and_put_the_bl.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep11--success=False--task=close_the_top_drawer_of_the_cabinet_and_put_the_bl.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep12--success=False--task=close_the_top_drawer_of_the_cabinet_and_put_the_bl.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep13--success=False--task=close_the_top_drawer_of_the_cabinet_and_put_the_bl.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep14--success=False--task=close_the_top_drawer_of_the_cabinet_and_put_the_bl.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep15--success=False--task=close_the_top_drawer_of_the_cabinet_and_put_the_bl.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep16--success=False--task=close_the_top_drawer_of_the_cabinet_and_put_the_bl.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep17--success=False--task=close_the_top_drawer_of_the_cabinet_and_put_the_bl.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep18--success=False--task=close_the_top_drawer_of_the_cabinet_and_put_the_bl.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep19--success=False--task=close_the_top_drawer_of_the_cabinet_and_put_the_bl.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep0--success=False--task=put_the_black_bowl_in_the_top_drawer_of_the_cabine.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep1--success=False--task=put_the_black_bowl_in_the_top_drawer_of_the_cabine.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep2--success=False--task=put_the_black_bowl_in_the_top_drawer_of_the_cabine.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep3--success=False--task=put_the_black_bowl_in_the_top_drawer_of_the_cabine.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep4--success=False--task=put_the_black_bowl_in_the_top_drawer_of_the_cabine.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep5--success=False--task=put_the_black_bowl_in_the_top_drawer_of_the_cabine.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep6--success=False--task=put_the_black_bowl_in_the_top_drawer_of_the_cabine.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep7--success=False--task=put_the_black_bowl_in_the_top_drawer_of_the_cabine.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep8--success=False--task=put_the_black_bowl_in_the_top_drawer_of_the_cabine.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep9--success=False--task=put_the_black_bowl_in_the_top_drawer_of_the_cabine.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep10--success=False--task=put_the_black_bowl_in_the_top_drawer_of_the_cabine.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep11--success=False--task=put_the_black_bowl_in_the_top_drawer_of_the_cabine.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep12--success=False--task=put_the_black_bowl_in_the_top_drawer_of_the_cabine.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep13--success=False--task=put_the_black_bowl_in_the_top_drawer_of_the_cabine.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep14--success=False--task=put_the_black_bowl_in_the_top_drawer_of_the_cabine.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep15--success=False--task=put_the_black_bowl_in_the_top_drawer_of_the_cabine.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep16--success=False--task=put_the_black_bowl_in_the_top_drawer_of_the_cabine.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep17--success=False--task=put_the_black_bowl_in_the_top_drawer_of_the_cabine.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep18--success=False--task=put_the_black_bowl_in_the_top_drawer_of_the_cabine.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep19--success=False--task=put_the_black_bowl_in_the_top_drawer_of_the_cabine.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep0--success=False--task=put_the_butter_at_the_back_in_the_top_drawer_of_th.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep1--success=False--task=put_the_butter_at_the_back_in_the_top_drawer_of_th.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep2--success=False--task=put_the_butter_at_the_back_in_the_top_drawer_of_th.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep3--success=False--task=put_the_butter_at_the_back_in_the_top_drawer_of_th.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep4--success=False--task=put_the_butter_at_the_back_in_the_top_drawer_of_th.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep5--success=False--task=put_the_butter_at_the_back_in_the_top_drawer_of_th.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep6--success=False--task=put_the_butter_at_the_back_in_the_top_drawer_of_th.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep7--success=False--task=put_the_butter_at_the_back_in_the_top_drawer_of_th.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep8--success=False--task=put_the_butter_at_the_back_in_the_top_drawer_of_th.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep9--success=False--task=put_the_butter_at_the_back_in_the_top_drawer_of_th.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep10--success=False--task=put_the_butter_at_the_back_in_the_top_drawer_of_th.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep11--success=False--task=put_the_butter_at_the_back_in_the_top_drawer_of_th.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep12--success=False--task=put_the_butter_at_the_back_in_the_top_drawer_of_th.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep13--success=False--task=put_the_butter_at_the_back_in_the_top_drawer_of_th.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep14--success=False--task=put_the_butter_at_the_back_in_the_top_drawer_of_th.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep15--success=False--task=put_the_butter_at_the_back_in_the_top_drawer_of_th.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep16--success=False--task=put_the_butter_at_the_back_in_the_top_drawer_of_th.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep17--success=False--task=put_the_butter_at_the_back_in_the_top_drawer_of_th.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep18--success=False--task=put_the_butter_at_the_back_in_the_top_drawer_of_th.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep19--success=False--task=put_the_butter_at_the_back_in_the_top_drawer_of_th.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep0--success=False--task=put_the_butter_at_the_front_in_the_top_drawer_of_t.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep1--success=False--task=put_the_butter_at_the_front_in_the_top_drawer_of_t.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep2--success=False--task=put_the_butter_at_the_front_in_the_top_drawer_of_t.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep3--success=False--task=put_the_butter_at_the_front_in_the_top_drawer_of_t.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep4--success=False--task=put_the_butter_at_the_front_in_the_top_drawer_of_t.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep5--success=False--task=put_the_butter_at_the_front_in_the_top_drawer_of_t.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep6--success=False--task=put_the_butter_at_the_front_in_the_top_drawer_of_t.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep7--success=False--task=put_the_butter_at_the_front_in_the_top_drawer_of_t.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep8--success=False--task=put_the_butter_at_the_front_in_the_top_drawer_of_t.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep9--success=False--task=put_the_butter_at_the_front_in_the_top_drawer_of_t.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep10--success=False--task=put_the_butter_at_the_front_in_the_top_drawer_of_t.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep11--success=False--task=put_the_butter_at_the_front_in_the_top_drawer_of_t.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep12--success=False--task=put_the_butter_at_the_front_in_the_top_drawer_of_t.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep13--success=False--task=put_the_butter_at_the_front_in_the_top_drawer_of_t.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep14--success=False--task=put_the_butter_at_the_front_in_the_top_drawer_of_t.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep15--success=False--task=put_the_butter_at_the_front_in_the_top_drawer_of_t.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep16--success=False--task=put_the_butter_at_the_front_in_the_top_drawer_of_t.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep17--success=False--task=put_the_butter_at_the_front_in_the_top_drawer_of_t.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep18--success=False--task=put_the_butter_at_the_front_in_the_top_drawer_of_t.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep19--success=False--task=put_the_butter_at_the_front_in_the_top_drawer_of_t.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep0--success=False--task=put_the_chocolate_pudding_in_the_top_drawer_of_the.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep1--success=False--task=put_the_chocolate_pudding_in_the_top_drawer_of_the.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep2--success=False--task=put_the_chocolate_pudding_in_the_top_drawer_of_the.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep3--success=False--task=put_the_chocolate_pudding_in_the_top_drawer_of_the.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep4--success=False--task=put_the_chocolate_pudding_in_the_top_drawer_of_the.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep5--success=False--task=put_the_chocolate_pudding_in_the_top_drawer_of_the.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep6--success=False--task=put_the_chocolate_pudding_in_the_top_drawer_of_the.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep7--success=False--task=put_the_chocolate_pudding_in_the_top_drawer_of_the.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep8--success=False--task=put_the_chocolate_pudding_in_the_top_drawer_of_the.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep9--success=False--task=put_the_chocolate_pudding_in_the_top_drawer_of_the.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep10--success=False--task=put_the_chocolate_pudding_in_the_top_drawer_of_the.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep11--success=False--task=put_the_chocolate_pudding_in_the_top_drawer_of_the.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep12--success=False--task=put_the_chocolate_pudding_in_the_top_drawer_of_the.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep13--success=False--task=put_the_chocolate_pudding_in_the_top_drawer_of_the.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep14--success=False--task=put_the_chocolate_pudding_in_the_top_drawer_of_the.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep15--success=False--task=put_the_chocolate_pudding_in_the_top_drawer_of_the.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep16--success=False--task=put_the_chocolate_pudding_in_the_top_drawer_of_the.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep17--success=False--task=put_the_chocolate_pudding_in_the_top_drawer_of_the.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep18--success=False--task=put_the_chocolate_pudding_in_the_top_drawer_of_the.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep19--success=False--task=put_the_chocolate_pudding_in_the_top_drawer_of_the.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep0--success=False--task=open_the_bottom_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep1--success=False--task=open_the_bottom_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep2--success=False--task=open_the_bottom_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep3--success=False--task=open_the_bottom_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep4--success=False--task=open_the_bottom_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep5--success=False--task=open_the_bottom_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep6--success=False--task=open_the_bottom_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep7--success=False--task=open_the_bottom_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep8--success=False--task=open_the_bottom_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep9--success=False--task=open_the_bottom_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep10--success=False--task=open_the_bottom_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep11--success=False--task=open_the_bottom_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep12--success=False--task=open_the_bottom_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep13--success=False--task=open_the_bottom_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep14--success=False--task=open_the_bottom_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep15--success=False--task=open_the_bottom_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep16--success=False--task=open_the_bottom_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep17--success=False--task=open_the_bottom_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep18--success=False--task=open_the_bottom_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep19--success=False--task=open_the_bottom_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep0--success=False--task=open_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep1--success=False--task=open_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep2--success=False--task=open_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep3--success=False--task=open_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep4--success=False--task=open_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep5--success=False--task=open_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep6--success=False--task=open_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep7--success=False--task=open_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep8--success=False--task=open_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep9--success=False--task=open_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep10--success=False--task=open_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep11--success=False--task=open_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep12--success=False--task=open_the_top_drawer_of_the_cabinet.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_90/2026_03_30-09_57_28--ep13--success=False--task=open_the_top_drawer_of_the_cabinet.mp4
+ of the cabinet and ): 0/20
+2026-03-30 21:06:13,229 [INFO] step=10 action_norm=2.2793 max_abs=0.9996
+2026-03-30 21:06:21,483 [INFO] step=60 action_norm=2.7051 max_abs=0.9949
+2026-03-30 21:06:29,638 [INFO] step=110 action_norm=2.5812 max_abs=1.0007
+2026-03-30 21:06:37,836 [INFO] step=160 action_norm=2.5647 max_abs=0.9966
+2026-03-30 21:06:45,645 [INFO] step=210 action_norm=2.5927 max_abs=0.9973
+2026-03-30 21:06:53,540 [INFO] step=260 action_norm=2.7163 max_abs=1.0019
+2026-03-30 21:07:01,239 [INFO] step=310 action_norm=2.5397 max_abs=0.9954
+2026-03-30 21:07:08,946 [INFO] step=360 action_norm=2.7965 max_abs=1.0013
+2026-03-30 21:07:20,085 [INFO] step=10 action_norm=2.2904 max_abs=1.0009
+2026-03-30 21:07:28,373 [INFO] step=60 action_norm=2.6137 max_abs=1.0009
+2026-03-30 21:07:36,735 [INFO] step=110 action_norm=2.4361 max_abs=0.9977
+2026-03-30 21:07:44,903 [INFO] step=160 action_norm=2.4600 max_abs=0.9952
+2026-03-30 21:07:52,892 [INFO] step=210 action_norm=2.4508 max_abs=0.9999
+2026-03-30 21:08:00,901 [INFO] step=260 action_norm=2.5435 max_abs=0.9919
+2026-03-30 21:08:09,012 [INFO] step=310 action_norm=2.3569 max_abs=0.9923
+2026-03-30 21:08:17,056 [INFO] step=360 action_norm=2.2998 max_abs=0.9946
+2026-03-30 21:08:28,600 [INFO] step=10 action_norm=2.3018 max_abs=0.9995
+2026-03-30 21:08:36,937 [INFO] step=60 action_norm=2.7264 max_abs=0.9877
+2026-03-30 21:08:45,366 [INFO] step=110 action_norm=2.7726 max_abs=0.9942
+2026-03-30 21:08:53,828 [INFO] step=160 action_norm=2.6223 max_abs=0.9872
+2026-03-30 21:09:02,154 [INFO] step=210 action_norm=2.7309 max_abs=1.0032
+2026-03-30 21:09:10,585 [INFO] step=260 action_norm=2.7079 max_abs=1.0035
+2026-03-30 21:09:18,920 [INFO] step=310 action_norm=2.7519 max_abs=0.9924
+2026-03-30 21:09:27,244 [INFO] step=360 action_norm=2.7797 max_abs=0.9946
+2026-03-30 21:09:39,106 [INFO] step=10 action_norm=2.2681 max_abs=0.9997
+2026-03-30 21:09:47,680 [INFO] step=60 action_norm=2.5758 max_abs=0.9953
+2026-03-30 21:09:56,093 [INFO] step=110 action_norm=2.8546 max_abs=1.0014
+2026-03-30 21:10:04,588 [INFO] step=160 action_norm=2.5018 max_abs=0.9960
+2026-03-30 21:10:12,760 [INFO] step=210 action_norm=2.3541 max_abs=1.0172
+2026-03-30 21:10:20,585 [INFO] step=260 action_norm=2.2165 max_abs=1.0022
+2026-03-30 21:10:28,182 [INFO] step=310 action_norm=2.3000 max_abs=0.9932
+2026-03-30 21:10:35,891 [INFO] step=360 action_norm=2.2827 max_abs=0.9925
+2026-03-30 21:10:47,197 [INFO] step=10 action_norm=2.2479 max_abs=0.9979
+2026-03-30 21:10:55,426 [INFO] step=60 action_norm=3.0820 max_abs=1.0010
+2026-03-30 21:11:03,747 [INFO] step=110 action_norm=2.2639 max_abs=0.9979
+2026-03-30 21:11:12,072 [INFO] step=160 action_norm=2.2834 max_abs=1.0039
+2026-03-30 21:11:20,506 [INFO] step=210 action_norm=2.1817 max_abs=1.0061
+2026-03-30 21:11:28,896 [INFO] step=260 action_norm=2.3032 max_abs=1.0014
+2026-03-30 21:11:37,260 [INFO] step=310 action_norm=2.3707 max_abs=0.9964
+2026-03-30 21:11:45,655 [INFO] step=360 action_norm=2.5151 max_abs=1.0030
+2026-03-30 21:11:57,384 [INFO] step=10 action_norm=2.2774 max_abs=1.0043
+2026-03-30 21:12:05,945 [INFO] step=60 action_norm=2.5670 max_abs=0.9932
+2026-03-30 21:12:14,355 [INFO] step=110 action_norm=2.2494 max_abs=1.0004
+2026-03-30 21:12:22,904 [INFO] step=160 action_norm=2.2553 max_abs=0.9978
+2026-03-30 21:12:31,199 [INFO] step=210 action_norm=2.2753 max_abs=1.0021
+2026-03-30 21:12:39,477 [INFO] step=260 action_norm=2.3487 max_abs=0.9952
+2026-03-30 21:12:47,866 [INFO] step=310 action_norm=2.3770 max_abs=1.0027
+2026-03-30 21:12:56,269 [INFO] step=360 action_norm=2.2392 max_abs=1.0007
+2026-03-30 21:13:08,294 [INFO] step=10 action_norm=2.2887 max_abs=1.0057
+2026-03-30 21:13:16,448 [INFO] step=60 action_norm=2.6169 max_abs=0.9980
+2026-03-30 21:13:24,743 [INFO] step=110 action_norm=2.3018 max_abs=0.9931
+2026-03-30 21:13:33,015 [INFO] step=160 action_norm=2.4353 max_abs=0.9964
+2026-03-30 21:13:41,211 [INFO] step=210 action_norm=2.3551 max_abs=0.9968
+2026-03-30 21:13:49,457 [INFO] step=260 action_norm=2.3760 max_abs=0.9925
+2026-03-30 21:13:57,375 [INFO] step=310 action_norm=2.1437 max_abs=0.9983
+2026-03-30 21:14:05,247 [INFO] step=360 action_norm=2.2324 max_abs=0.9959
+2026-03-30 21:14:16,682 [INFO] step=10 action_norm=2.3631 max_abs=0.9979
+2026-03-30 21:14:24,986 [INFO] step=60 action_norm=2.4087 max_abs=0.9920
+2026-03-30 21:14:33,299 [INFO] step=110 action_norm=2.4796 max_abs=0.9927
+2026-03-30 21:14:41,444 [INFO] step=160 action_norm=2.4359 max_abs=0.9949
+2026-03-30 21:14:49,451 [INFO] step=210 action_norm=2.4419 max_abs=0.9966
+2026-03-30 21:14:57,561 [INFO] step=260 action_norm=2.3792 max_abs=0.9949
+2026-03-30 21:15:05,796 [INFO] step=310 action_norm=2.3912 max_abs=1.0005
+2026-03-30 21:15:13,995 [INFO] step=360 action_norm=2.4043 max_abs=0.9969
+2026-03-30 21:15:25,491 [INFO] step=10 action_norm=2.2396 max_abs=0.9993
+2026-03-30 21:15:33,714 [INFO] step=60 action_norm=2.5009 max_abs=0.9955
+2026-03-30 21:15:42,071 [INFO] step=110 action_norm=2.3911 max_abs=0.9857
+2026-03-30 21:15:50,598 [INFO] step=160 action_norm=2.5454 max_abs=0.9985
+2026-03-30 21:15:59,239 [INFO] step=210 action_norm=2.3536 max_abs=0.9932
+2026-03-30 21:16:07,635 [INFO] step=260 action_norm=2.4760 max_abs=0.9969
+2026-03-30 21:16:15,940 [INFO] step=310 action_norm=2.5468 max_abs=0.9923
+2026-03-30 21:16:24,370 [INFO] step=360 action_norm=2.3633 max_abs=1.0033
+2026-03-30 21:16:36,194 [INFO] step=10 action_norm=2.2610 max_abs=0.9965
+2026-03-30 21:16:44,511 [INFO] step=60 action_norm=2.9549 max_abs=0.9966
+2026-03-30 21:16:52,517 [INFO] step=110 action_norm=2.1872 max_abs=1.0025
+2026-03-30 21:17:01,167 [INFO] step=160 action_norm=2.2424 max_abs=0.9904
+2026-03-30 21:17:09,593 [INFO] step=210 action_norm=2.2620 max_abs=1.0300
+2026-03-30 21:17:17,998 [INFO] step=260 action_norm=2.2437 max_abs=1.0142
+2026-03-30 21:17:26,399 [INFO] step=310 action_norm=2.2205 max_abs=0.9962
+2026-03-30 21:17:34,984 [INFO] step=360 action_norm=2.2790 max_abs=0.9800
+2026-03-30 21:17:47,652 [INFO] step=10 action_norm=2.2921 max_abs=0.9968
+2026-03-30 21:17:55,799 [INFO] step=60 action_norm=2.9655 max_abs=1.0005
+2026-03-30 21:18:03,840 [INFO] step=110 action_norm=2.5904 max_abs=1.0030
+2026-03-30 21:18:11,913 [INFO] step=160 action_norm=2.5846 max_abs=1.0038
+2026-03-30 21:18:20,060 [INFO] step=210 action_norm=2.4594 max_abs=1.0044
+2026-03-30 21:18:28,194 [INFO] step=260 action_norm=2.2282 max_abs=0.9891
+2026-03-30 21:18:36,400 [INFO] step=310 action_norm=2.3487 max_abs=1.0011
+2026-03-30 21:18:44,901 [INFO] step=360 action_norm=2.2955 max_abs=1.0042
+2026-03-30 21:18:56,949 [INFO] step=10 action_norm=2.3325 max_abs=1.0054
+2026-03-30 21:19:05,400 [INFO] step=60 action_norm=2.8428 max_abs=0.9950
+2026-03-30 21:19:13,533 [INFO] step=110 action_norm=2.8431 max_abs=0.9924
+2026-03-30 21:19:21,533 [INFO] step=160 action_norm=2.6010 max_abs=0.9977
+2026-03-30 21:19:29,391 [INFO] step=210 action_norm=2.8158 max_abs=0.9923
+2026-03-30 21:19:37,310 [INFO] step=260 action_norm=2.9085 max_abs=0.9955
+2026-03-30 21:19:45,273 [INFO] step=310 action_norm=2.6864 max_abs=0.9944
+2026-03-30 21:19:53,272 [INFO] step=360 action_norm=2.7662 max_abs=0.9935
+2026-03-30 21:20:04,921 [INFO] step=10 action_norm=2.2322 max_abs=0.9970
+2026-03-30 21:20:13,199 [INFO] step=60 action_norm=2.6748 max_abs=0.9991
+2026-03-30 21:20:21,323 [INFO] step=110 action_norm=2.3927 max_abs=0.9887
+2026-03-30 21:20:29,728 [INFO] step=160 action_norm=2.3477 max_abs=0.9966
+2026-03-30 21:20:38,041 [INFO] step=210 action_norm=2.4331 max_abs=0.9996
+2026-03-30 21:20:46,508 [INFO] step=260 action_norm=2.3636 max_abs=1.0007
+2026-03-30 21:20:55,046 [INFO] step=310 action_norm=2.5262 max_abs=0.9946
+2026-03-30 21:21:03,451 [INFO] step=360 action_norm=2.4215 max_abs=0.9948
+2026-03-30 21:21:15,617 [INFO] step=10 action_norm=2.2750 max_abs=0.9979
+2026-03-30 21:21:23,986 [INFO] step=60 action_norm=2.5752 max_abs=0.9861
+2026-03-30 21:21:32,427 [INFO] step=110 action_norm=2.4052 max_abs=1.0028
+2026-03-30 21:21:40,671 [INFO] step=160 action_norm=2.5916 max_abs=0.9942
+2026-03-30 21:21:49,054 [INFO] step=210 action_norm=2.5075 max_abs=1.0035
+2026-03-30 21:21:57,507 [INFO] step=260 action_norm=2.3937 max_abs=0.9910
+2026-03-30 21:22:05,542 [INFO] step=310 action_norm=2.3028 max_abs=1.0023
+2026-03-30 21:22:13,487 [INFO] step=360 action_norm=2.3322 max_abs=0.9852
+2026-03-30 21:22:25,014 [INFO] step=10 action_norm=2.2469 max_abs=1.0014
+2026-03-30 21:22:33,128 [INFO] step=60 action_norm=2.5562 max_abs=1.0084
+2026-03-30 21:22:41,448 [INFO] step=110 action_norm=2.8268 max_abs=0.9911
+2026-03-30 21:22:49,609 [INFO] step=160 action_norm=2.3851 max_abs=0.9979
+2026-03-30 21:22:57,743 [INFO] step=210 action_norm=2.3915 max_abs=0.9903
+2026-03-30 21:23:06,079 [INFO] step=260 action_norm=2.3897 max_abs=0.9960
+2026-03-30 21:23:14,362 [INFO] step=310 action_norm=2.4292 max_abs=0.9943
+2026-03-30 21:23:22,878 [INFO] step=360 action_norm=2.3598 max_abs=0.9923
+2026-03-30 21:23:34,706 [INFO] step=10 action_norm=2.2456 max_abs=0.9961
+2026-03-30 21:23:42,791 [INFO] step=60 action_norm=2.8090 max_abs=0.9943
+2026-03-30 21:23:50,756 [INFO] step=110 action_norm=2.8395 max_abs=0.9919
+2026-03-30 21:23:58,704 [INFO] step=160 action_norm=2.6974 max_abs=0.9976
+2026-03-30 21:24:06,986 [INFO] step=210 action_norm=2.7234 max_abs=0.9940
+2026-03-30 21:24:15,706 [INFO] step=260 action_norm=2.4545 max_abs=0.9934
+2026-03-30 21:24:24,113 [INFO] step=310 action_norm=2.3652 max_abs=0.9949
+2026-03-30 21:24:32,618 [INFO] step=360 action_norm=2.5156 max_abs=0.9931
+2026-03-30 21:24:44,644 [INFO] step=10 action_norm=2.2401 max_abs=0.9945
+2026-03-30 21:24:52,892 [INFO] step=60 action_norm=2.5395 max_abs=0.9896
+2026-03-30 21:25:01,090 [INFO] step=110 action_norm=2.3762 max_abs=0.9976
+2026-03-30 21:25:09,306 [INFO] step=160 action_norm=2.4598 max_abs=0.9910
+2026-03-30 21:25:17,584 [INFO] step=210 action_norm=2.4630 max_abs=1.0005
+2026-03-30 21:25:26,444 [INFO] step=260 action_norm=2.3927 max_abs=0.9997
+2026-03-30 21:25:34,860 [INFO] step=310 action_norm=2.5904 max_abs=0.9977
+2026-03-30 21:25:43,234 [INFO] step=360 action_norm=2.4519 max_abs=0.9940
+2026-03-30 21:25:55,380 [INFO] step=10 action_norm=2.2934 max_abs=1.0024
+2026-03-30 21:26:03,848 [INFO] step=60 action_norm=2.3561 max_abs=0.9980
+2026-03-30 21:26:12,305 [INFO] step=110 action_norm=2.4044 max_abs=0.9996
+2026-03-30 21:26:20,753 [INFO] step=160 action_norm=2.2291 max_abs=0.9926
+2026-03-30 21:26:29,017 [INFO] step=210 action_norm=2.2743 max_abs=0.9964
+2026-03-30 21:26:37,088 [INFO] step=260 action_norm=2.7454 max_abs=0.9812
+2026-03-30 21:26:45,187 [INFO] step=310 action_norm=2.6020 max_abs=0.9711
+2026-03-30 21:26:53,092 [INFO] step=360 action_norm=2.2947 max_abs=0.9978
+2026-03-30 21:27:04,553 [INFO] step=10 action_norm=2.3164 max_abs=1.0011
+2026-03-30 21:27:12,783 [INFO] step=60 action_norm=2.9006 max_abs=0.9938
+2026-03-30 21:27:21,064 [INFO] step=110 action_norm=2.6227 max_abs=0.9928
+2026-03-30 21:27:29,265 [INFO] step=160 action_norm=2.3971 max_abs=0.9922
+2026-03-30 21:27:37,545 [INFO] step=210 action_norm=2.4829 max_abs=0.9952
+2026-03-30 21:27:45,536 [INFO] step=260 action_norm=2.4527 max_abs=0.9926
+2026-03-30 21:27:53,595 [INFO] step=310 action_norm=2.4265 max_abs=0.9984
+2026-03-30 21:28:01,613 [INFO] step=360 action_norm=2.3983 max_abs=0.9992
+2026-03-30 21:28:13,250 [INFO] step=10 action_norm=2.3037 max_abs=1.0069
+2026-03-30 21:28:21,530 [INFO] step=60 action_norm=2.5506 max_abs=1.0034
+2026-03-30 21:28:29,452 [INFO] step=110 action_norm=2.6445 max_abs=0.9928
+2026-03-30 21:28:37,750 [INFO] step=160 action_norm=2.4405 max_abs=0.9888
+2026-03-30 21:28:45,971 [INFO] step=210 action_norm=2.2984 max_abs=0.9946
+2026-03-30 21:28:54,143 [INFO] step=260 action_norm=2.5188 max_abs=0.9911
+2026-03-30 21:29:02,316 [INFO] step=310 action_norm=2.3354 max_abs=0.9941
+2026-03-30 21:29:10,381 [INFO] step=360 action_norm=2.3215 max_abs=0.9972
+2026-03-30 21:29:18,099 [INFO] Task 2 (put the black bowl in the top drawer of ): 0/20
+2026-03-30 21:29:23,308 [INFO] step=10 action_norm=2.2375 max_abs=0.9945
+2026-03-30 21:29:31,531 [INFO] step=60 action_norm=2.7405 max_abs=0.9948
+2026-03-30 21:29:39,718 [INFO] step=110 action_norm=2.5071 max_abs=0.9971
+2026-03-30 21:29:48,082 [INFO] step=160 action_norm=2.5343 max_abs=0.9979
+2026-03-30 21:29:56,110 [INFO] step=210 action_norm=2.6097 max_abs=1.0032
+2026-03-30 21:30:04,269 [INFO] step=260 action_norm=2.4447 max_abs=0.9970
+2026-03-30 21:30:12,211 [INFO] step=310 action_norm=2.4048 max_abs=1.0049
+2026-03-30 21:30:20,247 [INFO] step=360 action_norm=2.4497 max_abs=0.9921
+2026-03-30 21:30:31,943 [INFO] step=10 action_norm=2.2849 max_abs=0.9997
+2026-03-30 21:30:40,256 [INFO] step=60 action_norm=2.7600 max_abs=0.9889
+2026-03-30 21:30:48,711 [INFO] step=110 action_norm=2.3735 max_abs=0.9970
+2026-03-30 21:30:56,869 [INFO] step=160 action_norm=2.3709 max_abs=0.9976
+2026-03-30 21:31:04,945 [INFO] step=210 action_norm=2.5338 max_abs=0.9955
+2026-03-30 21:31:13,201 [INFO] step=260 action_norm=2.5494 max_abs=0.9977
+2026-03-30 21:31:21,478 [INFO] step=310 action_norm=2.4363 max_abs=1.0043
+2026-03-30 21:31:29,792 [INFO] step=360 action_norm=2.3319 max_abs=0.9933
+2026-03-30 21:31:41,448 [INFO] step=10 action_norm=2.2953 max_abs=1.0007
+2026-03-30 21:31:49,664 [INFO] step=60 action_norm=2.8718 max_abs=0.9964
+2026-03-30 21:31:57,613 [INFO] step=110 action_norm=2.7069 max_abs=0.9934
+2026-03-30 21:32:05,586 [INFO] step=160 action_norm=2.7086 max_abs=0.9955
+2026-03-30 21:32:13,570 [INFO] step=210 action_norm=2.7608 max_abs=0.9953
+2026-03-30 21:32:21,660 [INFO] step=260 action_norm=2.0868 max_abs=1.0031
+2026-03-30 21:32:29,870 [INFO] step=310 action_norm=2.4017 max_abs=1.0128
+2026-03-30 21:32:38,401 [INFO] step=360 action_norm=2.3110 max_abs=1.0042
+2026-03-30 21:32:50,171 [INFO] step=10 action_norm=2.3480 max_abs=1.0087
+2026-03-30 21:32:58,189 [INFO] step=60 action_norm=2.9020 max_abs=0.9913
+2026-03-30 21:33:06,216 [INFO] step=110 action_norm=2.6219 max_abs=0.9915
+2026-03-30 21:33:14,294 [INFO] step=160 action_norm=2.5925 max_abs=0.9917
+2026-03-30 21:33:22,735 [INFO] step=210 action_norm=2.4113 max_abs=0.9915
+2026-03-30 21:33:30,824 [INFO] step=260 action_norm=2.6161 max_abs=0.9863
+2026-03-30 21:33:38,841 [INFO] step=310 action_norm=2.4207 max_abs=0.9989
+2026-03-30 21:33:46,841 [INFO] step=360 action_norm=2.4621 max_abs=0.9933
+2026-03-30 21:33:58,692 [INFO] step=10 action_norm=2.2842 max_abs=0.9985
+2026-03-30 21:34:06,940 [INFO] step=60 action_norm=2.6872 max_abs=0.9985
+2026-03-30 21:34:14,816 [INFO] step=110 action_norm=2.8207 max_abs=1.0002
+2026-03-30 21:34:22,564 [INFO] step=160 action_norm=2.8325 max_abs=0.9912
+2026-03-30 21:34:30,302 [INFO] step=210 action_norm=2.7513 max_abs=0.9961
+2026-03-30 21:34:37,935 [INFO] step=260 action_norm=2.9405 max_abs=0.9914
+2026-03-30 21:34:45,477 [INFO] step=310 action_norm=2.5148 max_abs=0.9939
+2026-03-30 21:34:52,950 [INFO] step=360 action_norm=2.6741 max_abs=1.0004
+2026-03-30 21:35:04,121 [INFO] step=10 action_norm=2.2579 max_abs=1.0124
+2026-03-30 21:35:12,131 [INFO] step=60 action_norm=2.6672 max_abs=0.9968
+2026-03-30 21:35:19,729 [INFO] step=110 action_norm=2.7432 max_abs=0.9980
+2026-03-30 21:35:27,530 [INFO] step=160 action_norm=2.7876 max_abs=0.9925
+2026-03-30 21:35:35,244 [INFO] step=210 action_norm=2.8697 max_abs=0.9956
+2026-03-30 21:35:42,943 [INFO] step=260 action_norm=2.8679 max_abs=0.9984
+2026-03-30 21:35:50,490 [INFO] step=310 action_norm=2.5673 max_abs=1.0038
+2026-03-30 21:35:58,171 [INFO] step=360 action_norm=2.6883 max_abs=0.9984
+2026-03-30 21:36:09,314 [INFO] step=10 action_norm=2.3748 max_abs=1.0075
+2026-03-30 21:36:17,509 [INFO] step=60 action_norm=2.9117 max_abs=0.9913
+2026-03-30 21:36:25,446 [INFO] step=110 action_norm=2.5570 max_abs=0.9941
+2026-03-30 21:36:33,677 [INFO] step=160 action_norm=2.5524 max_abs=0.9943
+2026-03-30 21:36:41,995 [INFO] step=210 action_norm=2.4298 max_abs=1.0073
+2026-03-30 21:36:50,109 [INFO] step=260 action_norm=2.4091 max_abs=0.9960
+2026-03-30 21:36:58,412 [INFO] step=310 action_norm=2.4310 max_abs=0.9922
+2026-03-30 21:37:06,795 [INFO] step=360 action_norm=2.4699 max_abs=0.9959
+2026-03-30 21:37:18,624 [INFO] step=10 action_norm=2.2362 max_abs=1.0002
+2026-03-30 21:37:26,850 [INFO] step=60 action_norm=2.9027 max_abs=0.9954
+2026-03-30 21:37:35,094 [INFO] step=110 action_norm=2.6122 max_abs=0.9949
+2026-03-30 21:37:43,410 [INFO] step=160 action_norm=2.4819 max_abs=0.9935
+2026-03-30 21:37:51,843 [INFO] step=210 action_norm=2.4618 max_abs=0.9947
+2026-03-30 21:38:00,013 [INFO] step=260 action_norm=2.5446 max_abs=0.9973
+2026-03-30 21:38:08,366 [INFO] step=310 action_norm=2.4123 max_abs=0.9945
+2026-03-30 21:38:16,655 [INFO] step=360 action_norm=2.3972 max_abs=0.9970
+2026-03-30 21:38:28,554 [INFO] step=10 action_norm=2.2501 max_abs=0.9989
+2026-03-30 21:38:36,825 [INFO] step=60 action_norm=2.9527 max_abs=0.9981
+2026-03-30 21:38:45,652 [INFO] step=110 action_norm=2.3198 max_abs=1.0015
+2026-03-30 21:38:54,063 [INFO] step=160 action_norm=2.5485 max_abs=0.9998
+2026-03-30 21:39:02,335 [INFO] step=210 action_norm=2.3971 max_abs=1.0197
+2026-03-30 21:39:10,642 [INFO] step=260 action_norm=2.4727 max_abs=0.9998
+2026-03-30 21:39:19,282 [INFO] step=310 action_norm=2.3794 max_abs=1.0104
+2026-03-30 21:39:27,270 [INFO] step=360 action_norm=2.1077 max_abs=1.0020
+2026-03-30 21:39:38,843 [INFO] step=10 action_norm=2.2425 max_abs=1.0006
+2026-03-30 21:39:46,911 [INFO] step=60 action_norm=3.1730 max_abs=1.0077
+2026-03-30 21:39:55,019 [INFO] step=110 action_norm=2.5999 max_abs=1.0005
+2026-03-30 21:40:03,113 [INFO] step=160 action_norm=2.6094 max_abs=1.0038
+2026-03-30 21:40:11,268 [INFO] step=210 action_norm=2.5618 max_abs=0.9937
+2026-03-30 21:40:19,144 [INFO] step=260 action_norm=2.3008 max_abs=0.9965
+2026-03-30 21:40:26,936 [INFO] step=310 action_norm=2.2880 max_abs=1.0029
+2026-03-30 21:40:34,780 [INFO] step=360 action_norm=2.2597 max_abs=1.0055
+2026-03-30 21:40:46,505 [INFO] step=10 action_norm=2.2955 max_abs=1.0022
+2026-03-30 21:40:54,713 [INFO] step=60 action_norm=2.7816 max_abs=0.9934
+2026-03-30 21:41:02,978 [INFO] step=110 action_norm=2.5537 max_abs=0.9932
+2026-03-30 21:41:11,494 [INFO] step=160 action_norm=2.4995 max_abs=0.9924
+2026-03-30 21:41:20,042 [INFO] step=210 action_norm=2.4724 max_abs=0.9956
+2026-03-30 21:41:28,429 [INFO] step=260 action_norm=2.4478 max_abs=0.9979
+2026-03-30 21:41:37,112 [INFO] step=310 action_norm=2.5533 max_abs=1.0006
+2026-03-30 21:41:45,476 [INFO] step=360 action_norm=2.4499 max_abs=1.0083
+2026-03-30 21:41:58,097 [INFO] step=10 action_norm=2.3410 max_abs=1.0068
+2026-03-30 21:42:06,338 [INFO] step=60 action_norm=2.6811 max_abs=0.9898
+2026-03-30 21:42:14,326 [INFO] step=110 action_norm=2.6569 max_abs=1.0012
+2026-03-30 21:42:22,286 [INFO] step=160 action_norm=2.6874 max_abs=0.9984
+2026-03-30 21:42:30,309 [INFO] step=210 action_norm=2.8298 max_abs=0.9976
+2026-03-30 21:42:38,521 [INFO] step=260 action_norm=2.6975 max_abs=1.0011
+2026-03-30 21:42:46,736 [INFO] step=310 action_norm=2.8890 max_abs=0.9955
+2026-03-30 21:42:55,082 [INFO] step=360 action_norm=2.7584 max_abs=0.9984
+2026-03-30 21:43:06,741 [INFO] step=10 action_norm=2.2737 max_abs=1.0009
+2026-03-30 21:43:14,971 [INFO] step=60 action_norm=2.6674 max_abs=0.9939
+2026-03-30 21:43:23,043 [INFO] step=110 action_norm=2.6571 max_abs=1.0005
+2026-03-30 21:43:31,210 [INFO] step=160 action_norm=2.3173 max_abs=0.9945
+2026-03-30 21:43:39,468 [INFO] step=210 action_norm=2.2645 max_abs=1.0083
+2026-03-30 21:43:47,643 [INFO] step=260 action_norm=2.2801 max_abs=0.9987
+2026-03-30 21:43:55,824 [INFO] step=310 action_norm=2.3957 max_abs=1.0015
+2026-03-30 21:44:04,133 [INFO] step=360 action_norm=2.3409 max_abs=0.9986
+2026-03-30 21:44:16,392 [INFO] step=10 action_norm=2.2406 max_abs=0.9936
+2026-03-30 21:44:24,509 [INFO] step=60 action_norm=2.9010 max_abs=0.9992
+2026-03-30 21:44:32,332 [INFO] step=110 action_norm=2.4576 max_abs=0.9924
+2026-03-30 21:44:40,424 [INFO] step=160 action_norm=2.4560 max_abs=0.9894
+2026-03-30 21:44:48,404 [INFO] step=210 action_norm=2.4562 max_abs=1.0072
+2026-03-30 21:44:56,371 [INFO] step=260 action_norm=2.3663 max_abs=1.0004
+2026-03-30 21:45:04,827 [INFO] step=310 action_norm=2.4355 max_abs=0.9961
+2026-03-30 21:45:13,054 [INFO] step=360 action_norm=2.4534 max_abs=0.9965
+2026-03-30 21:45:24,980 [INFO] step=10 action_norm=2.2322 max_abs=0.9917
+2026-03-30 21:45:33,154 [INFO] step=60 action_norm=2.3468 max_abs=1.0044
+2026-03-30 21:45:41,272 [INFO] step=110 action_norm=2.3301 max_abs=0.9939
+2026-03-30 21:45:49,294 [INFO] step=160 action_norm=2.4393 max_abs=0.9958
+2026-03-30 21:45:57,048 [INFO] step=210 action_norm=2.1917 max_abs=1.0095
+2026-03-30 21:46:04,854 [INFO] step=260 action_norm=2.6836 max_abs=0.9959
+2026-03-30 21:46:12,941 [INFO] step=310 action_norm=2.8113 max_abs=0.9894
+2026-03-30 21:46:20,784 [INFO] step=360 action_norm=2.7437 max_abs=1.0061
+2026-03-30 21:46:32,505 [INFO] step=10 action_norm=2.3172 max_abs=1.0023
+2026-03-30 21:46:40,674 [INFO] step=60 action_norm=2.9328 max_abs=0.9980
+2026-03-30 21:46:48,838 [INFO] step=110 action_norm=2.6694 max_abs=0.9881
+2026-03-30 21:46:57,041 [INFO] step=160 action_norm=2.6668 max_abs=0.9908
+2026-03-30 21:47:05,627 [INFO] step=210 action_norm=2.4319 max_abs=0.9939
+2026-03-30 21:47:14,037 [INFO] step=260 action_norm=2.3229 max_abs=0.9972
+2026-03-30 21:47:22,393 [INFO] step=310 action_norm=2.2793 max_abs=0.9945
+2026-03-30 21:47:30,863 [INFO] step=360 action_norm=2.3552 max_abs=0.9979
+2026-03-30 21:47:42,775 [INFO] step=10 action_norm=2.2380 max_abs=0.9976
+2026-03-30 21:47:51,140 [INFO] step=60 action_norm=2.7387 max_abs=0.9946
+2026-03-30 21:47:59,289 [INFO] step=110 action_norm=2.8644 max_abs=0.9968
+2026-03-30 21:48:07,673 [INFO] step=160 action_norm=2.6092 max_abs=0.9939
+2026-03-30 21:48:16,223 [INFO] step=210 action_norm=2.5980 max_abs=0.9950
+2026-03-30 21:48:24,855 [INFO] step=260 action_norm=2.4646 max_abs=0.9967
+2026-03-30 21:48:33,160 [INFO] step=310 action_norm=2.4051 max_abs=1.0005
+2026-03-30 21:48:41,723 [INFO] step=360 action_norm=2.4164 max_abs=0.9970
+2026-03-30 21:48:54,066 [INFO] step=10 action_norm=2.2366 max_abs=0.9926
+2026-03-30 21:49:02,145 [INFO] step=60 action_norm=2.9434 max_abs=0.9957
+2026-03-30 21:49:10,177 [INFO] step=110 action_norm=2.7005 max_abs=0.9859
+2026-03-30 21:49:18,593 [INFO] step=160 action_norm=2.4816 max_abs=0.9927
+2026-03-30 21:49:27,140 [INFO] step=210 action_norm=2.4456 max_abs=0.9968
+2026-03-30 21:49:35,643 [INFO] step=260 action_norm=2.4108 max_abs=1.0035
+2026-03-30 21:49:44,265 [INFO] step=310 action_norm=2.4843 max_abs=0.9964
+2026-03-30 21:49:52,642 [INFO] step=360 action_norm=2.4214 max_abs=0.9988
+2026-03-30 21:50:04,437 [INFO] step=10 action_norm=2.2822 max_abs=0.9978
+2026-03-30 21:50:12,484 [INFO] step=60 action_norm=2.5690 max_abs=1.0091
+2026-03-30 21:50:20,542 [INFO] step=110 action_norm=2.2238 max_abs=1.0016
+2026-03-30 21:50:29,057 [INFO] step=160 action_norm=2.2474 max_abs=1.0065
+2026-03-30 21:50:37,694 [INFO] step=210 action_norm=2.2545 max_abs=1.0089
+2026-03-30 21:50:46,505 [INFO] step=260 action_norm=2.2591 max_abs=1.0232
+2026-03-30 21:50:55,220 [INFO] step=310 action_norm=2.2522 max_abs=1.0144
+2026-03-30 21:51:03,977 [INFO] step=360 action_norm=2.4189 max_abs=0.9964
+2026-03-30 21:51:16,010 [INFO] step=10 action_norm=2.2835 max_abs=0.9983
+2026-03-30 21:51:24,150 [INFO] step=60 action_norm=2.7371 max_abs=1.0027
+2026-03-30 21:51:32,168 [INFO] step=110 action_norm=2.4652 max_abs=1.0001
+2026-03-30 21:51:40,247 [INFO] step=160 action_norm=2.2366 max_abs=0.9999
+2026-03-30 21:51:48,351 [INFO] step=210 action_norm=2.2295 max_abs=0.9981
+2026-03-30 21:51:56,492 [INFO] step=260 action_norm=2.2925 max_abs=1.0074
+2026-03-30 21:52:04,651 [INFO] step=310 action_norm=2.2976 max_abs=1.0023
+2026-03-30 21:52:12,739 [INFO] step=360 action_norm=2.3104 max_abs=1.0048
+2026-03-30 21:52:20,996 [INFO] Task 3 (put the butter at the back in the top dr): 0/20
+2026-03-30 21:52:26,147 [INFO] step=10 action_norm=2.3778 max_abs=1.0095
+2026-03-30 21:52:34,537 [INFO] step=60 action_norm=2.6785 max_abs=0.9994
+2026-03-30 21:52:42,886 [INFO] step=110 action_norm=2.6822 max_abs=0.9864
+2026-03-30 21:52:51,209 [INFO] step=160 action_norm=2.4338 max_abs=0.9950
+2026-03-30 21:52:59,481 [INFO] step=210 action_norm=2.5566 max_abs=1.0074
+2026-03-30 21:53:07,630 [INFO] step=260 action_norm=2.4788 max_abs=0.9966
+2026-03-30 21:53:16,061 [INFO] step=310 action_norm=2.4380 max_abs=0.9967
+2026-03-30 21:53:24,811 [INFO] step=360 action_norm=2.4746 max_abs=0.9916
+2026-03-30 21:53:37,243 [INFO] step=10 action_norm=2.2594 max_abs=1.0025
+2026-03-30 21:53:45,496 [INFO] step=60 action_norm=2.6920 max_abs=1.0026
+2026-03-30 21:53:53,507 [INFO] step=110 action_norm=2.5838 max_abs=0.9935
+2026-03-30 21:54:01,073 [INFO] step=160 action_norm=2.4685 max_abs=1.0060
+2026-03-30 21:54:08,661 [INFO] step=210 action_norm=2.3989 max_abs=0.9952
+2026-03-30 21:54:16,244 [INFO] step=260 action_norm=2.4077 max_abs=1.0043
+2026-03-30 21:54:23,954 [INFO] step=310 action_norm=2.4253 max_abs=0.9970
+2026-03-30 21:54:31,562 [INFO] step=360 action_norm=2.5200 max_abs=0.9972
+2026-03-30 21:54:42,965 [INFO] step=10 action_norm=2.3235 max_abs=1.0100
+2026-03-30 21:54:51,341 [INFO] step=60 action_norm=2.7605 max_abs=0.9923
+2026-03-30 21:54:59,512 [INFO] step=110 action_norm=2.7082 max_abs=0.9881
+2026-03-30 21:55:07,717 [INFO] step=160 action_norm=2.6819 max_abs=0.9955
+2026-03-30 21:55:15,892 [INFO] step=210 action_norm=2.5485 max_abs=0.9910
+2026-03-30 21:55:24,239 [INFO] step=260 action_norm=2.3086 max_abs=0.9951
+2026-03-30 21:55:32,666 [INFO] step=310 action_norm=2.4174 max_abs=0.9953
+2026-03-30 21:55:40,905 [INFO] step=360 action_norm=2.4943 max_abs=0.9981
+2026-03-30 21:55:52,805 [INFO] step=10 action_norm=2.2469 max_abs=1.0025
+2026-03-30 21:56:01,446 [INFO] step=60 action_norm=2.5905 max_abs=0.9895
+2026-03-30 21:56:09,808 [INFO] step=110 action_norm=2.4042 max_abs=0.9840
+2026-03-30 21:56:18,087 [INFO] step=160 action_norm=2.5302 max_abs=0.9967
+2026-03-30 21:56:26,103 [INFO] step=210 action_norm=2.4704 max_abs=1.0015
+2026-03-30 21:56:34,139 [INFO] step=260 action_norm=2.5377 max_abs=1.0105
+2026-03-30 21:56:42,188 [INFO] step=310 action_norm=2.4447 max_abs=0.9963
+2026-03-30 21:56:50,528 [INFO] step=360 action_norm=2.4024 max_abs=0.9931
+2026-03-30 21:57:02,260 [INFO] step=10 action_norm=2.2832 max_abs=0.9959
+2026-03-30 21:57:10,411 [INFO] step=60 action_norm=3.0771 max_abs=0.9967
+2026-03-30 21:57:18,548 [INFO] step=110 action_norm=2.2721 max_abs=1.0062
+2026-03-30 21:57:26,882 [INFO] step=160 action_norm=2.2467 max_abs=0.9986
+2026-03-30 21:57:35,249 [INFO] step=210 action_norm=2.2340 max_abs=0.9933
+2026-03-30 21:57:43,501 [INFO] step=260 action_norm=2.2921 max_abs=1.0138
+2026-03-30 21:57:51,972 [INFO] step=310 action_norm=2.3397 max_abs=0.9987
+2026-03-30 21:58:00,549 [INFO] step=360 action_norm=2.4498 max_abs=0.9929
+2026-03-30 21:58:12,897 [INFO] step=10 action_norm=2.2480 max_abs=0.9941
+2026-03-30 21:58:20,836 [INFO] step=60 action_norm=2.5665 max_abs=1.0146
+2026-03-30 21:58:28,459 [INFO] step=110 action_norm=2.5552 max_abs=1.0042
+2026-03-30 21:58:36,072 [INFO] step=160 action_norm=2.5503 max_abs=1.0007
+2026-03-30 21:58:43,716 [INFO] step=210 action_norm=2.6289 max_abs=0.9952
+2026-03-30 21:58:51,415 [INFO] step=260 action_norm=2.5987 max_abs=0.9969
+2026-03-30 21:58:59,141 [INFO] step=310 action_norm=2.5309 max_abs=1.0003
+2026-03-30 21:59:06,606 [INFO] step=360 action_norm=2.6216 max_abs=1.0042
+2026-03-30 21:59:17,592 [INFO] step=10 action_norm=2.2691 max_abs=0.9985
+2026-03-30 21:59:25,794 [INFO] step=60 action_norm=2.7712 max_abs=0.9859
+2026-03-30 21:59:33,787 [INFO] step=110 action_norm=2.7431 max_abs=0.9950
+2026-03-30 21:59:41,828 [INFO] step=160 action_norm=2.6416 max_abs=0.9900
+2026-03-30 21:59:50,356 [INFO] step=210 action_norm=2.4078 max_abs=0.9917
+2026-03-30 21:59:58,746 [INFO] step=260 action_norm=2.5602 max_abs=0.9959
+2026-03-30 22:00:07,106 [INFO] step=310 action_norm=2.4632 max_abs=1.0005
+2026-03-30 22:00:15,978 [INFO] step=360 action_norm=2.5370 max_abs=1.0037
+2026-03-30 22:00:28,210 [INFO] step=10 action_norm=2.2965 max_abs=1.0053
+2026-03-30 22:00:36,463 [INFO] step=60 action_norm=2.7310 max_abs=0.9854
+2026-03-30 22:00:44,479 [INFO] step=110 action_norm=2.6035 max_abs=0.9969
+2026-03-30 22:00:51,965 [INFO] step=160 action_norm=2.6057 max_abs=0.9992
+2026-03-30 22:00:59,543 [INFO] step=210 action_norm=2.5474 max_abs=0.9872
+2026-03-30 22:01:07,088 [INFO] step=260 action_norm=2.5479 max_abs=0.9949
+2026-03-30 22:01:14,592 [INFO] step=310 action_norm=2.4956 max_abs=0.9910
+2026-03-30 22:01:22,358 [INFO] step=360 action_norm=2.4730 max_abs=0.9926
+2026-03-30 22:01:33,818 [INFO] step=10 action_norm=2.4223 max_abs=1.0041
+2026-03-30 22:01:41,712 [INFO] step=60 action_norm=2.7079 max_abs=0.9997
+2026-03-30 22:01:49,733 [INFO] step=110 action_norm=2.5518 max_abs=0.9963
+2026-03-30 22:01:57,669 [INFO] step=160 action_norm=2.7274 max_abs=0.9930
+2026-03-30 22:02:05,752 [INFO] step=210 action_norm=2.7151 max_abs=1.0029
+2026-03-30 22:02:13,725 [INFO] step=260 action_norm=2.8168 max_abs=0.9984
+2026-03-30 22:02:21,603 [INFO] step=310 action_norm=2.6824 max_abs=1.0020
+2026-03-30 22:02:29,475 [INFO] step=360 action_norm=2.7877 max_abs=0.9932
+2026-03-30 22:02:41,247 [INFO] step=10 action_norm=2.3207 max_abs=0.9956
+2026-03-30 22:02:49,209 [INFO] step=60 action_norm=2.6465 max_abs=1.0055
+2026-03-30 22:02:57,152 [INFO] step=110 action_norm=2.4744 max_abs=0.9913
+2026-03-30 22:03:05,040 [INFO] step=160 action_norm=2.3204 max_abs=0.9998
+2026-03-30 22:03:13,095 [INFO] step=210 action_norm=2.5638 max_abs=0.9973
+2026-03-30 22:03:21,213 [INFO] step=260 action_norm=2.6594 max_abs=0.9799
+2026-03-30 22:03:29,336 [INFO] step=310 action_norm=2.5371 max_abs=0.9879
+2026-03-30 22:03:37,452 [INFO] step=360 action_norm=2.6361 max_abs=1.0015
+2026-03-30 22:03:49,138 [INFO] step=10 action_norm=2.2259 max_abs=0.9920
+2026-03-30 22:03:57,139 [INFO] step=60 action_norm=2.7563 max_abs=1.0055
+2026-03-30 22:04:04,950 [INFO] step=110 action_norm=2.7159 max_abs=0.9925
+2026-03-30 22:04:12,571 [INFO] step=160 action_norm=2.4011 max_abs=0.9937
+2026-03-30 22:04:20,522 [INFO] step=210 action_norm=2.6279 max_abs=0.9913
+2026-03-30 22:04:28,298 [INFO] step=260 action_norm=2.5798 max_abs=0.9951
+2026-03-30 22:04:36,262 [INFO] step=310 action_norm=2.5102 max_abs=1.0091
+2026-03-30 22:04:44,358 [INFO] step=360 action_norm=2.4657 max_abs=0.9969
+2026-03-30 22:04:56,350 [INFO] step=10 action_norm=2.3295 max_abs=0.9972
+2026-03-30 22:05:04,309 [INFO] step=60 action_norm=2.3214 max_abs=1.0054
+2026-03-30 22:05:12,378 [INFO] step=110 action_norm=2.4290 max_abs=1.0038
+2026-03-30 22:05:20,284 [INFO] step=160 action_norm=2.3178 max_abs=1.0097
+2026-03-30 22:05:28,165 [INFO] step=210 action_norm=2.2598 max_abs=0.9991
+2026-03-30 22:05:35,860 [INFO] step=260 action_norm=2.3573 max_abs=1.0060
+2026-03-30 22:05:43,903 [INFO] step=310 action_norm=2.2499 max_abs=0.9975
+2026-03-30 22:05:52,203 [INFO] step=360 action_norm=2.2409 max_abs=1.0009
+2026-03-30 22:06:04,079 [INFO] step=10 action_norm=2.3829 max_abs=1.0096
+2026-03-30 22:06:12,359 [INFO] step=60 action_norm=2.5218 max_abs=1.0067
+2026-03-30 22:06:20,542 [INFO] step=110 action_norm=2.4225 max_abs=1.0101
+2026-03-30 22:06:28,463 [INFO] step=160 action_norm=2.7523 max_abs=0.9999
+2026-03-30 22:06:36,370 [INFO] step=210 action_norm=2.4572 max_abs=0.9987
+2026-03-30 22:06:44,184 [INFO] step=260 action_norm=2.5133 max_abs=0.9968
+2026-03-30 22:06:51,853 [INFO] step=310 action_norm=2.4414 max_abs=1.0051
+2026-03-30 22:06:59,656 [INFO] step=360 action_norm=2.5473 max_abs=0.9860
+2026-03-30 22:07:10,898 [INFO] step=10 action_norm=2.2657 max_abs=1.0091
+2026-03-30 22:07:19,212 [INFO] step=60 action_norm=2.9164 max_abs=0.9930
+2026-03-30 22:07:27,233 [INFO] step=110 action_norm=2.7786 max_abs=0.9940
+2026-03-30 22:07:35,197 [INFO] step=160 action_norm=2.8428 max_abs=0.9976
+2026-03-30 22:07:43,055 [INFO] step=210 action_norm=2.7549 max_abs=0.9938
+2026-03-30 22:07:50,772 [INFO] step=260 action_norm=2.6844 max_abs=1.0009
+2026-03-30 22:07:58,516 [INFO] step=310 action_norm=2.7373 max_abs=0.9923
+2026-03-30 22:08:06,265 [INFO] step=360 action_norm=2.6898 max_abs=0.9927
+2026-03-30 22:08:18,008 [INFO] step=10 action_norm=2.2680 max_abs=0.9998
+2026-03-30 22:08:26,558 [INFO] step=60 action_norm=3.0034 max_abs=1.0076
+2026-03-30 22:08:34,883 [INFO] step=110 action_norm=2.4641 max_abs=1.0096
+2026-03-30 22:08:43,139 [INFO] step=160 action_norm=2.4689 max_abs=1.0000
+2026-03-30 22:08:51,193 [INFO] step=210 action_norm=2.4419 max_abs=1.0138
+2026-03-30 22:08:59,146 [INFO] step=260 action_norm=2.4776 max_abs=0.9941
+2026-03-30 22:09:07,117 [INFO] step=310 action_norm=2.4714 max_abs=0.9918
+2026-03-30 22:09:15,127 [INFO] step=360 action_norm=2.4978 max_abs=0.9871
+2026-03-30 22:09:26,669 [INFO] step=10 action_norm=2.3020 max_abs=1.0058
+2026-03-30 22:09:34,609 [INFO] step=60 action_norm=2.6013 max_abs=0.9950
+2026-03-30 22:09:42,361 [INFO] step=110 action_norm=2.6421 max_abs=0.9938
+2026-03-30 22:09:50,523 [INFO] step=160 action_norm=2.3739 max_abs=0.9927
+2026-03-30 22:09:58,529 [INFO] step=210 action_norm=2.4604 max_abs=0.9933
+2026-03-30 22:10:06,535 [INFO] step=260 action_norm=2.3815 max_abs=0.9988
+2026-03-30 22:10:14,690 [INFO] step=310 action_norm=2.4303 max_abs=0.9895
+2026-03-30 22:10:22,897 [INFO] step=360 action_norm=2.4965 max_abs=0.9916
+2026-03-30 22:10:34,533 [INFO] step=10 action_norm=2.2615 max_abs=0.9952
+2026-03-30 22:10:42,697 [INFO] step=60 action_norm=2.8661 max_abs=0.9959
+2026-03-30 22:10:50,389 [INFO] step=110 action_norm=2.8663 max_abs=0.9944
+2026-03-30 22:10:58,343 [INFO] step=160 action_norm=2.8173 max_abs=1.0008
+2026-03-30 22:11:06,156 [INFO] step=210 action_norm=2.7194 max_abs=1.0109
+2026-03-30 22:11:14,141 [INFO] step=260 action_norm=2.6001 max_abs=1.0125
+2026-03-30 22:11:22,007 [INFO] step=310 action_norm=2.3325 max_abs=0.9972
+2026-03-30 22:11:29,938 [INFO] step=360 action_norm=2.2391 max_abs=0.9882
+2026-03-30 22:11:41,801 [INFO] step=10 action_norm=2.2644 max_abs=0.9958
+2026-03-30 22:11:49,926 [INFO] step=60 action_norm=2.8296 max_abs=0.9967
+2026-03-30 22:11:57,886 [INFO] step=110 action_norm=2.9779 max_abs=0.9936
+2026-03-30 22:12:05,701 [INFO] step=160 action_norm=2.6345 max_abs=0.9990
+2026-03-30 22:12:13,689 [INFO] step=210 action_norm=3.0208 max_abs=1.0051
+2026-03-30 22:12:21,750 [INFO] step=260 action_norm=2.5097 max_abs=1.0138
+2026-03-30 22:12:30,085 [INFO] step=310 action_norm=2.7169 max_abs=1.0043
+2026-03-30 22:12:38,134 [INFO] step=360 action_norm=2.5702 max_abs=1.0042
+2026-03-30 22:12:49,845 [INFO] step=10 action_norm=2.4353 max_abs=0.9992
+2026-03-30 22:12:58,013 [INFO] step=60 action_norm=2.8728 max_abs=1.0007
+2026-03-30 22:13:05,960 [INFO] step=110 action_norm=2.8257 max_abs=0.9974
+2026-03-30 22:13:13,620 [INFO] step=160 action_norm=2.4763 max_abs=1.0006
+2026-03-30 22:13:21,257 [INFO] step=210 action_norm=2.3553 max_abs=0.9963
+2026-03-30 22:13:28,932 [INFO] step=260 action_norm=2.3905 max_abs=0.9890
+2026-03-30 22:13:37,017 [INFO] step=310 action_norm=2.5844 max_abs=0.9905
+2026-03-30 22:13:45,153 [INFO] step=360 action_norm=2.4658 max_abs=0.9872
+2026-03-30 22:13:57,309 [INFO] step=10 action_norm=2.4074 max_abs=0.9987
+2026-03-30 22:14:05,545 [INFO] step=60 action_norm=2.9655 max_abs=1.0020
+2026-03-30 22:14:13,702 [INFO] step=110 action_norm=2.7712 max_abs=0.9943
+2026-03-30 22:14:21,816 [INFO] step=160 action_norm=2.7533 max_abs=0.9907
+2026-03-30 22:14:29,820 [INFO] step=210 action_norm=2.6222 max_abs=0.9918
+2026-03-30 22:14:38,198 [INFO] step=260 action_norm=2.5548 max_abs=0.9865
+2026-03-30 22:14:46,354 [INFO] step=310 action_norm=2.4514 max_abs=0.9973
+2026-03-30 22:14:54,498 [INFO] step=360 action_norm=2.3555 max_abs=0.9933
+2026-03-30 22:15:02,628 [INFO] Task 4 (put the butter at the front in the top d): 0/20
+2026-03-30 22:15:07,889 [INFO] step=10 action_norm=2.2279 max_abs=1.0014
+2026-03-30 22:15:16,202 [INFO] step=60 action_norm=2.7575 max_abs=0.9959
+2026-03-30 22:15:24,306 [INFO] step=110 action_norm=2.8928 max_abs=0.9895
+2026-03-30 22:15:32,341 [INFO] step=160 action_norm=2.8213 max_abs=0.9996
+2026-03-30 22:15:40,611 [INFO] step=210 action_norm=2.7208 max_abs=0.9954
+2026-03-30 22:15:49,040 [INFO] step=260 action_norm=2.7106 max_abs=0.9879
+2026-03-30 22:15:57,518 [INFO] step=310 action_norm=2.3155 max_abs=0.9904
+2026-03-30 22:16:06,115 [INFO] step=360 action_norm=2.4900 max_abs=0.9946
+2026-03-30 22:16:18,536 [INFO] step=10 action_norm=2.2428 max_abs=0.9969
+2026-03-30 22:16:26,837 [INFO] step=60 action_norm=2.7402 max_abs=1.0052
+2026-03-30 22:16:34,936 [INFO] step=110 action_norm=2.7871 max_abs=0.9992
+2026-03-30 22:16:42,948 [INFO] step=160 action_norm=2.4945 max_abs=1.0016
+2026-03-30 22:16:50,968 [INFO] step=210 action_norm=2.5299 max_abs=0.9960
+2026-03-30 22:16:59,005 [INFO] step=260 action_norm=2.3645 max_abs=0.9940
+2026-03-30 22:17:06,777 [INFO] step=310 action_norm=2.3905 max_abs=0.9857
+2026-03-30 22:17:14,754 [INFO] step=360 action_norm=2.5107 max_abs=0.9998
+2026-03-30 22:17:26,530 [INFO] step=10 action_norm=2.2494 max_abs=0.9942
+2026-03-30 22:17:34,406 [INFO] step=60 action_norm=3.0119 max_abs=1.0084
+2026-03-30 22:17:42,271 [INFO] step=110 action_norm=2.5108 max_abs=1.0021
+2026-03-30 22:17:50,299 [INFO] step=160 action_norm=2.2475 max_abs=0.9996
+2026-03-30 22:17:58,729 [INFO] step=210 action_norm=2.2528 max_abs=1.0044
+2026-03-30 22:18:07,010 [INFO] step=260 action_norm=2.2596 max_abs=1.0082
+2026-03-30 22:18:15,119 [INFO] step=310 action_norm=2.2710 max_abs=1.0298
+2026-03-30 22:18:23,312 [INFO] step=360 action_norm=2.2818 max_abs=1.0077
+2026-03-30 22:18:35,223 [INFO] step=10 action_norm=2.3653 max_abs=1.0070
+2026-03-30 22:18:43,325 [INFO] step=60 action_norm=2.7743 max_abs=1.0056
+2026-03-30 22:18:51,427 [INFO] step=110 action_norm=2.2750 max_abs=0.9922
+2026-03-30 22:18:59,594 [INFO] step=160 action_norm=2.2211 max_abs=0.9950
+2026-03-30 22:19:08,089 [INFO] step=210 action_norm=2.1251 max_abs=0.9969
+2026-03-30 22:19:16,646 [INFO] step=260 action_norm=2.2875 max_abs=0.9969
+2026-03-30 22:19:25,121 [INFO] step=310 action_norm=2.2780 max_abs=1.0052
+2026-03-30 22:19:33,517 [INFO] step=360 action_norm=2.2588 max_abs=1.0063
+2026-03-30 22:19:45,406 [INFO] step=10 action_norm=2.3532 max_abs=1.0028
+2026-03-30 22:19:53,482 [INFO] step=60 action_norm=2.8439 max_abs=1.0059
+2026-03-30 22:20:01,111 [INFO] step=110 action_norm=2.8001 max_abs=0.9928
+2026-03-30 22:20:08,839 [INFO] step=160 action_norm=2.9272 max_abs=0.9936
+2026-03-30 22:20:16,519 [INFO] step=210 action_norm=2.6742 max_abs=1.0023
+2026-03-30 22:20:24,256 [INFO] step=260 action_norm=2.8575 max_abs=0.9974
+2026-03-30 22:20:32,009 [INFO] step=310 action_norm=2.6844 max_abs=0.9946
+2026-03-30 22:20:39,690 [INFO] step=360 action_norm=2.8299 max_abs=0.9904
+2026-03-30 22:20:51,091 [INFO] step=10 action_norm=2.3684 max_abs=1.0024
+2026-03-30 22:20:59,032 [INFO] step=60 action_norm=2.8115 max_abs=0.9944
+2026-03-30 22:21:07,001 [INFO] step=110 action_norm=2.4292 max_abs=0.9985
+2026-03-30 22:21:15,111 [INFO] step=160 action_norm=2.4603 max_abs=0.9900
+2026-03-30 22:21:23,406 [INFO] step=210 action_norm=2.4877 max_abs=0.9898
+2026-03-30 22:21:31,524 [INFO] step=260 action_norm=2.3827 max_abs=0.9958
+2026-03-30 22:21:39,870 [INFO] step=310 action_norm=2.4349 max_abs=1.0019
+2026-03-30 22:21:47,967 [INFO] step=360 action_norm=2.4345 max_abs=0.9904
+2026-03-30 22:21:59,598 [INFO] step=10 action_norm=2.4331 max_abs=1.0159
+2026-03-30 22:22:07,703 [INFO] step=60 action_norm=2.8610 max_abs=0.9970
+2026-03-30 22:22:15,621 [INFO] step=110 action_norm=3.0142 max_abs=0.9955
+2026-03-30 22:22:23,367 [INFO] step=160 action_norm=2.8129 max_abs=0.9901
+2026-03-30 22:22:31,175 [INFO] step=210 action_norm=3.0139 max_abs=0.9984
+2026-03-30 22:22:38,885 [INFO] step=260 action_norm=2.6538 max_abs=0.9953
+2026-03-30 22:22:46,755 [INFO] step=310 action_norm=2.3683 max_abs=1.0034
+2026-03-30 22:22:54,782 [INFO] step=360 action_norm=2.3490 max_abs=1.0291
+2026-03-30 22:23:06,250 [INFO] step=10 action_norm=2.2438 max_abs=0.9996
+2026-03-30 22:23:14,271 [INFO] step=60 action_norm=2.7556 max_abs=0.9955
+2026-03-30 22:23:22,565 [INFO] step=110 action_norm=2.5616 max_abs=1.0053
+2026-03-30 22:23:30,490 [INFO] step=160 action_norm=2.7170 max_abs=0.9948
+2026-03-30 22:23:38,324 [INFO] step=210 action_norm=2.8242 max_abs=0.9907
+2026-03-30 22:23:46,058 [INFO] step=260 action_norm=2.8231 max_abs=0.9956
+2026-03-30 22:23:53,548 [INFO] step=310 action_norm=2.7581 max_abs=1.0009
+2026-03-30 22:24:01,029 [INFO] step=360 action_norm=2.6395 max_abs=1.0012
+2026-03-30 22:24:12,099 [INFO] step=10 action_norm=2.2503 max_abs=1.0010
+2026-03-30 22:24:20,167 [INFO] step=60 action_norm=2.8862 max_abs=0.9964
+2026-03-30 22:24:28,145 [INFO] step=110 action_norm=2.5465 max_abs=1.0036
+2026-03-30 22:24:36,132 [INFO] step=160 action_norm=2.6028 max_abs=0.9977
+2026-03-30 22:24:44,043 [INFO] step=210 action_norm=2.5677 max_abs=1.0014
+2026-03-30 22:24:51,989 [INFO] step=260 action_norm=2.8014 max_abs=0.9939
+2026-03-30 22:24:59,935 [INFO] step=310 action_norm=2.7501 max_abs=0.9967
+2026-03-30 22:25:08,301 [INFO] step=360 action_norm=2.7381 max_abs=0.9893
+2026-03-30 22:25:20,045 [INFO] step=10 action_norm=2.2233 max_abs=0.9967
+2026-03-30 22:25:28,396 [INFO] step=60 action_norm=2.8024 max_abs=0.9977
+2026-03-30 22:25:36,759 [INFO] step=110 action_norm=2.6728 max_abs=0.9923
+2026-03-30 22:25:45,305 [INFO] step=160 action_norm=2.3665 max_abs=0.9924
+2026-03-30 22:25:53,901 [INFO] step=210 action_norm=2.3788 max_abs=0.9968
+2026-03-30 22:26:02,543 [INFO] step=260 action_norm=2.4860 max_abs=0.9979
+2026-03-30 22:26:11,209 [INFO] step=310 action_norm=2.4023 max_abs=1.0001
+2026-03-30 22:26:19,768 [INFO] step=360 action_norm=2.4722 max_abs=0.9956
+2026-03-30 22:26:31,972 [INFO] step=10 action_norm=2.3457 max_abs=0.9974
+2026-03-30 22:26:40,120 [INFO] step=60 action_norm=2.5582 max_abs=0.9908
+2026-03-30 22:26:48,095 [INFO] step=110 action_norm=2.9154 max_abs=1.0045
+2026-03-30 22:26:55,826 [INFO] step=160 action_norm=2.4616 max_abs=0.9974
+2026-03-30 22:27:03,511 [INFO] step=210 action_norm=2.4167 max_abs=0.9956
+2026-03-30 22:27:11,020 [INFO] step=260 action_norm=2.3774 max_abs=0.9923
+2026-03-30 22:27:18,993 [INFO] step=310 action_norm=2.6412 max_abs=0.9968
+2026-03-30 22:27:26,999 [INFO] step=360 action_norm=2.4360 max_abs=0.9954
+2026-03-30 22:27:38,437 [INFO] step=10 action_norm=2.2693 max_abs=1.0013
+2026-03-30 22:27:46,634 [INFO] step=60 action_norm=2.7156 max_abs=0.9947
+2026-03-30 22:27:54,695 [INFO] step=110 action_norm=2.8339 max_abs=0.9950
+2026-03-30 22:28:02,743 [INFO] step=160 action_norm=2.4554 max_abs=1.0025
+2026-03-30 22:28:10,836 [INFO] step=210 action_norm=2.6181 max_abs=0.9953
+2026-03-30 22:28:18,809 [INFO] step=260 action_norm=2.4783 max_abs=1.0013
+2026-03-30 22:28:26,886 [INFO] step=310 action_norm=2.4504 max_abs=0.9975
+2026-03-30 22:28:34,619 [INFO] step=360 action_norm=2.4010 max_abs=0.9945
+2026-03-30 22:28:46,037 [INFO] step=10 action_norm=2.2320 max_abs=0.9953
+2026-03-30 22:28:54,304 [INFO] step=60 action_norm=2.7418 max_abs=0.9920
+2026-03-30 22:29:02,484 [INFO] step=110 action_norm=2.6425 max_abs=0.9937
+2026-03-30 22:29:10,833 [INFO] step=160 action_norm=2.4620 max_abs=0.9911
+2026-03-30 22:29:19,220 [INFO] step=210 action_norm=2.4474 max_abs=0.9974
+2026-03-30 22:29:27,876 [INFO] step=260 action_norm=2.3739 max_abs=0.9887
+2026-03-30 22:29:36,458 [INFO] step=310 action_norm=2.4298 max_abs=0.9939
+2026-03-30 22:29:45,024 [INFO] step=360 action_norm=2.4491 max_abs=0.9964
+2026-03-30 22:29:57,231 [INFO] step=10 action_norm=2.2303 max_abs=1.0022
+2026-03-30 22:30:05,523 [INFO] step=60 action_norm=2.7964 max_abs=0.9967
+2026-03-30 22:30:13,291 [INFO] step=110 action_norm=2.7075 max_abs=0.9957
+2026-03-30 22:30:21,001 [INFO] step=160 action_norm=2.6508 max_abs=0.9983
+2026-03-30 22:30:28,931 [INFO] step=210 action_norm=2.4130 max_abs=0.9956
+2026-03-30 22:30:36,598 [INFO] step=260 action_norm=2.3047 max_abs=0.9917
+2026-03-30 22:30:44,264 [INFO] step=310 action_norm=2.2531 max_abs=0.9964
+2026-03-30 22:30:52,080 [INFO] step=360 action_norm=2.1497 max_abs=0.9820
+2026-03-30 22:31:03,671 [INFO] step=10 action_norm=2.2993 max_abs=0.9956
+2026-03-30 22:31:11,944 [INFO] step=60 action_norm=2.6110 max_abs=1.0033
+2026-03-30 22:31:20,119 [INFO] step=110 action_norm=2.5387 max_abs=0.9953
+2026-03-30 22:31:28,178 [INFO] step=160 action_norm=2.7655 max_abs=0.9991
+2026-03-30 22:31:36,028 [INFO] step=210 action_norm=2.4727 max_abs=0.9933
+2026-03-30 22:31:43,797 [INFO] step=260 action_norm=2.5875 max_abs=0.9941
+2026-03-30 22:31:51,472 [INFO] step=310 action_norm=2.4442 max_abs=0.9952
+2026-03-30 22:31:59,099 [INFO] step=360 action_norm=2.5466 max_abs=1.0049
+2026-03-30 22:32:10,449 [INFO] step=10 action_norm=2.2457 max_abs=1.0000
+2026-03-30 22:32:18,684 [INFO] step=60 action_norm=2.8586 max_abs=0.9985
+2026-03-30 22:32:26,546 [INFO] step=110 action_norm=2.7798 max_abs=0.9969
+2026-03-30 22:32:34,338 [INFO] step=160 action_norm=2.7150 max_abs=1.0038
+2026-03-30 22:32:42,069 [INFO] step=210 action_norm=2.7085 max_abs=0.9925
+2026-03-30 22:32:49,696 [INFO] step=260 action_norm=2.7070 max_abs=0.9938
+2026-03-30 22:32:57,333 [INFO] step=310 action_norm=2.4761 max_abs=0.9988
+2026-03-30 22:33:05,244 [INFO] step=360 action_norm=2.7461 max_abs=0.9988
+2026-03-30 22:33:16,840 [INFO] step=10 action_norm=2.2746 max_abs=1.0067
+2026-03-30 22:33:25,110 [INFO] step=60 action_norm=2.7532 max_abs=0.9941
+2026-03-30 22:33:33,315 [INFO] step=110 action_norm=2.7559 max_abs=0.9916
+2026-03-30 22:33:41,514 [INFO] step=160 action_norm=2.8558 max_abs=0.9960
+2026-03-30 22:33:49,617 [INFO] step=210 action_norm=2.7936 max_abs=0.9984
+2026-03-30 22:33:57,666 [INFO] step=260 action_norm=2.6019 max_abs=0.9961
+2026-03-30 22:34:05,300 [INFO] step=310 action_norm=2.6123 max_abs=0.9922
+2026-03-30 22:34:13,095 [INFO] step=360 action_norm=2.5633 max_abs=0.9871
+2026-03-30 22:34:24,636 [INFO] step=10 action_norm=2.2707 max_abs=0.9965
+2026-03-30 22:34:33,078 [INFO] step=60 action_norm=2.8389 max_abs=0.9972
+2026-03-30 22:34:41,071 [INFO] step=110 action_norm=2.8140 max_abs=0.9965
+2026-03-30 22:34:49,311 [INFO] step=160 action_norm=2.7030 max_abs=0.9874
+2026-03-30 22:34:57,566 [INFO] step=210 action_norm=2.3958 max_abs=0.9947
+2026-03-30 22:35:05,847 [INFO] step=260 action_norm=2.4986 max_abs=0.9980
+2026-03-30 22:35:14,173 [INFO] step=310 action_norm=2.3750 max_abs=0.9935
+2026-03-30 22:35:22,357 [INFO] step=360 action_norm=2.3675 max_abs=0.9988
+2026-03-30 22:35:34,160 [INFO] step=10 action_norm=2.2438 max_abs=1.0050
+2026-03-30 22:35:42,423 [INFO] step=60 action_norm=2.4193 max_abs=0.9929
+2026-03-30 22:35:50,720 [INFO] step=110 action_norm=2.4433 max_abs=1.0001
+2026-03-30 22:35:58,811 [INFO] step=160 action_norm=2.3291 max_abs=1.0024
+2026-03-30 22:36:06,613 [INFO] step=210 action_norm=2.2541 max_abs=0.9904
+2026-03-30 22:36:14,632 [INFO] step=260 action_norm=2.3025 max_abs=1.0094
+2026-03-30 22:36:22,457 [INFO] step=310 action_norm=2.3566 max_abs=0.9902
+2026-03-30 22:36:30,168 [INFO] step=360 action_norm=2.3031 max_abs=0.9961
+2026-03-30 22:36:41,530 [INFO] step=10 action_norm=2.3173 max_abs=1.0010
+2026-03-30 22:36:49,627 [INFO] step=60 action_norm=2.6674 max_abs=0.9910
+2026-03-30 22:36:58,086 [INFO] step=110 action_norm=2.6575 max_abs=0.9951
+2026-03-30 22:37:06,109 [INFO] step=160 action_norm=2.4542 max_abs=0.9908
+2026-03-30 22:37:14,303 [INFO] step=210 action_norm=2.3623 max_abs=0.9967
+2026-03-30 22:37:22,746 [INFO] step=260 action_norm=2.4279 max_abs=0.9891
+2026-03-30 22:37:31,024 [INFO] step=310 action_norm=2.3489 max_abs=0.9933
+2026-03-30 22:37:39,129 [INFO] step=360 action_norm=2.3366 max_abs=0.9942
+2026-03-30 22:37:47,109 [INFO] Task 5 (put the chocolate pudding in the top dra): 0/20
+2026-03-30 22:37:52,129 [INFO] step=10 action_norm=2.2287 max_abs=0.9963
+2026-03-30 22:37:59,553 [INFO] step=60 action_norm=3.0620 max_abs=1.0123
+2026-03-30 22:38:06,790 [INFO] step=110 action_norm=2.8334 max_abs=1.0070
+2026-03-30 22:38:14,010 [INFO] step=160 action_norm=2.2367 max_abs=0.9902
+2026-03-30 22:38:21,269 [INFO] step=210 action_norm=2.2201 max_abs=0.9968
+2026-03-30 22:38:28,690 [INFO] step=260 action_norm=2.2328 max_abs=0.9919
+2026-03-30 22:38:36,316 [INFO] step=310 action_norm=2.3214 max_abs=0.9900
+2026-03-30 22:38:44,054 [INFO] step=360 action_norm=2.4005 max_abs=1.0029
+2026-03-30 22:38:55,542 [INFO] step=10 action_norm=2.2357 max_abs=1.0012
+2026-03-30 22:39:02,655 [INFO] step=60 action_norm=2.6892 max_abs=0.9956
+2026-03-30 22:39:09,941 [INFO] step=110 action_norm=2.7375 max_abs=1.0124
+2026-03-30 22:39:16,978 [INFO] step=160 action_norm=2.2201 max_abs=0.9905
+2026-03-30 22:39:24,157 [INFO] step=210 action_norm=2.2573 max_abs=0.9983
+2026-03-30 22:39:31,291 [INFO] step=260 action_norm=2.2296 max_abs=0.9891
+2026-03-30 22:39:38,810 [INFO] step=310 action_norm=2.2078 max_abs=0.9876
+2026-03-30 22:39:46,153 [INFO] step=360 action_norm=2.2907 max_abs=0.9898
+2026-03-30 22:39:56,824 [INFO] step=10 action_norm=2.2196 max_abs=0.9960
+2026-03-30 22:40:04,237 [INFO] step=60 action_norm=2.8736 max_abs=1.0091
+2026-03-30 22:40:11,535 [INFO] step=110 action_norm=2.5964 max_abs=1.0246
+2026-03-30 22:40:18,825 [INFO] step=160 action_norm=2.2406 max_abs=1.0040
+2026-03-30 22:40:25,980 [INFO] step=210 action_norm=2.2233 max_abs=0.9837
+2026-03-30 22:40:33,381 [INFO] step=260 action_norm=2.1881 max_abs=0.9849
+2026-03-30 22:40:40,813 [INFO] step=310 action_norm=2.3596 max_abs=0.9839
+2026-03-30 22:40:47,769 [INFO] step=360 action_norm=2.7632 max_abs=1.0143
+2026-03-30 22:40:58,072 [INFO] step=10 action_norm=2.2206 max_abs=0.9920
+2026-03-30 22:41:05,354 [INFO] step=60 action_norm=2.9813 max_abs=0.9983
+2026-03-30 22:41:12,543 [INFO] step=110 action_norm=2.3893 max_abs=1.0135
+2026-03-30 22:41:19,740 [INFO] step=160 action_norm=2.2676 max_abs=0.9962
+2026-03-30 22:41:27,007 [INFO] step=210 action_norm=2.2606 max_abs=0.9995
+2026-03-30 22:41:34,197 [INFO] step=260 action_norm=2.2188 max_abs=0.9909
+2026-03-30 22:41:41,753 [INFO] step=310 action_norm=2.1988 max_abs=0.9838
+2026-03-30 22:41:49,407 [INFO] step=360 action_norm=2.2109 max_abs=0.9833
+2026-03-30 22:42:00,596 [INFO] step=10 action_norm=2.2147 max_abs=0.9883
+2026-03-30 22:42:07,921 [INFO] step=60 action_norm=2.8028 max_abs=1.0106
+2026-03-30 22:42:15,054 [INFO] step=110 action_norm=2.5704 max_abs=1.0184
+2026-03-30 22:42:22,399 [INFO] step=160 action_norm=2.2267 max_abs=1.0062
+2026-03-30 22:42:29,615 [INFO] step=210 action_norm=2.2645 max_abs=0.9970
+2026-03-30 22:42:36,754 [INFO] step=260 action_norm=2.2763 max_abs=1.0018
+2026-03-30 22:42:44,070 [INFO] step=310 action_norm=2.2332 max_abs=0.9924
+2026-03-30 22:42:51,152 [INFO] step=360 action_norm=2.2242 max_abs=0.9981
+2026-03-30 22:43:01,919 [INFO] step=10 action_norm=2.2456 max_abs=0.9957
+2026-03-30 22:43:09,154 [INFO] step=60 action_norm=2.8013 max_abs=0.9967
+2026-03-30 22:43:16,351 [INFO] step=110 action_norm=2.8640 max_abs=1.0095
+2026-03-30 22:43:23,432 [INFO] step=160 action_norm=2.2574 max_abs=0.9993
+2026-03-30 22:43:30,601 [INFO] step=210 action_norm=2.5609 max_abs=0.9861
+2026-03-30 22:43:37,815 [INFO] step=260 action_norm=2.2389 max_abs=0.9864
+2026-03-30 22:43:45,014 [INFO] step=310 action_norm=2.2442 max_abs=0.9925
+2026-03-30 22:43:52,121 [INFO] step=360 action_norm=2.2634 max_abs=0.9901
+2026-03-30 22:44:02,708 [INFO] step=10 action_norm=2.2080 max_abs=0.9896
+2026-03-30 22:44:09,939 [INFO] step=60 action_norm=2.9305 max_abs=1.0106
+2026-03-30 22:44:17,204 [INFO] step=110 action_norm=2.7911 max_abs=1.0093
+2026-03-30 22:44:24,450 [INFO] step=160 action_norm=2.3256 max_abs=0.9869
+2026-03-30 22:44:31,813 [INFO] step=210 action_norm=2.2524 max_abs=0.9939
+2026-03-30 22:44:39,347 [INFO] step=260 action_norm=2.3903 max_abs=0.9917
+2026-03-30 22:44:46,886 [INFO] step=310 action_norm=2.4168 max_abs=0.9840
+2026-03-30 22:44:54,029 [INFO] step=360 action_norm=2.6924 max_abs=1.0044
+2026-03-30 22:45:04,528 [INFO] step=10 action_norm=2.2085 max_abs=0.9994
+2026-03-30 22:45:11,801 [INFO] step=60 action_norm=2.7059 max_abs=0.9981
+2026-03-30 22:45:19,089 [INFO] step=110 action_norm=2.5125 max_abs=1.0116
+2026-03-30 22:45:26,394 [INFO] step=160 action_norm=2.6265 max_abs=0.9993
+2026-03-30 22:45:33,471 [INFO] step=210 action_norm=2.3636 max_abs=0.9927
+2026-03-30 22:45:40,612 [INFO] step=260 action_norm=2.3241 max_abs=0.9959
+2026-03-30 22:45:47,664 [INFO] step=310 action_norm=2.2311 max_abs=0.9901
+2026-03-30 22:45:54,961 [INFO] step=360 action_norm=2.2157 max_abs=0.9989
+2026-03-30 22:46:05,387 [INFO] step=10 action_norm=2.2199 max_abs=0.9945
+2026-03-30 22:46:12,674 [INFO] step=60 action_norm=2.6316 max_abs=0.9976
+2026-03-30 22:46:19,795 [INFO] step=110 action_norm=3.0168 max_abs=1.0083
+2026-03-30 22:46:26,787 [INFO] step=160 action_norm=2.3165 max_abs=0.9987
+2026-03-30 22:46:33,758 [INFO] step=210 action_norm=2.2734 max_abs=1.0045
+2026-03-30 22:46:40,929 [INFO] step=260 action_norm=2.3198 max_abs=0.9947
+2026-03-30 22:46:48,306 [INFO] step=310 action_norm=2.3213 max_abs=0.9961
+2026-03-30 22:46:55,680 [INFO] step=360 action_norm=2.2028 max_abs=1.0092
+2026-03-30 22:47:06,376 [INFO] step=10 action_norm=2.2343 max_abs=0.9972
+2026-03-30 22:47:13,570 [INFO] step=60 action_norm=2.6549 max_abs=0.9986
+2026-03-30 22:47:20,589 [INFO] step=110 action_norm=2.9065 max_abs=1.0126
+2026-03-30 22:47:27,677 [INFO] step=160 action_norm=2.3183 max_abs=1.0170
+2026-03-30 22:47:34,933 [INFO] step=210 action_norm=2.2599 max_abs=1.0199
+2026-03-30 22:47:42,097 [INFO] step=260 action_norm=2.4168 max_abs=1.0168
+2026-03-30 22:47:49,288 [INFO] step=310 action_norm=2.2480 max_abs=1.0009
+2026-03-30 22:47:56,435 [INFO] step=360 action_norm=2.2531 max_abs=1.0032
+2026-03-30 22:48:07,466 [INFO] step=10 action_norm=2.2283 max_abs=0.9941
+2026-03-30 22:48:14,696 [INFO] step=60 action_norm=2.3210 max_abs=1.0201
+2026-03-30 22:48:21,804 [INFO] step=110 action_norm=2.6999 max_abs=1.0038
+2026-03-30 22:48:28,908 [INFO] step=160 action_norm=2.2441 max_abs=0.9909
+2026-03-30 22:48:35,983 [INFO] step=210 action_norm=2.2277 max_abs=0.9944
+2026-03-30 22:48:43,536 [INFO] step=260 action_norm=2.2677 max_abs=0.9924
+2026-03-30 22:48:51,375 [INFO] step=310 action_norm=2.3297 max_abs=1.0170
+2026-03-30 22:48:58,927 [INFO] step=360 action_norm=2.5574 max_abs=0.9983
+2026-03-30 22:49:09,678 [INFO] step=10 action_norm=2.2646 max_abs=1.0070
+2026-03-30 22:49:16,901 [INFO] step=60 action_norm=2.7139 max_abs=1.0019
+2026-03-30 22:49:24,063 [INFO] step=110 action_norm=2.3207 max_abs=0.9977
+2026-03-30 22:49:31,271 [INFO] step=160 action_norm=2.3769 max_abs=1.0055
+2026-03-30 22:49:38,455 [INFO] step=210 action_norm=2.8028 max_abs=1.0114
+2026-03-30 22:49:45,785 [INFO] step=260 action_norm=2.3216 max_abs=1.0201
+2026-03-30 22:49:52,985 [INFO] step=310 action_norm=2.2178 max_abs=0.9937
+2026-03-30 22:50:00,138 [INFO] step=360 action_norm=2.2281 max_abs=0.9916
+2026-03-30 22:50:10,929 [INFO] step=10 action_norm=2.3730 max_abs=1.0119
+2026-03-30 22:50:18,154 [INFO] step=60 action_norm=2.2683 max_abs=1.0022
+2026-03-30 22:50:25,365 [INFO] step=110 action_norm=2.2564 max_abs=1.0098
+2026-03-30 22:50:32,491 [INFO] step=160 action_norm=2.2367 max_abs=0.9978
+2026-03-30 22:50:39,633 [INFO] step=210 action_norm=2.2624 max_abs=1.0074
+2026-03-30 22:50:47,053 [INFO] step=260 action_norm=2.2895 max_abs=0.9971
+2026-03-30 22:50:54,285 [INFO] step=310 action_norm=2.4259 max_abs=0.9980
+2026-03-30 22:51:01,516 [INFO] step=360 action_norm=2.2332 max_abs=0.9961
+2026-03-30 22:51:12,012 [INFO] step=10 action_norm=2.2349 max_abs=1.0009
+2026-03-30 22:51:19,528 [INFO] step=60 action_norm=2.5111 max_abs=0.9997
+2026-03-30 22:51:26,735 [INFO] step=110 action_norm=2.8363 max_abs=1.0070
+2026-03-30 22:51:34,211 [INFO] step=160 action_norm=2.2324 max_abs=0.9988
+2026-03-30 22:51:41,748 [INFO] step=210 action_norm=2.2646 max_abs=1.0022
+2026-03-30 22:51:49,148 [INFO] step=260 action_norm=2.3920 max_abs=0.9931
+2026-03-30 22:51:56,579 [INFO] step=310 action_norm=2.3280 max_abs=0.9920
+2026-03-30 22:52:03,410 [INFO] step=360 action_norm=2.4549 max_abs=0.9892
+2026-03-30 22:52:13,788 [INFO] step=10 action_norm=2.2275 max_abs=0.9936
+2026-03-30 22:52:20,929 [INFO] step=60 action_norm=2.5878 max_abs=1.0031
+2026-03-30 22:52:28,258 [INFO] step=110 action_norm=2.5233 max_abs=0.9940
+2026-03-30 22:52:35,765 [INFO] step=160 action_norm=2.2958 max_abs=1.0073
+2026-03-30 22:52:43,334 [INFO] step=210 action_norm=2.3076 max_abs=1.0120
+2026-03-30 22:52:50,892 [INFO] step=260 action_norm=2.4299 max_abs=0.9989
+2026-03-30 22:52:58,121 [INFO] step=310 action_norm=2.2895 max_abs=1.0069
+2026-03-30 22:53:05,216 [INFO] step=360 action_norm=2.2715 max_abs=1.0006
+2026-03-30 22:53:16,031 [INFO] step=10 action_norm=2.2297 max_abs=0.9973
+2026-03-30 22:53:23,765 [INFO] step=60 action_norm=2.6810 max_abs=1.0149
+2026-03-30 22:53:31,258 [INFO] step=110 action_norm=2.4735 max_abs=1.0052
+2026-03-30 22:53:38,637 [INFO] step=160 action_norm=2.3331 max_abs=1.0013
+2026-03-30 22:53:46,029 [INFO] step=210 action_norm=2.3070 max_abs=1.0016
+2026-03-30 22:53:53,472 [INFO] step=260 action_norm=2.2611 max_abs=0.9967
+2026-03-30 22:54:00,933 [INFO] step=310 action_norm=2.4333 max_abs=0.9984
+2026-03-30 22:54:08,010 [INFO] step=360 action_norm=2.4169 max_abs=0.9913
+2026-03-30 22:54:18,281 [INFO] step=10 action_norm=2.2379 max_abs=0.9933
+2026-03-30 22:54:25,664 [INFO] step=60 action_norm=2.8821 max_abs=1.0033
+2026-03-30 22:54:32,920 [INFO] step=110 action_norm=2.4452 max_abs=1.0054
+2026-03-30 22:54:40,366 [INFO] step=160 action_norm=2.1380 max_abs=1.0133
+2026-03-30 22:54:47,527 [INFO] step=210 action_norm=2.2352 max_abs=0.9954
+2026-03-30 22:54:54,740 [INFO] step=260 action_norm=2.3575 max_abs=1.0127
+2026-03-30 22:55:01,778 [INFO] step=310 action_norm=2.2623 max_abs=1.0001
+2026-03-30 22:55:08,951 [INFO] step=360 action_norm=2.3261 max_abs=0.9997
+2026-03-30 22:55:19,928 [INFO] step=10 action_norm=2.2372 max_abs=0.9956
+2026-03-30 22:55:27,038 [INFO] step=60 action_norm=2.6741 max_abs=1.0013
+2026-03-30 22:55:34,253 [INFO] step=110 action_norm=2.2952 max_abs=1.0051
+2026-03-30 22:55:41,542 [INFO] step=160 action_norm=2.2542 max_abs=1.0040
+2026-03-30 22:55:48,746 [INFO] step=210 action_norm=2.7864 max_abs=1.0009
+2026-03-30 22:55:55,932 [INFO] step=260 action_norm=2.3361 max_abs=0.9919
+2026-03-30 22:56:03,103 [INFO] step=310 action_norm=2.2324 max_abs=0.9918
+2026-03-30 22:56:10,711 [INFO] step=360 action_norm=2.2364 max_abs=1.0032
+2026-03-30 22:56:22,263 [INFO] step=10 action_norm=2.2154 max_abs=0.9902
+2026-03-30 22:56:29,858 [INFO] step=60 action_norm=2.7397 max_abs=1.0005
+2026-03-30 22:56:37,097 [INFO] step=110 action_norm=2.6901 max_abs=1.0228
+2026-03-30 22:56:44,417 [INFO] step=160 action_norm=2.3445 max_abs=0.9968
+2026-03-30 22:56:51,495 [INFO] step=210 action_norm=2.2345 max_abs=0.9904
+2026-03-30 22:56:58,824 [INFO] step=260 action_norm=2.2909 max_abs=0.9910
+2026-03-30 22:57:06,372 [INFO] step=310 action_norm=2.4196 max_abs=1.0021
+2026-03-30 22:57:13,726 [INFO] step=360 action_norm=2.3188 max_abs=1.0007
+2026-03-30 22:57:24,576 [INFO] step=10 action_norm=2.2344 max_abs=0.9975
+2026-03-30 22:57:31,939 [INFO] step=60 action_norm=2.6689 max_abs=0.9986
+2026-03-30 22:57:39,359 [INFO] step=110 action_norm=2.7147 max_abs=1.0090
+2026-03-30 22:57:46,719 [INFO] step=160 action_norm=2.3633 max_abs=1.0060
+2026-03-30 22:57:53,918 [INFO] step=210 action_norm=2.2302 max_abs=0.9944
+2026-03-30 22:58:01,296 [INFO] step=260 action_norm=2.2651 max_abs=0.9962
+2026-03-30 22:58:08,924 [INFO] step=310 action_norm=2.2194 max_abs=1.0123
+2026-03-30 22:58:16,389 [INFO] step=360 action_norm=2.3876 max_abs=0.9951
+2026-03-30 22:58:23,850 [INFO] Task 6 (open the bottom drawer of the cabinet): 0/20
+2026-03-30 22:58:29,040 [INFO] step=10 action_norm=2.2194 max_abs=0.9943
+2026-03-30 22:58:36,392 [INFO] step=60 action_norm=2.7996 max_abs=1.0007
+2026-03-30 22:58:43,584 [INFO] step=110 action_norm=2.8204 max_abs=1.0075
+2026-03-30 22:58:50,667 [INFO] step=160 action_norm=2.2591 max_abs=1.0017
+2026-03-30 22:58:57,922 [INFO] step=210 action_norm=2.2989 max_abs=0.9971
+2026-03-30 22:59:05,441 [INFO] step=260 action_norm=2.2998 max_abs=0.9990
+2026-03-30 22:59:12,763 [INFO] step=310 action_norm=2.3320 max_abs=0.9969
+2026-03-30 22:59:20,262 [INFO] step=360 action_norm=2.4218 max_abs=1.0066
+2026-03-30 22:59:30,950 [INFO] step=10 action_norm=2.3115 max_abs=1.0004
+2026-03-30 22:59:38,189 [INFO] step=60 action_norm=2.3773 max_abs=1.0131
+2026-03-30 22:59:45,516 [INFO] step=110 action_norm=2.7053 max_abs=1.0107
+2026-03-30 22:59:52,783 [INFO] step=160 action_norm=2.3268 max_abs=1.0033
+2026-03-30 23:00:00,112 [INFO] step=210 action_norm=2.3157 max_abs=1.0084
+2026-03-30 23:00:07,422 [INFO] step=260 action_norm=2.2724 max_abs=0.9966
+2026-03-30 23:00:14,671 [INFO] step=310 action_norm=2.2972 max_abs=0.9973
+2026-03-30 23:00:22,092 [INFO] step=360 action_norm=2.2357 max_abs=1.0120
+2026-03-30 23:00:32,999 [INFO] step=10 action_norm=2.2296 max_abs=0.9956
+2026-03-30 23:00:40,222 [INFO] step=60 action_norm=2.7461 max_abs=1.0005
+2026-03-30 23:00:47,317 [INFO] step=110 action_norm=2.4804 max_abs=1.0042
+2026-03-30 23:00:54,373 [INFO] step=160 action_norm=2.2735 max_abs=1.0021
+2026-03-30 23:01:01,179 [INFO] step=210 action_norm=2.4243 max_abs=1.0091
+2026-03-30 23:01:08,012 [INFO] step=260 action_norm=2.3999 max_abs=1.0086
+2026-03-30 23:01:14,753 [INFO] step=310 action_norm=2.3393 max_abs=0.9963
+2026-03-30 23:01:21,534 [INFO] step=360 action_norm=2.4034 max_abs=0.9996
+2026-03-30 23:01:31,877 [INFO] step=10 action_norm=2.2303 max_abs=0.9919
+2026-03-30 23:01:39,176 [INFO] step=60 action_norm=2.6635 max_abs=1.0115
+2026-03-30 23:01:46,348 [INFO] step=110 action_norm=2.3115 max_abs=1.0165
+2026-03-30 23:01:53,632 [INFO] step=160 action_norm=2.2534 max_abs=1.0044
+2026-03-30 23:02:01,021 [INFO] step=210 action_norm=2.5540 max_abs=1.0123
+2026-03-30 23:02:08,334 [INFO] step=260 action_norm=2.4724 max_abs=1.0023
+2026-03-30 23:02:15,847 [INFO] step=310 action_norm=2.2535 max_abs=1.0002
+2026-03-30 23:02:23,099 [INFO] step=360 action_norm=2.2812 max_abs=1.0071
+2026-03-30 23:02:34,091 [INFO] step=10 action_norm=2.2572 max_abs=0.9980
+2026-03-30 23:02:41,127 [INFO] step=60 action_norm=2.7609 max_abs=1.0005
+2026-03-30 23:02:48,039 [INFO] step=110 action_norm=2.1358 max_abs=1.0129
+2026-03-30 23:02:55,219 [INFO] step=160 action_norm=2.7424 max_abs=1.0134
+2026-03-30 23:03:02,408 [INFO] step=210 action_norm=2.2209 max_abs=0.9949
+2026-03-30 23:03:09,646 [INFO] step=260 action_norm=2.2146 max_abs=0.9928
+2026-03-30 23:03:16,818 [INFO] step=310 action_norm=2.2202 max_abs=0.9915
+2026-03-30 23:03:24,025 [INFO] step=360 action_norm=2.2256 max_abs=0.9946
+2026-03-30 23:03:34,760 [INFO] step=10 action_norm=2.2476 max_abs=0.9932
+2026-03-30 23:03:41,975 [INFO] step=60 action_norm=2.6422 max_abs=0.9964
+2026-03-30 23:03:49,106 [INFO] step=110 action_norm=2.6362 max_abs=1.0019
+2026-03-30 23:03:56,184 [INFO] step=160 action_norm=2.3054 max_abs=0.9963
+2026-03-30 23:04:03,386 [INFO] step=210 action_norm=2.2314 max_abs=1.0016
+2026-03-30 23:04:10,522 [INFO] step=260 action_norm=2.2329 max_abs=0.9940
+2026-03-30 23:04:17,629 [INFO] step=310 action_norm=2.3061 max_abs=0.9917
+2026-03-30 23:04:24,800 [INFO] step=360 action_norm=2.3121 max_abs=0.9910
+2026-03-30 23:04:35,390 [INFO] step=10 action_norm=2.2220 max_abs=0.9997
+2026-03-30 23:04:42,734 [INFO] step=60 action_norm=2.5061 max_abs=1.0100
+2026-03-30 23:04:50,145 [INFO] step=110 action_norm=2.2880 max_abs=1.0053
+2026-03-30 23:04:57,392 [INFO] step=160 action_norm=2.3461 max_abs=1.0014
+2026-03-30 23:05:04,543 [INFO] step=210 action_norm=2.4637 max_abs=1.0075
+2026-03-30 23:05:11,728 [INFO] step=260 action_norm=2.3628 max_abs=1.0042
+2026-03-30 23:05:18,944 [INFO] step=310 action_norm=2.2769 max_abs=0.9914
+2026-03-30 23:05:26,158 [INFO] step=360 action_norm=2.4533 max_abs=1.0046
+2026-03-30 23:05:37,107 [INFO] step=10 action_norm=2.2703 max_abs=0.9947
+2026-03-30 23:05:44,525 [INFO] step=60 action_norm=2.5046 max_abs=1.0210
+2026-03-30 23:05:51,773 [INFO] step=110 action_norm=2.6149 max_abs=0.9952
+2026-03-30 23:05:59,110 [INFO] step=160 action_norm=2.2252 max_abs=1.0051
+2026-03-30 23:06:06,370 [INFO] step=210 action_norm=2.2537 max_abs=1.0060
+2026-03-30 23:06:13,508 [INFO] step=260 action_norm=2.3114 max_abs=1.0059
+2026-03-30 23:06:20,705 [INFO] step=310 action_norm=2.2758 max_abs=1.0055
+2026-03-30 23:06:27,888 [INFO] step=360 action_norm=2.3148 max_abs=0.9996
+2026-03-30 23:06:39,163 [INFO] step=10 action_norm=2.2449 max_abs=0.9965
+2026-03-30 23:06:46,720 [INFO] step=60 action_norm=2.8078 max_abs=1.0011
+2026-03-30 23:06:54,079 [INFO] step=110 action_norm=2.7593 max_abs=1.0054
+2026-03-30 23:07:01,332 [INFO] step=160 action_norm=2.3220 max_abs=0.9924
+2026-03-30 23:07:08,761 [INFO] step=210 action_norm=2.2320 max_abs=0.9973
+2026-03-30 23:07:16,235 [INFO] step=260 action_norm=2.2341 max_abs=0.9901
+2026-03-30 23:07:23,704 [INFO] step=310 action_norm=2.2271 max_abs=0.9963
+2026-03-30 23:07:31,208 [INFO] step=360 action_norm=2.2575 max_abs=0.9999
+2026-03-30 23:07:42,095 [INFO] step=10 action_norm=2.3342 max_abs=0.9936
+2026-03-30 23:07:49,411 [INFO] step=60 action_norm=2.6977 max_abs=0.9939
+2026-03-30 23:07:56,660 [INFO] step=110 action_norm=2.8377 max_abs=1.0110
+2026-03-30 23:08:03,906 [INFO] step=160 action_norm=2.2927 max_abs=0.9908
+2026-03-30 23:08:11,255 [INFO] step=210 action_norm=2.2701 max_abs=0.9920
+2026-03-30 23:08:18,785 [INFO] step=260 action_norm=2.2983 max_abs=1.0093
+2026-03-30 23:08:26,398 [INFO] step=310 action_norm=2.2750 max_abs=1.0048
+2026-03-30 23:08:33,974 [INFO] step=360 action_norm=2.2376 max_abs=0.9956
+2026-03-30 23:08:44,670 [INFO] step=10 action_norm=2.2459 max_abs=1.0008
+2026-03-30 23:08:51,921 [INFO] step=60 action_norm=2.9925 max_abs=1.0080
+2026-03-30 23:08:59,316 [INFO] step=110 action_norm=3.0291 max_abs=1.0132
+2026-03-30 23:09:06,532 [INFO] step=160 action_norm=2.2719 max_abs=0.9862
+2026-03-30 23:09:13,740 [INFO] step=210 action_norm=2.3345 max_abs=1.0015
+2026-03-30 23:09:20,920 [INFO] step=260 action_norm=2.2275 max_abs=0.9941
+2026-03-30 23:09:28,223 [INFO] step=310 action_norm=2.2475 max_abs=1.0027
+2026-03-30 23:09:35,637 [INFO] step=360 action_norm=2.2240 max_abs=0.9947
+2026-03-30 23:09:46,431 [INFO] step=10 action_norm=2.2107 max_abs=0.9911
+2026-03-30 23:09:54,073 [INFO] step=60 action_norm=2.5509 max_abs=1.0082
+2026-03-30 23:10:01,519 [INFO] step=110 action_norm=2.7569 max_abs=1.0038
+2026-03-30 23:10:09,054 [INFO] step=160 action_norm=2.2921 max_abs=0.9998
+2026-03-30 23:10:16,255 [INFO] step=210 action_norm=2.2542 max_abs=0.9861
+2026-03-30 23:10:23,574 [INFO] step=260 action_norm=2.3283 max_abs=0.9921
+2026-03-30 23:10:30,996 [INFO] step=310 action_norm=2.2347 max_abs=1.0004
+2026-03-30 23:10:38,176 [INFO] step=360 action_norm=2.5333 max_abs=0.9990
+2026-03-30 23:10:48,711 [INFO] step=10 action_norm=2.2662 max_abs=0.9955
+2026-03-30 23:10:55,872 [INFO] step=60 action_norm=2.3805 max_abs=1.0215
+2026-03-30 23:11:03,246 [INFO] step=110 action_norm=2.5988 max_abs=1.0020
+2026-03-30 23:11:10,475 [INFO] step=160 action_norm=2.2252 max_abs=0.9955
+2026-03-30 23:11:17,636 [INFO] step=210 action_norm=2.2721 max_abs=0.9942
+2026-03-30 23:11:24,820 [INFO] step=260 action_norm=2.2421 max_abs=0.9994
+2026-03-30 23:11:31,845 [INFO] step=310 action_norm=2.2817 max_abs=0.9966
+2026-03-30 23:11:38,934 [INFO] step=360 action_norm=2.4223 max_abs=0.9998
+2026-03-30 23:11:49,763 [INFO] step=10 action_norm=2.2674 max_abs=1.0053
+2026-03-30 23:11:56,969 [INFO] step=60 action_norm=2.4241 max_abs=1.0147
+2026-03-30 23:12:04,286 [INFO] step=110 action_norm=2.6002 max_abs=1.0103
+2026-03-30 23:12:11,436 [INFO] step=160 action_norm=2.2199 max_abs=0.9867
+2026-03-30 23:12:18,731 [INFO] step=210 action_norm=2.2628 max_abs=0.9899
+2026-03-30 23:12:25,960 [INFO] step=260 action_norm=2.2602 max_abs=0.9927
+2026-03-30 23:12:33,089 [INFO] step=310 action_norm=2.2584 max_abs=0.9958
+2026-03-30 23:12:40,306 [INFO] step=360 action_norm=2.4744 max_abs=0.9997
+2026-03-30 23:12:50,889 [INFO] step=10 action_norm=2.2319 max_abs=0.9976
+2026-03-30 23:12:58,212 [INFO] step=60 action_norm=2.8229 max_abs=1.0147
+2026-03-30 23:13:05,312 [INFO] step=110 action_norm=2.3271 max_abs=1.0046
+2026-03-30 23:13:12,689 [INFO] step=160 action_norm=2.2265 max_abs=0.9938
+2026-03-30 23:13:20,026 [INFO] step=210 action_norm=2.2474 max_abs=1.0004
+2026-03-30 23:13:27,510 [INFO] step=260 action_norm=2.4081 max_abs=0.9919
+2026-03-30 23:13:34,673 [INFO] step=310 action_norm=2.6772 max_abs=1.0056

@@ -1,0 +1,7 @@
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-08_52_58--ep0--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-08_52_58--ep1--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-08_52_58--ep2--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+:23,341 [INFO] step=60 action_norm=2.2464 max_abs=0.9993
+2026-03-30 08:54:29,580 [INFO] step=10 action_norm=2.8606 max_abs=1.0209
+2026-03-30 08:54:35,405 [INFO] step=60 action_norm=3.0119 max_abs=1.0014
+2026-03-30 08:54:40,576 [INFO] step=10 action_norm=2.5651 max_abs=1.0092

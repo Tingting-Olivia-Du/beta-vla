@@ -1,5 +1,5 @@
-benchmark_root: /umd-datapool/tingting/LIBERO/libero/libero
-bddl_files: /umd-datapool/tingting/LIBERO/libero/libero/bddl_files
-init_states: /umd-datapool/tingting/LIBERO/libero/libero/init_files
-datasets: /umd-datapool/tingting/LIBERO/datasets
-assets: /umd-datapool/tingting/LIBERO/libero/libero/assets
+benchmark_root: /workspace/tingting/LIBERO/libero/libero
+bddl_files: /workspace/tingting/LIBERO/libero/libero/bddl_files
+init_states: /workspace/tingting/LIBERO/libero/libero/init_files
+datasets: /workspace/tingting/LIBERO/datasets
+assets: /workspace/tingting/LIBERO/libero/libero/assets

@@ -81,7 +81,9 @@ TASK_MAX_STEPS = {
     "libero_10": 520,
     "libero_90": 400,
 }
-ALL_SUITES = ["libero_spatial", "libero_object", "libero_goal", "libero_10", "libero_90"]
+# ALL_SUITES = ["libero_spatial", "libero_object", "libero_goal", "libero_10", "libero_90"]
+ALL_SUITES = ["libero_spatial", "libero_object", "libero_goal", "libero_10"]
+
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
@@ -145,11 +147,11 @@ def run_episode(
                 tokenizer=tokenizer,
                 num_ode_steps=num_ode_steps,
             )
-            if (t - num_steps_wait) % 50 == 0:
-                logger.info(
-                    "step=%d action_norm=%.4f max_abs=%.4f",
-                    t, float(np.linalg.norm(actions)), float(np.abs(actions).max()),
-                )
+            # if (t - num_steps_wait) % 50 == 0:
+            #     logger.info(
+            #         "step=%d action_norm=%.4f max_abs=%.4f",
+            #         t, float(np.linalg.norm(actions)), float(np.abs(actions).max()),
+            #     )
             action_queue.extend(actions)
 
         action = action_queue.popleft()
@@ -395,7 +397,8 @@ def main():
                     num_ode_steps=args.num_ode_steps,
                 )
                 if save_video and replay_images and video_out_path:
-                    save_rollout_video(replay_images, ep, success, task_description, video_out_path, log_file)
+                    suite_video_path = Path(video_out_path) / suite
+                    save_rollout_video(replay_images, ep, success, task_description, suite_video_path, log_file)
                 task_ok += int(success)
                 total_episodes += 1
                 total_successes += int(success)

@@ -1,0 +1,468 @@
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep0--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep1--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep2--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep3--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep4--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep5--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep6--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep7--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep8--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep9--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep10--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep11--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep12--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep13--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep14--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep15--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep16--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep17--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep18--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep19--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep0--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep1--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep2--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep3--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep4--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep5--success=False--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep6--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep7--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep8--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep9--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep10--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep11--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep12--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep13--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep14--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep15--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep16--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep17--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep18--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep19--success=True--task=pick_up_the_black_bowl_next_to_the_ramekin_and_pla.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep0--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep1--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep2--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep3--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep4--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep5--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep6--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep7--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep8--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep9--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep10--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep11--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep12--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep13--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep14--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep15--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep16--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep17--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep18--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep19--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep0--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep1--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep2--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep3--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep4--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep5--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep6--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep7--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep8--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep9--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep10--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep11--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep12--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep13--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep14--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep15--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep16--success=False--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep17--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep18--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep19--success=True--task=pick_up_the_black_bowl_on_the_cookie_box_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep0--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep1--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep2--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep3--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep4--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep5--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep6--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep7--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep8--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep9--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep10--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep11--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep12--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep13--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep14--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep15--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep16--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep17--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep18--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep19--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep0--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep1--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep2--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep3--success=True--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep4--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep5--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep6--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep7--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep8--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep9--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep10--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep11--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep12--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep13--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep14--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep15--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep16--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep17--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep18--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep19--success=False--task=pick_up_the_black_bowl_on_the_ramekin_and_place_it.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep0--success=False--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep1--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep2--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep3--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep4--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep5--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep6--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep7--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep8--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep9--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep10--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep11--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep12--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep13--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep14--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep15--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep16--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep17--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep18--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep19--success=True--task=pick_up_the_black_bowl_next_to_the_cookie_box_and_.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep0--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep1--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep2--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep3--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep4--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep5--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep6--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep7--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep8--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep9--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep10--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep11--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep12--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep13--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep14--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep15--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep16--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep17--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep18--success=True--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep19--success=False--task=pick_up_the_black_bowl_on_the_stove_and_place_it_o.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep0--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep1--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep2--success=False--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep3--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep4--success=False--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep5--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep6--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep7--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep8--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep9--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep10--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep11--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep12--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep13--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep14--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep15--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep16--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep17--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep18--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep19--success=True--task=pick_up_the_black_bowl_next_to_the_plate_and_place.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep0--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep1--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep2--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep3--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep4--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep5--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep6--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep7--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep8--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep9--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep10--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep11--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep12--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep13--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep14--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep15--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep16--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep17--success=True--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep18--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+Saved rollout: data/libero/beta-fulltune-0329/libero_spatial/2026_03_30-09_57_28--ep19--success=False--task=pick_up_the_black_bowl_on_the_wooden_cabinet_and_p.mp4
+INFO] step=60 action_norm=2.9528 max_abs=0.9967
+2026-03-30 11:13:11,642 [INFO] step=110 action_norm=3.0194 max_abs=1.0029
+2026-03-30 11:13:19,450 [INFO] step=10 action_norm=2.8604 max_abs=1.0164
+2026-03-30 11:13:30,169 [INFO] step=60 action_norm=3.0288 max_abs=1.0106
+2026-03-30 11:13:40,547 [INFO] step=110 action_norm=2.5344 max_abs=1.0115
+2026-03-30 11:13:46,014 [INFO] step=10 action_norm=2.7141 max_abs=1.0077
+2026-03-30 11:13:56,627 [INFO] step=60 action_norm=2.5663 max_abs=1.0138
+2026-03-30 11:14:11,119 [INFO] step=10 action_norm=2.6840 max_abs=1.0033
+2026-03-30 11:14:21,863 [INFO] step=60 action_norm=2.9260 max_abs=1.0008
+2026-03-30 11:14:32,232 [INFO] step=110 action_norm=2.6894 max_abs=1.0032
+2026-03-30 11:14:38,829 [INFO] step=10 action_norm=2.4461 max_abs=1.0074
+2026-03-30 11:14:49,478 [INFO] step=60 action_norm=2.7563 max_abs=1.0066
+2026-03-30 11:14:59,971 [INFO] step=110 action_norm=2.5472 max_abs=1.0007
+2026-03-30 11:15:06,778 [INFO] step=10 action_norm=2.5378 max_abs=1.0043
+2026-03-30 11:15:17,523 [INFO] step=60 action_norm=2.3177 max_abs=1.0066
+2026-03-30 11:15:27,985 [INFO] step=110 action_norm=2.4805 max_abs=1.0099
+2026-03-30 11:15:32,889 [INFO] step=10 action_norm=2.6425 max_abs=1.0006
+2026-03-30 11:15:43,562 [INFO] step=60 action_norm=2.7084 max_abs=1.0090
+2026-03-30 11:15:54,279 [INFO] step=110 action_norm=2.7506 max_abs=1.0089
+2026-03-30 11:16:01,002 [INFO] step=10 action_norm=2.7805 max_abs=1.0095
+2026-03-30 11:16:11,882 [INFO] step=60 action_norm=2.9476 max_abs=1.0068
+2026-03-30 11:16:22,430 [INFO] step=110 action_norm=2.8127 max_abs=1.0035
+2026-03-30 11:16:29,238 [INFO] step=10 action_norm=2.6636 max_abs=1.0149
+2026-03-30 11:16:40,078 [INFO] step=60 action_norm=2.7007 max_abs=1.0092
+2026-03-30 11:16:50,750 [INFO] step=110 action_norm=2.7310 max_abs=1.0196
+2026-03-30 11:17:00,228 [INFO] step=10 action_norm=2.5236 max_abs=1.0044
+2026-03-30 11:17:11,048 [INFO] step=60 action_norm=2.5194 max_abs=1.0111
+2026-03-30 11:17:21,639 [INFO] step=110 action_norm=2.5354 max_abs=1.0236
+2026-03-30 11:17:27,829 [INFO] step=10 action_norm=2.6973 max_abs=1.0128
+2026-03-30 11:17:38,863 [INFO] step=60 action_norm=2.8027 max_abs=1.0046
+2026-03-30 11:17:49,549 [INFO] step=110 action_norm=2.5673 max_abs=1.0008
+2026-03-30 11:17:54,522 [INFO] step=10 action_norm=2.7039 max_abs=1.0083
+2026-03-30 11:18:05,217 [INFO] step=60 action_norm=2.3356 max_abs=0.9974
+2026-03-30 11:18:19,643 [INFO] step=10 action_norm=2.6390 max_abs=1.0013
+2026-03-30 11:18:30,184 [INFO] step=60 action_norm=2.3150 max_abs=1.0169
+2026-03-30 11:18:44,458 [INFO] step=10 action_norm=2.7339 max_abs=1.0093
+2026-03-30 11:18:55,331 [INFO] step=60 action_norm=2.8063 max_abs=1.0103
+2026-03-30 11:19:05,742 [INFO] step=110 action_norm=2.6658 max_abs=1.0046
+2026-03-30 11:19:11,480 [INFO] step=10 action_norm=2.4455 max_abs=1.0134
+2026-03-30 11:19:22,202 [INFO] step=60 action_norm=3.1655 max_abs=1.0084
+2026-03-30 11:19:32,922 [INFO] step=110 action_norm=2.9499 max_abs=1.0001
+2026-03-30 11:19:34,527 [INFO] Task 6 (pick up the black bowl next to the cooki): 19/20
+2026-03-30 11:19:40,148 [INFO] step=10 action_norm=2.3170 max_abs=1.0094
+2026-03-30 11:19:51,482 [INFO] step=60 action_norm=2.3021 max_abs=1.0069
+2026-03-30 11:20:02,348 [INFO] step=110 action_norm=2.7389 max_abs=1.0160
+2026-03-30 11:20:13,644 [INFO] step=10 action_norm=2.3674 max_abs=1.0020
+2026-03-30 11:20:24,826 [INFO] step=60 action_norm=2.6930 max_abs=1.0135
+2026-03-30 11:20:36,099 [INFO] step=110 action_norm=3.4514 max_abs=1.0392
+2026-03-30 11:20:46,527 [INFO] step=160 action_norm=2.2332 max_abs=0.9889
+2026-03-30 11:20:56,854 [INFO] step=210 action_norm=2.2203 max_abs=0.9927
+2026-03-30 11:21:05,165 [INFO] step=10 action_norm=2.8023 max_abs=1.0051
+2026-03-30 11:21:16,253 [INFO] step=60 action_norm=2.8496 max_abs=1.0018
+2026-03-30 11:21:26,494 [INFO] step=110 action_norm=2.5028 max_abs=0.9927
+2026-03-30 11:21:36,953 [INFO] step=160 action_norm=2.4275 max_abs=0.9979
+2026-03-30 11:21:47,273 [INFO] step=210 action_norm=2.7313 max_abs=0.9954
+2026-03-30 11:21:55,490 [INFO] step=10 action_norm=2.7234 max_abs=1.0048
+2026-03-30 11:22:07,078 [INFO] step=60 action_norm=2.8405 max_abs=1.0200
+2026-03-30 11:22:18,105 [INFO] step=110 action_norm=2.9340 max_abs=1.0185
+2026-03-30 11:22:28,365 [INFO] step=160 action_norm=2.2472 max_abs=0.9900
+2026-03-30 11:22:38,755 [INFO] step=210 action_norm=2.2098 max_abs=0.9868
+2026-03-30 11:22:47,166 [INFO] step=10 action_norm=2.4465 max_abs=1.0002
+2026-03-30 11:22:58,479 [INFO] step=60 action_norm=2.3452 max_abs=0.9942
+2026-03-30 11:23:09,430 [INFO] step=110 action_norm=2.4635 max_abs=0.9950
+2026-03-30 11:23:20,703 [INFO] step=160 action_norm=2.6522 max_abs=1.0071
+2026-03-30 11:23:32,026 [INFO] step=210 action_norm=2.8883 max_abs=1.0169
+2026-03-30 11:23:40,438 [INFO] step=10 action_norm=2.2334 max_abs=0.9962
+2026-03-30 11:23:51,804 [INFO] step=60 action_norm=2.2871 max_abs=1.0019
+2026-03-30 11:24:02,883 [INFO] step=110 action_norm=2.3204 max_abs=0.9852
+2026-03-30 11:24:13,745 [INFO] step=160 action_norm=3.1478 max_abs=0.9945
+2026-03-30 11:24:24,391 [INFO] step=210 action_norm=2.3791 max_abs=1.0046
+2026-03-30 11:24:32,749 [INFO] step=10 action_norm=2.3455 max_abs=1.0082
+2026-03-30 11:24:43,992 [INFO] step=60 action_norm=2.2081 max_abs=0.9903
+2026-03-30 11:24:55,089 [INFO] step=110 action_norm=2.4768 max_abs=1.0089
+2026-03-30 11:25:06,296 [INFO] step=160 action_norm=3.0075 max_abs=1.0137
+2026-03-30 11:25:17,434 [INFO] step=210 action_norm=2.3805 max_abs=0.9921
+2026-03-30 11:25:26,127 [INFO] step=10 action_norm=2.2675 max_abs=1.0006
+2026-03-30 11:25:37,183 [INFO] step=60 action_norm=2.2788 max_abs=1.0052
+2026-03-30 11:25:48,266 [INFO] step=110 action_norm=2.8450 max_abs=1.0205
+2026-03-30 11:26:00,701 [INFO] step=10 action_norm=2.4713 max_abs=0.9940
+2026-03-30 11:26:11,929 [INFO] step=60 action_norm=2.3592 max_abs=1.0135
+2026-03-30 11:26:22,881 [INFO] step=110 action_norm=3.2413 max_abs=1.0180
+2026-03-30 11:26:33,153 [INFO] step=160 action_norm=2.2363 max_abs=0.9935
+2026-03-30 11:26:43,387 [INFO] step=210 action_norm=2.2192 max_abs=0.9941
+2026-03-30 11:26:51,633 [INFO] step=10 action_norm=2.2230 max_abs=0.9955
+2026-03-30 11:27:02,870 [INFO] step=60 action_norm=2.5790 max_abs=1.0135
+2026-03-30 11:27:13,880 [INFO] step=110 action_norm=3.0909 max_abs=1.0019
+2026-03-30 11:27:24,533 [INFO] step=160 action_norm=2.2254 max_abs=0.9948
+2026-03-30 11:27:35,046 [INFO] step=210 action_norm=2.2661 max_abs=1.0023
+2026-03-30 11:27:43,373 [INFO] step=10 action_norm=2.3436 max_abs=0.9943
+2026-03-30 11:27:54,365 [INFO] step=60 action_norm=2.9163 max_abs=0.9984
+2026-03-30 11:28:04,984 [INFO] step=110 action_norm=2.2509 max_abs=1.0217
+2026-03-30 11:28:15,706 [INFO] step=160 action_norm=2.3904 max_abs=1.0116
+2026-03-30 11:28:26,293 [INFO] step=210 action_norm=2.5073 max_abs=0.9913
+2026-03-30 11:28:34,802 [INFO] step=10 action_norm=2.2753 max_abs=0.9955
+2026-03-30 11:28:46,228 [INFO] step=60 action_norm=2.3391 max_abs=1.0101
+2026-03-30 11:28:57,520 [INFO] step=110 action_norm=3.1562 max_abs=1.0150
+2026-03-30 11:29:08,114 [INFO] step=160 action_norm=2.2197 max_abs=0.9961
+2026-03-30 11:29:18,601 [INFO] step=210 action_norm=2.2613 max_abs=0.9953
+2026-03-30 11:29:27,017 [INFO] step=10 action_norm=2.3493 max_abs=1.0046
+2026-03-30 11:29:38,201 [INFO] step=60 action_norm=2.3313 max_abs=1.0199
+2026-03-30 11:29:49,210 [INFO] step=110 action_norm=2.6760 max_abs=1.0052
+2026-03-30 11:29:58,501 [INFO] step=10 action_norm=2.2826 max_abs=1.0046
+2026-03-30 11:30:09,604 [INFO] step=60 action_norm=2.2481 max_abs=1.0052
+2026-03-30 11:30:20,740 [INFO] step=110 action_norm=2.7997 max_abs=1.0128
+2026-03-30 11:30:31,563 [INFO] step=10 action_norm=2.4611 max_abs=0.9983
+2026-03-30 11:30:43,010 [INFO] step=60 action_norm=3.0174 max_abs=1.0001
+2026-03-30 11:30:54,344 [INFO] step=110 action_norm=2.8494 max_abs=0.9957
+2026-03-30 11:31:04,712 [INFO] step=160 action_norm=2.2187 max_abs=0.9941
+2026-03-30 11:31:15,319 [INFO] step=210 action_norm=2.2200 max_abs=0.9946
+2026-03-30 11:31:23,711 [INFO] step=10 action_norm=2.3115 max_abs=1.0015
+2026-03-30 11:31:34,842 [INFO] step=60 action_norm=2.3461 max_abs=0.9950
+2026-03-30 11:31:45,961 [INFO] step=110 action_norm=2.6656 max_abs=1.0058
+2026-03-30 11:31:55,039 [INFO] step=10 action_norm=2.4813 max_abs=0.9946
+2026-03-30 11:32:06,061 [INFO] step=60 action_norm=2.3969 max_abs=1.0090
+2026-03-30 11:32:17,153 [INFO] step=110 action_norm=2.7864 max_abs=1.0115
+2026-03-30 11:32:27,256 [INFO] step=160 action_norm=3.0751 max_abs=1.0015
+2026-03-30 11:32:36,971 [INFO] step=210 action_norm=2.7221 max_abs=0.9965
+2026-03-30 11:32:45,083 [INFO] step=10 action_norm=2.2523 max_abs=1.0036
+2026-03-30 11:32:56,472 [INFO] step=60 action_norm=2.3318 max_abs=1.0090
+2026-03-30 11:33:07,574 [INFO] step=110 action_norm=2.9354 max_abs=1.0168
+2026-03-30 11:33:19,363 [INFO] step=10 action_norm=2.3012 max_abs=0.9994
+2026-03-30 11:33:30,575 [INFO] step=60 action_norm=2.2811 max_abs=1.0092
+2026-03-30 11:33:41,634 [INFO] step=110 action_norm=2.9454 max_abs=1.0052
+2026-03-30 11:33:53,472 [INFO] step=10 action_norm=2.6537 max_abs=1.0135
+2026-03-30 11:34:04,951 [INFO] step=60 action_norm=2.5822 max_abs=1.0028
+2026-03-30 11:34:16,161 [INFO] step=110 action_norm=3.1254 max_abs=1.0209
+2026-03-30 11:34:26,496 [INFO] step=160 action_norm=2.2384 max_abs=0.9973
+2026-03-30 11:34:36,840 [INFO] step=210 action_norm=2.2521 max_abs=1.0036
+2026-03-30 11:34:41,024 [INFO] Task 7 (pick up the black bowl on the stove and ): 7/20
+2026-03-30 11:34:46,602 [INFO] step=10 action_norm=2.3919 max_abs=1.0043
+2026-03-30 11:34:57,367 [INFO] step=60 action_norm=3.0351 max_abs=1.0116
+2026-03-30 11:35:07,933 [INFO] step=110 action_norm=2.3223 max_abs=0.9927
+2026-03-30 11:35:12,402 [INFO] step=10 action_norm=2.5329 max_abs=0.9991
+2026-03-30 11:35:22,920 [INFO] step=60 action_norm=2.7353 max_abs=1.0185
+2026-03-30 11:35:33,527 [INFO] step=110 action_norm=2.4100 max_abs=1.0122
+2026-03-30 11:35:39,787 [INFO] step=10 action_norm=2.6455 max_abs=1.0148
+2026-03-30 11:35:50,425 [INFO] step=60 action_norm=2.5205 max_abs=1.0093
+2026-03-30 11:36:01,003 [INFO] step=110 action_norm=2.6812 max_abs=1.0032
+2026-03-30 11:36:11,743 [INFO] step=160 action_norm=2.9739 max_abs=1.0292
+2026-03-30 11:36:22,353 [INFO] step=210 action_norm=2.5586 max_abs=1.0008
+2026-03-30 11:36:30,651 [INFO] step=10 action_norm=2.4573 max_abs=1.0052
+2026-03-30 11:36:41,481 [INFO] step=60 action_norm=2.5141 max_abs=1.0178
+2026-03-30 11:36:56,121 [INFO] step=10 action_norm=2.6433 max_abs=1.0090
+2026-03-30 11:37:06,849 [INFO] step=60 action_norm=2.4554 max_abs=1.0006
+2026-03-30 11:37:17,410 [INFO] step=110 action_norm=2.2949 max_abs=1.0084
+2026-03-30 11:37:27,822 [INFO] step=160 action_norm=2.2245 max_abs=1.0060
+2026-03-30 11:37:38,401 [INFO] step=210 action_norm=2.4205 max_abs=1.0201
+2026-03-30 11:37:46,655 [INFO] step=10 action_norm=2.4175 max_abs=1.0133
+2026-03-30 11:37:57,148 [INFO] step=60 action_norm=2.4624 max_abs=1.0175
+2026-03-30 11:38:11,309 [INFO] step=10 action_norm=2.5610 max_abs=0.9978
+2026-03-30 11:38:22,212 [INFO] step=60 action_norm=2.2767 max_abs=1.0020
+2026-03-30 11:38:32,417 [INFO] step=10 action_norm=2.6226 max_abs=1.0041
+2026-03-30 11:38:42,929 [INFO] step=60 action_norm=2.3032 max_abs=1.0049
+2026-03-30 11:38:54,839 [INFO] step=10 action_norm=2.5340 max_abs=1.0137
+2026-03-30 11:39:05,532 [INFO] step=60 action_norm=3.1495 max_abs=1.0013
+2026-03-30 11:39:16,252 [INFO] step=110 action_norm=2.5423 max_abs=1.0103
+2026-03-30 11:39:21,784 [INFO] step=10 action_norm=2.4313 max_abs=1.0043
+2026-03-30 11:39:32,664 [INFO] step=60 action_norm=2.3500 max_abs=1.0062
+2026-03-30 11:39:45,753 [INFO] step=10 action_norm=2.4411 max_abs=1.0003
+2026-03-30 11:39:56,706 [INFO] step=60 action_norm=2.6274 max_abs=1.0089
+2026-03-30 11:40:07,475 [INFO] step=110 action_norm=2.3859 max_abs=0.9963
+2026-03-30 11:40:12,074 [INFO] step=10 action_norm=2.2733 max_abs=1.0014
+2026-03-30 11:40:23,847 [INFO] step=60 action_norm=3.0222 max_abs=0.9909
+2026-03-30 11:40:35,465 [INFO] step=110 action_norm=2.8833 max_abs=1.0117
+2026-03-30 11:40:41,289 [INFO] step=10 action_norm=2.3150 max_abs=1.0320
+2026-03-30 11:40:51,632 [INFO] step=60 action_norm=2.6671 max_abs=1.0134
+2026-03-30 11:41:03,955 [INFO] step=10 action_norm=2.5269 max_abs=1.0012
+2026-03-30 11:41:14,601 [INFO] step=60 action_norm=2.3685 max_abs=1.0073
+2026-03-30 11:41:27,195 [INFO] step=10 action_norm=2.5146 max_abs=1.0083
+2026-03-30 11:41:37,959 [INFO] step=60 action_norm=2.7970 max_abs=1.0090
+2026-03-30 11:41:50,903 [INFO] step=10 action_norm=2.4209 max_abs=1.0090
+2026-03-30 11:42:01,855 [INFO] step=60 action_norm=2.6849 max_abs=1.0087
+2026-03-30 11:42:12,900 [INFO] step=110 action_norm=2.0966 max_abs=0.9958
+2026-03-30 11:42:23,623 [INFO] step=160 action_norm=2.3643 max_abs=0.9932
+2026-03-30 11:42:30,698 [INFO] step=10 action_norm=2.2983 max_abs=1.0036
+2026-03-30 11:42:41,431 [INFO] step=60 action_norm=2.9985 max_abs=1.0011
+2026-03-30 11:42:52,162 [INFO] step=110 action_norm=2.9166 max_abs=1.0010
+2026-03-30 11:42:58,979 [INFO] step=10 action_norm=2.3359 max_abs=1.0036
+2026-03-30 11:43:09,689 [INFO] step=60 action_norm=3.0047 max_abs=1.0062
+2026-03-30 11:43:24,545 [INFO] step=10 action_norm=2.3730 max_abs=1.0030
+2026-03-30 11:43:35,089 [INFO] step=60 action_norm=3.0571 max_abs=1.0120
+2026-03-30 11:43:49,545 [INFO] step=10 action_norm=2.4397 max_abs=1.0117
+2026-03-30 11:44:00,277 [INFO] step=60 action_norm=2.9039 max_abs=0.9966
+2026-03-30 11:44:10,866 [INFO] step=110 action_norm=2.5611 max_abs=1.0060
+2026-03-30 11:44:11,376 [INFO] Task 8 (pick up the black bowl next to the plate): 18/20
+2026-03-30 11:44:16,929 [INFO] step=10 action_norm=2.3405 max_abs=1.0037
+2026-03-30 11:44:27,820 [INFO] step=60 action_norm=2.3379 max_abs=1.0178
+2026-03-30 11:44:39,139 [INFO] step=110 action_norm=3.2579 max_abs=1.0098
+2026-03-30 11:44:49,505 [INFO] step=160 action_norm=2.2342 max_abs=0.9949
+2026-03-30 11:44:59,917 [INFO] step=210 action_norm=2.2179 max_abs=0.9932
+2026-03-30 11:45:08,397 [INFO] step=10 action_norm=2.5694 max_abs=1.0019
+2026-03-30 11:45:19,325 [INFO] step=60 action_norm=2.3555 max_abs=1.0074
+2026-03-30 11:45:30,003 [INFO] step=110 action_norm=2.5183 max_abs=0.9969
+2026-03-30 11:45:40,822 [INFO] step=160 action_norm=3.1338 max_abs=0.9996
+2026-03-30 11:45:51,670 [INFO] step=210 action_norm=2.4720 max_abs=1.0068
+2026-03-30 11:46:00,151 [INFO] step=10 action_norm=2.3823 max_abs=1.0053
+2026-03-30 11:46:11,160 [INFO] step=60 action_norm=2.9925 max_abs=1.0053
+2026-03-30 11:46:22,388 [INFO] step=110 action_norm=2.7425 max_abs=1.0141
+2026-03-30 11:46:32,727 [INFO] step=160 action_norm=2.3005 max_abs=0.9889
+2026-03-30 11:46:43,035 [INFO] step=210 action_norm=2.2291 max_abs=0.9977
+2026-03-30 11:46:51,405 [INFO] step=10 action_norm=2.6689 max_abs=1.0011
+2026-03-30 11:47:02,336 [INFO] step=60 action_norm=2.3216 max_abs=1.0211
+2026-03-30 11:47:13,486 [INFO] step=110 action_norm=3.3676 max_abs=1.0249
+2026-03-30 11:47:23,729 [INFO] step=10 action_norm=2.5118 max_abs=0.9978
+2026-03-30 11:47:34,817 [INFO] step=60 action_norm=2.2932 max_abs=1.0152
+2026-03-30 11:47:45,576 [INFO] step=110 action_norm=2.9354 max_abs=1.0095
+2026-03-30 11:47:54,566 [INFO] step=10 action_norm=2.3804 max_abs=1.0014
+2026-03-30 11:48:05,834 [INFO] step=60 action_norm=2.4423 max_abs=0.9961
+2026-03-30 11:48:16,810 [INFO] step=110 action_norm=2.7381 max_abs=1.0195
+2026-03-30 11:48:27,262 [INFO] step=160 action_norm=2.2336 max_abs=0.9862
+2026-03-30 11:48:37,935 [INFO] step=210 action_norm=2.2421 max_abs=0.9956
+2026-03-30 11:48:46,329 [INFO] step=10 action_norm=2.2415 max_abs=0.9918
+2026-03-30 11:48:57,332 [INFO] step=60 action_norm=2.3910 max_abs=1.0222
+2026-03-30 11:49:07,972 [INFO] step=110 action_norm=2.8785 max_abs=1.0025
+2026-03-30 11:49:18,580 [INFO] step=160 action_norm=2.8799 max_abs=1.0075
+2026-03-30 11:49:28,881 [INFO] step=210 action_norm=2.5357 max_abs=0.9960
+2026-03-30 11:49:37,086 [INFO] step=10 action_norm=2.4079 max_abs=1.0066
+2026-03-30 11:49:47,930 [INFO] step=60 action_norm=2.2969 max_abs=1.0440
+2026-03-30 11:49:59,056 [INFO] step=110 action_norm=3.0583 max_abs=1.0136
+2026-03-30 11:50:08,400 [INFO] step=10 action_norm=2.5582 max_abs=1.0026
+2026-03-30 11:50:19,318 [INFO] step=60 action_norm=2.3484 max_abs=1.0122
+2026-03-30 11:50:30,088 [INFO] step=110 action_norm=2.3603 max_abs=1.0116
+2026-03-30 11:50:40,772 [INFO] step=160 action_norm=2.8953 max_abs=1.0158
+2026-03-30 11:50:49,438 [INFO] step=10 action_norm=2.3281 max_abs=1.0086
+2026-03-30 11:51:00,101 [INFO] step=60 action_norm=2.8144 max_abs=0.9995
+2026-03-30 11:51:10,826 [INFO] step=110 action_norm=3.3367 max_abs=1.0031
+2026-03-30 11:51:21,100 [INFO] step=10 action_norm=2.6716 max_abs=1.0084
+2026-03-30 11:51:31,981 [INFO] step=60 action_norm=2.3331 max_abs=1.0130
+2026-03-30 11:51:43,205 [INFO] step=110 action_norm=2.9737 max_abs=1.0201
+2026-03-30 11:51:51,003 [INFO] step=10 action_norm=2.3812 max_abs=0.9981
+2026-03-30 11:52:02,048 [INFO] step=60 action_norm=2.2890 max_abs=1.0051
+2026-03-30 11:52:12,867 [INFO] step=110 action_norm=3.2156 max_abs=1.0128
+2026-03-30 11:52:20,843 [INFO] step=10 action_norm=2.3384 max_abs=1.0094
+2026-03-30 11:52:31,865 [INFO] step=60 action_norm=2.7489 max_abs=1.0093
+2026-03-30 11:52:42,936 [INFO] step=110 action_norm=2.6204 max_abs=1.0038
+2026-03-30 11:52:53,527 [INFO] step=160 action_norm=2.1971 max_abs=0.9830
+2026-03-30 11:53:04,029 [INFO] step=210 action_norm=2.2155 max_abs=0.9933
+2026-03-30 11:53:12,366 [INFO] step=10 action_norm=2.3188 max_abs=0.9977
+2026-03-30 11:53:23,630 [INFO] step=60 action_norm=2.6257 max_abs=1.0089
+2026-03-30 11:53:34,997 [INFO] step=110 action_norm=2.1216 max_abs=1.0003
+2026-03-30 11:53:46,184 [INFO] step=160 action_norm=2.3370 max_abs=1.0126
+2026-03-30 11:53:57,187 [INFO] step=210 action_norm=2.4446 max_abs=1.0114
+2026-03-30 11:54:05,496 [INFO] step=10 action_norm=2.2778 max_abs=0.9964
+2026-03-30 11:54:16,545 [INFO] step=60 action_norm=2.5906 max_abs=0.9995
+2026-03-30 11:54:27,554 [INFO] step=110 action_norm=3.0992 max_abs=1.0127
+2026-03-30 11:54:37,732 [INFO] step=160 action_norm=2.3393 max_abs=1.0104
+2026-03-30 11:54:47,646 [INFO] step=210 action_norm=3.0315 max_abs=1.0013
+2026-03-30 11:54:55,735 [INFO] step=10 action_norm=2.7554 max_abs=1.0087
+2026-03-30 11:55:06,621 [INFO] step=60 action_norm=2.3810 max_abs=1.0083
+2026-03-30 11:55:17,593 [INFO] step=110 action_norm=2.9174 max_abs=1.0274
+2026-03-30 11:55:25,752 [INFO] step=10 action_norm=2.4188 max_abs=0.9978
+2026-03-30 11:55:36,697 [INFO] step=60 action_norm=2.4483 max_abs=1.0049
+2026-03-30 11:55:47,494 [INFO] step=110 action_norm=2.8704 max_abs=1.0036
+2026-03-30 11:55:55,412 [INFO] step=10 action_norm=2.3783 max_abs=1.0026
+2026-03-30 11:56:06,360 [INFO] step=60 action_norm=2.5165 max_abs=1.0138
+2026-03-30 11:56:17,466 [INFO] step=110 action_norm=3.5785 max_abs=1.0212
+2026-03-30 11:56:27,342 [INFO] step=10 action_norm=2.5078 max_abs=1.0072
+2026-03-30 11:56:38,476 [INFO] step=60 action_norm=2.2847 max_abs=1.0156
+2026-03-30 11:56:49,561 [INFO] step=110 action_norm=2.6670 max_abs=1.0071
+2026-03-30 11:56:59,777 [INFO] step=160 action_norm=2.1992 max_abs=0.9875
+2026-03-30 11:57:10,198 [INFO] step=210 action_norm=2.2467 max_abs=0.9995
+2026-03-30 11:57:18,458 [INFO] step=10 action_norm=2.3148 max_abs=1.0001
+2026-03-30 11:57:29,572 [INFO] step=60 action_norm=2.2872 max_abs=1.0003
+2026-03-30 11:57:40,670 [INFO] step=110 action_norm=2.7837 max_abs=1.0144
+2026-03-30 11:57:51,265 [INFO] step=160 action_norm=2.2109 max_abs=0.9927
+2026-03-30 11:58:01,512 [INFO] step=210 action_norm=2.2370 max_abs=0.9975
+2026-03-30 11:58:05,678 [INFO] Task 9 (pick up the black bowl on the wooden cab): 10/20
+2026-03-30 11:58:05,957 [INFO] Overall: 132/200 = 66.00%
