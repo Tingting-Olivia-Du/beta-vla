@@ -1,7 +1,7 @@
 runtime:
-  exp_name: beta-0329
+  exp_name: beta-0330
   checkpoint_base_dir: ./checkpoints
-  wandb_project: beta-0329
+  wandb_project: beta-0330
   wandb_enabled: true
   seed: 42
   batch_size: 32            # per GPU, 2 GPUs = effective 64

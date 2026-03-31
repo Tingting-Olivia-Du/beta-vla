@@ -208,9 +208,9 @@ def _run_worker(args, task_suite, num_tasks: int, max_steps: int, save_video: bo
 
 
 def _run_multi_gpu_launcher(gpu_list: list[int], args) -> None:
-    args.log_dir.mkdir(parents=True, exist_ok=True)
-    run_ts = time.strftime("%Y%m%d_%H%M%S")
-    log_path = args.log_dir / f"eval_{args.task_suite}_{args.checkpoint.name}_{run_ts}.txt"
+    run_dir = args.log_dir / args.run_ts
+    run_dir.mkdir(parents=True, exist_ok=True)
+    log_path = run_dir / f"{args.task_suite}.txt"
 
     with tempfile.TemporaryDirectory() as tmpdir:
         procs = []
@@ -313,6 +313,7 @@ def main():
     if args.gpus:
         gpu_list = [int(x.strip()) for x in args.gpus.split(",") if x.strip()]
     if gpu_list and len(gpu_list) > 1:
+        args.run_ts = time.strftime("%Y%m%d_%H%M%S")
         for suite in suites:
             args.task_suite = suite
             _run_multi_gpu_launcher(gpu_list, args)
@@ -359,8 +360,10 @@ def main():
                     model, tokenizer, norm_stats, device)
         return
 
-    args.log_dir.mkdir(parents=True, exist_ok=True)
     run_ts = time.strftime("%Y%m%d_%H%M%S")
+    args.run_ts = run_ts
+    run_dir = args.log_dir / run_ts
+    run_dir.mkdir(parents=True, exist_ok=True)
 
     for suite in suites:
         args.task_suite = suite
@@ -369,7 +372,7 @@ def main():
         num_tasks = min(task_suite.n_tasks, args.max_tasks or task_suite.n_tasks)
         max_steps = TASK_MAX_STEPS.get(suite, 300)
 
-        log_path = args.log_dir / f"eval_{suite}_{args.checkpoint.name}_{run_ts}.txt"
+        log_path = run_dir / f"{suite}.txt"
         log_file = open(log_path, "w", encoding="utf-8")
         handler = logging.FileHandler(log_path, mode="a", encoding="utf-8")
         handler.setFormatter(logging.Formatter("%(asctime)s [%(levelname)s] %(message)s"))

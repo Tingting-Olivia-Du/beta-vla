@@ -5,6 +5,7 @@ Builds a correct action chunk by reading consecutive frames per episode.
 """
 from __future__ import annotations
 
+import logging
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -18,6 +19,47 @@ from transformers import AutoTokenizer
 
 from betavla.data.normalize import NormStats, load_norm_stats, normalize_quantile
 from betavla.data.types import ObservationBatch
+
+logger = logging.getLogger(__name__)
+
+
+def _load_task_descriptions(repo_id: str) -> dict[int, str]:
+    """Load task_index → task description mapping.
+
+    The physical-intelligence/libero parquet files only contain a numeric
+    ``task_index`` column — no text descriptions.  We download the
+    ``meta/tasks.jsonl`` file from the HuggingFace Hub (works without
+    the ``lerobot`` package).
+    """
+    import json
+
+    # Primary: download tasks.jsonl directly from HF Hub
+    try:
+        from huggingface_hub import hf_hub_download
+        path = hf_hub_download(repo_id=repo_id, filename="meta/tasks.jsonl", repo_type="dataset")
+        tasks: dict[int, str] = {}
+        with open(path) as f:
+            for line in f:
+                entry = json.loads(line)
+                tasks[int(entry["task_index"])] = entry["task"]
+        if tasks:
+            logger.info("Loaded %d task descriptions from %s/meta/tasks.jsonl", len(tasks), repo_id)
+            return tasks
+    except Exception as exc:
+        logger.warning("Could not load tasks.jsonl from HF Hub: %s", exc)
+
+    # Fallback: try lerobot metadata
+    try:
+        from lerobot.common.datasets.lerobot_dataset import LeRobotDatasetMetadata
+        meta = LeRobotDatasetMetadata(repo_id)
+        if meta.tasks:
+            logger.info("Loaded %d task descriptions from LeRobot metadata", len(meta.tasks))
+            return meta.tasks
+    except Exception as exc:
+        logger.warning("Could not load task descriptions from LeRobot metadata: %s", exc)
+
+    logger.warning("No task descriptions available — prompts will be empty")
+    return {}
 
 
 @dataclass(frozen=True)
@@ -88,6 +130,9 @@ class LiberoDataset(Dataset):
             self._get = lambda i: self.ds[i]
             self._len = len(self.ds)
 
+        # Task descriptions (task_index → text)
+        self._task_descriptions = _load_task_descriptions(cfg.repo_id)
+
         # Norm stats
         self._norm: dict[str, NormStats] | None = load_norm_stats(cfg.norm_stats_path)
 
@@ -95,6 +140,15 @@ class LiberoDataset(Dataset):
         self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_name, trust_remote_code=True)
         if self.tokenizer.pad_token is None:
             self.tokenizer.pad_token = self.tokenizer.eos_token
+
+        # Log a sample prompt to verify task descriptions are loaded
+        if self._task_descriptions:
+            sample_row = self._get(0)
+            task_idx = sample_row.get("task_index")
+            if task_idx is not None:
+                task_idx_int = int(np.asarray(task_idx).flat[0])
+                logger.info("Sample prompt (task_index=%d): %r",
+                            task_idx_int, self._task_descriptions.get(task_idx_int, ""))
 
         # Build episode index in a single linear scan.
         # We store (episode_index, frame_index) per row to sort without re-reading.
@@ -168,15 +222,23 @@ class LiberoDataset(Dataset):
         if self._norm is not None and "action" in self._norm:
             actions = normalize_quantile(actions, self._norm["action"])
 
-        # Prompt
+        # Prompt — prefer text columns; fall back to task_index → description map
         prompt_raw = _pick(sample, self.PROMPT_KEYS)
-        prompt = str(prompt_raw) if prompt_raw is not None else ""
+        if prompt_raw is None and self._task_descriptions:
+            task_idx = sample.get("task_index")
+            if task_idx is not None:
+                task_idx_int = int(np.asarray(task_idx).flat[0])
+                prompt_raw = self._task_descriptions.get(task_idx_int)
+        prompt = str(prompt_raw) if prompt_raw else ""
 
         return {
             "base_img": _to_float32_image(base_arr),
             "wrist_img": _to_float32_image(wrist_arr),
             "state": state,
             "prompt": prompt,
+            "episode_index": ep,
+            "frame_index": pos,
+            "task_index": int(np.asarray(sample.get("task_index", -1)).flat[0]),
         }, actions
 
     def collate_fn(

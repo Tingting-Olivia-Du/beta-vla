@@ -9,7 +9,8 @@ from transformers import AutoModel
 
 @dataclass(frozen=True)
 class LanguageEncoderConfig:
-    model_name: str = "Qwen/Qwen3-0.6B-Base"
+    # model_name: str = "Qwen/Qwen3-0.6B-Base"
+    model_name: str = "Qwen/Qwen3-0.6B"
     trust_remote_code: bool = True
 
 

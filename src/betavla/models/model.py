@@ -27,7 +27,7 @@ class BetaVLAConfig:
     action_dim: int = 7
     action_horizon: int = 10
     state_dim: int = 8
-    gripper_loss_weight: float = 5.0
+    gripper_loss_weight: float = 1.0
     freeze_vision: bool = True
     freeze_language: bool = False
     freeze_vggt: bool = False

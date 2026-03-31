@@ -11,6 +11,10 @@ from transformers import AutoModel
 class VGGTBackboneConfig:
     model_name: str = "facebook/VGGT-1B"
     trust_remote_code: bool = True
+    # Vision layout for proper 2D positional encoding.
+    # PaliGemma 224px / patch_size 14 → 16×16 = 256 patches per camera.
+    vision_patch_hw: tuple[int, int] = (16, 16)
+    num_cameras: int = 2
 
 
 def _is_vggt_model(model_name: str) -> bool:
@@ -22,7 +26,7 @@ class _VGGTAggregatorBackbone(nn.Module):
     Loads from vggt package via VGGT.from_pretrained (HuggingFace).
     """
 
-    def __init__(self, model_name: str):
+    def __init__(self, model_name: str, vision_patch_hw: tuple[int, int] = (16, 16), num_cameras: int = 2):
         super().__init__()
         from vggt.models.vggt import VGGT
 
@@ -42,6 +46,9 @@ class _VGGTAggregatorBackbone(nn.Module):
         self.rope = agg.rope
         self.position_getter = agg.position_getter
         self.patch_size = agg.patch_size
+        # Vision layout for 2D positional encoding
+        self.vision_patch_hw = vision_patch_hw
+        self.num_cameras = num_cameras
 
     @property
     def hidden_size(self) -> int:
@@ -69,17 +76,38 @@ class _VGGTAggregatorBackbone(nn.Module):
         tokens = torch.cat([special, x], dim=1)  # (B, 5+T, C)
         P = tokens.shape[1]
 
-        # 2D pos for RoPE: use 1xP grid for 1D sequence (h=1, w=P)
+        # 2D positional encoding for RoPE.
+        # Build proper 2D grid positions for vision patches (instead of 1D).
+        # Token layout after special prepend: [special(5), cam1(H*W), cam2(H*W), ..., language(L)]
         pos = None
         if self.rope is not None and self.position_getter is not None:
-            pos_full = self.position_getter(B * S, 1, P, device=tokens.device)
-            if pos_full.shape[1] < P:
-                pos_full = torch.nn.functional.pad(pos_full, (0, 0, 0, P - pos_full.shape[1]), value=0)
-            # Special tokens (first 5) get pos=0; rest use 2D grid
-            pos_special = torch.zeros(B * S, self.patch_start_idx, 2, device=tokens.device, dtype=pos_full.dtype)
-            pos = torch.cat([pos_special, pos_full[:, self.patch_start_idx : self.patch_start_idx + P - 5]], dim=1)
-            if pos.shape[1] != P:
-                pos = torch.nn.functional.pad(pos, (0, 0, 0, max(0, P - pos.shape[1])), value=0)
+            ph, pw = self.vision_patch_hw
+            n_cam_patches = ph * pw
+            n_vision = self.num_cameras * n_cam_patches
+            n_special = self.patch_start_idx  # 5
+            n_other = P - n_special - n_vision  # language tokens
+
+            pos_parts: list[torch.Tensor] = []
+
+            # Special tokens (camera + register): position (0, 0)
+            pos_parts.append(torch.zeros(B, n_special, 2, device=tokens.device, dtype=torch.long))
+
+            # Per-camera 2D grid positions with y-offset between cameras
+            for cam_i in range(self.num_cameras):
+                cam_pos = self.position_getter(B, ph, pw, device=tokens.device)  # (B, H*W, 2)
+                cam_pos = cam_pos.clone()
+                cam_pos[..., 0] += cam_i * ph  # y-offset to separate cameras
+                pos_parts.append(cam_pos)
+
+            # Language tokens: 1D row below all camera grids
+            if n_other > 0:
+                lang_pos = self.position_getter(B, 1, n_other, device=tokens.device)  # (B, L, 2)
+                lang_pos = lang_pos.clone()
+                lang_pos[..., 0] += self.num_cameras * ph  # y-offset below cameras
+                pos_parts.append(lang_pos)
+
+            pos = torch.cat(pos_parts, dim=1)  # (B, P, 2)
+            assert pos.shape[1] == P, f"pos shape {pos.shape[1]} != P {P}"
 
         frame_idx = global_idx = 0
         for _ in range(self.aa_block_num):
@@ -122,7 +150,11 @@ class VGGTBackbone(nn.Module):
         super().__init__()
         self.cfg = cfg
         if _is_vggt_model(cfg.model_name):
-            self.model = _VGGTAggregatorBackbone(cfg.model_name)
+            self.model = _VGGTAggregatorBackbone(
+                cfg.model_name,
+                vision_patch_hw=cfg.vision_patch_hw,
+                num_cameras=cfg.num_cameras,
+            )
             self.hidden_size = self.model.hidden_size
         else:
             self.model = AutoModel.from_pretrained(

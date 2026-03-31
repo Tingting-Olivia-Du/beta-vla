@@ -11,7 +11,7 @@
 #   bash scripts/run_eval_libero.sh --checkpoint checkpoints/beta_vla_libero/5000 --num_trials_per_task 1  --task_suite all --gpus 7
 
 # bash scripts/run_eval_libero.sh --checkpoint checkpoints/beta-0329/best --verbose  --num_trials_per_task 20 --task_suite all --gpus 7 --video_out_path data/libero/beta-fulltune-0329
-# bash scripts/run_eval_libero.sh --checkpoint checkpoints/beta-0329/best --num_trials_per_task 20 --task_suite libero_goal --gpus 7 --video_out_path data/libero/beta-fulltune-libero-goal-0330
+# bash scripts/run_eval_libero.sh --checkpoint checkpoints/beta-0330/best --num_trials_per_task 10 --task_suite all --gpus 4 --video_out_path data/libero/beta-fixprompt-libero-all-0330
 #   bash scripts/run_eval_libero.sh --checkpoint ... --gpus 4,5,6,7 --max_tasks 2
 #   全部 6 个 suite: --task_suite all
 #
