@@ -1,10 +1,10 @@
 runtime:
-  exp_name: beta-0330
+  exp_name: beta-0331-temporal
   checkpoint_base_dir: ./checkpoints
-  wandb_project: beta-0330
+  wandb_project: beta-0330-temporal
   wandb_enabled: true
   seed: 42
-  batch_size: 32            # per GPU, 2 GPUs = effective 64
+  batch_size: 16            # per GPU, 2 GPUs = effective 64
   grad_accumulation_steps: 1
   use_amp: true
   num_train_steps: 100000
@@ -29,6 +29,8 @@ data:
   max_samples: null
   state_dim: 8
   norm_stats_path: assets/physical-intelligence/libero/norm_stats.json
+  temporal_frames: 3        # 1=single-frame (legacy), >1=multi-frame temporal
+  temporal_stride: 5        # frame stride for history (matches replan_steps)
 
 model:
   action_dim: 7
@@ -57,3 +59,4 @@ model:
   vggt:
     model_name: facebook/VGGT-1B
     trust_remote_code: true
+    # temporal_frames auto-inherited from data.temporal_frames (see config.py:128)

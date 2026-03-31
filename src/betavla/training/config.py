@@ -101,6 +101,8 @@ def load_config(path: str | Path) -> BetaVLATrainConfig:
         max_samples=_as_int(d.get("max_samples"), 0) or None,
         state_dim=_as_int(d.get("state_dim"), 8),
         norm_stats_path=d.get("norm_stats_path") or None,
+        temporal_frames=_as_int(d.get("temporal_frames"), 1),
+        temporal_stride=_as_int(d.get("temporal_stride"), 5),
     )
 
     m = raw.get("model", {})
@@ -123,6 +125,7 @@ def load_config(path: str | Path) -> BetaVLATrainConfig:
     vggt_cfg = VGGTBackboneConfig(
         model_name=str(vggt.get("model_name", default_vggt.model_name)),
         trust_remote_code=bool(vggt.get("trust_remote_code", default_vggt.trust_remote_code)),
+        temporal_frames=_as_int(vggt.get("temporal_frames"), data.temporal_frames),
     )
 
     model = BetaVLAConfig(

@@ -71,6 +71,8 @@ class LiberoDatasetConfig:
     max_samples: int | None = None
     state_dim: int = 8
     norm_stats_path: str | Path | None = None
+    temporal_frames: int = 1   # 1=single-frame (legacy), >1=multi-frame temporal
+    temporal_stride: int = 5   # frame stride for temporal history (matches replan_steps)
 
 
 def _to_float32_image(x: Any) -> np.ndarray:
@@ -178,19 +180,46 @@ class LiberoDataset(Dataset):
     def __len__(self) -> int:
         return len(self._index)
 
-    def __getitem__(self, idx: int) -> tuple[dict[str, Any], np.ndarray]:
-        row_idx, pos, ep = self._index[idx]
-        sample = self._get(row_idx)
-
-        # Images
+    def _load_images_for_frame(self, sample: dict) -> tuple[np.ndarray, np.ndarray]:
+        """Extract base and wrist images from a sample row."""
         base_arr = _pick(sample, self.IMAGE_KEYS)
         if base_arr is None:
             raise KeyError(f"No base image found in sample keys: {list(sample.keys())}")
         wrist_arr = _pick(sample, self.WRIST_KEYS)
         if wrist_arr is None:
             wrist_arr = base_arr  # fall back to base (masked later)
+        return _to_float32_image(base_arr), _to_float32_image(wrist_arr)
 
-        # State
+    def __getitem__(self, idx: int) -> tuple[dict[str, Any], np.ndarray]:
+        row_idx, pos, ep = self._index[idx]
+        sample = self._get(row_idx)
+        ep_row_list = self._ep_rows[ep]
+        ep_len = len(ep_row_list)
+
+        T = self.cfg.temporal_frames
+        stride = self.cfg.temporal_stride
+
+        if T > 1:
+            # Load T frames: current frame + (T-1) history frames
+            # Frame positions: [pos - (T-1)*stride, ..., pos - stride, pos]
+            # Clamped to episode start (pos=0)
+            base_frames: list[np.ndarray] = []
+            wrist_frames: list[np.ndarray] = []
+            for k in range(T):
+                # k=0 is the oldest, k=T-1 is the current frame
+                hist_pos = max(pos - (T - 1 - k) * stride, 0)
+                hist_sample = self._get(ep_row_list[hist_pos])
+                b, w = self._load_images_for_frame(hist_sample)
+                base_frames.append(b)
+                wrist_frames.append(w)
+            # Stack: (T, H, W, C)
+            base_img = np.stack(base_frames, axis=0)
+            wrist_img = np.stack(wrist_frames, axis=0)
+        else:
+            # Single-frame: (H, W, C)
+            base_img, wrist_img = self._load_images_for_frame(sample)
+
+        # State (always from current frame)
         state_raw = _pick(sample, self.STATE_KEYS)
         if state_raw is None:
             state = np.zeros(self.cfg.state_dim, dtype=np.float32)
@@ -203,8 +232,6 @@ class LiberoDataset(Dataset):
             state = normalize_quantile(state, self._norm["state"])
 
         # Action chunk: read consecutive frames (fixed)
-        ep_row_list = self._ep_rows[ep]
-        ep_len = len(ep_row_list)
         chunk: list[np.ndarray] = []
         for k in range(self.action_horizon):
             frame_pos = min(pos + k, ep_len - 1)  # clamp to last frame
@@ -232,8 +259,8 @@ class LiberoDataset(Dataset):
         prompt = str(prompt_raw) if prompt_raw else ""
 
         return {
-            "base_img": _to_float32_image(base_arr),
-            "wrist_img": _to_float32_image(wrist_arr),
+            "base_img": base_img,     # (H,W,C) or (T,H,W,C)
+            "wrist_img": wrist_img,   # (H,W,C) or (T,H,W,C)
             "state": state,
             "prompt": prompt,
             "episode_index": ep,
@@ -246,7 +273,7 @@ class LiberoDataset(Dataset):
     ) -> tuple[ObservationBatch, torch.Tensor]:
         inputs, actions_list = zip(*batch, strict=True)
 
-        # Images: (B, H, W, C) float32 in [0, 1]
+        # Images: (B, H, W, C) or (B, T, H, W, C) float32 in [0, 1]
         base = torch.from_numpy(np.stack([x["base_img"] for x in inputs], axis=0))
         wrist = torch.from_numpy(np.stack([x["wrist_img"] for x in inputs], axis=0))
         state = torch.from_numpy(np.stack([x["state"] for x in inputs], axis=0))

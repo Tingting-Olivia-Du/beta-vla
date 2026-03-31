@@ -181,7 +181,13 @@ class BetaVLAModel(nn.Module):
     # ------------------------------------------------------------------
 
     def encode(self, observation: ObservationBatch) -> tuple[torch.Tensor, torch.Tensor | None]:
-        """Return (prefix_tokens, prefix_pad_mask) for the action head."""
+        """Return (prefix_tokens, prefix_pad_mask) for the action head.
+
+        For multi-frame mode (temporal_frames > 1):
+          - vision_tokens input to VGGT: (B, T * num_cameras * 256, D)
+          - VGGT output: (B, num_cameras * 256 + N_lang, D)  (only current timestep)
+          - pad mask matches VGGT output shape, not input shape
+        """
         vision_tokens = self.vision_tower(observation.images, observation.image_masks)
         text_tokens = self.language_encoder(
             observation.tokenized_prompt, observation.tokenized_prompt_mask
@@ -196,9 +202,14 @@ class BetaVLAModel(nn.Module):
         prefix_tokens = self.vggt_backbone(fused, attn_mask)
 
         # Build pad mask for action head (True = real token)
+        # For multi-frame: VGGT outputs only current-timestep vision + language,
+        # so pad mask must match output shape, not input shape.
         if observation.tokenized_prompt_mask is not None:
-            B, V, _ = vision_tokens.shape
-            vmask = torch.ones(B, V, device=vision_tokens.device, dtype=torch.bool)
+            B = prefix_tokens.shape[0]
+            out_len = prefix_tokens.shape[1]
+            text_len = observation.tokenized_prompt_mask.shape[1]
+            vis_out_len = out_len - text_len
+            vmask = torch.ones(B, vis_out_len, device=prefix_tokens.device, dtype=torch.bool)
             prefix_pad_mask = torch.cat(
                 [vmask, observation.tokenized_prompt_mask.bool().to(vmask.device)], dim=1
             )

@@ -73,14 +73,31 @@ class PaliGemmaVisionTower(nn.Module):
         images: dict[str, torch.Tensor],
         image_masks: dict[str, torch.Tensor],
     ) -> torch.Tensor:
+        """Encode images from all cameras.
+
+        Supports both single-frame and temporal inputs:
+          - Single-frame: images[key] shape (B, H, W, C)  → output (B, N_cam * 256, D)
+          - Temporal:     images[key] shape (B, T, H, W, C) → output (B, T * N_cam * 256, D)
+        """
         if not images:
             raise ValueError("No images provided")
 
         camera_tokens: list[torch.Tensor] = []
         for key, image in images.items():
-            pixel_values = self._preprocess(image)
+            temporal = image.ndim == 5  # (B, T, H, W, C)
+            if temporal:
+                B, T = image.shape[0], image.shape[1]
+                # Flatten batch and time: (B*T, H, W, C)
+                image_flat = image.reshape(B * T, *image.shape[2:])
+            else:
+                B = image.shape[0]
+                T = 1
+                image_flat = image
+
+            pixel_values = self._preprocess(image_flat)
             vision_out = self.vision_tower(pixel_values)
             features = self.multi_modal_projector(vision_out.last_hidden_state)
+            # features: (B*T, N_patches, D)
 
             if key in image_masks:
                 mask = (
@@ -88,7 +105,37 @@ class PaliGemmaVisionTower(nn.Module):
                     .to(features.device, non_blocking=True)
                     .to(features.dtype)[:, None, None]
                 )
+                if temporal:
+                    # mask shape (B,) → expand to (B*T, 1, 1)
+                    mask = mask.squeeze(-1).squeeze(-1)  # (B,)
+                    mask = mask.unsqueeze(1).expand(B, T).reshape(B * T)[:, None, None]
                 features = features * mask
+
+            if temporal:
+                # Reshape back: (B, T * N_patches, D)
+                N_patches = features.shape[1]
+                features = features.view(B, T * N_patches, features.shape[2])
+
             camera_tokens.append(features)
+
+        # Interleave: for temporal, we want [t0_cam0, t0_cam1, t1_cam0, t1_cam1, ...]
+        # Current order from dict iteration: all T patches of cam0, then all T patches of cam1
+        # We need to reorder to interleave by timestep
+        first_img = next(iter(images.values()))
+        is_temporal = first_img.ndim == 5
+        if is_temporal and len(camera_tokens) > 1:
+            B = first_img.shape[0]
+            T = first_img.shape[1]
+            N_patches = camera_tokens[0].shape[1] // T  # patches per frame per camera
+            N_cam = len(camera_tokens)
+            # Each camera_tokens[c]: (B, T * N_patches, D)
+            # Reshape to (B, T, N_patches, D), stack cameras, then interleave
+            per_cam = [ct.view(B, T, N_patches, -1) for ct in camera_tokens]
+            # Stack: (B, N_cam, T, N_patches, D)
+            stacked = torch.stack(per_cam, dim=1)
+            # Transpose to (B, T, N_cam, N_patches, D) then flatten
+            stacked = stacked.permute(0, 2, 1, 3, 4)  # (B, T, N_cam, N_patches, D)
+            result = stacked.reshape(B, T * N_cam * N_patches, -1)
+            return result
 
         return torch.cat(camera_tokens, dim=1)  # (B, N_cameras * N_patches, D)

@@ -5,9 +5,11 @@ Key optimizations:
   - Language encoding cached per (prompt, device) (GPU)
   - Vision + VGGT prefix computed once per replan (images change each step)
   - action_head.sample() reuses prefix_tokens across all ODE denoising steps
+  - Frame buffer (deque) for temporal multi-frame inference
 """
 from __future__ import annotations
 
+from collections import deque
 from pathlib import Path
 
 import numpy as np
@@ -24,11 +26,22 @@ from betavla.models.model import BetaVLAConfig, BetaVLAModel
 
 _token_cache: dict[str, tuple[torch.Tensor, torch.Tensor]] = {}
 _lang_cache: dict[tuple[str, str], tuple[torch.Tensor, torch.Tensor]] = {}
+# Frame buffer for temporal inference: deque of (base_img, wrist_img) np arrays
+_frame_buffer: deque[tuple[np.ndarray, np.ndarray]] = deque()
+_frame_buffer_maxlen: int = 1
 
 
 def clear_caches() -> None:
     _token_cache.clear()
     _lang_cache.clear()
+    _frame_buffer.clear()
+
+
+def init_frame_buffer(temporal_frames: int) -> None:
+    """Initialize/reset the frame buffer for a new episode."""
+    global _frame_buffer, _frame_buffer_maxlen
+    _frame_buffer_maxlen = max(temporal_frames, 1)
+    _frame_buffer = deque(maxlen=_frame_buffer_maxlen)
 
 
 # ---------------------------------------------------------------------------
@@ -100,7 +113,14 @@ def predict(
     max_token_len: int = 128,
     log_chunk: bool = False,
 ) -> np.ndarray:
-    """Predict action chunk. Returns (replan_steps, action_dim) array in robot space."""
+    """Predict action chunk. Returns (replan_steps, action_dim) array in robot space.
+
+    For temporal multi-frame mode: call init_frame_buffer(T) at the start of each
+    episode. Each call to predict() pushes the current frame into the buffer.
+    The full T-frame history is passed to the model.
+    """
+    global _frame_buffer
+
     if tokenizer is None:
         raise ValueError("tokenizer must be provided to predict()")
 
@@ -131,16 +151,32 @@ def predict(
         _lang_cache[lang_key] = (proj_lang, mask)            # keep on GPU
     proj_lang, lang_mask_gpu = _lang_cache[lang_key]
 
-    # --- Vision (per step: images change) ---
-    use_amp = device.type == "cuda"
-    base_t = _img_to_tensor(base_img).to(device)
-    wrist_t = _img_to_tensor(wrist_img).to(device)
+    # --- Frame buffer for temporal mode ---
+    temporal_frames = _frame_buffer_maxlen
+    if temporal_frames > 1:
+        # Push current frame into buffer
+        _frame_buffer.append((base_img.copy(), wrist_img.copy()))
+        # Pad buffer if not full yet (repeat first frame)
+        while len(_frame_buffer) < temporal_frames:
+            _frame_buffer.appendleft(_frame_buffer[0])
+
+        # Build temporal image tensors: (1, T, H, W, C)
+        base_list = [_img_to_tensor(f[0]) for f in _frame_buffer]  # list of (1, H, W, C)
+        wrist_list = [_img_to_tensor(f[1]) for f in _frame_buffer]
+        base_t = torch.stack([b.squeeze(0) for b in base_list], dim=0).unsqueeze(0).to(device)  # (1, T, H, W, C)
+        wrist_t = torch.stack([w.squeeze(0) for w in wrist_list], dim=0).unsqueeze(0).to(device)
+    else:
+        # Single-frame: (1, H, W, C)
+        base_t = _img_to_tensor(base_img).to(device)
+        wrist_t = _img_to_tensor(wrist_img).to(device)
+
     images = {"base_0_rgb": base_t, "left_wrist_0_rgb": wrist_t}
     image_masks = {
         "base_0_rgb": torch.ones(1, device=device, dtype=torch.bool),
         "left_wrist_0_rgb": torch.ones(1, device=device, dtype=torch.bool),
     }
 
+    use_amp = device.type == "cuda"
     with torch.autocast(device_type="cuda", dtype=torch.bfloat16, enabled=use_amp):
         vision_tokens = model.vision_tower(images, image_masks)   # (1, N_vis, Dv)
         vision_tokens = model.vision_projector(vision_tokens)     # (1, N_vis, H)
@@ -152,10 +188,14 @@ def predict(
         vmask_long = torch.ones(B, V, device=device, dtype=torch.long)
         attn_mask = torch.cat([vmask_long, lang_mask_gpu.long()], dim=1)
 
-        prefix_tokens = model.vggt_backbone(fused, attn_mask)     # (1, N_vis+L, H)
+        prefix_tokens = model.vggt_backbone(fused, attn_mask)     # (1, N_out, H)
 
         # Prefix pad mask for action head (True = real token)
-        vmask_bool = vmask_long.bool()
+        # For multi-frame: VGGT output has current-timestep vision + language
+        out_len = prefix_tokens.shape[1]
+        text_len = lang_mask_gpu.shape[1]
+        vis_out_len = out_len - text_len
+        vmask_bool = torch.ones(B, vis_out_len, device=device, dtype=torch.bool)
         prefix_pad_mask = torch.cat([vmask_bool, lang_mask_gpu], dim=1)
 
         # State

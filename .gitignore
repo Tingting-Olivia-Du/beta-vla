@@ -60,3 +60,4 @@ Thumbs.db
 .env
 .env.local
 scripts/env_wandb.local.sh
+setup_github.sh

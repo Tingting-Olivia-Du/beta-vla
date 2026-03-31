@@ -59,6 +59,7 @@ from betavla.data.normalize import load_norm_stats
 from betavla.eval.inference import (
     clear_caches,
     get_tokenizer,
+    init_frame_buffer,
     load_model,
     predict,
     process_action_for_env,
@@ -119,6 +120,9 @@ def run_episode(
 
     # Clear per-episode language caches to ensure fresh encoding for each task
     clear_caches()
+    # Initialize frame buffer for temporal multi-frame inference
+    temporal_frames = getattr(model.cfg.vggt, "temporal_frames", 1)
+    init_frame_buffer(temporal_frames)
 
     t = 0
     while t < max_steps + num_steps_wait:

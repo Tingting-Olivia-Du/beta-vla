@@ -4,7 +4,7 @@
 #   bash scripts/upload_hf.sh <local_path> [remote_path]
 #
 # Examples:
-#   bash scripts/upload_hf.sh checkpoints/beta-0329/best beta-0329/best
+#   bash scripts/upload_hf.sh checkpoints/beta-0330/best beta-0330/best
 #   bash scripts/upload_hf.sh checkpoints/beta-0329/best              # remote defaults to same path
 #
 # Config: edit .env to set HF_TOKEN and HF_REPO
